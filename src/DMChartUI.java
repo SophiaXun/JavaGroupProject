@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Yazhouaaaa
+ * @author Yazhou
  */
 public class DMChartUI extends javax.swing.JFrame {
 
@@ -27,6 +27,7 @@ public class DMChartUI extends javax.swing.JFrame {
     private void initComponents() {
 
         chartDisplayPanel2 = new javax.swing.JPanel();
+        buttonGroup1 = new javax.swing.ButtonGroup();
         dataResourcePanel = new javax.swing.JPanel();
         dataResourceLabel = new javax.swing.JLabel();
         localPanel = new javax.swing.JPanel();
@@ -41,7 +42,38 @@ public class DMChartUI extends javax.swing.JFrame {
         AWSOkButton = new javax.swing.JButton();
         AWSCancelButton = new javax.swing.JButton();
         AWSBrowseButton = new javax.swing.JButton();
-        chartDisplayPanel3 = new javax.swing.JPanel();
+        predictionDisplayPanel = new javax.swing.JPanel();
+        input1 = new javax.swing.JTextField();
+        inputName1 = new javax.swing.JLabel();
+        input2 = new javax.swing.JTextField();
+        inputName2 = new javax.swing.JLabel();
+        input3 = new javax.swing.JTextField();
+        inputName3 = new javax.swing.JLabel();
+        input4 = new javax.swing.JTextField();
+        inputName4 = new javax.swing.JLabel();
+        input5 = new javax.swing.JTextField();
+        inputName5 = new javax.swing.JLabel();
+        input6 = new javax.swing.JTextField();
+        inputName6 = new javax.swing.JLabel();
+        input7 = new javax.swing.JTextField();
+        inputName7 = new javax.swing.JLabel();
+        input8 = new javax.swing.JTextField();
+        inputName8 = new javax.swing.JLabel();
+        input9 = new javax.swing.JTextField();
+        inputName9 = new javax.swing.JLabel();
+        input10 = new javax.swing.JTextField();
+        inputName10 = new javax.swing.JLabel();
+        inputName11 = new javax.swing.JLabel();
+        input11 = new javax.swing.JTextField();
+        input12 = new javax.swing.JTextField();
+        inputName12 = new javax.swing.JLabel();
+        input13 = new javax.swing.JTextField();
+        inputName13 = new javax.swing.JLabel();
+        input14 = new javax.swing.JTextField();
+        inputName14 = new javax.swing.JLabel();
+        input15 = new javax.swing.JTextField();
+        inputName15 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         generatePanel = new javax.swing.JPanel();
         generateButton = new javax.swing.JButton();
         rawDataPanel = new javax.swing.JPanel();
@@ -49,8 +81,18 @@ public class DMChartUI extends javax.swing.JFrame {
         rawDataTable = new javax.swing.JTable();
         methodPanel = new javax.swing.JPanel();
         methodLabel = new javax.swing.JLabel();
-        methodSubpanel1 = new javax.swing.JPanel();
-        methodSubpanel2 = new javax.swing.JPanel();
+        dataSelector = new javax.swing.JComboBox();
+        methodPanel1 = new javax.swing.JPanel();
+        methodLabel1 = new javax.swing.JLabel();
+        methodRadioButton1 = new javax.swing.JRadioButton();
+        methodRadioButton3 = new javax.swing.JRadioButton();
+        methodRadioButton2 = new javax.swing.JRadioButton();
+        equationDisplayPanel = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        equationDisplayArea = new javax.swing.JTextArea();
+        jLabel2 = new javax.swing.JLabel();
+        predictValue = new javax.swing.JTextField();
+        predictValueName = new javax.swing.JLabel();
 
         chartDisplayPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
@@ -179,7 +221,7 @@ public class DMChartUI extends javax.swing.JFrame {
                         .addComponent(AWSOkButton, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(AWSCancelButton)))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         AWSPanelLayout.setVerticalGroup(
             AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -220,17 +262,189 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addGap(81, 81, 81))
         );
 
-        chartDisplayPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        predictionDisplayPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        javax.swing.GroupLayout chartDisplayPanel3Layout = new javax.swing.GroupLayout(chartDisplayPanel3);
-        chartDisplayPanel3.setLayout(chartDisplayPanel3Layout);
-        chartDisplayPanel3Layout.setHorizontalGroup(
-            chartDisplayPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+        inputName1.setText("1");
+
+        inputName2.setText("2");
+
+        inputName3.setText("3");
+
+        inputName4.setText("4");
+
+        inputName5.setText("5");
+
+        inputName6.setText("6");
+
+        inputName7.setText("7");
+
+        inputName8.setText("9");
+
+        inputName9.setText("8");
+
+        inputName10.setText("10");
+
+        inputName11.setText("11");
+
+        inputName12.setText("12");
+
+        inputName13.setText("13");
+
+        inputName14.setText("1");
+
+        inputName15.setText("13");
+
+        jLabel3.setText("Please Input the data here");
+
+        javax.swing.GroupLayout predictionDisplayPanelLayout = new javax.swing.GroupLayout(predictionDisplayPanel);
+        predictionDisplayPanel.setLayout(predictionDisplayPanelLayout);
+        predictionDisplayPanelLayout.setHorizontalGroup(
+            predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(inputName2)
+                            .addComponent(inputName3)
+                            .addComponent(inputName4)
+                            .addComponent(inputName5)))
+                    .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                        .addGap(11, 11, 11)
+                        .addComponent(inputName1))
+                    .addComponent(inputName6, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(inputName7, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                        .addComponent(input7, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(inputName15)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(input15, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, predictionDisplayPanelLayout.createSequentialGroup()
+                        .addComponent(input5, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(inputName12)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(input12, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, predictionDisplayPanelLayout.createSequentialGroup()
+                        .addComponent(input2, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(inputName9)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(input9, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, predictionDisplayPanelLayout.createSequentialGroup()
+                        .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(input1, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(input3, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(inputName10))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, predictionDisplayPanelLayout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(inputName8)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(input8, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(input10, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, predictionDisplayPanelLayout.createSequentialGroup()
+                        .addComponent(input4, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(inputName11)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(input11, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, predictionDisplayPanelLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(inputName14)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(input14, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, predictionDisplayPanelLayout.createSequentialGroup()
+                        .addComponent(input6, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(inputName13)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(input13, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(124, 124, 124))
+            .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(372, Short.MAX_VALUE)))
         );
-        chartDisplayPanel3Layout.setVerticalGroup(
-            chartDisplayPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 419, Short.MAX_VALUE)
+
+        predictionDisplayPanelLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {input1, input2, input3, input4, input5, input6, input7});
+
+        predictionDisplayPanelLayout.setVerticalGroup(
+            predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                        .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                                        .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(inputName1)
+                                            .addComponent(input1))
+                                        .addGap(1, 1, 1)
+                                        .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(inputName2)
+                                            .addComponent(input2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(input8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(inputName8)))
+                                    .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                                        .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(inputName9)
+                                            .addComponent(input9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(0, 0, Short.MAX_VALUE)))
+                                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(inputName3)
+                                    .addComponent(input3)
+                                    .addComponent(inputName10)
+                                    .addComponent(input10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(inputName4)
+                                    .addComponent(input4)
+                                    .addComponent(inputName11)
+                                    .addComponent(input11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(inputName5)
+                                    .addComponent(input5)
+                                    .addComponent(inputName12)
+                                    .addComponent(input12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(inputName13)
+                                    .addComponent(input13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(input6)
+                                    .addComponent(inputName6)))
+                            .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(inputName14)
+                                    .addComponent(input14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(125, 125, 125)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(inputName7)
+                            .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                                .addGap(1, 1, 1)
+                                .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(input7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(input15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addContainerGap(22, Short.MAX_VALUE))
+                    .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                        .addComponent(inputName15)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addGroup(predictionDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(predictionDisplayPanelLayout.createSequentialGroup()
+                    .addGap(15, 15, 15)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(190, Short.MAX_VALUE)))
         );
 
         generatePanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -248,7 +462,7 @@ public class DMChartUI extends javax.swing.JFrame {
             generatePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(generatePanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(generateButton, javax.swing.GroupLayout.DEFAULT_SIZE, 174, Short.MAX_VALUE)
+                .addComponent(generateButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         generatePanelLayout.setVerticalGroup(
@@ -279,46 +493,21 @@ public class DMChartUI extends javax.swing.JFrame {
             rawDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(rawDataPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 455, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 454, Short.MAX_VALUE)
                 .addGap(55, 55, 55))
         );
         rawDataPanelLayout.setVerticalGroup(
             rawDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rawDataPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGroup(rawDataPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         methodPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        methodLabel.setText("Method");
+        methodLabel.setText("Prediction Data");
 
-        methodSubpanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-
-        javax.swing.GroupLayout methodSubpanel1Layout = new javax.swing.GroupLayout(methodSubpanel1);
-        methodSubpanel1.setLayout(methodSubpanel1Layout);
-        methodSubpanel1Layout.setHorizontalGroup(
-            methodSubpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        methodSubpanel1Layout.setVerticalGroup(
-            methodSubpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 152, Short.MAX_VALUE)
-        );
-
-        methodSubpanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-
-        javax.swing.GroupLayout methodSubpanel2Layout = new javax.swing.GroupLayout(methodSubpanel2);
-        methodSubpanel2.setLayout(methodSubpanel2Layout);
-        methodSubpanel2Layout.setHorizontalGroup(
-            methodSubpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        methodSubpanel2Layout.setVerticalGroup(
-            methodSubpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 126, Short.MAX_VALUE)
-        );
+        dataSelector.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         javax.swing.GroupLayout methodPanelLayout = new javax.swing.GroupLayout(methodPanel);
         methodPanel.setLayout(methodPanelLayout);
@@ -327,23 +516,108 @@ public class DMChartUI extends javax.swing.JFrame {
             .addGroup(methodPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(methodPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(methodSubpanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(dataSelector, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(methodPanelLayout.createSequentialGroup()
                         .addComponent(methodLabel)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(methodSubpanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(0, 125, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         methodPanelLayout.setVerticalGroup(
             methodPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(methodPanelLayout.createSequentialGroup()
-                .addContainerGap()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, methodPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(methodLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(methodSubpanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(11, 11, 11)
-                .addComponent(methodSubpanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(dataSelector, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(290, 290, 290))
+        );
+
+        methodPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        methodLabel1.setText("Method");
+
+        buttonGroup1.add(methodRadioButton1);
+        methodRadioButton1.setText("Method1");
+        methodRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                methodRadioButton1ActionPerformed(evt);
+            }
+        });
+
+        buttonGroup1.add(methodRadioButton3);
+        methodRadioButton3.setText("Method3");
+
+        buttonGroup1.add(methodRadioButton2);
+        methodRadioButton2.setText("Method2");
+
+        javax.swing.GroupLayout methodPanel1Layout = new javax.swing.GroupLayout(methodPanel1);
+        methodPanel1.setLayout(methodPanel1Layout);
+        methodPanel1Layout.setHorizontalGroup(
+            methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(methodPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(methodLabel1)
+                    .addGroup(methodPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(methodRadioButton3)
+                            .addComponent(methodRadioButton1)
+                            .addComponent(methodRadioButton2))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        methodPanel1Layout.setVerticalGroup(
+            methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, methodPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(methodLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(methodRadioButton1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(methodRadioButton2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(methodRadioButton3)
+                .addGap(74, 74, 74))
+        );
+
+        equationDisplayPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        equationDisplayArea.setColumns(20);
+        equationDisplayArea.setRows(5);
+        equationDisplayArea.setText("Equation");
+        jScrollPane2.setViewportView(equationDisplayArea);
+
+        jLabel2.setText("Result");
+
+        predictValueName.setText("KEY");
+
+        javax.swing.GroupLayout equationDisplayPanelLayout = new javax.swing.GroupLayout(equationDisplayPanel);
+        equationDisplayPanel.setLayout(equationDisplayPanelLayout);
+        equationDisplayPanelLayout.setHorizontalGroup(
+            equationDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(equationDisplayPanelLayout.createSequentialGroup()
+                .addGap(40, 40, 40)
+                .addGroup(equationDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(equationDisplayPanelLayout.createSequentialGroup()
+                        .addComponent(predictValueName)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(predictValue, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 373, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(equationDisplayPanelLayout.createSequentialGroup()
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        equationDisplayPanelLayout.setVerticalGroup(
+            equationDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(equationDisplayPanelLayout.createSequentialGroup()
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(equationDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(predictValueName)
+                    .addComponent(predictValue, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -355,33 +629,38 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(dataResourcePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(generatePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(methodPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(chartDisplayPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(rawDataPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(12, Short.MAX_VALUE))
+                        .addGap(0, 15, Short.MAX_VALUE)
+                        .addComponent(methodPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(methodPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(generatePanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(predictionDisplayPanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(equationDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(rawDataPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap())))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(predictionDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(dataResourcePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(methodPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(equationDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(25, 25, 25)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(dataResourcePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(methodPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(13, 13, 13)
-                        .addComponent(generatePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(chartDisplayPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(rawDataPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addComponent(methodPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(generatePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(rawDataPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -422,6 +701,10 @@ public class DMChartUI extends javax.swing.JFrame {
     private void generateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generateButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_generateButtonActionPerformed
+
+    private void methodRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_methodRadioButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_methodRadioButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -465,14 +748,48 @@ public class DMChartUI extends javax.swing.JFrame {
     private javax.swing.JLabel AWSLabel;
     private javax.swing.JButton AWSOkButton;
     private javax.swing.JPanel AWSPanel;
-    private javax.swing.JPanel chartDisplayPanel;
-    private javax.swing.JPanel chartDisplayPanel1;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JPanel chartDisplayPanel2;
-    private javax.swing.JPanel chartDisplayPanel3;
     private javax.swing.JLabel dataResourceLabel;
     private javax.swing.JPanel dataResourcePanel;
+    private javax.swing.JComboBox dataSelector;
+    private javax.swing.JTextArea equationDisplayArea;
+    private javax.swing.JPanel equationDisplayPanel;
     private javax.swing.JButton generateButton;
     private javax.swing.JPanel generatePanel;
+    private javax.swing.JTextField input1;
+    private javax.swing.JTextField input10;
+    private javax.swing.JTextField input11;
+    private javax.swing.JTextField input12;
+    private javax.swing.JTextField input13;
+    private javax.swing.JTextField input14;
+    private javax.swing.JTextField input15;
+    private javax.swing.JTextField input2;
+    private javax.swing.JTextField input3;
+    private javax.swing.JTextField input4;
+    private javax.swing.JTextField input5;
+    private javax.swing.JTextField input6;
+    private javax.swing.JTextField input7;
+    private javax.swing.JTextField input8;
+    private javax.swing.JTextField input9;
+    private javax.swing.JLabel inputName1;
+    private javax.swing.JLabel inputName10;
+    private javax.swing.JLabel inputName11;
+    private javax.swing.JLabel inputName12;
+    private javax.swing.JLabel inputName13;
+    private javax.swing.JLabel inputName14;
+    private javax.swing.JLabel inputName15;
+    private javax.swing.JLabel inputName2;
+    private javax.swing.JLabel inputName3;
+    private javax.swing.JLabel inputName4;
+    private javax.swing.JLabel inputName5;
+    private javax.swing.JLabel inputName6;
+    private javax.swing.JLabel inputName7;
+    private javax.swing.JLabel inputName8;
+    private javax.swing.JLabel inputName9;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JButton localBrowseButton;
     private javax.swing.JButton localCancelButton;
@@ -481,9 +798,15 @@ public class DMChartUI extends javax.swing.JFrame {
     private javax.swing.JPanel localPanel;
     private javax.swing.JButton localUploadButton;
     private javax.swing.JLabel methodLabel;
+    private javax.swing.JLabel methodLabel1;
     private javax.swing.JPanel methodPanel;
-    private javax.swing.JPanel methodSubpanel1;
-    private javax.swing.JPanel methodSubpanel2;
+    private javax.swing.JPanel methodPanel1;
+    private javax.swing.JRadioButton methodRadioButton1;
+    private javax.swing.JRadioButton methodRadioButton2;
+    private javax.swing.JRadioButton methodRadioButton3;
+    private javax.swing.JTextField predictValue;
+    private javax.swing.JLabel predictValueName;
+    private javax.swing.JPanel predictionDisplayPanel;
     private javax.swing.JPanel rawDataPanel;
     private javax.swing.JTable rawDataTable;
     // End of variables declaration//GEN-END:variables

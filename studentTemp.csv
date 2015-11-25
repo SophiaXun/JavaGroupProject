@@ -1,0 +1,101 @@
+ID,Course_Information,Graduate_Level_Flag,Field_Of_Education,Age,Gender,Citizenship,Location_Term_Residence,Location_Permanent_Residence,Basis_For_Admission,Type_Of_Attendance,Mode_Of_Attendance,Country_Of_Birth,Language_Spoken_At_Home,Entrance_Exam_Score,Equity_Data,Highest_Qualification,Course_Completion_Year,Course_GPA_Earned
+1,MSIT,Undergraduate,Research and Development,26/02/1997,Male,Congo (Brazzaville),Equatorial Guinea,Bermuda,Lorem ipsum dolor,Full-time,External,Austria,Mandarin,316,Disability,Undergraduate,2016,3
+2,MSIT,Undergraduate,Public Relations,4/9/1987,Male,United Kingdom (Great Britain),Ireland,Namibia,Lorem ipsum,Full-time,External,Denmark,Mandarin,322,Disability,High-school,2017,3
+3,MSIT,Undergraduate,Asset Management,6/6/1994,Male,Equatorial Guinea,"Virgin Islands, British",Kyrgyzstan,Lorem,Full-time,External,Timor-Leste,Mandarin,328,Low-income,Post-graduate,2018,3
+4,MSIT,Undergraduate,Advertising,26/05/1985,Female,Spain,United States Minor Outlying Islands,Malawi,Lorem,Full-time,External,French Guiana,Mandarin,306,Low-income,Undergraduate,2015,3
+5,MSIT,Undergraduate,Asset Management,19/08/1994,Female,Ghana,Paraguay,Belize,"Lorem ipsum dolor sit amet,",Full-time,External,Jersey,Mandarin,332,Women in non-traditional areas,High-school,2016,3
+6,MSIT,Undergraduate,Sales and Marketing,30/05/1987,Female,Mauritania,Gambia,South Africa,Lorem ipsum,Part-time,External,Yemen,Mandarin,311,Women in non-traditional areas,Post-graduate,2017,3
+7,MSIT,Undergraduate,Customer Relations,28/01/1980,Male,"Bonaire, Sint Eustatius and Saba",San Marino,Haiti,Lorem ipsum dolor,Part-time,Internal,Ecuador,Mandarin,333,Regional/Remote,Undergraduate,2015,3
+8,MSIT,Undergraduate,Advertising,29/01/1997,Male,Djibouti,Turks and Caicos Islands,Anguilla,Lorem ipsum dolor sit,Part-time,Internal,Sierra Leone,Mandarin,334,Regional/Remote,High-school,2017,3
+9,MSIT,Postgraduate,Finances,9/3/1982,Male,"Virgin Islands, British",Tokelau,Burundi,Lorem ipsum dolor,Part-time,Internal,Pakistan,Mandarin,326,Disability,Post-graduate,2015,3
+10,MSIT,Postgraduate,Sales and Marketing,30/05/1984,Female,Puerto Rico,Central African Republic,Denmark,Lorem ipsum dolor,Part-time,Internal,Iceland,Espanol,328,Disability,Undergraduate,2018,3
+11,MISM,Postgraduate,Finances,27/08/1990,Female,Greenland,Benin,Solomon Islands,"Lorem ipsum dolor sit amet,",Full-time,Internal,France,Espanol,322,Low-income,High-school,2017,3.1
+12,MISM,Postgraduate,Public Relations,28/05/1990,Female,Peru,Bahrain,Mauritania,"Lorem ipsum dolor sit amet,",Full-time,Internal,Hungary,Espanol,321,Low-income,Post-graduate,2015,3.1
+13,MISM,Postgraduate,Quality Assurance,8/11/1988,Male,Curaçao,Haiti,Antarctica,"Lorem ipsum dolor sit amet,",Full-time,Multi-modal,Cook Islands,Espanol,322,Women in non-traditional areas,Undergraduate,2015,3.1
+14,MISM,Postgraduate,Customer Service,20/11/1997,Male,Togo,Paraguay,Aruba,Lorem,Full-time,Multi-modal,Zimbabwe,Espanol,321,Women in non-traditional areas,High-school,2016,3.1
+15,MISM,Postgraduate,Customer Service,11/12/1990,Male,Côte D'Ivoire (Ivory Coast),United Arab Emirates,Mayotte,Lorem,Full-time,Multi-modal,Saint Lucia,Espanol,338,Regional/Remote,Post-graduate,2018,3.1
+16,MISM,Postgraduate,Accounting,7/9/1980,Female,Pakistan,Reunion,Curaçao,Lorem ipsum,Part-time,Multi-modal,Cuba,Espanol,315,Regional/Remote,Undergraduate,2016,3.1
+17,MISM,Undergraduate,Research and Development,23/04/1980,Female,French Polynesia,Martinique,Pakistan,Lorem ipsum dolor,Part-time,Multi-modal,Estonia,Espanol,313,Disability,High-school,2015,3.1
+18,MISM,Undergraduate,Finances,15/01/1980,Female,Lesotho,Gambia,Romania,Lorem,Part-time,Multi-modal,Ethiopia,Espanol,322,Disability,Post-graduate,2018,3.1
+19,MISM,Undergraduate,Media Relations,24/10/1985,Male,Andorra,Luxembourg,Costa Rica,Lorem ipsum dolor sit,Part-time,External,Montserrat,Hindi,310,Low-income,Undergraduate,2017,3.1
+20,MISM,Undergraduate,Accounting,9/3/1983,Male,Egypt,Bolivia,Timor-Leste,"Lorem ipsum dolor sit amet,",Part-time,External,Iceland,Hindi,324,Low-income,High-school,2018,3.1
+21,PPM,Undergraduate,Tech Support,3/5/1984,Male,Dominican Republic,Benin,Norfolk Island,Lorem ipsum,Full-time,External,French Southern Territories,Hindi,329,Women in non-traditional areas,Post-graduate,2017,3.2
+22,PPM,Undergraduate,Sales and Marketing,12/6/1980,Female,Pitcairn Islands,Maldives,Holy See (Vatican City State),Lorem,Full-time,External,Madagascar,Hindi,306,Women in non-traditional areas,Undergraduate,2017,3.2
+23,PPM,Undergraduate,Human Resources,25/10/1986,Female,Kyrgyzstan,Romania,Maldives,Lorem ipsum,Full-time,External,Iraq,Hindi,331,Regional/Remote,High-school,2015,3.2
+24,PPM,Undergraduate,Research and Development,5/2/1985,Female,United States Minor Outlying Islands,Paraguay,Zambia,"Lorem ipsum dolor sit amet,",Full-time,External,Zambia,Hindi,311,Regional/Remote,Post-graduate,2015,3.2
+25,PPM,Postgraduate,Accounting,26/10/1982,Male,Brazil,Samoa,Saudi Arabia,Lorem ipsum,Full-time,Internal,Nicaragua,Hindi,326,Disability,Undergraduate,2016,3.2
+26,PPM,Postgraduate,Sales and Marketing,1/11/1982,Male,Puerto Rico,Niger,Peru,Lorem,Part-time,Internal,Suriname,Hindi,336,Disability,High-school,2017,3.2
+27,PPM,Postgraduate,Finances,12/5/1980,Male,Libya,Germany,Saint Martin,Lorem ipsum,Part-time,Internal,Spain,Hindi,336,Low-income,Post-graduate,2018,3.2
+28,PPM,Postgraduate,Advertising,17/10/1983,Female,Bosnia and Herzegovina,Greenland,Cocos (Keeling) Islands,Lorem ipsum dolor,Part-time,Internal,"Korea, North",Swahili,306,Low-income,Undergraduate,2018,3.2
+29,PPM,Postgraduate,Sales and Marketing,17/04/1991,Female,Albania,Estonia,Antarctica,Lorem ipsum,Part-time,Internal,Greenland,Swahili,301,Women in non-traditional areas,High-school,2016,3.2
+30,PPM,Postgraduate,Quality Assurance,13/03/1989,Female,Togo,United Arab Emirates,Sri Lanka,Lorem ipsum,Part-time,Internal,Aruba,Swahili,333,Women in non-traditional areas,Post-graduate,2016,3.2
+31,GLOBAL PPM,Postgraduate,Customer Relations,20/09/1997,Male,Iceland,Nauru,Portugal,Lorem ipsum,Full-time,Multi-modal,Chad,Swahili,324,Regional/Remote,Undergraduate,2018,3.3
+32,GLOBAL PPM,Postgraduate,Legal Department,2/5/1991,Male,Samoa,Turks and Caicos Islands,Falkland Islands,Lorem ipsum dolor,Full-time,Multi-modal,Netherlands,Swahili,335,Regional/Remote,High-school,2017,3.3
+33,GLOBAL PPM,Undergraduate,Asset Management,18/12/1984,Male,Rwanda,Côte D'Ivoire (Ivory Coast),Paraguay,Lorem ipsum dolor,Full-time,Multi-modal,Côte D'Ivoire (Ivory Coast),Swahili,340,Disability,Post-graduate,2016,3.3
+34,GLOBAL PPM,Undergraduate,Sales and Marketing,25/09/1992,Female,Ethiopia,Indonesia,Equatorial Guinea,"Lorem ipsum dolor sit amet,",Full-time,Multi-modal,Montenegro,Swahili,307,Disability,Undergraduate,2017,3.3
+35,GLOBAL PPM,Undergraduate,Asset Management,25/05/1996,Female,Peru,Estonia,"Saint Helena, Ascension and Tristan da Cunha",Lorem ipsum,Full-time,Multi-modal,Slovakia,Swahili,320,Low-income,High-school,2016,3.3
+36,GLOBAL PPM,Undergraduate,Asset Management,26/07/1997,Female,Turkmenistan,Sudan,Fiji,"Lorem ipsum dolor sit amet,",Part-time,Multi-modal,Wallis and Futuna,Swahili,304,Low-income,Post-graduate,2016,3.3
+37,GLOBAL PPM,Undergraduate,Tech Support,6/9/1997,Male,"Bonaire, Sint Eustatius and Saba",Bolivia,Austria,Lorem ipsum,Part-time,External,Kuwait,French,308,Women in non-traditional areas,Undergraduate,2018,3.3
+38,GLOBAL PPM,Undergraduate,Tech Support,6/3/1988,Male,Tanzania,Peru,Armenia,Lorem ipsum,Part-time,External,Laos,French,313,Women in non-traditional areas,High-school,2015,3.3
+39,GLOBAL PPM,Undergraduate,Asset Management,22/06/1984,Male,Guam,"Korea, North",Saint Lucia,Lorem,Part-time,External,Nigeria,French,339,Regional/Remote,Post-graduate,2018,3.3
+40,GLOBAL PPM,Undergraduate,Accounting,27/02/1984,Female,Iran,Ukraine,Solomon Islands,"Lorem ipsum dolor sit amet,",Part-time,External,South Sudan,French,326,Regional/Remote,Undergraduate,2016,3.3
+41,MSIT,Postgraduate,Human Resources,21/01/1985,Female,"Virgin Islands, British",Jordan,Lebanon,Lorem,Full-time,External,Argentina,French,329,Disability,High-school,2015,3.4
+42,MSIT,Postgraduate,Advertising,21/08/1993,Female,Central African Republic,Saint Lucia,British Indian Ocean Territory,Lorem ipsum dolor,Full-time,External,"Saint Helena, Ascension and Tristan da Cunha",French,320,Disability,Post-graduate,2018,3.4
+43,MSIT,Postgraduate,Tech Support,14/01/1980,Male,Austria,Slovenia,Nauru,Lorem ipsum,Full-time,Internal,Reunion,French,327,Low-income,Undergraduate,2016,3.4
+44,MSIT,Postgraduate,Sales and Marketing,25/02/1988,Male,Martinique,Peru,Mauritania,Lorem ipsum dolor sit,Full-time,Internal,Micronesia,French,307,Low-income,High-school,2017,3.4
+45,MSIT,Postgraduate,Research and Development,2/8/1988,Male,Ethiopia,Belize,"Saint Helena, Ascension and Tristan da Cunha","Lorem ipsum dolor sit amet,",Full-time,Internal,Jersey,French,311,Women in non-traditional areas,Post-graduate,2016,3.4
+46,MSIT,Postgraduate,Human Resources,9/8/1990,Female,"Congo, the Democratic Republic of the",Guinea-Bissau,Macedonia,Lorem ipsum,Part-time,Internal,New Zealand,Arabic,312,Women in non-traditional areas,Undergraduate,2016,3.4
+47,MSIT,Postgraduate,Customer Relations,1/2/1985,Female,Ghana,Mayotte,Albania,"Lorem ipsum dolor sit amet,",Part-time,Internal,"Virgin Islands, United States",Arabic,338,Regional/Remote,High-school,2016,3.4
+48,MSIT,Postgraduate,Customer Relations,10/7/1983,Female,Belarus,Bangladesh,Indonesia,Lorem,Part-time,Internal,South Georgia and The South Sandwich Islands,Arabic,332,Regional/Remote,Post-graduate,2016,3.4
+49,MSIT,Undergraduate,Quality Assurance,8/3/1993,Male,Honduras,New Zealand,Belize,Lorem ipsum,Part-time,Multi-modal,Laos,Arabic,339,Disability,Undergraduate,2017,3.4
+50,MSIT,Undergraduate,Legal Department,3/11/1985,Male,Nepal,Saint Kitts and Nevis,Japan,Lorem ipsum,Part-time,Multi-modal,Myanmar,Arabic,328,Disability,High-school,2018,3.4
+51,MISM,Undergraduate,Payroll,22/01/1983,Male,Antigua and Barbuda,Pitcairn Islands,American Samoa,Lorem ipsum dolor sit,Full-time,Multi-modal,Reunion,Arabic,308,Low-income,Post-graduate,2018,3.5
+52,MISM,Undergraduate,Media Relations,3/7/1981,Female,Turkmenistan,American Samoa,Thailand,Lorem ipsum,Full-time,Multi-modal,Marshall Islands,Arabic,301,Low-income,Undergraduate,2015,3.5
+53,MISM,Undergraduate,Customer Relations,5/8/1995,Female,Holy See (Vatican City State),Greenland,Åland Islands,Lorem ipsum,Full-time,Multi-modal,Barbados,Arabic,301,Women in non-traditional areas,High-school,2017,3.5
+54,MISM,Undergraduate,Customer Service,20/02/1993,Female,Mauritius,Iran,Syria,Lorem ipsum,Full-time,Multi-modal,Liberia,Arabic,313,Women in non-traditional areas,Post-graduate,2017,3.5
+55,MISM,Undergraduate,Customer Service,16/07/1980,Male,Saint Pierre and Miquelon,Uganda,Bhutan,Lorem ipsum dolor sit,Full-time,External,Paraguay,Persian,306,Regional/Remote,Undergraduate,2018,3.5
+56,MISM,Undergraduate,Sales and Marketing,31/05/1997,Male,Niger,Oman,Norway,Lorem ipsum dolor sit,Part-time,External,Mauritius,Persian,309,Regional/Remote,High-school,2017,3.5
+57,MISM,Postgraduate,Media Relations,17/12/1991,Male,Andorra,Guyana,Singapore,Lorem ipsum dolor,Part-time,External,Vanuatu,Persian,320,Disability,Post-graduate,2015,3.5
+58,MISM,Postgraduate,Sales and Marketing,7/1/1990,Female,Morocco,Serbia,Wallis and Futuna,Lorem ipsum dolor sit,Part-time,External,Tanzania,Persian,306,Disability,Undergraduate,2018,3.5
+59,MISM,Postgraduate,Media Relations,1/10/1983,Female,Jordan,Iceland,Cape Verde,Lorem ipsum dolor,Part-time,External,Malawi,Persian,327,Low-income,High-school,2016,3.5
+60,MISM,Postgraduate,Payroll,21/10/1989,Female,Nepal,Cuba,Hungary,Lorem ipsum,Part-time,External,"Saint Helena, Ascension and Tristan da Cunha",Persian,328,Low-income,Post-graduate,2018,3.5
+61,PPM,Postgraduate,Quality Assurance,18/05/1994,Male,Greece,Benin,Canada,Lorem,Full-time,Internal,Palau,Persian,310,Women in non-traditional areas,Undergraduate,2018,3.6
+62,PPM,Postgraduate,Research and Development,10/4/1997,Male,United States Minor Outlying Islands,Togo,Samoa,Lorem ipsum dolor,Full-time,Internal,Thailand,Persian,329,Women in non-traditional areas,High-school,2018,3.6
+63,PPM,Postgraduate,Research and Development,21/11/1983,Male,Macao,Belarus,Åland Islands,Lorem ipsum,Full-time,Internal,Kuwait,Persian,313,Regional/Remote,Post-graduate,2015,3.6
+64,PPM,Postgraduate,Sales and Marketing,22/06/1987,Female,Angola,Equatorial Guinea,Japan,Lorem,Full-time,Internal,Venezuela,Tamil,306,Regional/Remote,Undergraduate,2016,3.6
+65,PPM,Undergraduate,Human Resources,11/12/1997,Female,Micronesia,Mayotte,Cuba,Lorem,Full-time,Internal,Saint Barthélemy,Tamil,305,Disability,High-school,2015,3.6
+66,PPM,Undergraduate,Accounting,22/04/1985,Female,Anguilla,Argentina,Argentina,Lorem ipsum dolor,Part-time,Internal,Belarus,Tamil,316,Disability,Post-graduate,2018,3.6
+67,PPM,Undergraduate,Advertising,23/03/1994,Male,Serbia,Aruba,Curaçao,Lorem,Part-time,Multi-modal,Venezuela,Tamil,339,Low-income,Undergraduate,2015,3.6
+68,PPM,Undergraduate,Customer Relations,11/11/1993,Male,"Bonaire, Sint Eustatius and Saba",Poland,Algeria,"Lorem ipsum dolor sit amet,",Part-time,Multi-modal,Micronesia,Tamil,325,Low-income,High-school,2015,3.6
+69,PPM,Undergraduate,Legal Department,15/07/1989,Male,Panama,Tonga,Taiwan,Lorem ipsum dolor sit,Part-time,Multi-modal,Gambia,Tamil,318,Women in non-traditional areas,Post-graduate,2018,3.6
+70,PPM,Undergraduate,Legal Department,3/5/1982,Female,Peru,Seychelles,Heard Island and Mcdonald Islands,Lorem,Part-time,Multi-modal,San Marino,Tamil,327,Women in non-traditional areas,Undergraduate,2018,3.6
+71,GLOBAL PPM,Undergraduate,Legal Department,9/8/1987,Female,Georgia,Japan,"Korea, South",Lorem ipsum,Full-time,Multi-modal,Australia,Tamil,301,Regional/Remote,High-school,2018,3.7
+72,GLOBAL PPM,Undergraduate,Research and Development,2/4/1996,Female,Czech Republic,Equatorial Guinea,Serbia,Lorem ipsum dolor sit,Full-time,Multi-modal,Bermuda,Tamil,322,Regional/Remote,Post-graduate,2017,3.7
+73,GLOBAL PPM,Postgraduate,Asset Management,17/08/1983,Male,Canada,Benin,Cayman Islands,"Lorem ipsum dolor sit amet,",Full-time,External,Suriname,Urdu,338,Disability,Undergraduate,2017,3.7
+74,GLOBAL PPM,Postgraduate,Human Resources,6/11/1983,Male,Cyprus,Latvia,Russian Federation,"Lorem ipsum dolor sit amet,",Full-time,External,Cook Islands,Urdu,323,Disability,High-school,2015,3.7
+75,GLOBAL PPM,Postgraduate,Tech Support,16/03/1982,Male,Paraguay,Trinidad and Tobago,Greenland,Lorem ipsum dolor sit,Full-time,External,Nicaragua,Urdu,336,Low-income,Post-graduate,2016,3.7
+76,GLOBAL PPM,Postgraduate,Public Relations,1/12/1990,Female,Cocos (Keeling) Islands,France,Kenya,Lorem ipsum,Part-time,External,Venezuela,Urdu,311,Low-income,Undergraduate,2017,3.7
+77,GLOBAL PPM,Postgraduate,Public Relations,17/12/1996,Female,Timor-Leste,Netherlands,Uzbekistan,Lorem ipsum dolor sit,Part-time,External,Mexico,Urdu,333,Women in non-traditional areas,High-school,2016,3.7
+78,GLOBAL PPM,Postgraduate,Finances,23/12/1986,Female,Guyana,Micronesia,Tunisia,Lorem,Part-time,External,Namibia,Urdu,312,Women in non-traditional areas,Post-graduate,2016,3.7
+79,GLOBAL PPM,Postgraduate,Legal Department,5/12/1986,Male,Mongolia,Poland,Moldova,Lorem ipsum dolor,Part-time,Internal,Sudan,Urdu,320,Regional/Remote,Undergraduate,2015,3.7
+80,GLOBAL PPM,Postgraduate,Research and Development,18/01/1986,Male,Tanzania,Mongolia,Ukraine,"Lorem ipsum dolor sit amet,",Part-time,Internal,Christmas Island,Urdu,313,Regional/Remote,High-school,2017,3.7
+81,MSIT,Undergraduate,Asset Management,30/07/1987,Male,Anguilla,"Congo, the Democratic Republic of the",Paraguay,"Lorem ipsum dolor sit amet,",Full-time,Internal,Taiwan,Urdu,317,Disability,Post-graduate,2018,3.8
+82,MSIT,Undergraduate,Human Resources,24/07/1993,Female,Åland Islands,Reunion,Guinea,Lorem,Full-time,Internal,Namibia,Russian,321,Disability,Undergraduate,2016,3.8
+83,MSIT,Undergraduate,Sales and Marketing,12/4/1984,Female,Guatemala,Mozambique,Oman,Lorem ipsum dolor sit,Full-time,Internal,Martinique,Russian,314,Low-income,High-school,2016,3.8
+84,MSIT,Undergraduate,Advertising,22/04/1985,Female,Canada,Jamaica,Malaysia,Lorem ipsum dolor sit,Full-time,Internal,Indonesia,Russian,308,Low-income,Post-graduate,2015,3.8
+85,MSIT,Undergraduate,Advertising,14/03/1992,Male,Mozambique,San Marino,Marshall Islands,Lorem ipsum,Full-time,Multi-modal,Saint Barthélemy,Russian,332,Women in non-traditional areas,Undergraduate,2018,3.8
+86,MSIT,Undergraduate,Media Relations,18/02/1992,Male,Belize,Christmas Island,Bulgaria,Lorem,Part-time,Multi-modal,Belize,Russian,304,Women in non-traditional areas,High-school,2017,3.8
+87,MSIT,Undergraduate,Research and Development,23/02/1983,Male,Gambia,Yemen,Dominica,"Lorem ipsum dolor sit amet,",Part-time,Multi-modal,Aruba,Russian,321,Regional/Remote,Post-graduate,2015,3.8
+88,MSIT,Undergraduate,Quality Assurance,21/01/1982,Female,Bahamas,Anguilla,New Caledonia,"Lorem ipsum dolor sit amet,",Part-time,Multi-modal,Saint Lucia,Russian,319,Regional/Remote,Undergraduate,2016,3.8
+89,MSIT,Postgraduate,Research and Development,11/10/1986,Female,Mauritania,Argentina,Saint Barthélemy,"Lorem ipsum dolor sit amet,",Part-time,Multi-modal,Rwanda,Russian,311,Disability,High-school,2015,3.8
+90,MSIT,Postgraduate,Human Resources,23/12/1980,Female,India,Sudan,Faroe Islands,Lorem ipsum dolor,Part-time,Multi-modal,Greece,Russian,322,Disability,Post-graduate,2018,3.8
+91,MISM,Postgraduate,Asset Management,24/03/1994,Male,"Korea, North",Timor-Leste,Cambodia,Lorem,Full-time,External,Lebanon,Mandarin,335,Low-income,Undergraduate,2017,3.9
+92,MISM,Postgraduate,Finances,25/03/1991,Male,Namibia,United States Minor Outlying Islands,Morocco,Lorem ipsum,Full-time,External,Cyprus,Mandarin,307,Low-income,High-school,2016,3.9
+93,MISM,Postgraduate,Finances,30/01/1984,Male,Turkey,Greenland,Paraguay,Lorem ipsum dolor,Full-time,External,Albania,Mandarin,330,Women in non-traditional areas,Post-graduate,2015,3.9
+94,MISM,Postgraduate,Research and Development,22/10/1993,Female,Saint Lucia,Angola,Madagascar,Lorem ipsum dolor,Full-time,External,Belgium,Mandarin,312,Women in non-traditional areas,Undergraduate,2015,3.9
+95,MISM,Postgraduate,Advertising,28/01/1986,Female,Bulgaria,Sweden,Guinea-Bissau,Lorem,Full-time,External,Ethiopia,Mandarin,322,Regional/Remote,High-school,2016,3.9
+96,MISM,Postgraduate,Advertising,22/02/1980,Female,Greenland,Tokelau,Yemen,Lorem ipsum dolor sit,Part-time,External,Saint Lucia,Mandarin,318,Regional/Remote,Post-graduate,2016,3.9
+97,MISM,Undergraduate,Finances,21/04/1989,Male,French Polynesia,Dominican Republic,Mexico,Lorem,Part-time,Internal,Peru,Mandarin,328,Disability,Undergraduate,2016,3.9
+98,MISM,Undergraduate,Public Relations,12/5/1994,Male,Niger,Ethiopia,Guernsey,Lorem ipsum dolor,Part-time,Internal,Malaysia,Mandarin,328,Disability,High-school,2015,3.9
+99,MISM,Undergraduate,Media Relations,14/08/1997,Male,Gambia,Slovenia,French Guiana,Lorem ipsum,Part-time,Internal,"Saint Helena, Ascension and Tristan da Cunha",Mandarin,320,Low-income,Post-graduate,2018,3.9
+100,MISM,Undergraduate,Research and Development,4/9/1991,Female,Slovenia,China,Slovenia,"Lorem ipsum dolor sit amet,",Part-time,Internal,Rwanda,Espanol,308,Low-income,Undergraduate,2016,3.9

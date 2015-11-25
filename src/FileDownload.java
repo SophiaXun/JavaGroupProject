@@ -149,7 +149,7 @@ public class FileDownload {
         BufferedReader reader = new BufferedReader(new InputStreamReader(input));
         FileDownload filedownload = new FileDownload();
         //String fileName = "student" +  UUID.randomUUID();
-        File file = new File("f:\\studentTemp.csv");
+        File file = new File("studentTemp.csv");
         Writer writer = new OutputStreamWriter(new FileOutputStream(file));
         while (true) {
             String line = reader.readLine();
@@ -160,9 +160,9 @@ public class FileDownload {
             attributeArray = strToArray(line);
             Student newStudent = FileDownload.convertStrToStudent(attributeArray);
             filedownload.getStudent().add(newStudent);
-            /*for (int i = 0; i < attributeArray.length;i++){
+            for (int i = 0; i < attributeArray.length;i++){
             	System.out.print(attributeArray[i]);
-            }*/
+            }
             
             
         }
