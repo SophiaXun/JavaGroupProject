@@ -38,7 +38,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
         jFrame1 = new javax.swing.JFrame();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        buttonGroup1 = new javax.swing.ButtonGroup();
+        charTypeGroup = new javax.swing.ButtonGroup();
         buttonGroup2 = new javax.swing.ButtonGroup();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
@@ -65,16 +65,17 @@ public class OriginalChartUI extends javax.swing.JFrame {
         measuresLabel = new javax.swing.JLabel();
         measuresXLabel = new javax.swing.JLabel();
         measuresYLabel = new javax.swing.JLabel();
-        measuresXComboBox = new javax.swing.JComboBox();
-        measuresYComboBox = new javax.swing.JComboBox();
+        XItem = new javax.swing.JComboBox();
+        YItem = new javax.swing.JComboBox();
         chartTypePanel = new javax.swing.JPanel();
         chartTypeLabel = new javax.swing.JLabel();
         chartTypeListPanel1 = new javax.swing.JPanel();
         chartTypeImg1 = new javax.swing.JPanel();
-        chartTypeRadioButton1 = new javax.swing.JRadioButton();
+        BarChart = new javax.swing.JRadioButton();
         chartTypeListPanel2 = new javax.swing.JPanel();
         chartTypeImg2 = new javax.swing.JPanel();
         chartTypeRadioButton2 = new javax.swing.JRadioButton();
+        Confirm = new javax.swing.JButton();
         chartDisplayPanel = new javax.swing.JPanel();
         generatePanel = new javax.swing.JPanel();
         generateButton = new javax.swing.JButton();
@@ -312,27 +313,23 @@ public class OriginalChartUI extends javax.swing.JFrame {
 
         measuresYLabel.setText("Y:");
 
-        measuresXComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
-        measuresYComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
         javax.swing.GroupLayout measuresPanelLayout = new javax.swing.GroupLayout(measuresPanel);
         measuresPanel.setLayout(measuresPanelLayout);
         measuresPanelLayout.setHorizontalGroup(
             measuresPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(measuresPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(measuresPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(measuresPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(measuresLabel)
                     .addGroup(measuresPanelLayout.createSequentialGroup()
                         .addComponent(measuresXLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(measuresXComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(XItem, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(measuresPanelLayout.createSequentialGroup()
                         .addComponent(measuresYLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(measuresYComboBox, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(YItem, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(94, Short.MAX_VALUE))
         );
         measuresPanelLayout.setVerticalGroup(
             measuresPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -340,14 +337,14 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 .addGap(10, 10, 10)
                 .addComponent(measuresLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(measuresPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(measuresPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(measuresXLabel)
-                    .addComponent(measuresXComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                    .addComponent(XItem, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
                 .addGroup(measuresPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(measuresYLabel)
-                    .addComponent(measuresYComboBox))
-                .addContainerGap(17, Short.MAX_VALUE))
+                    .addComponent(YItem, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         chartTypePanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -365,7 +362,13 @@ public class OriginalChartUI extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        chartTypeRadioButton1.setText("Bar Chart");
+        charTypeGroup.add(BarChart);
+        BarChart.setText("Bar Chart");
+        BarChart.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BarChartActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout chartTypeListPanel1Layout = new javax.swing.GroupLayout(chartTypeListPanel1);
         chartTypeListPanel1.setLayout(chartTypeListPanel1Layout);
@@ -374,7 +377,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
             .addGroup(chartTypeListPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(chartTypeListPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(chartTypeRadioButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BarChart, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(chartTypeImg1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -384,7 +387,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(chartTypeImg1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(chartTypeRadioButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 11, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BarChart, javax.swing.GroupLayout.PREFERRED_SIZE, 11, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -399,6 +402,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
             .addGap(0, 76, Short.MAX_VALUE)
         );
 
+        charTypeGroup.add(chartTypeRadioButton2);
         chartTypeRadioButton2.setText("Bar Chart");
 
         javax.swing.GroupLayout chartTypeListPanel2Layout = new javax.swing.GroupLayout(chartTypeListPanel2);
@@ -422,6 +426,13 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        Confirm.setText("Confirm");
+        Confirm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConfirmActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout chartTypePanelLayout = new javax.swing.GroupLayout(chartTypePanel);
         chartTypePanel.setLayout(chartTypePanelLayout);
         chartTypePanelLayout.setHorizontalGroup(
@@ -437,6 +448,10 @@ public class OriginalChartUI extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(chartTypeListPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(chartTypePanelLayout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addComponent(Confirm)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         chartTypePanelLayout.setVerticalGroup(
             chartTypePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -447,7 +462,9 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 .addGroup(chartTypePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(chartTypeListPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(chartTypeListPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(88, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(Confirm)
+                .addContainerGap(47, Short.MAX_VALUE))
         );
 
         chartDisplayPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -605,6 +622,34 @@ public class OriginalChartUI extends javax.swing.JFrame {
     private void AWSDataSourceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSDataSourceActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_AWSDataSourceActionPerformed
+
+    private void ConfirmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConfirmActionPerformed
+        // TODO add your handling code here:
+        Peer peer = new Peer();
+        String[] xTitle = peer.getAttributeTitle();
+        String[][] xyMeasure = peer.getXyMeasure();
+        if (BarChart.isSelected()) {
+            for (int i = 0; i < xTitle.length; i++) {
+                XItem.addItem(xTitle[i]);
+            }
+            String selectedItem = (String) XItem.getSelectedItem();
+            for (int i = 0; i < xTitle.length; i++) {
+                if (xTitle[i].equals(selectedItem)) {
+                    for (int j = 1; j < xyMeasure[i].length;j++) {
+                        YItem.addItem(xyMeasure[i][j]);
+                    }
+                }
+            }
+        }
+            if (chartTypeRadioButton2.isSelected()) {
+
+            }
+
+    }//GEN-LAST:event_ConfirmActionPerformed
+
+    private void BarChartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BarChartActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BarChartActionPerformed
     public void setLableName() {
 
     }
@@ -652,10 +697,14 @@ public class OriginalChartUI extends javax.swing.JFrame {
     private javax.swing.JLabel AWSLabel;
     private javax.swing.JButton AWSOkButton;
     private javax.swing.JPanel AWSPanel;
-    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JRadioButton BarChart;
+    private javax.swing.JButton Confirm;
+    private javax.swing.JComboBox XItem;
+    private javax.swing.JComboBox YItem;
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.ButtonGroup buttonGroup3;
     private javax.swing.ButtonGroup buttonGroup4;
+    private javax.swing.ButtonGroup charTypeGroup;
     private javax.swing.JPanel chartDisplayPanel;
     private javax.swing.JPanel chartTypeImg1;
     private javax.swing.JPanel chartTypeImg2;
@@ -663,7 +712,6 @@ public class OriginalChartUI extends javax.swing.JFrame {
     private javax.swing.JPanel chartTypeListPanel1;
     private javax.swing.JPanel chartTypeListPanel2;
     private javax.swing.JPanel chartTypePanel;
-    private javax.swing.JRadioButton chartTypeRadioButton1;
     private javax.swing.JRadioButton chartTypeRadioButton2;
     private javax.swing.JLabel dataResourceLabel;
     private javax.swing.JPanel dataResourcePanel;
@@ -686,9 +734,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
     private javax.swing.JButton localUploadButton;
     private javax.swing.JLabel measuresLabel;
     private javax.swing.JPanel measuresPanel;
-    private javax.swing.JComboBox measuresXComboBox;
     private javax.swing.JLabel measuresXLabel;
-    private javax.swing.JComboBox measuresYComboBox;
     private javax.swing.JLabel measuresYLabel;
     private javax.swing.JPanel rawDataPanel;
     private javax.swing.JTable rawDataTable;

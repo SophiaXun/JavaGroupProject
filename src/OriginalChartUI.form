@@ -38,7 +38,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    <Component class="javax.swing.ButtonGroup" name="charTypeGroup">
     </Component>
     <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
     </Component>
@@ -420,20 +420,20 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="measuresLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="measuresXLabel" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="measuresXComboBox" min="-2" pref="133" max="-2" attributes="0"/>
+                          <Component id="XItem" min="-2" pref="132" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="measuresYLabel" min="-2" pref="10" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="measuresYComboBox" max="32767" attributes="0"/>
+                          <Component id="YItem" min="-2" pref="132" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="94" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -443,16 +443,16 @@
                   <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                   <Component id="measuresLabel" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="measuresXLabel" min="-2" max="-2" attributes="0"/>
-                      <Component id="measuresXComboBox" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="measuresXLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="XItem" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="measuresYLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="measuresYComboBox" alignment="3" max="32767" attributes="0"/>
+                      <Component id="YItem" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="17" max="32767" attributes="0"/>
+                  <EmptySpace pref="20" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -473,29 +473,9 @@
             <Property name="text" type="java.lang.String" value="Y:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JComboBox" name="measuresXComboBox">
-          <Properties>
-            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
-              </StringArray>
-            </Property>
-          </Properties>
+        <Component class="javax.swing.JComboBox" name="XItem">
         </Component>
-        <Component class="javax.swing.JComboBox" name="measuresYComboBox">
-          <Properties>
-            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
-              </StringArray>
-            </Property>
-          </Properties>
+        <Component class="javax.swing.JComboBox" name="YItem">
         </Component>
       </SubComponents>
     </Container>
@@ -526,6 +506,11 @@
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                  <Component id="Confirm" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -538,7 +523,9 @@
                       <Component id="chartTypeListPanel2" max="32767" attributes="0"/>
                       <Component id="chartTypeListPanel1" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="88" max="32767" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="Confirm" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="47" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -557,7 +544,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="chartTypeRadioButton1" max="32767" attributes="0"/>
+                          <Component id="BarChart" max="32767" attributes="0"/>
                           <Component id="chartTypeImg1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -570,7 +557,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="chartTypeImg1" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="chartTypeRadioButton1" min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="BarChart" min="-2" pref="11" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -592,10 +579,16 @@
                 </DimensionLayout>
               </Layout>
             </Container>
-            <Component class="javax.swing.JRadioButton" name="chartTypeRadioButton1">
+            <Component class="javax.swing.JRadioButton" name="BarChart">
               <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="charTypeGroup"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Bar Chart"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BarChartActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -644,11 +637,22 @@
             </Container>
             <Component class="javax.swing.JRadioButton" name="chartTypeRadioButton2">
               <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="charTypeGroup"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Bar Chart"/>
               </Properties>
             </Component>
           </SubComponents>
         </Container>
+        <Component class="javax.swing.JButton" name="Confirm">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Confirm"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ConfirmActionPerformed"/>
+          </Events>
+        </Component>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="chartDisplayPanel">

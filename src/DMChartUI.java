@@ -1,9 +1,15 @@
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Yazhou
@@ -38,10 +44,10 @@ public class DMChartUI extends javax.swing.JFrame {
         localBrowseButton = new javax.swing.JButton();
         AWSPanel = new javax.swing.JPanel();
         AWSLabel = new javax.swing.JLabel();
-        AWSDataResourceAddr = new javax.swing.JTextField();
         AWSOkButton = new javax.swing.JButton();
         AWSCancelButton = new javax.swing.JButton();
         AWSBrowseButton = new javax.swing.JButton();
+        AWSDataSource = new javax.swing.JComboBox();
         generatePanel = new javax.swing.JPanel();
         generateButton = new javax.swing.JButton();
         rawDataPanel = new javax.swing.JPanel();
@@ -148,12 +154,6 @@ public class DMChartUI extends javax.swing.JFrame {
 
         AWSLabel.setText("AWS");
 
-        AWSDataResourceAddr.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AWSDataResourceAddrActionPerformed(evt);
-            }
-        });
-
         AWSOkButton.setText("OK");
         AWSOkButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,23 +175,31 @@ public class DMChartUI extends javax.swing.JFrame {
             }
         });
 
+        AWSDataSource.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AWSDataSourceActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout AWSPanelLayout = new javax.swing.GroupLayout(AWSPanel);
         AWSPanel.setLayout(AWSPanelLayout);
         AWSPanelLayout.setHorizontalGroup(
             AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(AWSPanelLayout.createSequentialGroup()
-                .addComponent(AWSDataResourceAddr)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(AWSBrowseButton, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(AWSPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(AWSLabel)
                     .addGroup(AWSPanelLayout.createSequentialGroup()
-                        .addComponent(AWSOkButton, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(AWSCancelButton)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(AWSDataSource, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(AWSBrowseButton, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(AWSPanelLayout.createSequentialGroup()
+                        .addGroup(AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(AWSLabel)
+                            .addGroup(AWSPanelLayout.createSequentialGroup()
+                                .addComponent(AWSOkButton, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(AWSCancelButton)))
+                        .addContainerGap(128, Short.MAX_VALUE))))
         );
         AWSPanelLayout.setVerticalGroup(
             AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -200,8 +208,8 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addComponent(AWSLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(AWSDataResourceAddr, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AWSBrowseButton, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(AWSBrowseButton, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(AWSDataSource, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(AWSCancelButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -487,25 +495,46 @@ public class DMChartUI extends javax.swing.JFrame {
     private void localCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localCancelButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_localCancelButtonActionPerformed
-
+    File file = null;
     private void localBrowseButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localBrowseButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_localBrowseButtonActionPerformed
+        JFileChooser fileChooser = new JFileChooser();
+        FileTypeFilter fileFileter = new FileTypeFilter();
+        fileChooser.setFileFilter(fileFileter);
+        int returnVal = fileChooser.showOpenDialog(this);
 
-    private void AWSDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSDataResourceAddrActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_AWSDataResourceAddrActionPerformed
+        if (returnVal == JFileChooser.APPROVE_OPTION) {
+            file = fileChooser.getSelectedFile();
+            localDataResourceAddr.setText(file.getName());
+        } else {
+            JOptionPane.showMessageDialog(null, "File access cancelled by user.", "Alert", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_localBrowseButtonActionPerformed
 
     private void AWSOkButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSOkButtonActionPerformed
         // TODO add your handling code here:
+        String selectedFile = (String) AWSDataSource.getSelectedItem();
+        try {
+            FileDownload.DownloadFile(selectedFile);
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
     }//GEN-LAST:event_AWSOkButtonActionPerformed
 
     private void AWSCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSCancelButtonActionPerformed
         // TODO add your handling code here:
+
     }//GEN-LAST:event_AWSCancelButtonActionPerformed
 
     private void AWSBrowseButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSBrowseButtonActionPerformed
         // TODO add your handling code here:
+        ArrayList<String> fileList = FileDownload.FileList();
+
+        for (int i = 0; i < fileList.size(); i++) {
+            AWSDataSource.addItem(fileList.get(i));
+        }
     }//GEN-LAST:event_AWSBrowseButtonActionPerformed
 
     private void generateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generateButtonActionPerformed
@@ -515,6 +544,10 @@ public class DMChartUI extends javax.swing.JFrame {
     private void methodRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_methodRadioButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_methodRadioButton1ActionPerformed
+
+    private void AWSDataSourceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSDataSourceActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AWSDataSourceActionPerformed
 
     /**
      * @param args the command line arguments
@@ -554,7 +587,7 @@ public class DMChartUI extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton AWSBrowseButton;
     private javax.swing.JButton AWSCancelButton;
-    private javax.swing.JTextField AWSDataResourceAddr;
+    private javax.swing.JComboBox AWSDataSource;
     private javax.swing.JLabel AWSLabel;
     private javax.swing.JButton AWSOkButton;
     private javax.swing.JPanel AWSPanel;
