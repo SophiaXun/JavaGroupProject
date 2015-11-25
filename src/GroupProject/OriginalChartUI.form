@@ -474,6 +474,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JComboBox" name="XItem">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="XItemActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JComboBox" name="YItem">
         </Component>

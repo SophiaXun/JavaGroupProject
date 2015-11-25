@@ -1,6 +1,5 @@
 package GroupProject;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -314,6 +313,12 @@ public class OriginalChartUI extends javax.swing.JFrame {
         measuresXLabel.setText("X:");
 
         measuresYLabel.setText("Y:");
+
+        XItem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                XItemActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout measuresPanelLayout = new javax.swing.GroupLayout(measuresPanel);
         measuresPanel.setLayout(measuresPanelLayout);
@@ -633,25 +638,33 @@ public class OriginalChartUI extends javax.swing.JFrame {
         if (BarChart.isSelected()) {
             for (int i = 0; i < xTitle.length; i++) {
                 XItem.addItem(xTitle[i]);
-          
-            String selectedItem = (String) XItem.getSelectedItem();
-           /* for (int i = 0; i < xTitle.length; i++) {
-                if (xTitle[i].equals(selectedItem)) {
-                    for (int j = 1; j < xyMeasure[i].length;j++) {
-                        YItem.addItem(xyMeasure[i][j]);
-                    }
-                }
-            }
-        }*/
-            if (chartTypeRadioButton2.isSelected()) {
+
+                String selectedItem = (String) XItem.getSelectedItem();
 
             }
+        }
+        if (chartTypeRadioButton2.isSelected()) {
+
+        }
 
     }//GEN-LAST:event_ConfirmActionPerformed
 
     private void BarChartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BarChartActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_BarChartActionPerformed
+
+    private void XItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_XItemActionPerformed
+        // TODO add your handling code here:
+        int index = XItem.getSelectedIndex();
+        YItem.removeAllItems();
+        Peer peer = new Peer();
+        String[] yList = peer.getXyMeasure()[index];
+        for (int i = 1; i < yList.length; i++) {
+            YItem.addItem(yList[i]);
+        }
+
+
+    }//GEN-LAST:event_XItemActionPerformed
     public void setLableName() {
 
     }
