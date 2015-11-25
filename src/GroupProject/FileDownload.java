@@ -34,7 +34,6 @@ public class FileDownload {
     /**
      * This parameter stores all the students in a temp csv file. 
      */
-   // File file = new File("studentTemp.csv");
     private ArrayList<Student> student = new ArrayList<Student>();
      public ArrayList<Student> getStudent() {
         return student;
@@ -157,14 +156,11 @@ public class FileDownload {
         while (true) {
             String line = reader.readLine();
             String[] attributeArray = null;
-            
             if (line == null) break;
             writer.write(line + "\n");
             attributeArray = strToArray(line);
             Student newStudent = FileDownload.convertStrToStudent(attributeArray);
             filedownload.getStudent().add(newStudent);
-          
-            
         }
         filedownload.print();
         writer.close();

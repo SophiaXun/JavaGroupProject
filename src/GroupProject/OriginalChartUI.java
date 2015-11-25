@@ -566,7 +566,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
         String columnTitle = (String) XItem.getSelectedItem();
         String rowTitle = (String) YItem.getSelectedItem();
         File file = new File("studentTemp.csv");
-         
+        
     }//GEN-LAST:event_generateButtonActionPerformed
 
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
