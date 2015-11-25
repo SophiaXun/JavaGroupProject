@@ -510,7 +510,7 @@
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                   <Component id="Confirm" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -526,9 +526,9 @@
                       <Component id="chartTypeListPanel2" max="32767" attributes="0"/>
                       <Component id="chartTypeListPanel1" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace pref="36" max="32767" attributes="0"/>
                   <Component id="Confirm" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="47" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -604,7 +604,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="chartTypeImg2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="chartTypeRadioButton2" pref="107" max="32767" attributes="0"/>
+                          <Component id="LineChart" pref="107" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -616,7 +616,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="chartTypeImg2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="16" max="32767" attributes="0"/>
-                      <Component id="chartTypeRadioButton2" min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="LineChart" min="-2" pref="11" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -638,12 +638,12 @@
                 </DimensionLayout>
               </Layout>
             </Container>
-            <Component class="javax.swing.JRadioButton" name="chartTypeRadioButton2">
+            <Component class="javax.swing.JRadioButton" name="LineChart">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="charTypeGroup"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Bar Chart"/>
+                <Property name="text" type="java.lang.String" value="Line Chart"/>
               </Properties>
             </Component>
           </SubComponents>

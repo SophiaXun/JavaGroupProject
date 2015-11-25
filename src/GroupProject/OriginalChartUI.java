@@ -75,7 +75,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
         BarChart = new javax.swing.JRadioButton();
         chartTypeListPanel2 = new javax.swing.JPanel();
         chartTypeImg2 = new javax.swing.JPanel();
-        chartTypeRadioButton2 = new javax.swing.JRadioButton();
+        LineChart = new javax.swing.JRadioButton();
         Confirm = new javax.swing.JButton();
         chartDisplayPanel = new javax.swing.JPanel();
         generatePanel = new javax.swing.JPanel();
@@ -409,8 +409,8 @@ public class OriginalChartUI extends javax.swing.JFrame {
             .addGap(0, 76, Short.MAX_VALUE)
         );
 
-        charTypeGroup.add(chartTypeRadioButton2);
-        chartTypeRadioButton2.setText("Bar Chart");
+        charTypeGroup.add(LineChart);
+        LineChart.setText("Line Chart");
 
         javax.swing.GroupLayout chartTypeListPanel2Layout = new javax.swing.GroupLayout(chartTypeListPanel2);
         chartTypeListPanel2.setLayout(chartTypeListPanel2Layout);
@@ -420,7 +420,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(chartTypeListPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(chartTypeImg2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(chartTypeRadioButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 107, Short.MAX_VALUE))
+                    .addComponent(LineChart, javax.swing.GroupLayout.DEFAULT_SIZE, 107, Short.MAX_VALUE))
                 .addContainerGap())
         );
         chartTypeListPanel2Layout.setVerticalGroup(
@@ -429,7 +429,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(chartTypeImg2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
-                .addComponent(chartTypeRadioButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 11, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(LineChart, javax.swing.GroupLayout.PREFERRED_SIZE, 11, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -456,7 +456,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
                         .addComponent(chartTypeListPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(chartTypePanelLayout.createSequentialGroup()
-                .addGap(78, 78, 78)
+                .addGap(72, 72, 72)
                 .addComponent(Confirm)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -469,9 +469,9 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 .addGroup(chartTypePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(chartTypeListPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(chartTypeListPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
                 .addComponent(Confirm)
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addGap(29, 29, 29))
         );
 
         chartDisplayPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -563,6 +563,10 @@ public class OriginalChartUI extends javax.swing.JFrame {
 
     private void generateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generateButtonActionPerformed
         // TODO add your handling code here:
+        String columnTitle = (String) XItem.getSelectedItem();
+        String rowTitle = (String) YItem.getSelectedItem();
+        File file = new File("studentTemp.csv");
+         
     }//GEN-LAST:event_generateButtonActionPerformed
 
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
@@ -599,6 +603,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
 
     private void localCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localCancelButtonActionPerformed
         // TODO add your handling code here:
+        localDataResourceAddr.setText("");
     }//GEN-LAST:event_localCancelButtonActionPerformed
 
     private void AWSOkButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSOkButtonActionPerformed
@@ -614,6 +619,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
 
     private void AWSCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSCancelButtonActionPerformed
         // TODO add your handling code here:
+        AWSDataSource.removeAllItems();
     }//GEN-LAST:event_AWSCancelButtonActionPerformed
 
     private void AWSBrowseButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSBrowseButtonActionPerformed
@@ -633,9 +639,10 @@ public class OriginalChartUI extends javax.swing.JFrame {
     private void ConfirmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConfirmActionPerformed
         // TODO add your handling code here:
         Peer peer = new Peer();
-        String[] xTitle = peer.getAttributeTitle();
-        String[][] xyMeasure = peer.getXyMeasure();
+        XItem.removeAllItems();
         if (BarChart.isSelected()) {
+            String[] xTitle = peer.getAttributeTitle();
+            String[][] xyMeasure = peer.getXyMeasure();
             for (int i = 0; i < xTitle.length; i++) {
                 XItem.addItem(xTitle[i]);
 
@@ -643,8 +650,13 @@ public class OriginalChartUI extends javax.swing.JFrame {
 
             }
         }
-        if (chartTypeRadioButton2.isSelected()) {
+        if (LineChart.isSelected()) {
+            String[] xTitle = {"year_of_arrival_in_usa", "course_completion_year"};
+            for (int i = 0; i < xTitle.length; i++) {
+                XItem.addItem(xTitle[i]);
+                String selectedItem = (String) XItem.getSelectedItem();
 
+            }
         }
 
     }//GEN-LAST:event_ConfirmActionPerformed
@@ -655,12 +667,19 @@ public class OriginalChartUI extends javax.swing.JFrame {
 
     private void XItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_XItemActionPerformed
         // TODO add your handling code here:
-        int index = XItem.getSelectedIndex();
         YItem.removeAllItems();
-        Peer peer = new Peer();
-        String[] yList = peer.getXyMeasure()[index];
-        for (int i = 1; i < yList.length; i++) {
-            YItem.addItem(yList[i]);
+        if (BarChart.isSelected()) {
+            int index = XItem.getSelectedIndex();
+            
+            Peer peer = new Peer();
+            String[] yList = peer.getXyMeasure()[index];
+            for (int i = 1; i < yList.length; i++) {
+                YItem.addItem(yList[i]);
+            }
+        }
+        if(LineChart.isSelected()){
+            YItem.addItem("entrance_score");
+            YItem.addItem("course_gpa");
         }
 
 
@@ -714,6 +733,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
     private javax.swing.JPanel AWSPanel;
     private javax.swing.JRadioButton BarChart;
     private javax.swing.JButton Confirm;
+    private javax.swing.JRadioButton LineChart;
     private javax.swing.JComboBox XItem;
     private javax.swing.JComboBox YItem;
     private javax.swing.ButtonGroup buttonGroup2;
@@ -727,7 +747,6 @@ public class OriginalChartUI extends javax.swing.JFrame {
     private javax.swing.JPanel chartTypeListPanel1;
     private javax.swing.JPanel chartTypeListPanel2;
     private javax.swing.JPanel chartTypePanel;
-    private javax.swing.JRadioButton chartTypeRadioButton2;
     private javax.swing.JLabel dataResourceLabel;
     private javax.swing.JPanel dataResourcePanel;
     private javax.swing.JButton generateButton;

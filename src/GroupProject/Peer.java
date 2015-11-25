@@ -12,13 +12,13 @@ package GroupProject;
  */
 public class Peer {
 
-    String[] attributeTitle = {"course information", "enterance score", "gpa"};
-    String[] courseinfo = {"gender", "type of attendance", "citizenship"};
-    String[] entranceScore = {"gender", "citizenship", "course information"};
-    String[] gpa = {"gender", "course information", "citizenship"};
-    String[][] xyMeasure = {{"course information", "gender", "type of attendance", "citizenship"},
-    {"entrance score", "gender", "citizenship", "course information"},
-    {"gpa", "gender", "course information", "citizenship"}};
+    String[] attributeTitle = {"course_information", "enterance_score", "gpa"};
+    String[] courseinfo = {"gender", "type_of_attendance", "citizenship"};
+    String[] entranceScore = {"gender", "citizenship", "course_information"};
+    String[] gpa = {"gender", "course_information", "citizenship"};
+    String[][] xyMeasure = {{"course_information", "gender", "type_of_attendance", "citizenship"},
+    {"entrance_score", "gender", "citizenship", "course_information"},
+    {"gpa", "gender", "course_information", "citizenship"}};
 
     /**
 	 * @return the xyMeasure

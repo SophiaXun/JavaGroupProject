@@ -496,6 +496,7 @@ public class DMChartUI extends javax.swing.JFrame {
 
     private void localCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localCancelButtonActionPerformed
         // TODO add your handling code here:
+        localDataResourceAddr.setText("");
     }//GEN-LAST:event_localCancelButtonActionPerformed
     File file = null;
     private void localBrowseButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localBrowseButtonActionPerformed
@@ -527,6 +528,7 @@ public class DMChartUI extends javax.swing.JFrame {
 
     private void AWSCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSCancelButtonActionPerformed
         // TODO add your handling code here:
+        AWSDataSource.removeAllItems();
 
     }//GEN-LAST:event_AWSCancelButtonActionPerformed
 
