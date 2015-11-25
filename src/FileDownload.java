@@ -32,7 +32,7 @@ public class FileDownload {
     /**
      * This parameter stores all the students in a temp csv file. 
      */
-    File file = new File("f:\\studentTemp.csv");
+   // File file = new File("studentTemp.csv");
     private ArrayList<Student> student = new ArrayList<Student>();
      public ArrayList<Student> getStudent() {
         return student;
@@ -123,25 +123,26 @@ public class FileDownload {
 
     public static Student convertStrToStudent(String[] line) {
         Student student = new Student();
-        student.setID(line[0]);
-        student.setCourse_Information(line[1]);
-        student.setPostgraduate_or_undergraduate(line[2]);
-        student.setAge(line[3]);
-        student.setGender(line[4]);
-        student.setCitizenship(line[5]);
-        student.setTerm_residence(line[6]);
-        student.setPermanent_residence(line[7]);
-        student.setBasis_for_admission(line[8]);
-        student.setType_of_attendance(line[9]);
-        student.setMode_of_attendance(line[10]);
-        student.setCountry_of_birth(line[11]);
-        student.setLanguage_spoken_at_home(line[12]);
-        student.setYear_of_arrival_in_usa(line[13]);
-        student.setEntrance_score(line[14]);
-        student.setEquity_data(line[15]);
-        student.setHighest_level_of_education_prior_to_commencement(line[16]);
-        student.setCourse_completion_year(line[17]);
-        student.setCourse_gpa_earned(line[18]);
+        student.setiD(line[0]);
+        student.setCourseInformation(line[1]);
+        student.setPostgraduateOrUnderGraduate(line[2]);
+        student.setFieldOfEducation(line[3]);
+        student.setAge(line[4]);
+        student.setGender(line[5]);
+        student.setCitizenship(line[6]);
+        student.setTermResidence(line[7]);
+        student.setPermanentResidence(line[8]);
+        student.setBasisForAdmission(line[9]);
+        student.setTypeOfAttendance(line[10]);
+        student.setModeOfAttendance(line[11]);
+        student.setCountryOfBirth(line[12]);
+        student.setLanguageSpokenAtHome(line[13]);
+        student.setYearOfArrivalInUsa(line[14]);
+        student.setEntranceScore(line[15]);
+        student.setEquityData(line[16]);
+        student.setHighestLevelOfEducationPriorToCommencement(line[17]);
+        student.setCourseCompletionYear(line[18]);
+        student.setCourseGpaEarned(line[19]);
         return student;
     }
     
