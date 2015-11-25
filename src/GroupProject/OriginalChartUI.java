@@ -562,7 +562,11 @@ public class OriginalChartUI extends javax.swing.JFrame {
         String columnTitle = (String) XItem.getSelectedItem();
         String rowTitle = (String) YItem.getSelectedItem();
         File file = new File("studentTemp.csv");
+<<<<<<< HEAD
         draw3DBarChart();
+=======
+        
+>>>>>>> e5c8f6377844d53d1bba78e0a92a348cf71fe6f2
     }//GEN-LAST:event_generateButtonActionPerformed
 
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
