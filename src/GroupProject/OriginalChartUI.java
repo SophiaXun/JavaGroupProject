@@ -6,6 +6,8 @@ import java.awt.RenderingHints;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
@@ -621,6 +623,11 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 break;
         }
 
+        Map< String, Long> pieChartData = new HashMap<>();
+
+        Operation operations = new Operation();
+        pieChartData = operations.pieChart(columnTitle, FileDownload.student);
+        
     }//GEN-LAST:event_generateButtonActionPerformed
 
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
@@ -793,7 +800,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
             }
         });
     }
-    
+
     public void drawLineChart(){
         System.out.print("drawLineChart");
         int xAis[] = new int[2];

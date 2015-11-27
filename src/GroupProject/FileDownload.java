@@ -34,7 +34,7 @@ public class FileDownload {
     /**
      * This parameter stores all the students in a temp csv file. 
      */
-    private ArrayList<Student> student = new ArrayList<Student>();
+    public static ArrayList<Student> student = new ArrayList<Student>();
      public ArrayList<Student> getStudent() {
         return student;
     }
