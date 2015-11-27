@@ -106,7 +106,6 @@ public class FileDownload {
             
             
             displayTextInputStream(object.getObjectContent());
-             // System.out.println(object.getObjectContent());
 
         } catch (AmazonServiceException ase) {
             JOptionPane.showMessageDialog(null, "The request to AWS was reject!!", "Alert", JOptionPane.ERROR_MESSAGE);
@@ -162,14 +161,14 @@ public class FileDownload {
             Student newStudent = FileDownload.convertStrToStudent(attributeArray);
             filedownload.getStudent().add(newStudent);
         }
-        filedownload.print();
+        //filedownload.print();
         writer.close();
     }
 
-    public void print() {
+    /*public void print() {
         for (int i = 0; i < student.size(); i++) {
             System.out.println(student.get(i));
         }
-    }
+    }*/
 
 }
