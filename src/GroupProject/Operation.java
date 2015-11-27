@@ -72,55 +72,88 @@ public class Operation {
         return index;
     }
 
+    public String nextKeyword(int index, int iteration, ArrayList<Student> vector) {
+        String keyword = "";
+        int i = iteration;
+
+        if (index == 1) {
+            keyword = vector.get(i).getCourseInformation();
+        } else if (index == 2) {
+            keyword = vector.get(i).getPostgraduateOrUnderGraduate();
+        } else if (index == 3) {
+            keyword = vector.get(i).getFieldOfEducation();
+        } else if (index == 5) {
+            keyword = vector.get(i).getGender();
+        } else if (index == 6) {
+            keyword = vector.get(i).getCitizenship();
+        } else if (index == 7) {
+            keyword = vector.get(i).getTermResidence();
+        } else if (index == 8) {
+            keyword = vector.get(i).getPermanentResidence();
+        } else if (index == 9) {
+            keyword = vector.get(i).getBasisForAdmission();
+        } else if (index == 10) {
+            keyword = vector.get(i).getTypeOfAttendance();
+        } else if (index == 11) {
+            keyword = vector.get(i).getModeOfAttendance();
+        } else if (index == 12) {
+            keyword = vector.get(i).getCountryOfBirth();
+        } else if (index == 13) {
+            keyword = vector.get(i).getLanguageSpokenAtHome();
+        } else if (index == 14) {
+            keyword = vector.get(i).getYearOfArrivalInUsa();
+        } else if (index == 16) {
+            keyword = vector.get(i).getEquityData();
+        } else if (index == 17) {
+            keyword = vector.get(i).getHighestLevelOfEducationPriorToCommencement();
+        } else if (index == 18) {
+            keyword = vector.get(i).getCourseCompletionYear();
+        } else if (index == 19) {
+            keyword = vector.get(i).getCourseGpaEarned();
+        }
+        return keyword;
+    }
+
     public Map<String, Long> pieChart(String checkThis, ArrayList<Student> vector) {
         String keyword = "";
-//        System.out.println(checkThis);
         ArrayList listKeyword = new ArrayList();
         Map< String, Long> stringMap = new HashMap<>();
         int index = whichColumn(checkThis, vector.get(0));
 
         for (int i = 1; i < vector.size(); i++) {
-            if (index == 1) {
-                keyword = vector.get(i).getCourseInformation();
-            } else if (index == 2) {
-                keyword = vector.get(i).getPostgraduateOrUnderGraduate();
-            } else if (index == 3) {
-                keyword = vector.get(i).getFieldOfEducation();
-            } else if (index == 5) {
-                keyword = vector.get(i).getGender();
-            } else if (index == 6) {
-                keyword = vector.get(i).getCitizenship();
-            } else if (index == 7) {
-                keyword = vector.get(i).getTermResidence();
-            } else if (index == 8) {
-                keyword = vector.get(i).getPermanentResidence();
-            } else if (index == 9) {
-                keyword = vector.get(i).getBasisForAdmission();
-            } else if (index == 10) {
-                keyword = vector.get(i).getTypeOfAttendance();
-            } else if (index == 11) {
-                keyword = vector.get(i).getModeOfAttendance();
-            } else if (index == 12) {
-                keyword = vector.get(i).getCountryOfBirth();
-            } else if (index == 13) {
-                keyword = vector.get(i).getLanguageSpokenAtHome();
-            } else if (index == 14) {
-                keyword = vector.get(i).getYearOfArrivalInUsa();
-            } else if (index == 16) {
-                keyword = vector.get(i).getEquityData();
-            } else if (index == 17) {
-                keyword = vector.get(i).getHighestLevelOfEducationPriorToCommencement();
-            } else if (index == 18) {
-                keyword = vector.get(i).getCourseCompletionYear();
-            } else if (index == 19) {
-                keyword = vector.get(i).getCourseGpaEarned();
-            }
-            System.out.println(keyword);
+            keyword = nextKeyword(index, i, vector);
             listKeyword.add(keyword);
         }
 
         stringMap = (Map<String, Long>) listKeyword.stream().collect(Collectors.groupingBy(e -> e, Collectors.counting()));
 
         return stringMap;
+    }
+
+    public Map<String, Long> barChart(String checkThisX, String checkThisY, ArrayList<Student> vector) {
+        String keywordX = "";
+        Long keywordY;
+        ArrayList listKeyword = new ArrayList();
+        Map< String, Long> total = new HashMap<>();      // Total sum of the corresponding numeric value
+        Map< String, Long> frequency = new HashMap<>();  // Frequency of the X column
+        int indexX = whichColumn(checkThisX, vector.get(0));
+        int indexY = whichColumn(checkThisY, vector.get(0));
+
+        for (int i = 1; i < vector.size(); i++) {
+            keywordX = nextKeyword(indexX, i, vector);
+            keywordY = Long.parseLong(nextKeyword(indexY, i, vector));
+            if (total.containsKey(keywordX)) {
+                total.put(keywordX, total.get(keywordX) + keywordY);
+            } else {
+                total.put(keywordX, keywordY);
+            }
+            listKeyword.add(keywordX);
+        }
+
+        frequency = (Map<String, Long>) listKeyword.stream().collect(Collectors.groupingBy(e -> e, Collectors.counting()));
+        System.out.println(total);
+        System.out.println(frequency);
+
+        return frequency;
     }
 }
