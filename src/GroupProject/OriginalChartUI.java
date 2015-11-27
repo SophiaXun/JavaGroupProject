@@ -1,6 +1,8 @@
 package GroupProject;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.RenderingHints;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,9 +13,17 @@ import javax.swing.JOptionPane;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
+import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.FastScatterPlot;
+import org.jfree.chart.plot.PiePlot3D;
 import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.general.DefaultPieDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -25,6 +35,10 @@ import org.jfree.data.category.DefaultCategoryDataset;
  * @author Yazhou
  */
 public class OriginalChartUI extends javax.swing.JFrame {
+    
+    
+
+    private String chartType;
 
     /**
      * Creates new form OriginalChart
@@ -591,8 +605,21 @@ public class OriginalChartUI extends javax.swing.JFrame {
         String columnTitle = (String) XItem.getSelectedItem();
         String rowTitle = (String) YItem.getSelectedItem();
         File file = new File("studentTemp.csv");
-
-        draw3DBarChart();
+        
+        switch(chartType){
+            case "BarChart":
+                draw3DBarChart();
+                break;
+            case "LineChart":
+                drawLineChart();
+                break;
+            case "PieChart":
+                drawPieChart();
+                break;
+            case "ScatterChart":
+                drawScatterChart();
+                break;
+        }
 
     }//GEN-LAST:event_generateButtonActionPerformed
 
@@ -672,10 +699,9 @@ public class OriginalChartUI extends javax.swing.JFrame {
             String[][] xyMeasure = peer.getXyMeasure();
             for (int i = 0; i < xTitle.length; i++) {
                 XItem.addItem(xTitle[i]);
-
                 String selectedItem = (String) XItem.getSelectedItem();
-
             }
+            chartType = "BarChart";
         }
         if (LineChart.isSelected()) {
             String[] xTitle = {"year_of_arrival_in_usa", "course_completion_year"};
@@ -684,6 +710,14 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 String selectedItem = (String) XItem.getSelectedItem();
 
             }
+            chartType="LineChart";
+        }
+        if(PieChart.isSelected()){
+            chartType="PieChart";
+            
+        }
+        if(ScatterChart.isSelected()){
+            chartType="ScatterChart";
         }
 
     }//GEN-LAST:event_ConfirmActionPerformed
@@ -697,14 +731,14 @@ public class OriginalChartUI extends javax.swing.JFrame {
         YItem.removeAllItems();
         if (BarChart.isSelected()) {
             int index = XItem.getSelectedIndex();
-            
+
             Peer peer = new Peer();
             String[] yList = peer.getXyMeasure()[index];
             for (int i = 1; i < yList.length; i++) {
                 YItem.addItem(yList[i]);
             }
         }
-        if(LineChart.isSelected()){
+        if (LineChart.isSelected()) {
             YItem.addItem("entrance_score");
             YItem.addItem("course_gpa");
         }
@@ -755,12 +789,85 @@ public class OriginalChartUI extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new OriginalChartUI().setVisible(true);
-                
+
             }
         });
     }
     
-        public void draw3DBarChart() {
+    public void drawLineChart(){
+        System.out.print("drawLineChart");
+        int xAis[] = new int[2];
+        xAis[0] = 1;
+        xAis[1] = 2;
+
+        XYSeries series1 = new XYSeries("First");
+        series1.add(xAis[0], 10);
+        series1.add(xAis[1], 20);
+
+        XYSeries series2 = new XYSeries("Second");
+        series2.add(xAis[0], 30);
+        series2.add(xAis[1], 40);
+
+        XYSeriesCollection dataset = new XYSeriesCollection();
+        dataset.addSeries(series1);
+        dataset.addSeries(series2);
+
+        JFreeChart chart = ChartFactory.createXYLineChart("XYLineChart", "X", "Y", dataset,PlotOrientation.VERTICAL,true,true,false);
+
+        XYPlot plot = chart.getXYPlot();
+        
+        XYLineAndShapeRenderer renderer=new XYLineAndShapeRenderer();
+        renderer.setSeriesPaint(0, Color.RED);
+        renderer.setSeriesPaint(1, Color.BLUE);
+        renderer.setSeriesLinesVisible(1, false);
+        renderer.setSeriesShapesVisible(1, true);
+        plot.setRenderer(renderer);
+        plot.setDomainGridlinePaint(Color.white);
+        plot.setBackgroundPaint(Color.white);
+        ChartPanel chartPanel=new ChartPanel(chart);
+        chartDisplayPanel.removeAll();
+        chartDisplayPanel.add(chartPanel, BorderLayout.CENTER);
+        chartDisplayPanel.validate();
+    }
+    
+    public void drawPieChart(){
+        System.out.print("drawPieChart");
+        DefaultPieDataset dataset = new DefaultPieDataset();
+        dataset.setValue("1", new Double(10));
+        dataset.setValue("2", new Double(20));
+        dataset.setValue("3", new Double(30));
+        JFreeChart chart = ChartFactory.createPieChart3D("3D Chart Example", dataset);
+        PiePlot3D plot = (PiePlot3D) chart.getPlot();
+        plot.setBackgroundPaint(new java.awt.Color(255, 255, 255));
+        ChartPanel chartPanel = new ChartPanel(chart);
+        chartDisplayPanel.removeAll();
+        chartDisplayPanel.add(chartPanel, BorderLayout.CENTER);
+        chartDisplayPanel.validate();
+    }
+    
+    public void drawScatterChart(){
+        System.out.print("drawScatterChart");
+        float [][]data1=new float[2][2];
+        data1[0][0]=10;
+        data1[0][1]=20;
+        data1[1][0]=2;
+        data1[1][1]=3;
+        
+        NumberAxis domainAxis=new NumberAxis("X");
+        NumberAxis rangeAxis=new NumberAxis("Y");
+        
+        FastScatterPlot plot=new FastScatterPlot(data1,domainAxis,rangeAxis);
+        plot.setPaint(Color.red);
+        JFreeChart chart=new JFreeChart("Scatter Plot",plot);
+        chart.getRenderingHints().put(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        
+        ChartPanel chartPanel=new ChartPanel(chart,true);
+        chartDisplayPanel.removeAll();
+        chartDisplayPanel.add(chartPanel,BorderLayout.CENTER);
+        chartDisplayPanel.validate();
+    }
+
+    public void draw3DBarChart() {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         dataset.setValue(1, "", "Statistic_1");
         dataset.setValue(2, "", "Statistic_2");
