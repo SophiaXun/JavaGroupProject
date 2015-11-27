@@ -727,12 +727,21 @@ public class OriginalChartUI extends javax.swing.JFrame {
             xTitle = peer.getBarXTitle();
             yTitle = peer.getBarYTitle();
             chartType = "BarChart";
+            for (String y : yTitle) {
+                YItem.addItem(y);
+            }
         }
         if (LineChart.isSelected()) {
             xTitle = peer.getLineXTitle();
             yTitle = peer.getLineYTitle();
             zTitle = peer.getLineZTitle();
             chartType = "LineChart";
+            for (String z : zTitle) {
+                ZItem.addItem(z);
+            }
+            for (String y : yTitle) {
+                YItem.addItem(y);
+            }
         }
         if (PieChart.isSelected()) {
             xTitle = peer.getPieXTitle();
@@ -743,15 +752,12 @@ public class OriginalChartUI extends javax.swing.JFrame {
             xTitle = peer.getScatterXTitle();
             yTitle = peer.getScatterYTitle();
             chartType = "ScatterChart";
+            for (String y : yTitle) {
+                YItem.addItem(y);
+            }
         }
         for (String x : xTitle) {
             XItem.addItem(x);
-        }
-        for (String y : yTitle) {
-            YItem.addItem(y);
-        }
-        for (String z : zTitle) {
-            ZItem.addItem(z);
         }
 
 
