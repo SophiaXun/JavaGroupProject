@@ -1,4 +1,5 @@
 id,course_information,postgraduate_or_undergraduate,field_of_education,age,gender,citizenship,term_residence,permanent_residence,basis_for_admission,type_of_attendance,mode_of_attendance,country_of_birth,language_spoken_at_home,year_of_arrival_in_usa,entrance_score,equity_data,highest_level_of_education_prior_to_commencement,course_completion_year,course_gpa_earned
+998,Global PPM,Postgraduate,Computer Science,19/02/1996,Female,Bonaire ,Philippines,China,GRE,Part-time,Multi-modal,Bonaire,Kannada,2006,304,,Baccalaureate,2011,3.79
 1,Global MISM,Undergraduate,Medicine,24/12/1990,Male,Morocco,Ecuador,Portugal,GRE,Part-time,Multi-modal,Morocco,Nepali,2012,321,,Baccalaureate,2014,3.97
 2,MSIT,Postgraduate,Psychology,27/06/1997,Female,Portugal,Sweden,Mexico,GRE,Full-time,External,Portugal,Tswana,2005,326,Women in non-traditional areas,Baccalaureate,2012,3.33
 3,MISM,Undergraduate,IT,12/10/1981,Male,China,China,Colombia,GRE,Part-time,Internal,China,Japanese,2006,320,Women in non-traditional areas,Baccalaureate,2011,3.59
@@ -996,6 +997,5 @@ id,course_information,postgraduate_or_undergraduate,field_of_education,age,gende
 995,Global MISM,Undergraduate,Computer Science,15/03/1992,Female,Cameroon,Greece,Indonesia,GRE,Part-time,External,Cameroon,Chinese,2012,324,,Professional Certification,2013,3.23
 996,MISM,Postgraduate,IT,23/03/1997,Female,Venezuela,Russia,Portugal,GRE,Full-time,Multi-modal,Venezuela,Polish,2011,340,,Diploma,2011,3.57
 997,MSIT,Undergraduate,Medicine,15/09/1997,Female,Indonesia,Poland,Morocco,GRE,Full-time,Multi-modal,Indonesia,Bengali,2011,302,,Post-graduate,2011,3.38
-998,Global PPM,Postgraduate,Computer Science,19/02/1996,Female,"Bonaire, Saint Eustatius and Saba ",Philippines,China,GRE,Part-time,Multi-modal,"Bonaire, Saint Eustatius and Saba ",Kannada,2006,304,,Baccalaureate,2011,3.79
 999,MISM,Postgraduate,Computer Science,24/05/1989,Female,Serbia,Czech Republic,Indonesia,GRE,Full-time,Multi-modal,Serbia,Portuguese,2011,333,Disability,Baccalaureate,2012,3.89
 1000,Global PPM,Postgraduate,Public Administration,10/3/1981,Male,Philippines,Chile,Ukraine,GRE,Full-time,Internal,Philippines,Hiri Motu,2005,314,Women in non-traditional areas,Baccalaureate,2012,3.51

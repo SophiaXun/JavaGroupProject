@@ -9,21 +9,25 @@ package GroupProject;
  *
  * @author Jai
  */
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 import org.joda.time.*;
+import org.joda.time.format.DateTimeFormat;
 
 public class Operation {
 
-    public int calculateAge() {
-        LocalDate birthdate = new LocalDate(1970, 1, 20);          //Birth date
+    public int calculateAge(String age) {
+
+        final org.joda.time.format.DateTimeFormatter dtf = DateTimeFormat.forPattern("dd/MM/yyyy");
+        final LocalDate birthdate = dtf.parseLocalDate(age);
         LocalDate now = new LocalDate();                    //Today's date
         Period period = new Period(birthdate, now, PeriodType.yearMonthDay());
-
-        return period.getYears();
+        int ageInYears = period.getYears();
+        return ageInYears;
     }
 
     private int whichColumn(String check, Student student) {
@@ -82,6 +86,8 @@ public class Operation {
             keyword = vector.get(i).getPostgraduateOrUnderGraduate();
         } else if (index == 3) {
             keyword = vector.get(i).getFieldOfEducation();
+        } else if (index == 4) {
+            keyword = vector.get(i).getAge();
         } else if (index == 5) {
             keyword = vector.get(i).getGender();
         } else if (index == 6) {
@@ -102,6 +108,8 @@ public class Operation {
             keyword = vector.get(i).getLanguageSpokenAtHome();
         } else if (index == 14) {
             keyword = vector.get(i).getYearOfArrivalInUsa();
+        } else if (index == 15) {
+            keyword = vector.get(i).getEntranceScore();
         } else if (index == 16) {
             keyword = vector.get(i).getEquityData();
         } else if (index == 17) {
@@ -130,30 +138,49 @@ public class Operation {
         return stringMap;
     }
 
-    public Map<String, Long> barChart(String checkThisX, String checkThisY, ArrayList<Student> vector) {
+    public Map<String, Float> barChart(String checkThisX, String checkThisY, ArrayList<Student> vector) {
         String keywordX = "";
-        Long keywordY;
+        String keywordY;
+
         ArrayList listKeyword = new ArrayList();
-        Map< String, Long> total = new HashMap<>();      // Total sum of the corresponding numeric value
-        Map< String, Long> frequency = new HashMap<>();  // Frequency of the X column
+        Map< String, Float> total = new HashMap<>();      // Total sum of the corresponding numeric value
+        Map< String, Float> frequency = new HashMap<>();  // Frequency of the X column
         int indexX = whichColumn(checkThisX, vector.get(0));
         int indexY = whichColumn(checkThisY, vector.get(0));
 
         for (int i = 1; i < vector.size(); i++) {
             keywordX = nextKeyword(indexX, i, vector);
-            keywordY = Long.parseLong(nextKeyword(indexY, i, vector));
+            keywordY = nextKeyword(indexY, i, vector);
+            if (indexY == 4) {
+                keywordY = String.valueOf(calculateAge(String.valueOf(keywordY)));
+            }
+
             if (total.containsKey(keywordX)) {
-                total.put(keywordX, total.get(keywordX) + keywordY);
+                total.put(keywordX, total.get(keywordX) + Float.parseFloat(keywordY));
             } else {
-                total.put(keywordX, keywordY);
+
+                total.put(keywordX, Float.parseFloat(keywordY));
             }
             listKeyword.add(keywordX);
         }
 
-        frequency = (Map<String, Long>) listKeyword.stream().collect(Collectors.groupingBy(e -> e, Collectors.counting()));
-        System.out.println(total);
-        System.out.println(frequency);
+        frequency = (Map<String, Float>) listKeyword.stream().collect(Collectors.groupingBy(e -> e, Collectors.counting()));
 
-        return frequency;
+        Map< String, Float> average = new HashMap<>();
+        
+        for (Map.Entry<String, Float> entry : total.entrySet()) {
+            String key = entry.getKey();
+            Float value = entry.getValue();
+            for (Map.Entry<String, Float> entry2 : frequency.entrySet()) {
+                String key2 = entry2.getKey();
+                Float value2;
+                value2 = ((Number)entry2.getValue()).floatValue();
+                if(key.equals(key2)){
+                    average.put(key, value/value2);
+                }
+            }
+        }
+        
+        return average;
     }
 }
