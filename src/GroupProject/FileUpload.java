@@ -51,7 +51,7 @@ public class FileUpload {
         
         
         // the key of one file. to ensure the key is unique, use UUID to generate a uniqueID as a post fix. 
-        String key = "StudentInformation" + file.getName() + UUID.randomUUID();
+        String key = file.getName();
         try {
             s3.putObject(new PutObjectRequest("fightforjava1", key, file));
             JOptionPane.showMessageDialog(null, "Success!", "Message", JOptionPane.INFORMATION_MESSAGE);

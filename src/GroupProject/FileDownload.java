@@ -72,7 +72,7 @@ public class FileDownload {
         //System.out.println("Listing Files");
         ObjectListing objectListing = s3.listObjects(new ListObjectsRequest()
                 .withBucketName(bucketName)
-                .withPrefix("Student"));
+                .withPrefix("student"));
         ArrayList<String> fileList = new ArrayList<String>();
         for (S3ObjectSummary objectSummary : objectListing.getObjectSummaries()) {
             String objectName = objectSummary.getKey();
