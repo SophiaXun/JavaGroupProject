@@ -34,7 +34,7 @@ public class FileDownload {
     /**
      * This parameter stores all the students in a temp csv file. 
      */
-    private ArrayList<Student> student = new ArrayList<Student>();
+    public static ArrayList<Student> student = new ArrayList<Student>();
      public ArrayList<Student> getStudent() {
         return student;
     }
@@ -72,7 +72,7 @@ public class FileDownload {
         //System.out.println("Listing Files");
         ObjectListing objectListing = s3.listObjects(new ListObjectsRequest()
                 .withBucketName(bucketName)
-                .withPrefix("Student"));
+                .withPrefix("student"));
         ArrayList<String> fileList = new ArrayList<String>();
         for (S3ObjectSummary objectSummary : objectListing.getObjectSummaries()) {
             String objectName = objectSummary.getKey();
@@ -106,7 +106,6 @@ public class FileDownload {
             
             
             displayTextInputStream(object.getObjectContent());
-             // System.out.println(object.getObjectContent());
 
         } catch (AmazonServiceException ase) {
             JOptionPane.showMessageDialog(null, "The request to AWS was reject!!", "Alert", JOptionPane.ERROR_MESSAGE);
@@ -162,14 +161,14 @@ public class FileDownload {
             Student newStudent = FileDownload.convertStrToStudent(attributeArray);
             filedownload.getStudent().add(newStudent);
         }
-        filedownload.print();
+        //filedownload.print();
         writer.close();
     }
 
-    public void print() {
+    /*public void print() {
         for (int i = 0; i < student.size(); i++) {
             System.out.println(student.get(i));
         }
-    }
+    }*/
 
 }
