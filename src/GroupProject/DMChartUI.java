@@ -2,8 +2,11 @@ package GroupProject;
 
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
@@ -44,6 +47,7 @@ public class DMChartUI extends javax.swing.JFrame {
         localUploadButton = new javax.swing.JButton();
         localCancelButton = new javax.swing.JButton();
         localBrowseButton = new javax.swing.JButton();
+        localLoadButton = new javax.swing.JButton();
         AWSPanel = new javax.swing.JPanel();
         AWSLabel = new javax.swing.JLabel();
         AWSOkButton = new javax.swing.JButton();
@@ -120,6 +124,13 @@ public class DMChartUI extends javax.swing.JFrame {
             }
         });
 
+        localLoadButton.setText("Load Data");
+        localLoadButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                localLoadButtonActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout localPanelLayout = new javax.swing.GroupLayout(localPanel);
         localPanel.setLayout(localPanelLayout);
         localPanelLayout.setHorizontalGroup(
@@ -128,16 +139,19 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addComponent(localLabel)
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(localPanelLayout.createSequentialGroup()
-                .addComponent(localDataResourceAddr)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(localBrowseButton)
+                .addGroup(localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(localPanelLayout.createSequentialGroup()
+                        .addComponent(localDataResourceAddr, javax.swing.GroupLayout.DEFAULT_SIZE, 213, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(localBrowseButton))
+                    .addGroup(localPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(localUploadButton)
+                        .addGap(26, 26, 26)
+                        .addComponent(localLoadButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(localCancelButton)))
                 .addContainerGap())
-            .addGroup(localPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(localUploadButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(localCancelButton)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         localPanelLayout.setVerticalGroup(
             localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -150,7 +164,8 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(localUploadButton)
-                    .addComponent(localCancelButton))
+                    .addComponent(localCancelButton)
+                    .addComponent(localLoadButton))
                 .addContainerGap())
         );
 
@@ -553,6 +568,22 @@ public class DMChartUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_AWSDataSourceActionPerformed
 
+    private void localLoadButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localLoadButtonActionPerformed
+
+        try {
+            // TODO add your handling code here:
+            //LocalDataLoad.loadLocalData(file);
+            //InputStream input = new FileInputStream(file);
+            FileLoad.readLocalFile(file);
+
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(OriginalChartUI.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(OriginalChartUI.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }//GEN-LAST:event_localLoadButtonActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -613,6 +644,7 @@ public class DMChartUI extends javax.swing.JFrame {
     private javax.swing.JButton localCancelButton;
     private javax.swing.JTextField localDataResourceAddr;
     private javax.swing.JLabel localLabel;
+    private javax.swing.JButton localLoadButton;
     private javax.swing.JPanel localPanel;
     private javax.swing.JButton localUploadButton;
     private javax.swing.JLabel methodLabel;
