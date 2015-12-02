@@ -183,4 +183,31 @@ public class Operation {
         
         return average;
     }
+    
+    public Map<String, String> scatterPlot(String checkThisX, String checkThisY, ArrayList<Student> vector) {
+        String keywordX = "";
+        String keywordY;
+
+        Map< String, String> total = new HashMap<>();      // Total sum of the corresponding numeric value
+        int indexX = whichColumn(checkThisX, vector.get(0));
+        int indexY = whichColumn(checkThisY, vector.get(0));
+
+        for (int i = 1; i < vector.size(); i++) {
+            keywordX = nextKeyword(indexX, i, vector);
+            keywordY = nextKeyword(indexY, i, vector);
+            if (indexY == 4) {
+                keywordY = String.valueOf(calculateAge(String.valueOf(keywordY)));
+            }
+
+            if (total.containsKey(keywordX)) {
+                total.put(keywordX, total.get(keywordX) +";"+ keywordY);
+            } else {
+
+                total.put(keywordX, keywordY);
+            }
+            
+        }
+        System.out.println(total);
+        return total;
+    }
 }
