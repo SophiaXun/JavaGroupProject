@@ -764,238 +764,238 @@ id,course_information,postgraduate_or_undergraduate,field_of_education,age,gende
 762,Global MISM,Undergraduate,Medicine,28/10/1987,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2006,314,Disability,Post-graduate,2011,3.21
 763,Global MISM,Postgraduate,IT,26/12/1995,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2005,330,,Post-graduate,2012,3.92
 764,Global MISM,Postgraduate,Medicine,18/11/1987,Female,India,India,India,GRE,Full-time,External,India,Hindi,2011,315,Regional/ Remote,Diploma,2014,3.4
-765,MSIT,Undergraduate,Computer Science,10/5/1990,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2010,330,,Diploma,2010,3.99
+765,MSIT,Postgraduate,Computer Science,10/5/1990,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2010,330,,Diploma,2010,3.99
 766,MISM,Postgraduate,Mathematics,28/01/1990,Female,India,India,India,GRE,Full-time,Internal,India,Hindi,2010,316,Regional/ Remote,Professional Certification,2013,3.21
 767,PPM,Postgraduate,IT,7/5/1992,Male,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2011,319,Regional/ Remote,Diploma,2012,3.62
 768,PPM,Postgraduate,Public Administration,29/10/1981,Male,India,India,India,GRE,Part-time,External,India,Hindi,2010,306,,Baccalaureate,2011,3.33
 769,MISM,Postgraduate,Mathematics,8/9/1989,Male,India,India,India,GRE,Full-time,External,India,Hindi,2009,321,Regional/ Remote,Post-graduate,2010,3.94
 770,Global MISM,Postgraduate,Mathematics,29/06/1992,Female,India,India,India,GRE,Full-time,External,India,Hindi,2008,331,,Diploma,2012,3.64
-771,MISM,Undergraduate,Mathematics,29/07/1987,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2005,327,,Diploma,2014,3.81
-772,MSIT,Undergraduate,Medicine,26/08/1988,Female,India,India,India,GRE,Part-time,Internal,India,Hindi,2004,324,,Professional Certification,2011,3.51
+771,MISM,Postgraduate,Mathematics,29/07/1987,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2005,327,,Diploma,2014,3.81
+772,MSIT,Postgraduate,Medicine,26/08/1988,Female,India,India,India,GRE,Part-time,Internal,India,Hindi,2004,324,,Professional Certification,2011,3.51
 773,MISM,Postgraduate,Psychology,27/08/1996,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2006,310,,Baccalaureate,2011,3.96
-774,Global MISM,Undergraduate,Medicine,27/01/1980,Female,India,India,India,GRE,Full-time,External,India,English,2011,338,Women in non-traditional areas,Post-graduate,2011,3.65
-775,Global MISM,Undergraduate,IT,16/12/1996,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2006,327,Regional/ Remote,Baccalaureate,2013,3.47
-776,Global PPM,Undergraduate,Psychology,31/12/1983,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2007,318,,Diploma,2011,3.9
+774,Global MISM,Postgraduate,Medicine,27/01/1980,Female,India,India,India,GRE,Full-time,External,India,English,2011,338,Women in non-traditional areas,Post-graduate,2011,3.65
+775,Global MISM,Postgraduate,IT,16/12/1996,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2006,327,Regional/ Remote,Baccalaureate,2013,3.47
+776,Global PPM,Postgraduate,Psychology,31/12/1983,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2007,318,,Diploma,2011,3.9
 777,Global PPM,Postgraduate,Psychology,27/11/1986,Female,India,India,India,GRE,Full-time,External,India,English,2011,313,Disability,Professional Certification,2011,3.31
-778,Global MISM,Undergraduate,Medicine,19/04/1982,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2008,314,,Post-graduate,2012,3.96
-779,Global MISM,Undergraduate,Psychology,10/1/1981,Female,India,India,India,GRE,Full-time,Internal,India,English,2009,329,,Baccalaureate,2014,3.98
-780,Global PPM,Undergraduate,Computer Science,11/5/1995,Male,India,India,India,GRE,Part-time,Internal,India,English,2011,305,low-income,Diploma,2012,3.38
+778,Global MISM,Postgraduate,Medicine,19/04/1982,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2008,314,,Post-graduate,2012,3.96
+779,Global MISM,Postgraduate,Psychology,10/1/1981,Female,India,India,India,GRE,Full-time,Internal,India,English,2009,329,,Baccalaureate,2014,3.98
+780,Global PPM,Postgraduate,Computer Science,11/5/1995,Male,India,India,India,GRE,Part-time,Internal,India,English,2011,305,low-income,Diploma,2012,3.38
 781,MISM,Postgraduate,Psychology,9/3/1994,Male,India,India,India,GRE,Full-time,External,India,English,2009,340,,Baccalaureate,2014,3.7
 782,MSIT,Postgraduate,Public Administration,10/1/1982,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2012,337,,Professional Certification,2014,3.85
-783,MSIT,Undergraduate,Computer Science,13/07/1987,Female,India,India,India,GRE,Full-time,Internal,India,English,2004,329,,Diploma,2012,3.87
+783,MSIT,Postgraduate,Computer Science,13/07/1987,Female,India,India,India,GRE,Full-time,Internal,India,English,2004,329,,Diploma,2012,3.87
 784,Global MISM,Postgraduate,Public Administration,6/12/1982,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2010,326,,Post-graduate,2013,3.4
-785,Global MISM,Undergraduate,Computer Science,25/07/1988,Male,India,India,India,GRE,Full-time,Internal,India,English,2012,340,,Post-graduate,2014,3.36
+785,Global MISM,Postgraduate,Computer Science,25/07/1988,Male,India,India,India,GRE,Full-time,Internal,India,English,2012,340,,Post-graduate,2014,3.36
 786,Global PPM,Postgraduate,IT,20/09/1992,Female,India,India,India,GRE,Part-time,Internal,India,English,2010,338,Regional/ Remote,Professional Certification,2011,3.65
-787,PPM,Undergraduate,IT,18/10/1997,Male,India,India,India,GRE,Full-time,Internal,India,English,2005,333,,Diploma,2011,3.41
+787,PPM,Postgraduate,IT,18/10/1997,Male,India,India,India,GRE,Full-time,Internal,India,English,2005,333,,Diploma,2011,3.41
 788,MSIT,Postgraduate,Medicine,16/09/1985,Female,India,India,India,GRE,Part-time,External,India,English,2012,311,,Professional Certification,2012,3.76
 789,MSIT,Postgraduate,Public Administration,9/7/1992,Female,India,India,India,GRE,Full-time,External,India,English,2012,316,,Professional Certification,2013,3.75
-790,MISM,Undergraduate,Psychology,27/08/1989,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2004,318,,Post-graduate,2014,3.35
+790,MISM,Postgraduate,Psychology,27/08/1989,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2004,318,,Post-graduate,2014,3.35
 791,Global MISM,Postgraduate,IT,5/1/1995,Male,India,India,India,GRE,Part-time,Internal,India,English,2006,303,Regional/ Remote,Professional Certification,2013,3.28
 792,MSIT,Postgraduate,IT,29/05/1996,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2010,329,,Post-graduate,2012,3.28
 793,Global PPM,Postgraduate,Medicine,19/12/1988,Female,India,India,India,GRE,Full-time,Internal,India,English,2008,316,,Diploma,2011,3.43
-794,Global PPM,Undergraduate,Computer Science,31/12/1990,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2012,340,,Diploma,2014,3.97
-795,Global MISM,Undergraduate,Psychology,9/4/1989,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2005,333,,Diploma,2012,3.5
+794,Global PPM,Postgraduate,Computer Science,31/12/1990,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2012,340,,Diploma,2014,3.97
+795,Global MISM,Postgraduate,Psychology,9/4/1989,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2005,333,,Diploma,2012,3.5
 796,Global PPM,Postgraduate,Computer Science,18/03/1983,Female,India,India,India,GRE,Part-time,Internal,India,English,2006,304,,Professional Certification,2012,3.96
-797,Global PPM,Undergraduate,Medicine,31/08/1981,Female,India,India,India,GRE,Full-time,External,India,English,2007,331,,Baccalaureate,2010,3.41
-798,Global MISM,Undergraduate,IT,6/9/1996,Male,India,India,India,GRE,Full-time,Internal,India,English,2006,335,,Diploma,2012,3.53
+797,Global PPM,Postgraduate,Medicine,31/08/1981,Female,India,India,India,GRE,Full-time,External,India,English,2007,331,,Baccalaureate,2010,3.41
+798,Global MISM,Postgraduate,IT,6/9/1996,Male,India,India,India,GRE,Full-time,Internal,India,English,2006,335,,Diploma,2012,3.53
 799,Global PPM,Postgraduate,Computer Science,16/11/1983,Female,India,India,India,GRE,Full-time,External,India,English,2008,303,,Baccalaureate,2012,3.47
-800,Global PPM,Undergraduate,Public Administration,11/6/1992,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2011,318,,Professional Certification,2010,3.45
+800,Global PPM,Postgraduate,Public Administration,11/6/1992,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2011,318,,Professional Certification,2010,3.45
 801,MISM,Postgraduate,Medicine,1/7/1993,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2004,312,,Professional Certification,2013,3.67
-802,Global MISM,Undergraduate,Computer Science,7/7/1995,Male,India,India,India,GRE,Full-time,External,India,English,2007,303,,Professional Certification,2014,3.94
-803,Global MISM,Undergraduate,Medicine,8/12/1989,Male,India,India,India,GRE,Part-time,External,India,English,2010,323,,Post-graduate,2013,3.38
-804,Global MISM,Undergraduate,Computer Science,11/6/1993,Female,India,India,India,GRE,Full-time,Internal,India,English,2012,321,,Baccalaureate,2010,3.21
-805,Global PPM,Undergraduate,Psychology,14/10/1989,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2004,302,Disability,Diploma,2013,3.82
-806,PPM,Undergraduate,Psychology,3/2/1989,Female,India,India,India,GRE,Part-time,External,India,English,2010,308,,Diploma,2010,3.31
-807,MSIT,Undergraduate,Computer Science,6/9/1987,Female,India,India,India,GRE,Part-time,Internal,India,English,2006,317,,Diploma,2010,3.35
+802,Global MISM,Postgraduate,Computer Science,7/7/1995,Male,India,India,India,GRE,Full-time,External,India,English,2007,303,,Professional Certification,2014,3.94
+803,Global MISM,Postgraduate,Medicine,8/12/1989,Male,India,India,India,GRE,Part-time,External,India,English,2010,323,,Post-graduate,2013,3.38
+804,Global MISM,Postgraduate,Computer Science,11/6/1993,Female,India,India,India,GRE,Full-time,Internal,India,English,2012,321,,Baccalaureate,2010,3.21
+805,Global PPM,Postgraduate,Psychology,14/10/1989,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2004,302,Disability,Diploma,2013,3.82
+806,PPM,Postgraduate,Psychology,3/2/1989,Female,India,India,India,GRE,Part-time,External,India,English,2010,308,,Diploma,2010,3.31
+807,MSIT,Postgraduate,Computer Science,6/9/1987,Female,India,India,India,GRE,Part-time,Internal,India,English,2006,317,,Diploma,2010,3.35
 808,Global MISM,Postgraduate,IT,29/12/1990,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2008,302,Women in non-traditional areas,Post-graduate,2014,3.66
 809,Global PPM,Postgraduate,IT,5/6/1994,Male,India,India,India,GRE,Part-time,Internal,India,English,2007,319,Regional/ Remote,Diploma,2014,3.47
-810,MISM,Undergraduate,Public Administration,25/10/1991,Male,India,India,India,GRE,Full-time,Internal,India,English,2005,301,,Diploma,2014,3.69
+810,MISM,Postgraduate,Public Administration,25/10/1991,Male,India,India,India,GRE,Full-time,Internal,India,English,2005,301,,Diploma,2014,3.69
 811,MSIT,Postgraduate,Mathematics,31/07/1993,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2010,309,,Post-graduate,2011,3.72
-812,Global MISM,Undergraduate,Public Administration,31/03/1995,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2010,303,,Baccalaureate,2011,3.56
-813,MISM,Undergraduate,IT,12/2/1980,Male,India,India,India,GRE,Part-time,External,India,English,2006,338,,Baccalaureate,2011,3.63
+812,Global MISM,Postgraduate,Public Administration,31/03/1995,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2010,303,,Baccalaureate,2011,3.56
+813,MISM,Postgraduate,IT,12/2/1980,Male,India,India,India,GRE,Part-time,External,India,English,2006,338,,Baccalaureate,2011,3.63
 814,MSIT,Postgraduate,IT,22/04/1985,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2005,301,Women in non-traditional areas,Post-graduate,2014,3.44
-815,Global PPM,Undergraduate,Mathematics,1/10/1988,Female,India,India,India,GRE,Part-time,Internal,India,English,2005,340,,Baccalaureate,2012,3.39
+815,Global PPM,Postgraduate,Mathematics,1/10/1988,Female,India,India,India,GRE,Part-time,Internal,India,English,2005,340,,Baccalaureate,2012,3.39
 816,Global PPM,Postgraduate,Psychology,1/9/1990,Male,India,India,India,GRE,Full-time,Internal,India,English,2004,306,,Baccalaureate,2012,3.57
 817,MSIT,Postgraduate,IT,30/12/1980,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2008,306,,Baccalaureate,2010,3.36
 818,Global MISM,Postgraduate,Medicine,23/10/1980,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2004,305,,Baccalaureate,2012,3.83
 819,Global PPM,Postgraduate,Public Administration,15/03/1987,Female,India,India,India,GRE,Full-time,Internal,India,English,2006,327,,Professional Certification,2010,3.95
-820,MSIT,Undergraduate,Computer Science,16/08/1991,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2010,321,,Diploma,2011,3.78
-821,Global MISM,Undergraduate,Mathematics,5/11/1987,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2009,305,,Diploma,2011,3.84
-822,Global MISM,Undergraduate,Mathematics,30/10/1997,Male,India,India,India,GRE,Part-time,Internal,India,English,2007,305,Disability,Professional Certification,2010,3.94
-823,MISM,Undergraduate,Public Administration,10/9/1985,Male,India,India,India,GRE,Full-time,External,India,English,2008,332,,Baccalaureate,2014,3.41
-824,MSIT,Undergraduate,IT,31/05/1987,Male,India,India,India,GRE,Full-time,External,India,English,2004,325,,Baccalaureate,2010,3.83
-825,MISM,Undergraduate,Public Administration,6/6/1994,Female,India,India,India,GRE,Part-time,Internal,India,English,2006,319,,Professional Certification,2010,3.32
-826,PPM,Undergraduate,Mathematics,10/3/1981,Male,India,India,India,GRE,Part-time,Internal,India,English,2008,300,Disability,Professional Certification,2010,3.33
-827,PPM,Undergraduate,Computer Science,31/03/1990,Female,India,India,India,GRE,Full-time,Internal,India,English,2008,327,,Post-graduate,2014,3.52
+820,MSIT,Postgraduate,Computer Science,16/08/1991,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2010,321,,Diploma,2011,3.78
+821,Global MISM,Postgraduate,Mathematics,5/11/1987,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2009,305,,Diploma,2011,3.84
+822,Global MISM,Postgraduate,Mathematics,30/10/1997,Male,India,India,India,GRE,Part-time,Internal,India,English,2007,305,Disability,Professional Certification,2010,3.94
+823,MISM,Postgraduate,Public Administration,10/9/1985,Male,India,India,India,GRE,Full-time,External,India,English,2008,332,,Baccalaureate,2014,3.41
+824,MSIT,Postgraduate,IT,31/05/1987,Male,India,India,India,GRE,Full-time,External,India,English,2004,325,,Baccalaureate,2010,3.83
+825,MISM,Postgraduate,Public Administration,6/6/1994,Female,India,India,India,GRE,Part-time,Internal,India,English,2006,319,,Professional Certification,2010,3.32
+826,PPM,Postgraduate,Mathematics,10/3/1981,Male,India,India,India,GRE,Part-time,Internal,India,English,2008,300,Disability,Professional Certification,2010,3.33
+827,PPM,Postgraduate,Computer Science,31/03/1990,Female,India,India,India,GRE,Full-time,Internal,India,English,2008,327,,Post-graduate,2014,3.52
 828,MISM,Postgraduate,Public Administration,15/08/1987,Female,India,India,India,GRE,Full-time,Internal,India,English,2012,318,Regional/ Remote,Post-graduate,2010,3.9
-829,MSIT,Undergraduate,Computer Science,27/10/1991,Male,India,India,India,GRE,Full-time,Internal,India,English,2005,335,,Post-graduate,2012,3.31
-830,Global MISM,Undergraduate,Computer Science,13/02/1997,Female,India,India,India,GRE,Full-time,Internal,India,English,2010,325,Regional/ Remote,Baccalaureate,2012,3.44
-831,PPM,Undergraduate,Computer Science,16/03/1982,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2007,338,,Baccalaureate,2012,3.51
-832,MSIT,Undergraduate,IT,1/3/1983,Male,India,India,India,GRE,Full-time,External,India,English,2007,316,,Post-graduate,2013,4
-833,MSIT,Undergraduate,Computer Science,1/1/1989,Male,India,India,India,GRE,Part-time,External,India,English,2006,317,,Professional Certification,2010,3.48
-834,Global MISM,Undergraduate,Computer Science,24/10/1981,Female,India,India,India,GRE,Part-time,External,India,English,2006,300,,Professional Certification,2011,3.75
+829,MSIT,Postgraduate,Computer Science,27/10/1991,Male,India,India,India,GRE,Full-time,Internal,India,English,2005,335,,Post-graduate,2012,3.31
+830,Global MISM,Postgraduate,Computer Science,13/02/1997,Female,India,India,India,GRE,Full-time,Internal,India,English,2010,325,Regional/ Remote,Baccalaureate,2012,3.44
+831,PPM,Postgraduate,Computer Science,16/03/1982,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2007,338,,Baccalaureate,2012,3.51
+832,MSIT,Postgraduate,IT,1/3/1983,Male,India,India,India,GRE,Full-time,External,India,English,2007,316,,Post-graduate,2013,4
+833,MSIT,Postgraduate,Computer Science,1/1/1989,Male,India,India,India,GRE,Part-time,External,India,English,2006,317,,Professional Certification,2010,3.48
+834,Global MISM,Postgraduate,Computer Science,24/10/1981,Female,India,India,India,GRE,Part-time,External,India,English,2006,300,,Professional Certification,2011,3.75
 835,Global MISM,Postgraduate,Mathematics,8/10/1994,Female,India,India,India,GRE,Full-time,Internal,India,English,2004,334,,Post-graduate,2014,3.78
-836,Global PPM,Undergraduate,IT,8/11/1987,Male,India,India,India,GRE,Full-time,Internal,India,English,2007,317,,Baccalaureate,2010,3.41
+836,Global PPM,Postgraduate,IT,8/11/1987,Male,India,India,India,GRE,Full-time,Internal,India,English,2007,317,,Baccalaureate,2010,3.41
 837,MSIT,Postgraduate,Mathematics,13/08/1986,Male,India,India,India,GRE,Full-time,Internal,India,English,2008,306,,Professional Certification,2011,3.75
-838,Global PPM,Undergraduate,Psychology,19/01/1996,Male,India,India,India,GRE,Full-time,Internal,India,English,2011,313,,Professional Certification,2010,3.2
-839,PPM,Undergraduate,IT,12/5/1981,Female,India,India,India,GRE,Part-time,External,India,English,2004,304,,Professional Certification,2012,3.52
-840,MISM,Undergraduate,Medicine,17/01/1995,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2009,319,,Diploma,2010,3.86
+838,Global PPM,Postgraduate,Psychology,19/01/1996,Male,India,India,India,GRE,Full-time,Internal,India,English,2011,313,,Professional Certification,2010,3.2
+839,PPM,Postgraduate,IT,12/5/1981,Female,India,India,India,GRE,Part-time,External,India,English,2004,304,,Professional Certification,2012,3.52
+840,MISM,Postgraduate,Medicine,17/01/1995,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2009,319,,Diploma,2010,3.86
 841,PPM,Postgraduate,Psychology,23/10/1989,Male,India,India,India,GRE,Full-time,External,India,English,2010,309,,Post-graduate,2011,3.75
 842,MISM,Postgraduate,Medicine,23/02/1985,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2009,339,,Professional Certification,2011,3.74
-843,MSIT,Undergraduate,Computer Science,24/08/1996,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2006,337,low-income,Post-graduate,2010,3.43
+843,MSIT,Postgraduate,Computer Science,24/08/1996,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2006,337,low-income,Post-graduate,2010,3.43
 844,MSIT,Postgraduate,Public Administration,6/1/1985,Male,India,India,India,GRE,Part-time,Internal,India,English,2010,303,,Diploma,2011,3.7
 845,MSIT,Postgraduate,Medicine,31/08/1994,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2011,338,,Diploma,2013,3.8
-846,PPM,Undergraduate,Mathematics,27/06/1984,Female,India,India,India,GRE,Full-time,Internal,India,English,2005,322,,Professional Certification,2014,3.82
+846,PPM,Postgraduate,Mathematics,27/06/1984,Female,India,India,India,GRE,Full-time,Internal,India,English,2005,322,,Professional Certification,2014,3.82
 847,Global MISM,Postgraduate,Medicine,5/2/1987,Male,India,India,India,GRE,Part-time,Multi-modal,India,English,2006,317,,Baccalaureate,2013,3.24
 848,Global PPM,Postgraduate,Psychology,10/3/1989,Female,India,India,India,GRE,Full-time,Internal,India,English,2011,331,Disability,Post-graduate,2011,3.71
 849,MISM,Postgraduate,Computer Science,23/01/1983,Female,India,India,India,GRE,Part-time,Internal,India,English,2005,318,,Post-graduate,2010,3.88
-850,MISM,Undergraduate,Medicine,10/11/1992,Male,India,India,India,GRE,Part-time,External,India,English,2011,338,,Diploma,2012,3.7
+850,MISM,Postgraduate,Medicine,10/11/1992,Male,India,India,India,GRE,Part-time,External,India,English,2011,338,,Diploma,2012,3.7
 851,MSIT,Postgraduate,Medicine,20/09/1984,Male,India,India,India,GRE,Part-time,Internal,India,English,2007,324,,Professional Certification,2012,3.94
-852,Global MISM,Undergraduate,IT,30/05/1992,Male,India,India,India,GRE,Full-time,Internal,India,English,2010,305,,Professional Certification,2014,3.44
+852,Global MISM,Postgraduate,IT,30/05/1992,Male,India,India,India,GRE,Full-time,Internal,India,English,2010,305,,Professional Certification,2014,3.44
 853,MISM,Postgraduate,Computer Science,1/12/1995,Male,India,India,India,GRE,Part-time,Internal,India,English,2011,316,low-income,Diploma,2013,3.31
-854,MSIT,Undergraduate,Computer Science,14/11/1994,Female,India,India,India,GRE,Part-time,External,India,English,2008,308,low-income,Professional Certification,2011,3.82
-855,MSIT,Undergraduate,IT,28/05/1997,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2007,315,Regional/ Remote,Post-graduate,2012,3.23
+854,MSIT,Postgraduate,Computer Science,14/11/1994,Female,India,India,India,GRE,Part-time,External,India,English,2008,308,low-income,Professional Certification,2011,3.82
+855,MSIT,Postgraduate,IT,28/05/1997,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2007,315,Regional/ Remote,Post-graduate,2012,3.23
 856,Global PPM,Postgraduate,Public Administration,4/3/1983,Female,India,India,India,GRE,Part-time,External,India,English,2007,323,Disability,Professional Certification,2014,3.69
-857,Global PPM,Undergraduate,IT,30/06/1982,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2005,320,Disability,Professional Certification,2013,3.48
-858,PPM,Undergraduate,Public Administration,1/7/1982,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2004,321,,Post-graduate,2014,3.5
+857,Global PPM,Postgraduate,IT,30/06/1982,Female,India,India,India,GRE,Full-time,Multi-modal,India,English,2005,320,Disability,Professional Certification,2013,3.48
+858,PPM,Postgraduate,Public Administration,1/7/1982,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2004,321,,Post-graduate,2014,3.5
 859,MSIT,Postgraduate,IT,7/1/1988,Male,India,India,India,GRE,Full-time,Multi-modal,India,English,2009,334,,Baccalaureate,2011,3.94
 860,Global PPM,Postgraduate,IT,5/6/1992,Male,India,India,India,GRE,Full-time,Internal,India,English,2010,305,,Post-graduate,2010,3.49
-861,MSIT,Undergraduate,IT,26/08/1984,Female,India,India,India,GRE,Part-time,Internal,India,English,2012,312,,Professional Certification,2013,3.47
-862,Global PPM,Undergraduate,Medicine,11/1/1991,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2004,328,,Professional Certification,2014,3.3
-863,PPM,Undergraduate,Public Administration,21/08/1981,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2012,307,,Diploma,2014,3.35
+861,MSIT,Postgraduate,IT,26/08/1984,Female,India,India,India,GRE,Part-time,Internal,India,English,2012,312,,Professional Certification,2013,3.47
+862,Global PPM,Postgraduate,Medicine,11/1/1991,Female,India,India,India,GRE,Part-time,Multi-modal,India,English,2004,328,,Professional Certification,2014,3.3
+863,PPM,Postgraduate,Public Administration,21/08/1981,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2012,307,,Diploma,2014,3.35
 864,Global PPM,Postgraduate,Public Administration,31/07/1982,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2010,327,,Diploma,2011,3.6
 865,Global MISM,Postgraduate,Medicine,28/04/1991,Female,India,India,India,GRE,Part-time,Internal,India,Tamil,2006,324,Women in non-traditional areas,Baccalaureate,2014,3.6
 866,Global PPM,Postgraduate,Mathematics,14/11/1984,Male,India,India,India,GRE,Part-time,External,India,Tamil,2005,339,,Post-graduate,2011,3.54
-867,MSIT,Undergraduate,Medicine,6/4/1992,Female,India,India,India,GRE,Full-time,Internal,India,Tamil,2011,333,,Diploma,2013,3.7
-868,PPM,Undergraduate,Mathematics,12/6/1989,Female,India,India,India,GRE,Part-time,External,India,Tamil,2009,334,,Baccalaureate,2012,3.76
-869,Global PPM,Undergraduate,IT,13/06/1988,Female,India,India,India,GRE,Part-time,Multi-modal,India,Tamil,2011,303,,Professional Certification,2010,3.91
+867,MSIT,Postgraduate,Medicine,6/4/1992,Female,India,India,India,GRE,Full-time,Internal,India,Tamil,2011,333,,Diploma,2013,3.7
+868,PPM,Postgraduate,Mathematics,12/6/1989,Female,India,India,India,GRE,Part-time,External,India,Tamil,2009,334,,Baccalaureate,2012,3.76
+869,Global PPM,Postgraduate,IT,13/06/1988,Female,India,India,India,GRE,Part-time,Multi-modal,India,Tamil,2011,303,,Professional Certification,2010,3.91
 870,Global PPM,Postgraduate,Psychology,12/10/1987,Female,India,India,India,GRE,Full-time,Multi-modal,India,Tamil,2007,314,,Baccalaureate,2012,3.64
-871,MSIT,Undergraduate,Mathematics,30/10/1984,Female,India,India,India,GRE,Part-time,External,India,Tamil,2008,322,,Diploma,2010,3.22
+871,MSIT,Postgraduate,Mathematics,30/10/1984,Female,India,India,India,GRE,Part-time,External,India,Tamil,2008,322,,Diploma,2010,3.22
 872,PPM,Postgraduate,Mathematics,3/12/1984,Female,India,India,India,GRE,Full-time,External,India,Tamil,2005,333,,Baccalaureate,2012,3.69
 873,MSIT,Postgraduate,Public Administration,20/01/1985,Male,India,India,India,GRE,Full-time,Multi-modal,India,Tamil,2004,300,,Professional Certification,2010,3.36
 874,MSIT,Postgraduate,Medicine,31/03/1995,Male,India,India,India,GRE,Part-time,Internal,India,Tamil,2004,307,low-income,Professional Certification,2012,3.31
 875,MSIT,Postgraduate,Mathematics,3/8/1994,Male,India,India,India,GRE,Part-time,External,India,Tamil,2007,315,,Post-graduate,2010,3.46
 876,Global MISM,Postgraduate,Computer Science,30/03/1993,Male,India,India,India,GRE,Full-time,Internal,India,Tamil,2005,302,Women in non-traditional areas,Professional Certification,2013,3.64
-877,Global MISM,Undergraduate,IT,17/02/1990,Male,India,India,India,GRE,Part-time,Multi-modal,India,Tamil,2010,323,,Baccalaureate,2012,3.45
+877,Global MISM,Postgraduate,IT,17/02/1990,Male,India,India,India,GRE,Part-time,Multi-modal,India,Tamil,2010,323,,Baccalaureate,2012,3.45
 878,MSIT,Postgraduate,Psychology,26/03/1985,Female,India,India,India,GRE,Part-time,External,India,Tamil,2005,329,,Diploma,2011,3.98
 879,MSIT,Postgraduate,IT,2/3/1991,Male,India,India,India,GRE,Full-time,Internal,India,Tamil,2004,321,low-income,Diploma,2012,3.6
 880,MSIT,Postgraduate,IT,29/05/1993,Male,India,India,India,GRE,Full-time,External,India,Tamil,2009,326,,Baccalaureate,2013,3.96
-881,Global MISM,Undergraduate,Computer Science,2/6/1987,Male,India,India,India,GRE,Full-time,External,India,Tamil,2011,321,,Professional Certification,2010,3.68
-882,MISM,Undergraduate,Mathematics,5/5/1983,Male,India,India,India,GRE,Full-time,External,India,Tamil,2004,325,,Baccalaureate,2010,3.84
-883,PPM,Undergraduate,Public Administration,25/03/1981,Male,India,India,India,GRE,Part-time,Internal,India,Tamil,2009,338,Women in non-traditional areas,Diploma,2013,3.27
-884,PPM,Undergraduate,Medicine,8/9/1986,Male,India,India,India,GRE,Full-time,External,India,Tamil,2006,340,Disability,Diploma,2014,3.28
-885,Global MISM,Postgraduate,Public Administration,2/9/1995,Female,India,India,India,GRE,Part-time,Internal,India,Tamil,2009,305,Regional/ Remote,Diploma,2010,3.59
-886,MSIT,Undergraduate,Medicine,27/02/1981,Male,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2012,333,low-income,Professional Certification,2011,3.63
-887,Global PPM,Undergraduate,Mathematics,1/7/1987,Female,India,India,India,GRE,Full-time,Internal,India,Hindi,2008,313,,Professional Certification,2012,3.99
-888,PPM,Undergraduate,Psychology,31/05/1983,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2009,340,,Post-graduate,2010,3.86
-889,MSIT,Undergraduate,Public Administration,11/6/1994,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2010,332,,Professional Certification,2013,3.74
-890,MSIT,Postgraduate,Computer Science,30/05/1996,Female,India,India,India,GRE,Full-time,External,India,Hindi,2010,311,low-income,Baccalaureate,2014,3.53
+881,Global MISM,Postgraduate,Computer Science,2/6/1987,Male,India,India,India,GRE,Full-time,External,India,Tamil,2011,321,,Professional Certification,2010,3.68
+882,MISM,Postgraduate,Mathematics,5/5/1983,Male,India,India,India,GRE,Full-time,External,India,Tamil,2004,325,,Baccalaureate,2010,3.84
+883,PPM,Postgraduate,Public Administration,25/03/1981,Male,India,India,India,GRE,Part-time,External,India,Tamil,2009,338,Women in non-traditional areas,Diploma,2013,3.27
+884,PPM,Postgraduate,Public Administration,8/9/1986,Male,India,India,India,GRE,Full-time,External,India,Tamil,2006,340,Disability,Diploma,2014,3.28
+885,Global MISM,Postgraduate,Public Administration,2/9/1995,Female,India,India,India,GRE,Part-time,External,India,Tamil,2009,305,Regional/ Remote,Diploma,2010,3.59
+886,MSIT,Postgraduate,Public Administration,27/02/1981,Male,India,India,India,GRE,Full-time,External,India,Hindi,2012,333,low-income,Professional Certification,2011,3.63
+887,Global PPM,Postgraduate,Public Administration,1/7/1987,Female,India,India,India,GRE,Full-time,External,India,Hindi,2008,313,,Professional Certification,2012,3.99
+888,PPM,Postgraduate,Public Administration,31/05/1983,Male,India,India,India,GRE,Part-time,External,India,Hindi,2009,340,,Post-graduate,2010,3.86
+889,MSIT,Postgraduate,Public Administration,11/6/1994,Male,India,India,India,GRE,Part-time,External,India,Hindi,2010,332,,Professional Certification,2013,3.74
+890,MSIT,Postgraduate,Public Administration,30/05/1996,Female,India,India,India,GRE,Full-time,External,India,Hindi,2010,311,low-income,Baccalaureate,2014,3.53
 891,MISM,Postgraduate,Public Administration,6/3/1990,Male,India,India,India,GRE,Full-time,External,India,Hindi,2008,321,,Baccalaureate,2012,3.94
-892,Global MISM,Postgraduate,Medicine,22/12/1989,Male,India,India,India,GRE,Part-time,External,India,Hindi,2005,311,Women in non-traditional areas,Diploma,2012,3.61
-893,MSIT,Postgraduate,Public Administration,2/2/1981,Male,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2008,308,,Post-graduate,2011,3.24
-894,Global MISM,Postgraduate,Mathematics,5/11/1982,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,335,,Post-graduate,2012,3.41
-895,PPM,Undergraduate,Public Administration,3/6/1989,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2010,303,low-income,Diploma,2012,3.78
-896,Global MISM,Undergraduate,Mathematics,24/08/1986,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2006,335,Women in non-traditional areas,Post-graduate,2012,3.34
-897,Global PPM,Undergraduate,Mathematics,24/12/1988,Male,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2009,339,,Professional Certification,2010,3.88
-898,MISM,Postgraduate,Mathematics,7/2/1983,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2007,304,low-income,Baccalaureate,2013,3.49
-899,MISM,Undergraduate,Psychology,21/11/1986,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2006,326,Disability,Post-graduate,2012,3.47
-900,MISM,Postgraduate,IT,7/6/1987,Female,India,India,India,GRE,Part-time,Internal,India,Hindi,2006,339,Regional/ Remote,Baccalaureate,2013,3.61
-901,MSIT,Postgraduate,Mathematics,11/4/1997,Female,India,India,India,GRE,Part-time,Internal,India,Hindi,2004,311,Regional/ Remote,Baccalaureate,2012,3.49
-902,PPM,Undergraduate,Computer Science,24/10/1985,Female,India,India,India,GRE,Part-time,External,India,Hindi,2009,338,Regional/ Remote,Professional Certification,2013,3.59
+892,Global MISM,Postgraduate,Public Administration,22/12/1989,Male,India,India,India,GRE,Part-time,External,India,Hindi,2005,311,Women in non-traditional areas,Diploma,2012,3.61
+893,MSIT,Postgraduate,Public Administration,2/2/1981,Male,India,India,India,GRE,Full-time,External,India,Hindi,2008,308,,Post-graduate,2011,3.24
+894,Global MISM,Postgraduate,Public Administration,5/11/1982,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,335,,Post-graduate,2012,3.41
+895,PPM,Postgraduate,Public Administration,3/6/1989,Male,India,India,India,GRE,Part-time,External,India,Hindi,2010,303,low-income,Diploma,2012,3.78
+896,Global MISM,Postgraduate,Public Administration,24/08/1986,Male,India,India,India,GRE,Part-time,External,India,Hindi,2006,335,Women in non-traditional areas,Post-graduate,2012,3.34
+897,Global PPM,Postgraduate,Public Administration,24/12/1988,Male,India,India,India,GRE,Full-time,External,India,Hindi,2009,339,,Professional Certification,2010,3.88
+898,MISM,Postgraduate,Public Administration,7/2/1983,Female,India,India,India,GRE,Part-time,External,India,Hindi,2007,304,low-income,Baccalaureate,2013,3.49
+899,MISM,Postgraduate,Public Administration,21/11/1986,Female,India,India,India,GRE,Part-time,External,India,Hindi,2006,326,Disability,Post-graduate,2012,3.47
+900,MISM,Postgraduate,Public Administration,7/6/1987,Female,India,India,India,GRE,Part-time,External,India,Hindi,2006,339,Regional/ Remote,Baccalaureate,2013,3.61
+901,MSIT,Postgraduate,Public Administration,11/4/1997,Female,India,India,India,GRE,Part-time,External,India,Hindi,2004,311,Regional/ Remote,Baccalaureate,2012,3.49
+902,PPM,Postgraduate,Public Administration,24/10/1985,Female,India,India,India,GRE,Part-time,External,India,Hindi,2009,338,Regional/ Remote,Professional Certification,2013,3.59
 903,MISM,Postgraduate,Public Administration,3/12/1992,Male,India,India,India,GRE,Part-time,External,India,Hindi,2008,306,,Post-graduate,2012,3.34
-904,Global MISM,Postgraduate,Mathematics,27/10/1989,Female,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2005,300,,Post-graduate,2011,3.8
-905,MSIT,Undergraduate,Public Administration,25/06/1992,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2005,307,,Professional Certification,2013,3.31
-906,Global PPM,Undergraduate,Psychology,23/02/1990,Male,India,India,India,GRE,Part-time,External,India,Hindi,2006,336,Women in non-traditional areas,Post-graduate,2014,3.96
-907,Global PPM,Undergraduate,Computer Science,3/7/1991,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2006,315,,Professional Certification,2014,3.62
-908,PPM,Undergraduate,Public Administration,26/12/1997,Male,India,India,India,GRE,Part-time,External,India,Hindi,2009,302,,Baccalaureate,2011,3.61
-909,Global MISM,Undergraduate,Computer Science,25/01/1982,Male,India,India,India,GRE,Full-time,External,India,Hindi,2010,308,Women in non-traditional areas,Baccalaureate,2011,3.22
-910,Global PPM,Postgraduate,Public Administration,22/05/1990,Female,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2008,333,,Professional Certification,2010,3.99
-911,MISM,Undergraduate,Psychology,9/9/1992,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2007,305,,Baccalaureate,2014,3.92
-912,MISM,Undergraduate,Psychology,2/2/1982,Male,India,India,India,GRE,Part-time,External,India,Hindi,2010,311,,Baccalaureate,2011,3.23
-913,MSIT,Postgraduate,Mathematics,30/09/1990,Female,India,India,India,GRE,Full-time,External,India,Hindi,2010,306,Women in non-traditional areas,Post-graduate,2011,3.5
-914,MISM,Postgraduate,Public Administration,2/11/1990,Female,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2009,305,,Diploma,2010,3.48
-915,MISM,Undergraduate,IT,19/03/1994,Male,India,India,India,GRE,Full-time,External,India,Hindi,2005,335,,Baccalaureate,2011,3.97
-916,Global MISM,Postgraduate,Computer Science,3/6/1983,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2009,301,,Post-graduate,2012,3.33
-917,MSIT,Undergraduate,Public Administration,27/04/1993,Female,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2009,306,,Post-graduate,2011,3.83
-918,MSIT,Postgraduate,IT,22/10/1988,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2005,335,,Professional Certification,2011,3.77
-919,Global PPM,Undergraduate,Public Administration,3/7/1984,Male,India,India,India,GRE,Part-time,External,India,Hindi,2012,300,,Diploma,2013,3.86
-920,PPM,Undergraduate,IT,3/8/1980,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2008,333,Regional/ Remote,Professional Certification,2013,3.99
-921,MISM,Postgraduate,IT,23/11/1984,Male,India,India,India,GRE,Part-time,External,India,Hindi,2010,328,low-income,Baccalaureate,2014,3.55
-922,MSIT,Postgraduate,Computer Science,31/10/1988,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2004,304,,Diploma,2010,3.64
-923,PPM,Undergraduate,Computer Science,5/3/1996,Male,India,India,India,GRE,Part-time,External,India,Hindi,2004,335,,Baccalaureate,2010,4
-924,MSIT,Postgraduate,Public Administration,5/3/1993,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2007,310,Regional/ Remote,Professional Certification,2011,3.91
-925,MSIT,Undergraduate,Medicine,31/12/1994,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2005,324,,Baccalaureate,2010,3.8
-926,MSIT,Postgraduate,Mathematics,29/04/1986,Female,India,India,India,GRE,Part-time,External,India,Hindi,2007,327,,Diploma,2014,3.21
-927,MISM,Undergraduate,IT,21/03/1991,Male,India,India,India,GRE,Full-time,External,India,Hindi,2009,315,low-income,Post-graduate,2010,3.88
-928,PPM,Undergraduate,IT,18/03/1992,Male,India,India,India,GRE,Full-time,External,India,Hindi,2011,310,,Diploma,2010,3.8
-929,MSIT,Undergraduate,IT,14/09/1992,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,309,,Baccalaureate,2010,3.69
-930,MISM,Undergraduate,Mathematics,11/2/1991,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2005,329,,Post-graduate,2014,3.8
-931,MSIT,Undergraduate,Psychology,19/11/1996,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2006,307,,Professional Certification,2010,3.72
-932,Global PPM,Postgraduate,Computer Science,8/11/1995,Female,India,India,India,GRE,Part-time,Internal,India,Hindi,2004,310,Regional/ Remote,Post-graduate,2011,3.31
-933,PPM,Undergraduate,Computer Science,26/12/1994,Female,India,India,India,GRE,Full-time,Internal,India,Hindi,2007,335,Women in non-traditional areas,Diploma,2010,3.62
-934,Global MISM,Undergraduate,Public Administration,19/11/1991,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2011,314,Regional/ Remote,Post-graduate,2011,3.29
-935,MSIT,Postgraduate,Medicine,7/6/1991,Female,India,India,India,GRE,Part-time,External,India,Hindi,2010,326,,Diploma,2013,3.25
-936,Global PPM,Postgraduate,Medicine,15/03/1984,Male,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2012,333,Disability,Professional Certification,2014,3.85
-937,MSIT,Postgraduate,Mathematics,6/1/1982,Male,India,India,India,GRE,Part-time,External,India,Hindi,2009,340,,Diploma,2012,3.99
-938,PPM,Postgraduate,Computer Science,11/9/1991,Female,India,India,India,GRE,Full-time,Internal,India,Hindi,2008,326,Regional/ Remote,Diploma,2012,3.39
-939,PPM,Postgraduate,Public Administration,30/08/1982,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2012,313,,Professional Certification,2010,3.86
-940,MISM,Postgraduate,Mathematics,28/10/1995,Female,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2009,319,Regional/ Remote,Professional Certification,2014,3.53
-941,Global MISM,Postgraduate,Mathematics,24/02/1996,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2005,340,Disability,Diploma,2014,3.46
-942,MSIT,Undergraduate,Computer Science,11/3/1989,Female,India,India,India,GRE,Full-time,Internal,India,Hindi,2007,302,Regional/ Remote,Baccalaureate,2011,3.76
-943,Global MISM,Undergraduate,Public Administration,17/11/1983,Male,India,India,India,GRE,Part-time,External,India,Hindi,2008,314,Women in non-traditional areas,Post-graduate,2014,3.47
+904,Global MISM,Postgraduate,Public Administration,27/10/1989,Female,India,India,India,GRE,Full-time,External,India,Hindi,2005,300,,Post-graduate,2011,3.8
+905,MSIT,Postgraduate,Public Administration,25/06/1992,Male,India,India,India,GRE,Full-time,External,India,Hindi,2005,307,,Professional Certification,2013,3.31
+906,Global PPM,Postgraduate,Public Administration,23/02/1990,Male,India,India,India,GRE,Part-time,External,India,Hindi,2006,336,Women in non-traditional areas,Post-graduate,2014,3.96
+907,Global PPM,Postgraduate,Public Administration,3/7/1991,Female,India,India,India,GRE,Part-time,External,India,Hindi,2006,315,,Professional Certification,2014,3.62
+908,PPM,Postgraduate,Public Administration,26/12/1997,Male,India,India,India,GRE,Part-time,External,India,Hindi,2009,302,,Baccalaureate,2011,3.61
+909,Global MISM,Postgraduate,Public Administration,25/01/1982,Male,India,India,India,GRE,Full-time,External,India,Hindi,2010,308,Women in non-traditional areas,Baccalaureate,2011,3.22
+910,Global PPM,Postgraduate,Public Administration,22/05/1990,Female,India,India,India,GRE,Full-time,External,India,Hindi,2008,333,,Professional Certification,2010,3.99
+911,MISM,Postgraduate,Public Administration,9/9/1992,Male,India,India,India,GRE,Part-time,External,India,Hindi,2007,305,,Baccalaureate,2014,3.92
+912,MISM,Postgraduate,Public Administration,2/2/1982,Male,India,India,India,GRE,Part-time,External,India,Hindi,2010,311,,Baccalaureate,2011,3.23
+913,MSIT,Postgraduate,Public Administration,30/09/1990,Female,India,India,India,GRE,Full-time,External,India,Hindi,2010,306,Women in non-traditional areas,Post-graduate,2011,3.5
+914,MISM,Postgraduate,Public Administration,2/11/1990,Female,India,India,India,GRE,Full-time,External,India,Hindi,2009,305,,Diploma,2010,3.48
+915,MISM,Postgraduate,Public Administration,19/03/1994,Male,India,India,India,GRE,Full-time,External,India,Hindi,2005,335,,Baccalaureate,2011,3.97
+916,Global MISM,Postgraduate,Public Administration,3/6/1983,Female,India,India,India,GRE,Part-time,External,India,Hindi,2009,301,,Post-graduate,2012,3.33
+917,MSIT,Postgraduate,Public Administration,27/04/1993,Female,India,India,India,GRE,Full-time,External,India,Hindi,2009,306,,Post-graduate,2011,3.83
+918,MSIT,Postgraduate,Public Administration,22/10/1988,Male,India,India,India,GRE,Full-time,External,India,Hindi,2005,335,,Professional Certification,2011,3.77
+919,Global PPM,Postgraduate,Public Administration,3/7/1984,Male,India,India,India,GRE,Part-time,External,India,Hindi,2012,300,,Diploma,2013,3.86
+920,PPM,Postgraduate,Public Administration,3/8/1980,Male,India,India,India,GRE,Part-time,External,India,Hindi,2008,333,Regional/ Remote,Professional Certification,2013,3.99
+921,MISM,Postgraduate,Public Administration,23/11/1984,Male,India,India,India,GRE,Part-time,External,India,Hindi,2010,328,low-income,Baccalaureate,2014,3.55
+922,MSIT,Postgraduate,Public Administration,31/10/1988,Male,India,India,India,GRE,Full-time,External,India,Hindi,2004,304,,Diploma,2010,3.64
+923,PPM,Postgraduate,Public Administration,5/3/1996,Male,India,India,India,GRE,Part-time,External,India,Hindi,2004,335,,Baccalaureate,2010,4
+924,MSIT,Postgraduate,Public Administration,5/3/1993,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,310,Regional/ Remote,Professional Certification,2011,3.91
+925,MSIT,Postgraduate,Public Administration,31/12/1994,Female,India,India,India,GRE,Part-time,External,India,Hindi,2005,324,,Baccalaureate,2010,3.8
+926,MSIT,Postgraduate,Public Administration,29/04/1986,Female,India,India,India,GRE,Part-time,External,India,Hindi,2007,327,,Diploma,2014,3.21
+927,MISM,Postgraduate,Public Administration,21/03/1991,Male,India,India,India,GRE,Full-time,External,India,Hindi,2009,315,low-income,Post-graduate,2010,3.88
+928,PPM,Postgraduate,Public Administration,18/03/1992,Male,India,India,India,GRE,Full-time,External,India,Hindi,2011,310,,Diploma,2010,3.8
+929,MSIT,Postgraduate,Public Administration,14/09/1992,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,309,,Baccalaureate,2010,3.69
+930,MISM,Postgraduate,Public Administration,11/2/1991,Female,India,India,India,GRE,Part-time,External,India,Hindi,2005,329,,Post-graduate,2014,3.8
+931,MSIT,Postgraduate,Public Administration,19/11/1996,Male,India,India,India,GRE,Full-time,External,India,Hindi,2006,307,,Professional Certification,2010,3.72
+932,Global PPM,Postgraduate,Public Administration,8/11/1995,Female,India,India,India,GRE,Part-time,External,India,Hindi,2004,310,Regional/ Remote,Post-graduate,2011,3.31
+933,PPM,Postgraduate,Public Administration,26/12/1994,Female,India,India,India,GRE,Full-time,External,India,Hindi,2007,335,Women in non-traditional areas,Diploma,2010,3.62
+934,Global MISM,Postgraduate,Public Administration,19/11/1991,Female,India,India,India,GRE,Part-time,External,India,Hindi,2011,314,Regional/ Remote,Post-graduate,2011,3.29
+935,MSIT,Postgraduate,Public Administration,7/6/1991,Female,India,India,India,GRE,Part-time,External,India,Hindi,2010,326,,Diploma,2013,3.25
+936,Global PPM,Postgraduate,Public Administration,15/03/1984,Male,India,India,India,GRE,Full-time,External,India,Hindi,2012,333,Disability,Professional Certification,2014,3.85
+937,MSIT,Postgraduate,Public Administration,6/1/1982,Male,India,India,India,GRE,Part-time,External,India,Hindi,2009,340,,Diploma,2012,3.99
+938,PPM,Postgraduate,Public Administration,11/9/1991,Female,India,India,India,GRE,Full-time,External,India,Hindi,2008,326,Regional/ Remote,Diploma,2012,3.39
+939,PPM,Postgraduate,Public Administration,30/08/1982,Male,India,India,India,GRE,Part-time,External,India,Hindi,2012,313,,Professional Certification,2010,3.86
+940,MISM,Postgraduate,Public Administration,28/10/1995,Female,India,India,India,GRE,Full-time,External,India,Hindi,2009,319,Regional/ Remote,Professional Certification,2014,3.53
+941,Global MISM,Postgraduate,Public Administration,24/02/1996,Male,India,India,India,GRE,Part-time,External,India,Hindi,2005,340,Disability,Diploma,2014,3.46
+942,MSIT,Postgraduate,Public Administration,11/3/1989,Female,India,India,India,GRE,Full-time,External,India,Hindi,2007,302,Regional/ Remote,Baccalaureate,2011,3.76
+943,Global MISM,Postgraduate,Public Administration,17/11/1983,Male,India,India,India,GRE,Part-time,External,India,Hindi,2008,314,Women in non-traditional areas,Post-graduate,2014,3.47
 944,MISM,Postgraduate,Public Administration,14/02/1983,Male,India,India,India,GRE,Part-time,External,India,Hindi,2011,327,,Post-graduate,2012,3.77
-945,Global PPM,Undergraduate,Psychology,31/01/1989,Female,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2005,303,,Post-graduate,2014,3.93
-946,Global PPM,Undergraduate,Computer Science,23/09/1994,Female,India,India,India,GRE,Full-time,External,India,Hindi,2010,338,Women in non-traditional areas,Professional Certification,2012,3.36
-947,MISM,Undergraduate,Psychology,18/08/1982,Male,India,India,India,GRE,Full-time,External,India,Hindi,2009,333,,Baccalaureate,2011,3.32
-948,Global MISM,Undergraduate,Medicine,10/12/1997,Male,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2005,300,Women in non-traditional areas,Diploma,2013,3.71
-949,MISM,Undergraduate,Public Administration,3/12/1984,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2006,321,,Baccalaureate,2012,3.31
-950,MISM,Postgraduate,Psychology,11/1/1984,Male,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2007,308,,Post-graduate,2014,3.65
-951,Global PPM,Postgraduate,Medicine,3/1/1992,Female,India,India,India,GRE,Part-time,External,India,Hindi,2011,310,,Professional Certification,2013,3.41
-952,Global MISM,Postgraduate,Computer Science,28/09/1989,Female,India,India,India,GRE,Full-time,External,India,Hindi,2012,307,,Post-graduate,2013,3.24
-953,MISM,Undergraduate,Psychology,2/11/1990,Female,India,India,India,GRE,Part-time,Internal,India,Hindi,2007,306,,Baccalaureate,2010,3.61
-954,MSIT,Postgraduate,Mathematics,9/7/1993,Female,India,India,India,GRE,Part-time,External,India,Hindi,2009,327,Regional/ Remote,Diploma,2011,3.67
-955,MISM,Postgraduate,Mathematics,7/12/1991,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,310,,Baccalaureate,2010,3.67
-956,MISM,Undergraduate,Medicine,29/03/1990,Female,India,India,India,GRE,Full-time,External,India,Hindi,2008,335,,Post-graduate,2014,3.49
-957,Global PPM,Postgraduate,IT,27/12/1996,Female,India,India,India,GRE,Part-time,External,India,Hindi,2005,322,,Baccalaureate,2012,3.65
-958,MISM,Undergraduate,Mathematics,24/01/1981,Male,India,India,India,GRE,Part-time,External,India,Hindi,2012,335,Women in non-traditional areas,Diploma,2012,3.3
-959,MSIT,Undergraduate,Mathematics,3/9/1996,Female,India,India,India,GRE,Full-time,External,India,Hindi,2004,315,,Baccalaureate,2010,3.77
-960,MSIT,Undergraduate,Mathematics,8/10/1989,Male,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2012,335,,Diploma,2013,3.84
-961,Global PPM,Postgraduate,Psychology,22/11/1991,Female,India,India,India,GRE,Full-time,External,India,Hindi,2007,304,,Baccalaureate,2010,3.86
-962,Global PPM,Postgraduate,Computer Science,19/11/1991,Male,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2012,330,low-income,Diploma,2010,3.84
-963,MSIT,Undergraduate,Medicine,1/10/1985,Female,India,India,India,GRE,Full-time,Internal,India,Hindi,2011,335,Women in non-traditional areas,Professional Certification,2011,3.96
-964,Global PPM,Postgraduate,IT,14/01/1988,Female,India,India,India,GRE,Part-time,External,India,Hindi,2008,311,,Baccalaureate,2010,3.83
-965,Global MISM,Undergraduate,IT,7/3/1993,Male,India,India,India,GRE,Part-time,External,India,Hindi,2012,305,low-income,Baccalaureate,2014,3.48
-966,PPM,Undergraduate,Public Administration,9/11/1991,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2004,323,,Post-graduate,2011,3.88
-967,PPM,Undergraduate,Computer Science,3/10/1988,Female,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2012,324,,Baccalaureate,2014,3.61
-968,Global PPM,Undergraduate,IT,9/12/1997,Female,India,India,India,GRE,Full-time,External,India,Hindi,2008,327,Regional/ Remote,Professional Certification,2011,3.52
-969,Global MISM,Postgraduate,Mathematics,12/5/1990,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2008,339,,Professional Certification,2012,3.59
-970,Global PPM,Undergraduate,Psychology,29/06/1996,Male,India,India,India,GRE,Part-time,Internal,India,Hindi,2007,315,,Post-graduate,2013,3.93
-971,Global MISM,Undergraduate,Computer Science,3/4/1995,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2008,336,,Professional Certification,2012,3.8
-972,Global PPM,Undergraduate,Medicine,14/04/1993,Female,India,India,India,GRE,Part-time,Multi-modal,India,Hindi,2008,306,Women in non-traditional areas,Post-graduate,2010,3.34
-973,Global PPM,Postgraduate,Psychology,21/05/1984,Female,India,India,India,GRE,Full-time,Multi-modal,India,Hindi,2004,322,Women in non-traditional areas,Professional Certification,2013,3.37
-974,PPM,Undergraduate,IT,18/06/1982,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,317,,Diploma,2013,3.82
-975,Global PPM,Postgraduate,Medicine,10/6/1990,Female,India,India,India,GRE,Part-time,External,India,Hindi,2008,301,,Post-graduate,2013,3.35
-976,MISM,Postgraduate,IT,16/07/1996,Female,India,India,India,GRE,Full-time,Internal,India,Hindi,2007,334,Women in non-traditional areas,Post-graduate,2013,3.83
-977,Global MISM,Undergraduate,Computer Science,12/7/1981,Male,India,India,India,GRE,Full-time,Internal,India,Hindi,2011,335,,Professional Certification,2011,3.33
-978,Global MISM,Undergraduate,Medicine,13/12/1988,Female,India,India,India,GRE,Full-time,Internal,India,Punjabi,2008,321,,Baccalaureate,2013,3.49
-979,MSIT,Postgraduate,Medicine,24/02/1982,Male,India,India,India,GRE,Part-time,Multi-modal,India,Punjabi,2005,313,,Diploma,2013,3.35
-980,MSIT,Undergraduate,Mathematics,8/12/1986,Male,India,India,India,GRE,Full-time,External,India,Punjabi,2012,324,,Post-graduate,2014,3.31
-981,PPM,Postgraduate,Computer Science,16/08/1984,Male,India,India,India,GRE,Part-time,Multi-modal,India,Punjabi,2008,304,Women in non-traditional areas,Post-graduate,2014,3.81
-982,MSIT,Undergraduate,Computer Science,2/5/1991,Female,India,India,India,GRE,Part-time,Multi-modal,India,Punjabi,2004,312,,Baccalaureate,2012,3.21
-983,MSIT,Undergraduate,Mathematics,10/1/1992,Female,India,India,India,GRE,Part-time,External,India,Punjabi,2007,319,,Professional Certification,2014,3.21
+945,Global PPM,Postgraduate,Public Administration,31/01/1989,Female,India,India,India,GRE,Full-time,External,India,Hindi,2005,303,,Post-graduate,2014,3.93
+946,Global PPM,Postgraduate,Public Administration,23/09/1994,Female,India,India,India,GRE,Full-time,External,India,Hindi,2010,338,Women in non-traditional areas,Professional Certification,2012,3.36
+947,MISM,Postgraduate,Public Administration,18/08/1982,Male,India,India,India,GRE,Full-time,External,India,Hindi,2009,333,,Baccalaureate,2011,3.32
+948,Global MISM,Postgraduate,Public Administration,10/12/1997,Male,India,India,India,GRE,Full-time,External,India,Hindi,2005,300,Women in non-traditional areas,Diploma,2013,3.71
+949,MISM,Postgraduate,Public Administration,3/12/1984,Male,India,India,India,GRE,Full-time,External,India,Hindi,2006,321,,Baccalaureate,2012,3.31
+950,MISM,Postgraduate,Public Administration,11/1/1984,Male,India,India,India,GRE,Part-time,External,India,Hindi,2007,308,,Post-graduate,2014,3.65
+951,Global PPM,Postgraduate,Public Administration,3/1/1992,Female,India,India,India,GRE,Part-time,External,India,Hindi,2011,310,,Professional Certification,2013,3.41
+952,Global MISM,Postgraduate,Public Administration,28/09/1989,Female,India,India,India,GRE,Full-time,External,India,Hindi,2012,307,,Post-graduate,2013,3.24
+953,MISM,Postgraduate,Public Administration,2/11/1990,Female,India,India,India,GRE,Part-time,External,India,Hindi,2007,306,,Baccalaureate,2010,3.61
+954,MSIT,Postgraduate,Public Administration,9/7/1993,Female,India,India,India,GRE,Part-time,External,India,Hindi,2009,327,Regional/ Remote,Diploma,2011,3.67
+955,MISM,Postgraduate,Public Administration,7/12/1991,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,310,,Baccalaureate,2010,3.67
+956,MISM,Postgraduate,Public Administration,29/03/1990,Female,India,India,India,GRE,Full-time,External,India,Hindi,2008,335,,Post-graduate,2014,3.49
+957,Global PPM,Postgraduate,Public Administration,27/12/1996,Female,India,India,India,GRE,Part-time,External,India,Hindi,2005,322,,Baccalaureate,2012,3.65
+958,MISM,Postgraduate,Public Administration,24/01/1981,Male,India,India,India,GRE,Part-time,External,India,Hindi,2012,335,Women in non-traditional areas,Diploma,2012,3.3
+959,MSIT,Postgraduate,Public Administration,3/9/1996,Female,India,India,India,GRE,Full-time,External,India,Hindi,2004,315,,Baccalaureate,2010,3.77
+960,MSIT,Postgraduate,Public Administration,8/10/1989,Male,India,India,India,GRE,Full-time,External,India,Hindi,2012,335,,Diploma,2013,3.84
+961,Global PPM,Postgraduate,Public Administration,22/11/1991,Female,India,India,India,GRE,Full-time,External,India,Hindi,2007,304,,Baccalaureate,2010,3.86
+962,Global PPM,Postgraduate,Public Administration,19/11/1991,Male,India,India,India,GRE,Full-time,External,India,Hindi,2012,330,low-income,Diploma,2010,3.84
+963,MSIT,Postgraduate,Public Administration,1/10/1985,Female,India,India,India,GRE,Full-time,External,India,Hindi,2011,335,Women in non-traditional areas,Professional Certification,2011,3.96
+964,Global PPM,Postgraduate,Public Administration,14/01/1988,Female,India,India,India,GRE,Part-time,External,India,Hindi,2008,311,,Baccalaureate,2010,3.83
+965,Global MISM,Postgraduate,Public Administration,7/3/1993,Male,India,India,India,GRE,Part-time,External,India,Hindi,2012,305,low-income,Baccalaureate,2014,3.48
+966,PPM,Postgraduate,Public Administration,9/11/1991,Male,India,India,India,GRE,Part-time,External,India,Hindi,2004,323,,Post-graduate,2011,3.88
+967,PPM,Postgraduate,Public Administration,3/10/1988,Female,India,India,India,GRE,Full-time,External,India,Hindi,2012,324,,Baccalaureate,2014,3.61
+968,Global PPM,Postgraduate,Public Administration,9/12/1997,Female,India,India,India,GRE,Full-time,External,India,Hindi,2008,327,Regional/ Remote,Professional Certification,2011,3.52
+969,Global MISM,Postgraduate,Public Administration,12/5/1990,Male,India,India,India,GRE,Part-time,External,India,Hindi,2008,339,,Professional Certification,2012,3.59
+970,Global PPM,Postgraduate,Public Administration,29/06/1996,Male,India,India,India,GRE,Part-time,External,India,Hindi,2007,315,,Post-graduate,2013,3.93
+971,Global MISM,Postgraduate,Public Administration,3/4/1995,Male,India,India,India,GRE,Full-time,External,India,Hindi,2008,336,,Professional Certification,2012,3.8
+972,Global PPM,Postgraduate,Public Administration,14/04/1993,Female,India,India,India,GRE,Part-time,External,India,Hindi,2008,306,Women in non-traditional areas,Post-graduate,2010,3.34
+973,Global PPM,Postgraduate,Public Administration,21/05/1984,Female,India,India,India,GRE,Full-time,External,India,Hindi,2004,322,Women in non-traditional areas,Professional Certification,2013,3.37
+974,PPM,Postgraduate,Public Administration,18/06/1982,Male,India,India,India,GRE,Full-time,External,India,Hindi,2007,317,,Diploma,2013,3.82
+975,Global PPM,Postgraduate,Public Administration,10/6/1990,Female,India,India,India,GRE,Part-time,External,India,Hindi,2008,301,,Post-graduate,2013,3.35
+976,MISM,Postgraduate,Public Administration,16/07/1996,Female,India,India,India,GRE,Full-time,External,India,Hindi,2007,334,Women in non-traditional areas,Post-graduate,2013,3.83
+977,Global MISM,Postgraduate,Public Administration,12/7/1981,Male,India,India,India,GRE,Full-time,External,India,Hindi,2011,335,,Professional Certification,2011,3.33
+978,Global MISM,Postgraduate,Public Administration,13/12/1988,Female,India,India,India,GRE,Full-time,External,India,Punjabi,2008,321,,Baccalaureate,2013,3.49
+979,MSIT,Postgraduate,Public Administration,24/02/1982,Male,India,India,India,GRE,Part-time,External,India,Punjabi,2005,313,,Diploma,2013,3.35
+980,MSIT,Postgraduate,Public Administration,8/12/1986,Male,India,India,India,GRE,Full-time,External,India,Punjabi,2012,324,,Post-graduate,2014,3.31
+981,PPM,Postgraduate,Public Administration,16/08/1984,Male,India,India,India,GRE,Part-time,External,India,Punjabi,2008,304,Women in non-traditional areas,Post-graduate,2014,3.81
+982,MSIT,Postgraduate,Public Administration,2/5/1991,Female,India,India,India,GRE,Part-time,External,India,Punjabi,2004,312,,Baccalaureate,2012,3.21
+983,MSIT,Postgraduate,Public Administration,10/1/1992,Female,India,India,India,GRE,Part-time,External,India,Punjabi,2007,319,,Professional Certification,2014,3.21
 984,Global MISM,Postgraduate,Public Administration,15/12/1996,Male,India,India,India,GRE,Full-time,External,India,Punjabi,2011,324,,Baccalaureate,2014,3.68
-985,MISM,Postgraduate,Public Administration,19/12/1985,Female,India,India,India,GRE,Full-time,Internal,India,Punjabi,2006,318,,Post-graduate,2012,3.42
-986,PPM,Undergraduate,Computer Science,25/09/1982,Female,India,India,India,GRE,Part-time,Internal,India,Punjabi,2012,337,,Baccalaureate,2010,3.87
-987,Global PPM,Postgraduate,Medicine,7/1/1987,Female,India,India,India,GRE,Part-time,Internal,India,Punjabi,2007,338,,Professional Certification,2011,3.7
+985,MISM,Postgraduate,Public Administration,19/12/1985,Female,India,India,India,GRE,Full-time,External,India,Punjabi,2006,318,,Post-graduate,2012,3.42
+986,PPM,Postgraduate,Public Administration,25/09/1982,Female,India,India,India,GRE,Part-time,External,India,Punjabi,2012,337,,Baccalaureate,2010,3.87
+987,Global PPM,Postgraduate,Public Administration,7/1/1987,Female,India,India,India,GRE,Part-time,External,India,Punjabi,2007,338,,Professional Certification,2011,3.7
 988,Global MISM,Postgraduate,Public Administration,27/09/1983,Male,India,India,India,GRE,Part-time,External,India,Punjabi,2009,332,,Post-graduate,2011,3.98
-989,Global MISM,Undergraduate,Mathematics,3/1/1985,Male,India,India,India,GRE,Part-time,External,India,Punjabi,2010,335,Women in non-traditional areas,Professional Certification,2014,3.5
-990,Global PPM,Undergraduate,Computer Science,18/06/1985,Male,India,India,India,GRE,Full-time,Internal,India,Punjabi,2007,324,,Professional Certification,2011,3.6
-991,PPM,Postgraduate,Psychology,27/01/1983,Male,India,India,India,GRE,Part-time,Multi-modal,India,Punjabi,2010,314,,Diploma,2010,3.55
-992,MSIT,Postgraduate,Medicine,4/6/1996,Male,India,India,India,GRE,Full-time,Internal,India,Punjabi,2004,303,low-income,Post-graduate,2012,3.99
-993,Global PPM,Postgraduate,IT,16/07/1993,Female,India,India,India,GRE,Part-time,Internal,India,Punjabi,2012,312,,Professional Certification,2014,3.82
-994,MISM,Undergraduate,IT,4/10/1992,Female,India,India,India,GRE,Full-time,Internal,India,Punjabi,2010,306,,Baccalaureate,2014,3.79
-995,Global MISM,Undergraduate,Computer Science,15/03/1992,Female,India,India,India,GRE,Part-time,External,India,Punjabi,2012,324,,Professional Certification,2013,3.23
-996,MISM,Postgraduate,IT,23/03/1997,Female,India,India,India,GRE,Full-time,Multi-modal,India,Punjabi,2011,340,,Diploma,2011,3.57
-997,MSIT,Undergraduate,Medicine,15/09/1997,Female,India,India,India,GRE,Full-time,Multi-modal,India,Punjabi,2011,302,,Post-graduate,2011,3.38
-999,MISM,Postgraduate,Computer Science,24/05/1989,Female,India,India,India,GRE,Full-time,Multi-modal,India,Punjabi,2011,333,Disability,Baccalaureate,2012,3.89
-1000,Global PPM,Postgraduate,Public Administration,10/3/1981,Male,India,India,India,GRE,Full-time,Internal,India,Punjabi,2005,314,Women in non-traditional areas,Baccalaureate,2012,3.51
+989,Global MISM,Postgraduate,Public Administration,3/1/1985,Male,India,India,India,GRE,Part-time,External,India,Punjabi,2010,335,Women in non-traditional areas,Professional Certification,2014,3.5
+990,Global PPM,Postgraduate,Public Administration,18/06/1985,Male,India,India,India,GRE,Full-time,External,India,Punjabi,2007,324,,Professional Certification,2011,3.6
+991,PPM,Postgraduate,Public Administration,27/01/1983,Male,India,India,India,GRE,Part-time,External,India,Punjabi,2010,314,,Diploma,2010,3.55
+992,MSIT,Postgraduate,Public Administration,4/6/1996,Male,India,India,India,GRE,Full-time,External,India,Punjabi,2004,303,low-income,Post-graduate,2012,3.99
+993,Global PPM,Postgraduate,Public Administration,16/07/1993,Female,India,India,India,GRE,Part-time,External,India,Punjabi,2012,312,,Professional Certification,2014,3.82
+994,MISM,Postgraduate,Public Administration,4/10/1992,Female,India,India,India,GRE,Full-time,External,India,Punjabi,2010,306,,Baccalaureate,2014,3.79
+995,Global MISM,Postgraduate,Public Administration,15/03/1992,Female,India,India,India,GRE,Part-time,External,India,Punjabi,2012,324,,Professional Certification,2013,3.23
+996,MISM,Postgraduate,Public Administration,23/03/1997,Female,India,India,India,GRE,Full-time,External,India,Punjabi,2011,340,,Diploma,2011,3.57
+997,MSIT,Postgraduate,Public Administration,15/09/1997,Female,India,India,India,GRE,Full-time,External,India,Punjabi,2011,302,,Post-graduate,2011,3.38
+999,MISM,Postgraduate,Public Administration,24/05/1989,Female,India,India,India,GRE,Full-time,External,India,Punjabi,2011,333,Disability,Baccalaureate,2012,3.89
+1000,Global PPM,Postgraduate,Public Administration,10/3/1981,Male,India,India,India,GRE,Full-time,External,India,Punjabi,2005,314,Women in non-traditional areas,Baccalaureate,2012,3.51
