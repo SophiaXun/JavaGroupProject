@@ -1,19 +1,37 @@
 package GroupProject;
 
+import java.awt.AlphaComposite;
 import java.awt.BorderLayout;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Image;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.imageio.ImageIO;
+import javax.swing.JDialog;
 import javax.swing.JFileChooser;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.table.DefaultTableModel;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
+import org.jvnet.substance.SubstanceLookAndFeel;
+import org.jvnet.substance.skin.OfficeBlue2007Skin;
+import org.jvnet.substance.skin.SubstanceOfficeBlue2007LookAndFeel;
+import org.jvnet.substance.skin.SubstanceSkin;
+import org.jvnet.substance.utils.SubstanceConstants.ImageWatermarkKind;
+import org.jvnet.substance.watermark.SubstanceImageWatermark;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -29,8 +47,12 @@ public class OriginalChartUI extends javax.swing.JFrame {
     /**
      * Creates new form OriginalChart
      */
+ 
+    
     public OriginalChartUI() {
         initComponents();
+      this.setLocationRelativeTo(null);
+ // this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     File file = null;
 
@@ -562,11 +584,32 @@ public class OriginalChartUI extends javax.swing.JFrame {
         String columnTitle = (String) XItem.getSelectedItem();
         String rowTitle = (String) YItem.getSelectedItem();
         File file = new File("studentTemp.csv");
-<<<<<<< HEAD
+
         draw3DBarChart();
-=======
+        DefaultTableModel model=new DefaultTableModel();
+    rawDataTable.setModel(model);
+       String []a=new String[1];
+       String[][]b=new String[1][1000];
+       for(int i=0;i<a.length;i++){
+           a[i]=(String)XItem.getSelectedItem();
+
+           
+           for(int j=0;j<b[0].length;j++){
+              b[i][j]=(String)XItem.getSelectedItem();
+   
+           } model.addColumn(a[i],b[i]);
+       } String []c=new String[1];
+       String[][]d=new String[1][1000];
+       for(int i=0;i<a.length;i++){
+           c[i]=(String)YItem.getSelectedItem();
+           for(int j=0;j<b[0].length;j++){
+              d[i][j]=(String)YItem.getSelectedItem();
+    
+           } model.addColumn(c[i],d[i]);
+       }
+            
+
         
->>>>>>> e5c8f6377844d53d1bba78e0a92a348cf71fe6f2
     }//GEN-LAST:event_generateButtonActionPerformed
 
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
@@ -612,8 +655,6 @@ public class OriginalChartUI extends javax.swing.JFrame {
         try {
             FileDownload.DownloadFile(selectedFile);
         } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
         }
     }//GEN-LAST:event_AWSOkButtonActionPerformed
 
@@ -626,8 +667,8 @@ public class OriginalChartUI extends javax.swing.JFrame {
         // TODO add your handling code here:
         ArrayList<String> fileList = FileDownload.FileList();
 
-        for (int i = 0; i < fileList.size(); i++) {
-            AWSDataSource.addItem(fileList.get(i));
+        for (String fileList1 : fileList) {
+            AWSDataSource.addItem(fileList1);
         }
 
     }//GEN-LAST:event_AWSBrowseButtonActionPerformed
@@ -643,19 +684,16 @@ public class OriginalChartUI extends javax.swing.JFrame {
         if (BarChart.isSelected()) {
             String[] xTitle = peer.getAttributeTitle();
             String[][] xyMeasure = peer.getXyMeasure();
-            for (int i = 0; i < xTitle.length; i++) {
-                XItem.addItem(xTitle[i]);
-
+            for (String xTitle1 : xTitle) {
+                XItem.addItem(xTitle1);
                 String selectedItem = (String) XItem.getSelectedItem();
-
             }
         }
         if (LineChart.isSelected()) {
             String[] xTitle = {"year_of_arrival_in_usa", "course_completion_year"};
-            for (int i = 0; i < xTitle.length; i++) {
-                XItem.addItem(xTitle[i]);
+            for (String xTitle1 : xTitle) {
+                XItem.addItem(xTitle1);
                 String selectedItem = (String) XItem.getSelectedItem();
-
             }
         }
 
@@ -692,14 +730,17 @@ public class OriginalChartUI extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+
+
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
-        try {
+     
+   try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
