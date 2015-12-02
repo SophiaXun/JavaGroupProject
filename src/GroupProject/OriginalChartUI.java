@@ -686,30 +686,38 @@ public class OriginalChartUI extends javax.swing.JFrame {
     }
     private void generateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generateButtonActionPerformed
         // TODO add your handling code here:
-        String columnTitle = (String) XItem.getSelectedItem();
-        String rowTitle = (String) YItem.getSelectedItem();
+        String XTitle = (String) XItem.getSelectedItem();
+        String YTitle = (String) YItem.getSelectedItem();
         File file = new File("studentTemp.csv");
+        
+        Operation operations = new Operation();
+        
+//        loadTable(pieChartData);
 
         switch (chartType) {
             case "BarChart":
-                draw3DBarChart();
+                Map<String,Float> barChartData=new HashMap<>();
+                barChartData=operations.barChart(XTitle, YTitle, FileDownload.student);
+                draw3DBarChart(barChartData,XTitle,YTitle);
                 break;
             case "LineChart":
                 drawLineChart();
                 break;
             case "PieChart":
-                drawPieChart();
+                Map< String, Long> pieChartData = new HashMap<>();
+                pieChartData = operations.pieChart(XTitle, FileDownload.student);
+                drawPieChart(pieChartData, XTitle);
                 break;
             case "ScatterChart":
-                drawScatterChart();
+                Map<String, String> scatterChartData=new HashMap<>();
+                scatterChartData=operations.scatterPlot(XTitle, YTitle, FileDownload.student);
+                drawScatterChart(scatterChartData,XTitle,YTitle);
                 break;
         }
 
-        Map< String, Long> pieChartData = new HashMap<>();
+        
 
-        Operation operations = new Operation();
-        pieChartData = operations.pieChart(columnTitle, FileDownload.student);
-        loadTable(pieChartData);
+        
     }//GEN-LAST:event_generateButtonActionPerformed
 
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
@@ -945,28 +953,91 @@ public class OriginalChartUI extends javax.swing.JFrame {
         chartDisplayPanel.validate();
     }
 
-    public void drawPieChart() {
-        System.out.print("drawPieChart");
+    public void drawPieChart(Map<String,Long> pieChartData,String pieTitle) {
+        
+        String title =pieTitle;
+        ArrayList<String> keyArrayList=new ArrayList<>();
+        ArrayList<Long> valueArrayList=new ArrayList<>();
+        ArrayList<Color> colorArrayList=new ArrayList<>();
+        colorArrayList.add(new Color(237,28,36));
+        colorArrayList.add(new Color(244,70,78));
+        colorArrayList.add(new Color(165,30,45));
+        colorArrayList.add(new Color(216,49,131));
+        colorArrayList.add(new Color(159,85,162));
+        
+        colorArrayList.add(new Color(200,37,40));
+        colorArrayList.add(new Color(238,153,150));
+        colorArrayList.add(new Color(102,130,195));
+        colorArrayList.add(new Color(237,202,224));
+        colorArrayList.add(new Color(71,170,165));
+        colorArrayList.add(new Color(2,131,126));
+        colorArrayList.add(new Color(83,147,112));
+        colorArrayList.add(new Color(185,122,87));
+        colorArrayList.add(new Color(255,174,201));
+        
         DefaultPieDataset dataset = new DefaultPieDataset();
-        dataset.setValue("1", new Double(10));
-        dataset.setValue("2", new Double(20));
-        dataset.setValue("3", new Double(30));
-        JFreeChart chart = ChartFactory.createPieChart3D("3D Chart Example", dataset);
+        Set set=pieChartData.keySet();
+        for(Map.Entry<String,Long> data:pieChartData.entrySet()){
+            String key=data.getKey();
+            Long value=data.getValue();
+            keyArrayList.add(key);
+            valueArrayList.add(value);
+        }
+        for(int i=0;i<valueArrayList.size();i++){
+            dataset.setValue(keyArrayList.get(i), valueArrayList.get(i));
+        }
+        JFreeChart chart = ChartFactory.createPieChart3D(title, dataset);
+        chart.setBorderVisible(false);
+        chart.setBorderPaint(new Color(255,255,255));
+        chart.setBorderPaint(new Color(255,255,255));
+        
         PiePlot3D plot = (PiePlot3D) chart.getPlot();
+        for(int i=0;i<valueArrayList.size();i++){
+            Color color=colorArrayList.get(i);
+            plot.setSectionPaint(keyArrayList.get(i),color);
+        }
+        plot.setOutlineVisible(false);
         plot.setBackgroundPaint(new java.awt.Color(255, 255, 255));
         ChartPanel chartPanel = new ChartPanel(chart);
         chartDisplayPanel.removeAll();
         chartDisplayPanel.add(chartPanel, BorderLayout.CENTER);
         chartDisplayPanel.validate();
     }
+    
+    public ArrayList<Float> splitPoint(String valueString){
+        ArrayList<Float> pointsValue=new ArrayList<>();
+        for(String subString:valueString.split(";")){
+            pointsValue.add(Float.valueOf(subString));
+        }
+        return pointsValue;
+    }
 
-    public void drawScatterChart() {
+    public void drawScatterChart(Map<String,String> scatterChartData,String XTitle,String YTitle) {
         System.out.print("drawScatterChart");
-        float[][] data1 = new float[2][2];
-        data1[0][0] = 10;
-        data1[0][1] = 20;
-        data1[1][0] = 2;
-        data1[1][1] = 3;
+        Set set=scatterChartData.keySet();
+        ArrayList<String> keyArrayList=new ArrayList<>();
+//        ArrayList<Long> valueArrayList=new ArrayList<>();
+        ArrayList<Float> XArrayList=new ArrayList<>();
+        ArrayList<Float> YArrayList=new ArrayList<>();
+        float indexNum=1;
+        for(Map.Entry<String,String> data:scatterChartData.entrySet()){
+            String key=data.getKey();
+            String value=data.getValue();
+            keyArrayList.add(key);
+            ArrayList<Float> pointsValue=splitPoint(value);
+            for(int i=0;i<pointsValue.size();i++){
+                XArrayList.add(indexNum);
+                YArrayList.add(pointsValue.get(i));
+            }
+            indexNum++;
+        }
+        int pointSize=XArrayList.size();
+        
+        float[][] data1 = new float[2][pointSize];
+        for(int i=0;i<pointSize;i++){
+            data1[0][i]=XArrayList.get(i);
+            data1[1][i]=YArrayList.get(i);
+        }
 
         NumberAxis domainAxis = new NumberAxis("X");
         NumberAxis rangeAxis = new NumberAxis("Y");
@@ -982,13 +1053,21 @@ public class OriginalChartUI extends javax.swing.JFrame {
         chartDisplayPanel.validate();
     }
 
-    public void draw3DBarChart() {
+    public void draw3DBarChart(Map<String, Float> barChartData, String XTitle, String YTitle) {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
-        dataset.setValue(1, "", "Statistic_1");
-        dataset.setValue(2, "", "Statistic_2");
-        dataset.setValue(3, "", "Statistic_3");
-        dataset.setValue(4, "", "Statistic_4");
-        JFreeChart chart = ChartFactory.createBarChart3D("Statistics", "", "", dataset, PlotOrientation.VERTICAL, false, false, false);
+        String title =XTitle +" VS "+YTitle;
+        ArrayList<String> keyArrayList=new ArrayList<>();
+        ArrayList<Float> valueArrayList=new ArrayList<>();
+        Set set=barChartData.keySet();
+        int i=1;
+        for(Map.Entry<String,Float> data:barChartData.entrySet()){
+            String key=data.getKey();
+            Float value=data.getValue();
+            keyArrayList.add(key);
+            valueArrayList.add(value);
+            dataset.setValue(value, "1", key);
+        }
+        JFreeChart chart = ChartFactory.createBarChart3D(title, "", "", dataset, PlotOrientation.VERTICAL, false, false, false);
 
         CategoryPlot plot = chart.getCategoryPlot();
         plot.setBackgroundPaint(new java.awt.Color(255, 255, 255));
