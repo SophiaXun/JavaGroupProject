@@ -1,16 +1,8 @@
 package GroupProject;
 
-import java.awt.AlphaComposite;
 import java.awt.BorderLayout;
-
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.image.BufferedImage;
-
 import java.awt.Color;
 import java.awt.RenderingHints;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,15 +14,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.imageio.ImageIO;
-import javax.swing.JDialog;
 import javax.swing.JFileChooser;
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-
 import javax.swing.table.DefaultTableModel;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -43,18 +28,9 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.category.DefaultCategoryDataset;
-
-import org.jvnet.substance.SubstanceLookAndFeel;
-import org.jvnet.substance.skin.OfficeBlue2007Skin;
-import org.jvnet.substance.skin.SubstanceOfficeBlue2007LookAndFeel;
-import org.jvnet.substance.skin.SubstanceSkin;
-import org.jvnet.substance.utils.SubstanceConstants.ImageWatermarkKind;
-import org.jvnet.substance.watermark.SubstanceImageWatermark;
-
 import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -72,12 +48,8 @@ public class OriginalChartUI extends javax.swing.JFrame {
     /**
      * Creates new form OriginalChart
      */
- 
-    
     public OriginalChartUI() {
         initComponents();
-      this.setLocationRelativeTo(null);
- // this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     File file = null;
 
@@ -718,31 +690,6 @@ public class OriginalChartUI extends javax.swing.JFrame {
         String rowTitle = (String) YItem.getSelectedItem();
         File file = new File("studentTemp.csv");
 
-        draw3DBarChart();
-        DefaultTableModel model=new DefaultTableModel();
-    rawDataTable.setModel(model);
-       String []a=new String[1];
-       String[][]b=new String[1][1000];
-       for(int i=0;i<a.length;i++){
-           a[i]=(String)XItem.getSelectedItem();
-
-           
-           for(int j=0;j<b[0].length;j++){
-              b[i][j]=(String)XItem.getSelectedItem();
-   
-           } model.addColumn(a[i],b[i]);
-       } String []c=new String[1];
-       String[][]d=new String[1][1000];
-       for(int i=0;i<a.length;i++){
-           c[i]=(String)YItem.getSelectedItem();
-           for(int j=0;j<b[0].length;j++){
-              d[i][j]=(String)YItem.getSelectedItem();
-    
-           } model.addColumn(c[i],d[i]);
-       }
-            
-
-
         switch (chartType) {
             case "BarChart":
                 draw3DBarChart();
@@ -763,7 +710,6 @@ public class OriginalChartUI extends javax.swing.JFrame {
         Operation operations = new Operation();
         pieChartData = operations.pieChart(columnTitle, FileDownload.student);
         loadTable(pieChartData);
-
     }//GEN-LAST:event_generateButtonActionPerformed
 
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
@@ -809,6 +755,8 @@ public class OriginalChartUI extends javax.swing.JFrame {
         try {
             FileDownload.DownloadFile(selectedFile);
         } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
     }//GEN-LAST:event_AWSOkButtonActionPerformed
 
@@ -821,8 +769,8 @@ public class OriginalChartUI extends javax.swing.JFrame {
         // TODO add your handling code here:
         ArrayList<String> fileList = FileDownload.FileList();
 
-        for (String fileList1 : fileList) {
-            AWSDataSource.addItem(fileList1);
+        for (int i = 0; i < fileList.size(); i++) {
+            AWSDataSource.addItem(fileList.get(i));
         }
 
     }//GEN-LAST:event_AWSBrowseButtonActionPerformed
@@ -842,20 +790,6 @@ public class OriginalChartUI extends javax.swing.JFrame {
         String[] yTitle = null;
         String[] zTitle = null;
         if (BarChart.isSelected()) {
-
-            String[] xTitle = peer.getAttributeTitle();
-            String[][] xyMeasure = peer.getXyMeasure();
-            for (String xTitle1 : xTitle) {
-                XItem.addItem(xTitle1);
-                String selectedItem = (String) XItem.getSelectedItem();
-            }
-        }else
-        if (LineChart.isSelected()) {
-            String[] xTitle = {"year_of_arrival_in_usa", "course_completion_year"};
-            for (String xTitle1 : xTitle) {
-                XItem.addItem(xTitle1);
-                String selectedItem = (String) XItem.getSelectedItem();
-
             xTitle = peer.getBarXTitle();
             yTitle = peer.getBarYTitle();
             chartType = "BarChart";
@@ -886,7 +820,6 @@ public class OriginalChartUI extends javax.swing.JFrame {
             chartType = "ScatterChart";
             for (String y : yTitle) {
                 YItem.addItem(y);
-
             }
         }
         for (String x : xTitle) {
@@ -943,17 +876,14 @@ public class OriginalChartUI extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-
-
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
-     
-   try {
+        try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Metal".equals(info.getName())) {
+                if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
