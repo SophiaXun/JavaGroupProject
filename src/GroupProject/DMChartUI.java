@@ -1,37 +1,14 @@
-//package Group;
 package GroupProject;
 
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Enumeration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
-import javax.swing.table.DefaultTableModel;
-import weka.classifiers.Classifier;
-import weka.classifiers.Evaluation;
-import weka.classifiers.bayes.NaiveBayes;
-import weka.classifiers.functions.LinearRegression;
-import weka.classifiers.trees.J48;
-import weka.core.Attribute;
-import weka.core.FastVector;
-import weka.core.Instance;
-import weka.core.Instances;
-import weka.filters.Filter;
-import weka.filters.unsupervised.attribute.Remove;
-
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -78,21 +55,20 @@ public class DMChartUI extends javax.swing.JFrame {
         AWSCancelButton = new javax.swing.JButton();
         AWSBrowseButton = new javax.swing.JButton();
         AWSDataSource = new javax.swing.JComboBox();
+        icon = new javax.swing.JLabel();
+        generatePanel = new javax.swing.JPanel();
+        generateButton = new javax.swing.JButton();
         rawDataPanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        dataTable = new javax.swing.JTable();
+        jTable1 = new javax.swing.JTable();
         methodPanel = new javax.swing.JPanel();
         methodLabel = new javax.swing.JLabel();
         dataSelector = new javax.swing.JComboBox();
         methodPanel1 = new javax.swing.JPanel();
         methodLabel1 = new javax.swing.JLabel();
-        LRB = new javax.swing.JRadioButton();
-        NBB = new javax.swing.JRadioButton();
-        JB = new javax.swing.JRadioButton();
-        LBButton = new javax.swing.JButton();
-        J48Button = new javax.swing.JButton();
-        NBButton = new javax.swing.JButton();
-        generateButton = new javax.swing.JButton();
+        methodRadioButton1 = new javax.swing.JRadioButton();
+        methodRadioButton3 = new javax.swing.JRadioButton();
+        methodRadioButton2 = new javax.swing.JRadioButton();
         equationDisplayPanel = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         equationDisplayArea = new javax.swing.JTextArea();
@@ -157,44 +133,6 @@ public class DMChartUI extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout localPanelLayout = new javax.swing.GroupLayout(localPanel);
-        localPanel.setLayout(localPanelLayout);
-        localPanelLayout.setHorizontalGroup(
-            localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(localPanelLayout.createSequentialGroup()
-                .addComponent(localLabel)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(localPanelLayout.createSequentialGroup()
-                .addGroup(localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(localPanelLayout.createSequentialGroup()
-                        .addComponent(localDataResourceAddr)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(localBrowseButton))
-                    .addGroup(localPanelLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(localUploadButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(localLoadButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(localCancelButton)))
-                .addContainerGap())
-        );
-        localPanelLayout.setVerticalGroup(
-            localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(localPanelLayout.createSequentialGroup()
-                .addComponent(localLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(localDataResourceAddr)
-                    .addComponent(localBrowseButton))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(localUploadButton)
-                    .addComponent(localCancelButton)
-                    .addComponent(localLoadButton))
-                .addContainerGap())
-        );
-
         AWSLabel.setText("AWS");
 
         AWSOkButton.setText("OK");
@@ -233,8 +171,8 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addGroup(AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(AWSPanelLayout.createSequentialGroup()
                         .addComponent(AWSDataSource, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(AWSBrowseButton))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(AWSBrowseButton, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(AWSPanelLayout.createSequentialGroup()
                         .addGroup(AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(AWSLabel)
@@ -242,8 +180,7 @@ public class DMChartUI extends javax.swing.JFrame {
                                 .addComponent(AWSOkButton, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(AWSCancelButton)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addContainerGap(128, Short.MAX_VALUE))))
         );
         AWSPanelLayout.setVerticalGroup(
             AWSPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -261,18 +198,61 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        javax.swing.GroupLayout localPanelLayout = new javax.swing.GroupLayout(localPanel);
+        localPanel.setLayout(localPanelLayout);
+        localPanelLayout.setHorizontalGroup(
+            localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(localPanelLayout.createSequentialGroup()
+                .addComponent(localLabel)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(localPanelLayout.createSequentialGroup()
+                .addGroup(localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(localPanelLayout.createSequentialGroup()
+                        .addComponent(localDataResourceAddr, javax.swing.GroupLayout.DEFAULT_SIZE, 213, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(localBrowseButton))
+                    .addGroup(localPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(localUploadButton)
+                        .addGap(26, 26, 26)
+                        .addComponent(localLoadButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(localCancelButton))
+                    .addComponent(AWSPanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        localPanelLayout.setVerticalGroup(
+            localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(localPanelLayout.createSequentialGroup()
+                .addComponent(localLabel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(localDataResourceAddr)
+                    .addComponent(localBrowseButton))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(localPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(localUploadButton)
+                    .addComponent(localCancelButton)
+                    .addComponent(localLoadButton))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(AWSPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        icon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GroupProject/DM2.jpg"))); // NOI18N
+
         javax.swing.GroupLayout dataResourcePanelLayout = new javax.swing.GroupLayout(dataResourcePanel);
         dataResourcePanel.setLayout(dataResourcePanelLayout);
         dataResourcePanelLayout.setHorizontalGroup(
             dataResourcePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(localPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(dataResourcePanelLayout.createSequentialGroup()
-                .addComponent(AWSPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(dataResourceLabel)
+                .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(dataResourcePanelLayout.createSequentialGroup()
-                .addGroup(dataResourcePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(dataResourceLabel)
-                    .addComponent(localPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 29, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(icon)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         dataResourcePanelLayout.setVerticalGroup(
             dataResourcePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -280,50 +260,72 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addComponent(dataResourceLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(localPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(AWSPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(81, 81, 81))
+                .addGap(18, 18, 18)
+                .addComponent(icon)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        generatePanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        generateButton.setText("Generate");
+        generateButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                generateButtonActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout generatePanelLayout = new javax.swing.GroupLayout(generatePanel);
+        generatePanel.setLayout(generatePanelLayout);
+        generatePanelLayout.setHorizontalGroup(
+            generatePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(generatePanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(generateButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        generatePanelLayout.setVerticalGroup(
+            generatePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(generatePanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(generateButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         rawDataPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        dataTable.setModel(new javax.swing.table.DefaultTableModel(
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {},
-                {},
-                {},
-                {}
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
             },
             new String [] {
-
+                "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        dataTable.setToolTipText("");
-        dataTable.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        dataTable.setShowGrid(true);
-        jScrollPane1.setViewportView(dataTable);
+        jScrollPane1.setViewportView(jTable1);
 
         javax.swing.GroupLayout rawDataPanelLayout = new javax.swing.GroupLayout(rawDataPanel);
         rawDataPanel.setLayout(rawDataPanelLayout);
         rawDataPanelLayout.setHorizontalGroup(
             rawDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(rawDataPanelLayout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 851, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         rawDataPanelLayout.setVerticalGroup(
             rawDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rawDataPanelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(219, 219, 219))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(319, 319, 319))
         );
 
         methodPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         methodLabel.setText("Prediction Data");
 
-        dataSelector.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Course\t", "Graduate Status\t", "Education Field\t", "Age\t", "Gender\t", "Citizenship\t", "Term Residence\t", "Permanent Residence\t", "Admission Basis\t", "Attendance Type\t", "Attendance Mode\t", "Country of Origin\t", "Languages\t", "Year of Arrival in USA\t", "Entrance Score\t", "Equity Data\t", "Highest Level of Education\t", "Graduation Year\t", "GPA\t" }));
+        dataSelector.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         javax.swing.GroupLayout methodPanelLayout = new javax.swing.GroupLayout(methodPanel);
         methodPanel.setLayout(methodPanelLayout);
@@ -332,7 +334,7 @@ public class DMChartUI extends javax.swing.JFrame {
             .addGroup(methodPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(methodPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(dataSelector, 0, 239, Short.MAX_VALUE)
+                    .addComponent(dataSelector, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(methodPanelLayout.createSequentialGroup()
                         .addComponent(methodLabel)
                         .addGap(0, 0, Short.MAX_VALUE)))
@@ -352,47 +354,19 @@ public class DMChartUI extends javax.swing.JFrame {
 
         methodLabel1.setText("Method");
 
-        buttonGroup1.add(LRB);
-        LRB.setText("Linear Regression");
-        LRB.addActionListener(new java.awt.event.ActionListener() {
+        buttonGroup1.add(methodRadioButton1);
+        methodRadioButton1.setText("Method1");
+        methodRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                LRBActionPerformed(evt);
+                methodRadioButton1ActionPerformed(evt);
             }
         });
 
-        buttonGroup1.add(NBB);
-        NBB.setText("Naive Bayes");
+        buttonGroup1.add(methodRadioButton3);
+        methodRadioButton3.setText("Method3");
 
-        buttonGroup1.add(JB);
-        JB.setText("J48 Tree");
-
-        LBButton.setText("Build Model");
-        LBButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                LBButtonActionPerformed(evt);
-            }
-        });
-
-        J48Button.setText("Build Model");
-        J48Button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                J48ButtonActionPerformed(evt);
-            }
-        });
-
-        NBButton.setText("Build Model");
-        NBButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NBButtonActionPerformed(evt);
-            }
-        });
-
-        generateButton.setText("Generate");
-        generateButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                generateButtonActionPerformed(evt);
-            }
-        });
+        buttonGroup1.add(methodRadioButton2);
+        methodRadioButton2.setText("Method2");
 
         javax.swing.GroupLayout methodPanel1Layout = new javax.swing.GroupLayout(methodPanel1);
         methodPanel1.setLayout(methodPanel1Layout);
@@ -401,23 +375,14 @@ public class DMChartUI extends javax.swing.JFrame {
             .addGroup(methodPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(methodLabel1)
                     .addGroup(methodPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
                         .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(methodLabel1)
-                            .addGroup(methodPanel1Layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(LRB)
-                                    .addComponent(JB)
-                                    .addComponent(NBB))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                                    .addComponent(NBButton)
-                                    .addComponent(J48Button)
-                                    .addComponent(LBButton))))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(generateButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
+                            .addComponent(methodRadioButton3)
+                            .addComponent(methodRadioButton1)
+                            .addComponent(methodRadioButton2))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         methodPanel1Layout.setVerticalGroup(
             methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -425,20 +390,12 @@ public class DMChartUI extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(methodLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(LRB)
-                    .addComponent(LBButton))
+                .addComponent(methodRadioButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(J48Button)
-                    .addComponent(JB))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(methodPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(NBB)
-                    .addComponent(NBButton))
-                .addGap(18, 18, 18)
-                .addComponent(generateButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(34, 34, 34))
+                .addComponent(methodRadioButton2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(methodRadioButton3)
+                .addGap(74, 74, 74))
         );
 
         equationDisplayPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -457,24 +414,21 @@ public class DMChartUI extends javax.swing.JFrame {
         equationDisplayPanelLayout.setHorizontalGroup(
             equationDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(equationDisplayPanelLayout.createSequentialGroup()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(equationDisplayPanelLayout.createSequentialGroup()
+                .addGap(40, 40, 40)
                 .addGroup(equationDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(equationDisplayPanelLayout.createSequentialGroup()
-                        .addGap(40, 40, 40)
                         .addComponent(predictValueName)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(predictValue, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(equationDisplayPanelLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 482, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 373, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(equationDisplayPanelLayout.createSequentialGroup()
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         equationDisplayPanelLayout.setVerticalGroup(
             equationDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(equationDisplayPanelLayout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(equationDisplayPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -486,45 +440,30 @@ public class DMChartUI extends javax.swing.JFrame {
 
         rawDataTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Course", null},
-                {"Graduate Status", null},
-                {"Education Field", null},
-                {"Age", null},
-                {"Gender", null},
-                {"Citizenship", null},
-                {"Term Residence", null},
-                {"Permanent Residence", null},
-                {"Admission Basis", null},
-                {"Attendance Type", null},
-                {"Attendance Mode", null},
-                {"Country of Origin", null},
-                {"Languages", null},
-                {"Year of Arrival in USA", null},
-                {"Entrance Score", null},
-                {"Equity Data", null},
-                {"Highest Level of Education", null},
-                {"Graduation Year", null},
-                {"GPA", null}
+                {"", null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null}
             },
             new String [] {
                 "Key", "Value"
             }
-        ) {
-            boolean[] canEdit = new boolean [] {
-                false, true
-            };
-
-            public boolean isCellEditable(int rowIndex, int columnIndex) {
-                return canEdit [columnIndex];
-            }
-        });
-        rawDataTable.setGridColor(new java.awt.Color(0, 0, 0));
-        rawDataTable.setShowGrid(true);
+        ));
         jScrollPane3.setViewportView(rawDataTable);
-        if (rawDataTable.getColumnModel().getColumnCount() > 0) {
-            rawDataTable.getColumnModel().getColumn(0).setResizable(false);
-            rawDataTable.getColumnModel().getColumn(1).setResizable(false);
-        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -532,43 +471,37 @@ public class DMChartUI extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(rawDataPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(methodPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(methodPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(dataResourcePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 0, Short.MAX_VALUE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(equationDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 417, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(40, 40, 40)))))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(dataResourcePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(methodPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(generatePanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(methodPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(equationDisplayPanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(rawDataPanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 518, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
+                    .addComponent(dataResourcePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(equationDisplayPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(methodPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(25, 25, 25)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(dataResourcePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(methodPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(methodPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(methodPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)
-                        .addComponent(equationDisplayPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
-                .addComponent(rawDataPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                        .addComponent(generatePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(rawDataPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20))
         );
 
         pack();
@@ -580,14 +513,6 @@ public class DMChartUI extends javax.swing.JFrame {
 
     private void localUploadButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localUploadButtonActionPerformed
         // TODO add your handling code here:
-        
-         try {
-            // TODO add your handling code here:
-            FileUpload.Upload(file);
-        } catch (IOException ex) {
-            Logger.getLogger(OriginalChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
     }//GEN-LAST:event_localUploadButtonActionPerformed
 
     private void localCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localCancelButtonActionPerformed
@@ -612,7 +537,6 @@ public class DMChartUI extends javax.swing.JFrame {
 
     private void AWSOkButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSOkButtonActionPerformed
         // TODO add your handling code here:
-        
         String selectedFile = (String) AWSDataSource.getSelectedItem();
         try {
             FileDownload.DownloadFile(selectedFile);
@@ -620,33 +544,6 @@ public class DMChartUI extends javax.swing.JFrame {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        
-        
-        DefaultTableModel datamodel=new DefaultTableModel();
-        
-        for(int i=0;i<headerA.length;i++){
-            datamodel.addColumn(headerA[i]);            
-        }
-        
-        int num_students=0;
-        String line;
-        try (
-            FileReader fis = new FileReader("studentTemp.csv");           
-            BufferedReader br = new BufferedReader(fis) ) {
-            
-            line=br.readLine();
-            while ((line = br.readLine()) != null) {
-                String[] lineA=line.split(",");
-                datamodel.addRow(lineA);
-            }
-        
-            
-        // Deal with the line
-        }
-        catch(Exception e){
-            System.out.println("there was an error reading the file");
-        }
-        dataTable.setModel(datamodel);
 
     }//GEN-LAST:event_AWSOkButtonActionPerformed
 
@@ -665,493 +562,17 @@ public class DMChartUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_AWSBrowseButtonActionPerformed
 
-    
-    
-    
-    
-    
-    
-     public static boolean isNumeric(String str)  
-    {  
-        try  {  
-            double d = Double.parseDouble(str);  
-        }  
-        catch(NumberFormatException nfe)  
-        {  
-            return false;  
-        }  
-        return true;  
-    }
-    /**
-     * this function will read in values from the table or 
-     * whatever we decide to use
-     * @return 
-     */
-    private String[] getUserInput(){
-        System.out.println("im getting the user's input ");
-        int len=rawDataTable.getRowCount();
-        String[] result = new String[len+1];
-        result[0]="0";
-        for( int i =0;i< len;i++){
-            Object entry = rawDataTable.getValueAt(i, 1);
-            if(entry != null){
-                result[i+1]=rawDataTable.getValueAt(i, 1).toString();
-            }
-            else 
-                result[i+1]="";
-            System.out.println(rawDataTable.getValueAt(i, 0).toString() + result[i]);
-        }
-        return result;
-    }
-    
-    /**
-    * gets a string with commas seperating the words 
-    */
-    private String getUserString(){
-        System.out.println("im getting the user's input ");
-        int len=rawDataTable.getRowCount();
-        String result = "";
-        //something is wrong here 
-        result+="0,";
-        for( int i =0;i< len;i++){
-            Object entry = rawDataTable.getValueAt(i, 1);
-            if(entry != null){
-                result+=rawDataTable.getValueAt(i, 1).toString();
-            }
-            else 
-                result+="";
-            //add commas between the words 
-            if(i!=len-1)
-                result+=",";
-        }
-        //add new line marker
-        result+="\n";
-        System.out.println("Here is the line: " + result);
-        return result;
-    }
-
-
-
-
-    //this needs to be fixed somehow !!!!
-    private ArrayList<String> enumLength(java.util.Enumeration e){
-        int count= 0;    
-        ArrayList<String>res = new ArrayList();
-        //System.out.println("im in the coutn function");
-        for (Enumeration<String> e2 = e; e2.hasMoreElements();){
-            res.add((String)e2.nextElement());
-            //System.out.println(e2.nextElement());
-            //System.out.println(res.get(count));
-            count++;
-            
-            //System.out.println(count);
-            
-        }
-        //System.out.println("im done with the coutn function");
-        System.out.printf("This was the count:%d \n",count);
-        return res;       
-    }
-    
-    private String[] Default={"0", "Undergraduate","IT","27/01/1990","Female","China",	
-                        "Argentina", "China","GRE","Part-time",	
-                        "Internal","Panama","English","2005","305","","Professional Certification","2010","3.94"};
-    
-
-    private static final String header = "id,course_information,postgraduate_or_undergraduate,field_of_education,"+
-                                    "age,gender,citizenship,term_residence,permanent_residence,basis_for_admission,"+
-                                    "type_of_attendance,mode_of_attendance,country_of_birth,language_spoken_at_home,"+
-                                    "year_of_arrival_in_usa,entrance_score,equity_data,"+
-                                    "highest_level_of_education_prior_to_commencement,course_completion_year,course_gpa_earned\n";
-    
-    private static final String[] headerA= header.split(",");
-    
-
-    private Instance getInstance(boolean rem){
-        
-        //TODO: 
-        //option 2 get instance from csv file that is converted into arff 
-        
-        String fileName = "tempInstance.csv";
-
-        FileWriter fileWriter = null;
-        try{
-            fileWriter = new FileWriter(fileName);
-            System.out.println("i found the tempInstance files");
-
-            fileWriter.append(header.toString());
-
-            //a string with commas in between each word
-            //the first word should be: "0"
-            System.out.println("Im goint to get the user string");
-            String input_instance = getUserString();
-
-            System.out.println("The user input:"+ input_instance);
-            fileWriter.append(input_instance);
-            //add new line 
-            fileWriter.append("\n"); 
-            System.out.println("i got user input");
-        }
-        catch (Exception e) {
-            System.out.println("Error in CsvFileWriter !!!");
-
-            e.printStackTrace();
-        } 
-        finally {
-                try {
-                    fileWriter.flush();
-                    fileWriter.close();
-                } 
-                catch (IOException e) {
-                    System.out.println("Error while flushing/closing fileWriter !!!");
-                    e.printStackTrace();
-                }
-        }
-
-        String fileNameArff = "tempInstance.arff";
-
-        CSVtoArff converter = new CSVtoArff();
-        Instances students = null;
-        Instances students2= null;
-        //load data into Instances 
-        try {
-            System.out.println("im going to convert the csv file ");
-            converter.convert(fileName, fileNameArff);
-            System.out.println("I converted the csv file");
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        try {
-            students = new Instances(new BufferedReader(new FileReader(fileNameArff)));
-            //students2= new Instances(new BufferedReader(new FileReader(fileNameArff)));
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-        Remove remove = new Remove();
-        int[]toremove = {0,2,3,4,6,7,8,9,10,11,12,13,16,17};
-        remove.setAttributeIndicesArray(toremove);
-        
-        try {
-            remove.setInputFormat(students);
-        } catch (Exception ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        Instances instNew=null;
-        try {
-            instNew = Filter.useFilter(students, remove);
-        } catch (Exception ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        //System.out.println(instNew);
-        
-            
-            
-        
-        
-        Instance result ;
-        if(rem){
-            result= instNew.lastInstance();
-        }
-        else
-            result = students.lastInstance(); 
-
-        System.out.println("this was the instance");
-        System.out.println(result);
-        return result;     
-    }
-
-        
-    public LinearRegression Lmodel= null;
-    
-    public Classifier NBmodel = null;
-    
-    public Classifier Jmodel = null;
-    
-    
-     
     private void generateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generateButtonActionPerformed
-        // TODO add your handling code here:                                              
         // TODO add your handling code here:
-        //File file = new File("studentTemp.csv");
-        CSVtoArff converter = new CSVtoArff();
-        Instances students = null;
-        Instances students2= null;
-        try {
-            converter.convert("studentTemp.csv", "studentTemp.arff");
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        try {
-            students = new Instances(new BufferedReader(new FileReader("studentTemp.arff")));
-            students2= new Instances(new BufferedReader(new FileReader("studentTemp.arff")));
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        
-        
-        
-        //get column to predict values for 
-        //int target=students.numAttributes()-1; 
-        int target = dataSelector.getSelectedIndex()+1;
-        System.out.printf("this is the target: %d\n", target);
-        //set target 
-        students.setClassIndex(target);
-        students2.setClassIndex(target);
-        
-        //case on which radio button is selected 
-        //Linear Regressions
-        if(LRB.isSelected()){
-            
-            LinearRegression model =null;
-            if(Lmodel!=null){
-                model = Lmodel;
-            }
-            else{
-                buildLinearModel();  
-                model=Lmodel;
-            }
-            
-            System.out.println("im doing linear regression");
-            //LinearRegression model = new LinearRegression();
-            /*
-            try {
-                System.out.println("im building the model");
-                model.buildClassifier(students);
-                System.out.println("I finished building the model");
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            */
-            
-            equationDisplayArea.setText(model.toString());
-
-            System.out.println("im going to get the instance"); 
-            
-            Instance prediction2= getInstance(true);
-                     
-            Remove remove = new Remove();
-            int[]toremove = {0,2,3,4,6,7,8,9,10,11,12,13,16,17};
-            remove.setAttributeIndicesArray(toremove);
-        
-            try {
-                remove.setInputFormat(students);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        
-            Instances instNew=null;
-            try {
-                instNew = Filter.useFilter(students, remove);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-             
-            prediction2.setDataset(instNew);
-            System.err.print("i got the instance");
-            double result=0;
-            try {
-                result = model.classifyInstance(prediction2);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            
-            
-            System.out.printf("the result : %f \n ", result);
-            predictValue.setText(Double.toString(result));    
-            System.out.println("I'm done with Linear Regression");
-        }
-        
-        
-        //Naive Bayes
-        else if(NBB.isSelected()){           
-            Classifier cModel  =null;
-            
-            if(NBmodel!=null){
-                cModel = NBmodel;
-            }
-            else{
-                buildNBClassifier();  
-                cModel=NBmodel;
-            }
-            
-            System.out.println("im doing NB");
-            
-            //build test 
-            Evaluation eTest=null;
-            try {
-                eTest = new Evaluation(students);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            System.out.println("Using NB");
-            
-            
-            try {
-                eTest.evaluateModel(cModel, students);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            
-            //display the test results to console 
-            String strSummary = eTest.toSummaryString();
-            System.out.println(strSummary);
-
-            
-            //build instance to predict 
-            System.out.println("im going to get the instance"); 
-            
-            Instance prediction2= getInstance(false);
-            
-            prediction2.setDataset(students);
-            System.err.print("i got the instance");
-
-             //replace with loop stating the class names 
-            //fit text based on name of categories 
-            double pred=0;
-            try {
-                pred = cModel.classifyInstance(prediction2);
-                prediction2.setClassValue(pred);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }       
-            //get the predicted value and set predictValue to it 
-            predictValue.setText(prediction2.classAttribute().value((int) pred));
-           
-            
-         
-            System.out.println("I'm done with Naive Bayes");
-            
-            double[] fDistribution2=null;
-            try {
-                fDistribution2 = cModel.distributionForInstance(prediction2);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            
-            double max=0;
-            int maxindex=0;
-            max= fDistribution2[0];
-            for(int i=0;i<fDistribution2.length;i++){
-                if(fDistribution2[i]>max){
-                    maxindex=i;
-                    max=fDistribution2[i];
-                }
-                System.out.println("the value at " + i + " : " + fDistribution2[i]);
-                System.out.println("the label at " + i + prediction2.classAttribute().value(i))  ;
-            }
-            prediction2.setClassValue(maxindex);
-            predictValue.setText(prediction2.classAttribute().value(maxindex));
-        
-        }
-        //J48 Tree
-        else if(JB.isSelected()){
-            
-            System.out.println("im doing j48 ");
-            
-            Classifier jModel  =null;
-            if(Jmodel!=null){
-                jModel = Jmodel;
-            }
-            else{
-                buildJClassifier();  
-                jModel=Jmodel;
-            }
-            //test model 
-            Evaluation eTest2=null;
-            try {
-                eTest2 = new Evaluation(students);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            System.out.println("Using J48 test");
-            try {
-                eTest2.evaluateModel(jModel, students);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            String strSummary2 = eTest2.toSummaryString();
-            System.out.println(strSummary2);
-
-            System.out.println("im going to get the instance"); 
-            
-            Instance prediction2= getInstance(false);
-            
-            prediction2.setDataset(students);
-            System.err.print("i got the instance\n");
-                   
-            double pred=0;
-            try {
-                pred = jModel.classifyInstance(prediction2);
-                prediction2.setClassValue(pred);
-                System.out.println("i did a prediction");
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            
-            
-            //get the predicted value and set predictValue to it 
-            System.out.println("this was pred:" + pred);
-            predictValue.setText(prediction2.classAttribute().value((int) pred));
-            
-            System.out.println("I'm done with J48");
-            //replace with loop stating the class names 
-            //fit text based on name of categories 
-            
-            double[] fDistribution2=null;
-            try {
-                fDistribution2 = jModel.distributionForInstance(prediction2);
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            
-            double max=0;
-            int maxindex=0;
-            max= fDistribution2[0];
-            for(int i=0;i<fDistribution2.length;i++){
-                if(fDistribution2[i]>max){
-                    maxindex=i;
-                    max=fDistribution2[i];
-                }
-                System.out.println("the value at " + i + " : " + fDistribution2[i]);
-                System.out.println("the label at " + i + " "+ prediction2.classAttribute().value(i))  ;
-            }
-            prediction2.setClassValue(maxindex);
-            predictValue.setText(prediction2.classAttribute().value(maxindex));
-                 
-    } 
-        
-             
-        
-        
     }//GEN-LAST:event_generateButtonActionPerformed
 
-    private void LRBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LRBActionPerformed
+    private void methodRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_methodRadioButton1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_LRBActionPerformed
+    }//GEN-LAST:event_methodRadioButton1ActionPerformed
 
     private void AWSDataSourceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSDataSourceActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_AWSDataSourceActionPerformed
-
-    private void LBButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LBButtonActionPerformed
-        // TODO add your handling code here:
-        buildLinearModel();    
-    }//GEN-LAST:event_LBButtonActionPerformed
-
-    private void J48ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_J48ButtonActionPerformed
-        // TODO add your handling code here:
-        buildJClassifier();
-    }//GEN-LAST:event_J48ButtonActionPerformed
-
-    private void NBButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NBButtonActionPerformed
-        // TODO add your handling code here:
-        buildNBClassifier();
-    }//GEN-LAST:event_NBButtonActionPerformed
 
     private void localLoadButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localLoadButtonActionPerformed
 
@@ -1166,173 +587,9 @@ public class DMChartUI extends javax.swing.JFrame {
         } catch (IOException ex) {
             Logger.getLogger(OriginalChartUI.class.getName()).log(Level.SEVERE, null, ex);
         }
-        DefaultTableModel datamodel=new DefaultTableModel();
-        
-        for(int i=0;i<headerA.length;i++){
-            datamodel.addColumn(headerA[i]);            
-        }
-        
-        int num_students=0;
-        String line;
-        try (
-            FileReader fis = new FileReader("studentTemp.csv");           
-            BufferedReader br = new BufferedReader(fis) ) {
-            
-            line=br.readLine();
-            while ((line = br.readLine()) != null) {
-                String[] lineA=line.split(",");
-                datamodel.addRow(lineA);
-            }
-        
-            
-        // Deal with the line
-        }
-        catch(Exception e){
-            System.out.println("there was an error reading the file");
-        }
-        dataTable.setModel(datamodel);
-
 
     }//GEN-LAST:event_localLoadButtonActionPerformed
-    private void buildLinearModel(){
-        CSVtoArff converter = new CSVtoArff();
-        Instances students = null;
-        Instances students2= null;
-        try {
-            converter.convert("studentTemp.csv", "studentTemp.arff");
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        try {
-            students = new Instances(new BufferedReader(new FileReader("studentTemp.arff")));
-            students2= new Instances(new BufferedReader(new FileReader("studentTemp.arff")));
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        int target = dataSelector.getSelectedIndex()+1;
-        System.out.printf("this is the target: %d\n", target);
-        if(target!=14 && target!=15 && target!=18 && target!=19){
-            System.out.println("Please select a numerical category");
-             equationDisplayArea.setText("Please select a numerical category");
-            return;
-        }
-        
-        //set target 
-        students.setClassIndex(target);
-        students2.setClassIndex(target);
-        
-        Remove remove = new Remove();
-        int[]toremove = {0,2,3,4,6,7,8,9,10,11,12,13,16,17};
-        remove.setAttributeIndicesArray(toremove);
-        
-        try {
-            remove.setInputFormat(students);
-        } catch (Exception ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        Instances instNew=null;
-        try {
-            instNew = Filter.useFilter(students, remove);
-        } catch (Exception ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        //System.out.println(instNew);
-        
-        
-        Lmodel = new LinearRegression();
-            try {
-                System.out.println("im building the model");
-                Lmodel.buildClassifier(instNew);
-                System.out.println("I finished building the model");
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }  
-            equationDisplayArea.setText(Lmodel.toString());
-            
-    }
-    
-    private void buildNBClassifier(){
-        CSVtoArff converter = new CSVtoArff();
-        Instances students = null;
-        Instances students2= null;
-        try {
-            converter.convert("studentTemp.csv", "studentTemp.arff");
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        try {
-            students = new Instances(new BufferedReader(new FileReader("studentTemp.arff")));
-            students2= new Instances(new BufferedReader(new FileReader("studentTemp.arff")));
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-         int target = dataSelector.getSelectedIndex()+1;
-        System.out.printf("this is the target: %d\n", target);
-        if(target==14 || target==15 || target==18 || target==19){
-            System.out.println("Please select a nominal category");
-             equationDisplayArea.setText("Please select a nominal category");
-            return;
-        }
-        //set target 
-        students.setClassIndex(target);
-        students2.setClassIndex(target);
-        
-        System.out.println("im doing NB");
-        NBmodel= (Classifier)new NaiveBayes();
-            
-            //build the classifier 
-            try {
-                System.err.println("going to build model ");
-                NBmodel.buildClassifier(students);
-                System.out.println("I built the model");
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }           
-    }
-    
-    private void buildJClassifier(){
-        CSVtoArff converter = new CSVtoArff();
-        Instances students = null;
-        Instances students2= null;
-        try {
-            converter.convert("studentTemp.csv", "studentTemp.arff");
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        try {
-            students = new Instances(new BufferedReader(new FileReader("studentTemp.arff")));
-            students2= new Instances(new BufferedReader(new FileReader("studentTemp.arff")));
-        } catch (IOException ex) {
-            Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-         int target = dataSelector.getSelectedIndex()+1;
-        System.out.printf("this is the target: %d\n", target);
-         if(target==14 || target==15 || target==18 || target==19){
-            System.out.println("Please select a nominal category");
-             equationDisplayArea.setText("Please select a nominal category");
-            return;
-        }
-        //set target 
-        students.setClassIndex(target);
-        students2.setClassIndex(target);
-        
-        Jmodel = (Classifier) new J48();   
-        
-        try {
-                System.out.println("im goin to build the modle");
-                Jmodel.buildClassifier(students);
-                System.out.println("i finsihed building the mdoel ");
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-    
-    }
-    
+
     /**
      * @param args the command line arguments
      */
@@ -1375,25 +632,21 @@ public class DMChartUI extends javax.swing.JFrame {
     private javax.swing.JLabel AWSLabel;
     private javax.swing.JButton AWSOkButton;
     private javax.swing.JPanel AWSPanel;
-    private javax.swing.JButton J48Button;
-    private javax.swing.JRadioButton JB;
-    private javax.swing.JButton LBButton;
-    private javax.swing.JRadioButton LRB;
-    private javax.swing.JRadioButton NBB;
-    private javax.swing.JButton NBButton;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JPanel chartDisplayPanel2;
     private javax.swing.JLabel dataResourceLabel;
     private javax.swing.JPanel dataResourcePanel;
     private javax.swing.JComboBox dataSelector;
-    private javax.swing.JTable dataTable;
     private javax.swing.JTextArea equationDisplayArea;
     private javax.swing.JPanel equationDisplayPanel;
     private javax.swing.JButton generateButton;
+    private javax.swing.JPanel generatePanel;
+    private javax.swing.JLabel icon;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JTable jTable1;
     private javax.swing.JButton localBrowseButton;
     private javax.swing.JButton localCancelButton;
     private javax.swing.JTextField localDataResourceAddr;
@@ -1405,6 +658,9 @@ public class DMChartUI extends javax.swing.JFrame {
     private javax.swing.JLabel methodLabel1;
     private javax.swing.JPanel methodPanel;
     private javax.swing.JPanel methodPanel1;
+    private javax.swing.JRadioButton methodRadioButton1;
+    private javax.swing.JRadioButton methodRadioButton2;
+    private javax.swing.JRadioButton methodRadioButton3;
     private javax.swing.JTextField predictValue;
     private javax.swing.JLabel predictValueName;
     private javax.swing.JPanel rawDataPanel;

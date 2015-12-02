@@ -51,7 +51,7 @@ public class FileLoad {
             FileLoad.student.add(newStudent);
             
         }
-        //FileLoad.print();
+        FileLoad.print();
      
         writer.close();
     }
