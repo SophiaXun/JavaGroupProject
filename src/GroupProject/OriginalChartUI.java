@@ -701,7 +701,9 @@ public class OriginalChartUI extends javax.swing.JFrame {
                 draw3DBarChart(barChartData,XTitle,YTitle);
                 break;
             case "LineChart":
-                drawLineChart();
+                Map<String,Float> lineChartData=new HashMap<>();
+                lineChartData=operations.barChart(XTitle, YTitle, FileDownload.student);
+                drawLineChart(lineChartData,XTitle,YTitle);
                 break;
             case "PieChart":
                 Map< String, Long> pieChartData = new HashMap<>();
@@ -917,23 +919,30 @@ public class OriginalChartUI extends javax.swing.JFrame {
         });
     }
 
-    public void drawLineChart() {
+    public void drawLineChart(Map<String, Float>lineChartData,String XTitle,String YTitle) {
         System.out.print("drawLineChart");
-        int xAis[] = new int[2];
-        xAis[0] = 1;
-        xAis[1] = 2;
-
+        String title =XTitle +" VS "+YTitle;
+        ArrayList<String> keyArrayList=new ArrayList<>();
+        ArrayList<Float> valueArrayList=new ArrayList<>();
+        Set set=lineChartData.keySet();
+        int i=1;
         XYSeries series1 = new XYSeries("First");
-        series1.add(xAis[0], 10);
-        series1.add(xAis[1], 20);
+        for(Map.Entry<String,Float> data:lineChartData.entrySet()){
+            String key=data.getKey();
+            Float value=data.getValue();
+            keyArrayList.add(key);
+            valueArrayList.add(value);
+            series1.add(Integer.valueOf(key),value);
+        }
+        
 
-        XYSeries series2 = new XYSeries("Second");
-        series2.add(xAis[0], 30);
-        series2.add(xAis[1], 40);
+//        XYSeries series2 = new XYSeries("Second");
+//        series2.add(xAis[0], 30);
+//        series2.add(xAis[1], 40);
 
         XYSeriesCollection dataset = new XYSeriesCollection();
         dataset.addSeries(series1);
-        dataset.addSeries(series2);
+//        dataset.addSeries(series2);
 
         JFreeChart chart = ChartFactory.createXYLineChart("XYLineChart", "X", "Y", dataset, PlotOrientation.VERTICAL, true, true, false);
 
