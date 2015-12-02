@@ -579,7 +579,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
                     .addComponent(dataResourcePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(chartTypePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addComponent(chartDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 974, Short.MAX_VALUE)
+                .addComponent(chartDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 758, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -860,9 +860,10 @@ public class OriginalChartUI extends javax.swing.JFrame {
 
         XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();
         renderer.setSeriesPaint(0, Color.BLUE);
-        renderer.setSeriesPaint(1, Color.BLUE);
+        
+//        renderer.setSeriesPaint(1, Color.BLUE);
         renderer.setSeriesLinesVisible(1, false);
-        renderer.setSeriesShapesVisible(1, true);
+        renderer.setSeriesShapesVisible(1, false);
         plot.setRenderer(renderer);
         
         plot.setRangeGridlinePaint(Color.GRAY);
@@ -948,6 +949,8 @@ public class OriginalChartUI extends javax.swing.JFrame {
         
         CategoryPlot plot = chart.getCategoryPlot();
         plot.setBackgroundPaint(new java.awt.Color(255, 255, 255));
+        plot.setRangeGridlinePaint(Color.GRAY);
+        
         BarRenderer3D barRender=(BarRenderer3D)plot.getRenderer();
         barRender.setSeriesPaint(0, Color.decode("#9DC3E6"));
         ChartPanel chartPanel = new ChartPanel(chart);
