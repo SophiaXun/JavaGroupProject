@@ -1,91 +1,138 @@
 package GroupProject;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author Nan Xia
  */
 public class Peer {
 
-    String[] attributeTitle = {"course_information", "enterance_score", "gpa"};
-    String[] courseinfo = {"gender", "type_of_attendance", "citizenship"};
-    String[] entranceScore = {"gender", "citizenship", "course_information"};
-    String[] gpa = {"gender", "course_information", "citizenship"};
-    String[][] xyMeasure = {{"course_information", "gender", "type_of_attendance", "citizenship"},
-    {"entrance_score", "gender", "citizenship", "course_information"},
-    {"gpa", "gender", "course_information", "citizenship"}};
+    private String[] barXTitle = {"postgraduate_or_undergraduate", "field_of_education", "citizenship", "permanent_residence", "type_of_attendance", "country_of_birth"};
+    private String[] barYTitle = {"age", "entrance_score", "course_gpa_earned"};
+    private String[] pieXTitle = {"course_information", "postgraduate_or_undergraduate",
+        "field_of_education", "age", "gender", "citizenship", "term_residence", "permanent_residence",
+        "type_of_attendance", "mode_of_attendance", "country_of_birth", "language_spoken_at_home",
+        "year_of_arrival_in_usa", "entrance_score", "equity_data", "highest_level_of_education_prior_to_commencement",
+        "course_completion_year", "course_gpa_earned"};
+    private String[] lineXTitle = {"course_information", "postgraduate_or_undergraduate",
+        "field_of_education", "age", "gender", "citizenship", "term_residence", "permanent_residence",
+        "type_of_attendance", "mode_of_attendance", "country_of_birth", "language_spoken_at_home",
+        "year_of_arrival_in_usa", "entrance_score", "equity_data", "highest_level_of_education_prior_to_commencement",
+        "course_completion_year", "course_gpa_earned"};
+    private String[] lineYTitle = {"age", "entrance_score", "course_gpa_earned"};
+    private String[] lineZTitle = {"year_of_arrival_in_usa", "course_completion_year"};
+    private String[] scatterXTitle = {"postgraduate_or_undergraduate", "field_of_education", "citizenship", "permanent_residence", "type_of_attendance", "country_of_birth"};
+    private String[] scatterYTitle = {"age", "entrance_score", "course_gpa_earned"};
 
     /**
-	 * @return the xyMeasure
-	 */
-	public String[][] getXyMeasure() {
-		return xyMeasure;
-	}
-	/**
-	 * @param xyMeasure the xyMeasure to set
-	 */
-	public void setXyMeasure(String[][] xyMeasure) {
-		this.xyMeasure = xyMeasure;
-	}
-    /**
-     * @return the attributeTitle
+     * @return the barXTitle
      */
-    public String[] getAttributeTitle() {
-        return attributeTitle;
+    public String[] getBarXTitle() {
+        return barXTitle;
     }
 
     /**
-     * @param attributeTitle the attributeTitle to set
+     * @param barXTitle the barXTitle to set
      */
-    public void setAttributeTitle(String[] attributeTitle) {
-        this.attributeTitle = attributeTitle;
+    public void setBarXTitle(String[] barXTitle) {
+        this.barXTitle = barXTitle;
     }
 
     /**
-     * @return the courseinfo
+     * @return the barYTitle
      */
-    public String[] getCourseinfo() {
-        return courseinfo;
+    public String[] getBarYTitle() {
+        return barYTitle;
     }
 
     /**
-     * @param courseinfo the courseinfo to set
+     * @param barYTitle the barYTitle to set
      */
-    public void setCourseinfo(String[] courseinfo) {
-        this.courseinfo = courseinfo;
+    public void setBarYTitle(String[] barYTitle) {
+        this.barYTitle = barYTitle;
     }
 
     /**
-     * @return the entranceScore
+     * @return the pieXTitle
      */
-    public String[] getEntranceScore() {
-        return entranceScore;
+    public String[] getPieXTitle() {
+        return pieXTitle;
     }
 
     /**
-     * @param entranceScore the entranceScore to set
+     * @param pieXTitle the pieXTitle to set
      */
-    public void setEntranceScore(String[] entranceScore) {
-        this.entranceScore = entranceScore;
+    public void setPieXTitle(String[] pieXTitle) {
+        this.pieXTitle = pieXTitle;
     }
 
     /**
-     * @return the gpa
+     * @return the lineXTitle
      */
-    public String[] getGpa() {
-        return gpa;
+    public String[] getLineXTitle() {
+        return lineXTitle;
     }
 
     /**
-     * @param gpa the gpa to set
+     * @param lineXTitle the lineXTitle to set
      */
-    public void setGpa(String[] gpa) {
-        this.gpa = gpa;
+    public void setLineXTitle(String[] lineXTitle) {
+        this.lineXTitle = lineXTitle;
+    }
+
+    /**
+     * @return the lineYTitle
+     */
+    public String[] getLineYTitle() {
+        return lineYTitle;
+    }
+
+    /**
+     * @param lineYTitle the lineYTitle to set
+     */
+    public void setLineYTitle(String[] lineYTitle) {
+        this.lineYTitle = lineYTitle;
+    }
+
+    /**
+     * @return the lineZTitle
+     */
+    public String[] getLineZTitle() {
+        return lineZTitle;
+    }
+
+    /**
+     * @param lineZTitle the lineZTitle to set
+     */
+    public void setLineZTitle(String[] lineZTitle) {
+        this.lineZTitle = lineZTitle;
+    }
+
+    /**
+     * @return the scatterXTitle
+     */
+    public String[] getScatterXTitle() {
+        return scatterXTitle;
+    }
+
+    /**
+     * @param scatterXTitle the scatterXTitle to set
+     */
+    public void setScatterXTitle(String[] scatterXTitle) {
+        this.scatterXTitle = scatterXTitle;
+    }
+
+    /**
+     * @return the scatterYTitle
+     */
+    public String[] getScatterYTitle() {
+        return scatterYTitle;
+    }
+
+    /**
+     * @param scatterYTitle the scatterYTitle to set
+     */
+    public void setScatterYTitle(String[] scatterYTitle) {
+        this.scatterYTitle = scatterYTitle;
     }
 
 }

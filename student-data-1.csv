@@ -1,0 +1,1001 @@
+id,course_information,postgraduate_or_undergraduate,field_of_education,age,gender,citizenship,term_residence,permanent_residence,basis_for_admission,type_of_attendance,mode_of_attendance,country_of_birth,language_spoken_at_home,year_of_arrival_in_usa,entrance_score,equity_data,highest_level_of_education_prior_to_commencement,course_completion_year,course_gpa_earned
+998,Global PPM,Postgraduate,Computer Science,19/02/1996,Female,Bonaire ,Philippines,China,GRE,Part-time,Multi-modal,Bonaire,Kannada,2006,304,,Baccalaureate,2011,3.79
+1,Global MISM,Undergraduate,Medicine,24/12/1990,Male,Morocco,Ecuador,Portugal,GRE,Part-time,Multi-modal,Morocco,Nepali,2012,321,,Baccalaureate,2014,3.97
+2,MSIT,Postgraduate,Psychology,27/06/1997,Female,Portugal,Sweden,Mexico,GRE,Full-time,External,Portugal,Tswana,2005,326,Women in non-traditional areas,Baccalaureate,2012,3.33
+3,MISM,Undergraduate,IT,12/10/1981,Male,China,China,Colombia,GRE,Part-time,Internal,China,Japanese,2006,320,Women in non-traditional areas,Baccalaureate,2011,3.59
+4,PPM,Postgraduate,Psychology,8/3/1989,Female,Portugal,Norway,China,GRE,Part-time,Multi-modal,Portugal,Greek,2005,336,,Baccalaureate,2014,3.68
+5,Global MISM,Undergraduate,Computer Science,12/8/1991,Female,Azerbaijan,Israel,Greece,GRE,Part-time,Internal,Azerbaijan,Belarusian,2010,337,Regional/ Remote,Professional Certification,2011,3.39
+6,MISM,Postgraduate,Psychology,19/08/1988,Male,Russia,New Zealand,Ireland,GRE,Part-time,External,Russia,Kurdish,2010,303,Women in non-traditional areas,Diploma,2012,3.32
+7,Global PPM,Postgraduate,IT,30/04/1982,Female,North Korea,China,Brazil,GRE,Full-time,Multi-modal,North Korea,Bosnian,2009,309,,Post-graduate,2011,3.36
+8,Global PPM,Postgraduate,Mathematics,18/12/1994,Female,Afghanistan,Japan,Ukraine,GRE,Part-time,Multi-modal,Afghanistan,Japanese,2006,339,,Diploma,2011,3.78
+9,MISM,Postgraduate,IT,2/5/1990,Male,Bosnia and Herzegovina,Sweden,Poland,GRE,Part-time,External,Bosnia and Herzegovina,Kurdish,2009,308,,Post-graduate,2010,3.91
+10,MISM,Postgraduate,Computer Science,29/04/1994,Female,China,Indonesia,China,GRE,Full-time,Multi-modal,China,Italian,2007,311,,Baccalaureate,2011,3.98
+11,MISM,Undergraduate,IT,22/04/1986,Female,China,China,Portugal,GRE,Full-time,Internal,China,Guaran??,2004,304,,Professional Certification,2011,3.86
+12,PPM,Postgraduate,Psychology,13/03/1988,Female,China,Iceland,Poland,GRE,Full-time,Internal,China,Papiamento,2007,309,,Baccalaureate,2011,3.97
+13,MISM,Undergraduate,Mathematics,27/05/1997,Female,United States,China,Indonesia,GRE,Full-time,Internal,United States,Sotho,2006,309,Disability,Diploma,2011,3.76
+14,MISM,Postgraduate,Psychology,23/04/1983,Female,Indonesia,China,Bosnia and Herzegovina,GRE,Full-time,Internal,Indonesia,Hebrew,2011,321,,Diploma,2010,3.68
+15,PPM,Undergraduate,Computer Science,26/05/1986,Female,China,Indonesia,Russia,GRE,Full-time,Internal,China,Polish,2007,313,Regional/ Remote,Post-graduate,2012,3.31
+16,Global PPM,Undergraduate,Computer Science,24/02/1994,Male,Ukraine,China,Thailand,GRE,Part-time,Internal,Ukraine,Dhivehi,2004,303,,Professional Certification,2013,3.29
+17,MSIT,Undergraduate,Medicine,23/06/1984,Male,Philippines,United States,China,GRE,Part-time,Multi-modal,Philippines,Bosnian,2012,323,,Baccalaureate,2011,3.63
+18,PPM,Postgraduate,Public Administration,7/9/1994,Male,Philippines,Nigeria,Peru,GRE,Full-time,Internal,Philippines,Malay,2007,315,,Post-graduate,2010,3.94
+19,Global PPM,Postgraduate,Psychology,15/08/1987,Male,China,Bolivia,Armenia,GRE,Part-time,External,China,Mongolian,2005,334,,Baccalaureate,2011,3.51
+20,MISM,Postgraduate,Public Administration,17/06/1997,Male,Brazil,Indonesia,Malaysia,GRE,Full-time,External,Brazil,Swati,2012,327,,Post-graduate,2011,3.42
+21,MSIT,Undergraduate,Computer Science,16/02/1997,Male,Pakistan,Japan,Peru,GRE,Full-time,External,Pakistan,Swedish,2007,330,Disability,Baccalaureate,2014,3.67
+22,MISM,Postgraduate,Medicine,8/2/1980,Female,Russia,Luxembourg,China,GRE,Part-time,Multi-modal,Russia,Malayalam,2009,309,Regional/ Remote,Diploma,2014,3.95
+23,PPM,Undergraduate,Computer Science,27/06/1993,Male,Iran,China,Greece,GRE,Part-time,Internal,Iran,M??ori,2006,317,Regional/ Remote,Diploma,2013,3.94
+24,PPM,Postgraduate,IT,25/03/1981,Female,Ukraine,Russia,Macedonia,GRE,Part-time,External,Ukraine,Pashto,2012,322,,Diploma,2011,3.48
+25,Global MISM,Undergraduate,Computer Science,28/09/1994,Male,China,Indonesia,Indonesia,GRE,Part-time,Multi-modal,China,Persian,2008,307,,Post-graduate,2011,3.89
+26,PPM,Undergraduate,IT,11/10/1986,Female,Argentina,Sweden,Germany,GRE,Part-time,Multi-modal,Argentina,Georgian,2009,332,,Diploma,2010,3.77
+27,Global MISM,Postgraduate,Computer Science,29/04/1981,Female,Russia,China,Greece,GRE,Full-time,Internal,Russia,Tamil,2005,335,,Diploma,2014,3.9
+28,MISM,Postgraduate,Computer Science,6/7/1986,Female,Ukraine,China,China,GRE,Part-time,External,Ukraine,Bislama,2012,301,,Post-graduate,2011,3.59
+29,Global MISM,Postgraduate,Psychology,19/03/1996,Female,Germany,China,China,GRE,Full-time,External,Germany,Lao,2009,333,,Professional Certification,2013,3.62
+30,MSIT,Undergraduate,Mathematics,14/03/1986,Male,Mexico,Dominican Republic,United States,GRE,Full-time,External,Mexico,Bosnian,2009,314,Disability,Post-graduate,2011,3.24
+31,Global MISM,Undergraduate,Mathematics,20/06/1989,Male,Brazil,China,Slovenia,GRE,Full-time,Internal,Brazil,Hebrew,2012,338,,Post-graduate,2014,3.64
+32,Global PPM,Undergraduate,Medicine,9/5/1984,Male,Brazil,Indonesia,Indonesia,GRE,Part-time,Internal,Brazil,Gujarati,2009,336,Regional/ Remote,Post-graduate,2011,3.9
+33,PPM,Postgraduate,Medicine,16/04/1986,Male,Brazil,China,Afghanistan,GRE,Part-time,External,Brazil,Kannada,2005,326,,Diploma,2012,3.72
+34,PPM,Postgraduate,Computer Science,2/5/1996,Female,Botswana,United States,Nigeria,GRE,Part-time,External,Botswana,English,2004,326,,Diploma,2013,3.77
+35,Global MISM,Postgraduate,Medicine,4/7/1992,Female,Czech Republic,Ireland,Philippines,GRE,Part-time,External,Czech Republic,M??ori,2008,325,,Baccalaureate,2013,3.22
+36,Global MISM,Undergraduate,Public Administration,23/02/1980,Female,Argentina,Venezuela,Philippines,GRE,Part-time,External,Argentina,Ndebele,2006,336,,Post-graduate,2013,3.23
+37,MISM,Undergraduate,IT,14/11/1993,Female,Czech Republic,Uganda,Portugal,GRE,Full-time,Internal,Czech Republic,Latvian,2010,321,,Diploma,2013,3.23
+38,MISM,Postgraduate,Computer Science,16/07/1985,Male,Indonesia,Luxembourg,Poland,GRE,Part-time,External,Indonesia,Yiddish,2009,316,,Baccalaureate,2012,3.35
+39,MISM,Undergraduate,Computer Science,14/07/1985,Female,Armenia,Dominican Republic,Indonesia,GRE,Full-time,Multi-modal,Armenia,Romanian,2011,308,,Baccalaureate,2011,3.43
+40,MSIT,Undergraduate,Medicine,16/03/1984,Male,Indonesia,France,Ukraine,GRE,Full-time,Multi-modal,Indonesia,Guaran??,2011,325,Disability,Diploma,2011,3.35
+41,MISM,Postgraduate,Medicine,24/05/1987,Male,Thailand,Germany,China,GRE,Part-time,Multi-modal,Thailand,Polish,2012,324,Women in non-traditional areas,Professional Certification,2011,3.97
+42,MSIT,Undergraduate,Psychology,6/2/1989,Male,China,Czech Republic,Philippines,GRE,Part-time,Multi-modal,China,Lao,2005,334,,Baccalaureate,2014,3.55
+43,MISM,Undergraduate,IT,2/1/1994,Female,Greece,China,Japan,GRE,Full-time,External,Greece,Amharic,2004,337,Women in non-traditional areas,Diploma,2010,3.89
+44,Global PPM,Postgraduate,Psychology,26/07/1982,Male,Brazil,Poland,Brazil,GRE,Full-time,Internal,Brazil,Kannada,2004,335,,Professional Certification,2014,3.65
+45,PPM,Postgraduate,Computer Science,5/1/1996,Female,Mexico,Philippines,China,GRE,Full-time,Internal,Mexico,Dzongkha,2012,320,,Diploma,2013,3.56
+46,MSIT,Postgraduate,Computer Science,20/08/1993,Female,Ivory Coast,Serbia,Costa Rica,GRE,Part-time,External,Ivory Coast,Kannada,2007,318,,Baccalaureate,2012,3.97
+47,Global MISM,Undergraduate,Computer Science,20/08/1984,Female,Indonesia,Tanzania,Brazil,GRE,Part-time,External,Indonesia,Dhivehi,2006,322,,Baccalaureate,2011,3.92
+48,Global MISM,Postgraduate,Public Administration,27/02/1997,Female,Indonesia,Colombia,Philippines,GRE,Part-time,Internal,Indonesia,Ndebele,2009,308,low-income,Diploma,2010,3.23
+49,MSIT,Undergraduate,Mathematics,1/1/1992,Female,Liberia,Indonesia,Greece,GRE,Full-time,Multi-modal,Liberia,Bulgarian,2009,316,,Diploma,2014,3.57
+50,Global PPM,Undergraduate,Medicine,12/2/1992,Female,Colombia,El Salvador,Canada,GRE,Full-time,External,Colombia,Bulgarian,2004,340,,Post-graduate,2010,3.39
+51,MSIT,Postgraduate,Medicine,19/01/1984,Female,Brazil,China,Colombia,GRE,Full-time,External,Brazil,Gagauz,2007,338,Disability,Baccalaureate,2010,3.7
+52,MSIT,Undergraduate,IT,24/03/1982,Female,Serbia,China,Philippines,GRE,Part-time,External,Serbia,Fijian,2008,316,,Diploma,2013,3.42
+53,Global PPM,Undergraduate,Mathematics,1/9/1994,Male,Russia,Colombia,Indonesia,GRE,Part-time,External,Russia,Georgian,2009,323,,Post-graduate,2014,3.84
+54,PPM,Postgraduate,Medicine,10/12/1985,Female,Russia,Indonesia,Indonesia,GRE,Full-time,Multi-modal,Russia,Tetum,2006,318,,Post-graduate,2010,3.6
+55,Global PPM,Postgraduate,Public Administration,24/06/1996,Male,Vietnam,Indonesia,Japan,GRE,Full-time,Internal,Vietnam,M??ori,2006,330,,Baccalaureate,2012,3.99
+56,MISM,Undergraduate,Medicine,13/10/1982,Male,China,Honduras,Serbia,GRE,Part-time,Internal,China,Burmese,2010,322,Disability,Professional Certification,2012,3.45
+57,Global PPM,Postgraduate,Psychology,8/10/1981,Female,France,Poland,Brazil,GRE,Part-time,Internal,France,West Frisian,2004,305,,Post-graduate,2012,3.34
+58,Global PPM,Postgraduate,Psychology,16/09/1983,Male,Armenia,South Korea,Brazil,GRE,Full-time,Internal,Armenia,Bislama,2006,339,Women in non-traditional areas,Baccalaureate,2012,3.78
+59,MISM,Undergraduate,Computer Science,18/06/1994,Male,Poland,Brazil,China,GRE,Part-time,Internal,Poland,Kyrgyz,2011,302,Regional/ Remote,Diploma,2012,3.22
+60,PPM,Undergraduate,Public Administration,7/4/1996,Female,South Africa,Indonesia,Indonesia,GRE,Part-time,Internal,South Africa,Aymara,2009,328,,Baccalaureate,2012,3.43
+61,Global PPM,Postgraduate,Public Administration,15/03/1986,Male,Ukraine,Portugal,North Korea,GRE,Part-time,External,Ukraine,Bulgarian,2010,327,Disability,Baccalaureate,2010,3.26
+62,PPM,Undergraduate,IT,20/08/1987,Female,Russia,Peru,Poland,GRE,Part-time,Internal,Russia,Croatian,2006,323,,Diploma,2011,3.62
+63,Global MISM,Postgraduate,IT,12/12/1986,Female,Czech Republic,China,United States,GRE,Part-time,Multi-modal,Czech Republic,Pashto,2010,320,,Post-graduate,2012,3.93
+64,Global PPM,Undergraduate,IT,31/12/1985,Male,Azerbaijan,Pakistan,China,GRE,Full-time,Multi-modal,Azerbaijan,M??ori,2012,337,,Professional Certification,2013,3.81
+65,PPM,Undergraduate,Mathematics,28/11/1990,Female,China,Russia,China,GRE,Part-time,Multi-modal,China,M??ori,2007,317,,Diploma,2012,3.68
+66,MISM,Undergraduate,Mathematics,8/8/1994,Female,Somalia,New Zealand,China,GRE,Full-time,Multi-modal,Somalia,Oriya,2006,321,,Post-graduate,2011,3.57
+67,MSIT,Postgraduate,Public Administration,17/02/1983,Female,Russia,China,Poland,GRE,Part-time,Multi-modal,Russia,Sotho,2010,327,,Diploma,2012,3.23
+68,Global MISM,Undergraduate,Public Administration,1/8/1994,Female,China,France,China,GRE,Full-time,Multi-modal,China,M??ori,2007,315,low-income,Professional Certification,2011,3.84
+69,PPM,Postgraduate,Medicine,13/07/1983,Female,China,Azerbaijan,Brazil,GRE,Part-time,Multi-modal,China,Ndebele,2006,306,,Post-graduate,2012,3.35
+70,Global MISM,Postgraduate,Mathematics,15/08/1980,Female,China,Afghanistan,Peru,GRE,Part-time,External,China,Bengali,2008,303,,Baccalaureate,2013,3.73
+71,PPM,Undergraduate,Computer Science,21/02/1987,Male,Portugal,Japan,Ireland,GRE,Part-time,External,Portugal,Tok Pisin,2005,300,Women in non-traditional areas,Post-graduate,2010,3.54
+72,Global PPM,Postgraduate,Psychology,17/07/1997,Female,China,Czech Republic,Indonesia,GRE,Part-time,Multi-modal,China,Persian,2009,327,Women in non-traditional areas,Post-graduate,2013,3.78
+73,Global MISM,Postgraduate,IT,14/05/1988,Male,Russia,Czech Republic,China,GRE,Part-time,External,Russia,Sotho,2006,334,,Baccalaureate,2010,3.86
+74,MISM,Postgraduate,Mathematics,12/2/1993,Female,France,Poland,United States,GRE,Full-time,Internal,France,Hindi,2006,309,Disability,Post-graduate,2012,3.76
+75,PPM,Postgraduate,Medicine,16/01/1985,Male,Brazil,South Africa,China,GRE,Part-time,Internal,Brazil,Azeri,2010,322,Women in non-traditional areas,Post-graduate,2013,3.42
+76,Global PPM,Postgraduate,Computer Science,31/07/1993,Female,France,Armenia,Germany,GRE,Full-time,Internal,France,Tamil,2009,315,,Professional Certification,2013,3.81
+77,PPM,Undergraduate,Psychology,12/3/1990,Male,China,China,China,GRE,Full-time,Internal,China,Korean,2012,329,Women in non-traditional areas,Professional Certification,2010,3.85
+78,Global MISM,Undergraduate,IT,23/02/1996,Male,Philippines,Moldova,Sweden,GRE,Full-time,Multi-modal,Philippines,Maltese,2006,306,low-income,Diploma,2014,3.26
+79,Global PPM,Undergraduate,IT,20/11/1990,Female,Indonesia,Russia,Belgium,GRE,Part-time,Internal,Indonesia,Quechua,2005,333,Disability,Post-graduate,2012,3.5
+80,Global MISM,Postgraduate,Mathematics,22/07/1989,Male,Benin,Gambia,Poland,GRE,Part-time,Internal,Benin,Hiri Motu,2009,313,,Professional Certification,2014,3.64
+81,MSIT,Undergraduate,Mathematics,10/6/1993,Male,United States,Lebanon,China,GRE,Part-time,Internal,United States,Polish,2011,337,,Professional Certification,2012,3.58
+82,MSIT,Postgraduate,Psychology,19/07/1980,Female,France,Thailand,Slovenia,GRE,Full-time,External,France,Kurdish,2005,322,Women in non-traditional areas,Diploma,2012,3.84
+83,MISM,Postgraduate,Mathematics,25/02/1983,Male,Indonesia,Estonia,Honduras,GRE,Full-time,External,Indonesia,Afrikaans,2006,336,Women in non-traditional areas,Post-graduate,2014,3.44
+84,Global MISM,Undergraduate,IT,29/06/1997,Female,Iran,Spain,Philippines,GRE,Part-time,Internal,Iran,Khmer,2010,332,,Professional Certification,2014,3.8
+85,MISM,Postgraduate,Computer Science,6/12/1992,Male,Ireland,Indonesia,China,GRE,Part-time,External,Ireland,Kashmiri,2004,309,,Diploma,2011,3.33
+86,Global MISM,Postgraduate,Public Administration,8/8/1985,Female,Russia,Ukraine,China,GRE,Part-time,Internal,Russia,Kashmiri,2010,317,,Baccalaureate,2013,3.43
+87,Global MISM,Undergraduate,Computer Science,22/12/1986,Male,Estonia,France,Indonesia,GRE,Full-time,External,Estonia,Maltese,2009,333,,Post-graduate,2013,3.22
+88,PPM,Undergraduate,IT,9/3/1989,Female,China,Indonesia,Indonesia,GRE,Part-time,Internal,China,Gagauz,2005,332,Women in non-traditional areas,Post-graduate,2010,3.58
+89,MISM,Undergraduate,Medicine,25/05/1994,Male,United States,Indonesia,North Korea,GRE,Part-time,External,United States,Spanish,2006,313,low-income,Post-graduate,2011,3.45
+90,Global MISM,Undergraduate,Medicine,6/11/1987,Female,Czech Republic,Vietnam,France,GRE,Part-time,Multi-modal,Czech Republic,Dari,2007,307,,Diploma,2013,3.63
+91,PPM,Undergraduate,Psychology,12/11/1984,Male,China,Russia,Greece,GRE,Part-time,External,China,Pashto,2005,339,,Baccalaureate,2010,3.71
+92,PPM,Undergraduate,Medicine,2/1/1992,Female,Honduras,Brazil,Croatia,GRE,Full-time,Multi-modal,Honduras,Swahili,2005,332,,Post-graduate,2011,3.94
+93,MISM,Undergraduate,Psychology,1/11/1980,Male,Kosovo,China,Argentina,GRE,Part-time,External,Kosovo,West Frisian,2006,312,,Professional Certification,2010,3.69
+94,MISM,Postgraduate,Psychology,2/9/1990,Male,Indonesia,Comoros,Ivory Coast,GRE,Part-time,External,Indonesia,Italian,2012,302,,Professional Certification,2011,3.39
+95,MSIT,Undergraduate,Computer Science,6/10/1990,Male,China,Brazil,Brazil,GRE,Part-time,External,China,Fijian,2009,328,,Baccalaureate,2012,3.32
+96,Global MISM,Postgraduate,Medicine,18/10/1992,Female,Indonesia,United States,Botswana,GRE,Part-time,Multi-modal,Indonesia,Bosnian,2004,323,Women in non-traditional areas,Diploma,2013,3.54
+97,MSIT,Postgraduate,Public Administration,12/7/1980,Male,Greece,Peru,Russia,GRE,Part-time,Internal,Greece,Korean,2006,327,,Professional Certification,2013,3.31
+98,PPM,Undergraduate,IT,12/8/1980,Male,Philippines,Portugal,Mexico,GRE,Full-time,Internal,Philippines,Afrikaans,2010,332,,Professional Certification,2013,3.28
+99,MSIT,Undergraduate,Public Administration,27/06/1985,Female,Poland,Norway,China,GRE,Full-time,Multi-modal,Poland,Chinese,2004,306,,Baccalaureate,2011,3.42
+100,MSIT,Postgraduate,IT,8/2/1984,Male,China,Thailand,China,GRE,Full-time,Multi-modal,China,Dari,2008,306,,Diploma,2010,3.75
+101,MSIT,Undergraduate,Mathematics,26/04/1995,Female,Indonesia,Philippines,Russia,GRE,Full-time,Internal,Indonesia,English,2008,322,low-income,Diploma,2011,3.81
+102,Global PPM,Postgraduate,Computer Science,28/07/1988,Female,Ukraine,Ethiopia,China,GRE,Part-time,Internal,Ukraine,Maltese,2010,321,,Post-graduate,2014,3.38
+103,PPM,Undergraduate,IT,4/11/1982,Female,China,Mexico,Albania,GRE,Part-time,Internal,China,Dari,2009,333,,Professional Certification,2014,4
+104,Global PPM,Undergraduate,Psychology,19/11/1990,Female,Sweden,Brazil,Netherlands,GRE,Full-time,Multi-modal,Sweden,Swedish,2004,306,,Professional Certification,2013,3.46
+105,PPM,Undergraduate,Mathematics,3/4/1982,Male,China,Serbia,Russia,GRE,Part-time,External,China,Marathi,2006,330,,Professional Certification,2013,3.6
+106,MISM,Postgraduate,Mathematics,28/04/1997,Male,Morocco,Indonesia,France,GRE,Part-time,Internal,Morocco,Dutch,2007,311,Disability,Post-graduate,2012,3.66
+107,MSIT,Postgraduate,IT,31/07/1983,Female,Thailand,Ukraine,Madagascar,GRE,Full-time,External,Thailand,Punjabi,2009,302,,Baccalaureate,2012,3.84
+108,Global PPM,Postgraduate,Computer Science,9/6/1988,Female,Russia,Argentina,Russia,GRE,Full-time,External,Russia,Bosnian,2008,323,,Baccalaureate,2013,3.24
+109,Global MISM,Postgraduate,Computer Science,8/12/1982,Male,Japan,Cameroon,Indonesia,GRE,Full-time,Multi-modal,Japan,Gujarati,2007,338,Disability,Post-graduate,2014,3.69
+110,MISM,Postgraduate,Public Administration,25/10/1990,Female,South Africa,China,Russia,GRE,Part-time,Internal,South Africa,Fijian,2010,307,,Professional Certification,2013,3.36
+111,PPM,Postgraduate,Medicine,12/4/1989,Male,China,Portugal,Philippines,GRE,Full-time,External,China,Kashmiri,2010,312,,Diploma,2012,3.84
+112,MSIT,Postgraduate,Public Administration,18/12/1983,Male,Canada,China,Thailand,GRE,Full-time,Multi-modal,Canada,Swedish,2010,333,,Diploma,2013,3.43
+113,Global PPM,Undergraduate,Psychology,24/06/1982,Female,Indonesia,Somalia,Portugal,GRE,Part-time,External,Indonesia,Papiamento,2006,315,Regional/ Remote,Baccalaureate,2014,3.79
+114,MISM,Undergraduate,IT,6/12/1996,Female,Russia,Qatar,China,GRE,Part-time,Multi-modal,Russia,Luxembourgish,2004,307,,Post-graduate,2014,3.91
+115,MSIT,Undergraduate,Medicine,6/8/1990,Female,China,Honduras,Morocco,GRE,Full-time,External,China,Quechua,2010,305,,Baccalaureate,2013,3.27
+116,MSIT,Undergraduate,Computer Science,27/12/1990,Male,Portugal,France,Mexico,GRE,Full-time,Multi-modal,Portugal,Bulgarian,2006,325,,Professional Certification,2010,3.94
+117,MSIT,Postgraduate,Psychology,16/08/1995,Female,Japan,Russia,Czech Republic,GRE,Part-time,Internal,Japan,Oriya,2004,307,Regional/ Remote,Professional Certification,2011,3.3
+118,Global PPM,Postgraduate,Medicine,9/2/1987,Male,China,Portugal,Canada,GRE,Full-time,External,China,Bislama,2010,334,,Diploma,2010,3.76
+119,PPM,Postgraduate,Computer Science,21/03/1985,Female,Peru,China,Brazil,GRE,Full-time,Internal,Peru,Arabic,2004,333,Regional/ Remote,Diploma,2013,3.79
+120,Global PPM,Postgraduate,Mathematics,15/10/1994,Female,Russia,China,Indonesia,GRE,Part-time,External,Russia,Amharic,2006,331,,Baccalaureate,2012,3.88
+121,MSIT,Postgraduate,Public Administration,10/12/1991,Female,Philippines,China,Russia,GRE,Full-time,External,Philippines,Maltese,2008,322,,Post-graduate,2010,3.83
+122,MSIT,Undergraduate,Medicine,27/05/1989,Female,Philippines,Indonesia,Canada,GRE,Full-time,Multi-modal,Philippines,Telugu,2006,308,,Diploma,2013,3.76
+123,MISM,Postgraduate,Computer Science,9/6/1981,Female,Czech Republic,Brazil,Poland,GRE,Full-time,External,Czech Republic,Lao,2012,340,,Baccalaureate,2011,3.52
+124,Global PPM,Undergraduate,Psychology,30/11/1988,Male,Sweden,Serbia,Poland,GRE,Full-time,Internal,Sweden,Sotho,2005,335,,Baccalaureate,2011,3.52
+125,Global MISM,Undergraduate,Psychology,12/12/1982,Female,Indonesia,Guatemala,Indonesia,GRE,Full-time,Internal,Indonesia,Guaran??,2008,302,Regional/ Remote,Diploma,2014,3.33
+126,PPM,Postgraduate,Computer Science,25/02/1980,Female,China,Indonesia,Philippines,GRE,Part-time,External,China,Portuguese,2012,330,,Diploma,2013,3.31
+127,PPM,Postgraduate,Medicine,10/5/1983,Female,Indonesia,Indonesia,Mexico,GRE,Part-time,External,Indonesia,Luxembourgish,2012,335,,Baccalaureate,2013,3.59
+128,Global PPM,Postgraduate,Public Administration,20/06/1986,Female,France,Madagascar,Thailand,GRE,Full-time,External,France,Croatian,2005,333,Regional/ Remote,Post-graduate,2011,3.31
+129,MSIT,Undergraduate,Computer Science,19/08/1987,Female,Croatia,Indonesia,Canada,GRE,Part-time,Multi-modal,Croatia,Montenegrin,2006,339,,Baccalaureate,2011,3.38
+130,MSIT,Undergraduate,Public Administration,1/8/1996,Female,South Africa,Afghanistan,China,GRE,Full-time,Multi-modal,South Africa,Tajik,2005,329,Regional/ Remote,Baccalaureate,2010,3.71
+131,MISM,Undergraduate,Computer Science,23/09/1986,Female,China,Portugal,China,GRE,Full-time,Internal,China,Latvian,2012,329,,Diploma,2014,3.87
+132,Global PPM,Postgraduate,Public Administration,2/4/1989,Male,China,Philippines,Indonesia,GRE,Part-time,Internal,China,Dzongkha,2006,333,Disability,Diploma,2011,3.76
+133,Global PPM,Postgraduate,Public Administration,25/12/1991,Female,Denmark,Indonesia,Philippines,GRE,Part-time,Multi-modal,Denmark,Pashto,2009,315,,Diploma,2014,3.24
+134,MISM,Undergraduate,Mathematics,26/10/1980,Female,Japan,Burundi,Russia,GRE,Full-time,Internal,Japan,Swati,2007,300,,Diploma,2014,3.67
+135,PPM,Undergraduate,Psychology,19/10/1994,Male,Indonesia,United States,Vietnam,GRE,Part-time,Internal,Indonesia,Aymara,2008,331,Disability,Baccalaureate,2012,3.21
+136,MSIT,Postgraduate,Psychology,23/11/1983,Male,Swaziland,Philippines,China,GRE,Part-time,External,Swaziland,Portuguese,2007,337,,Diploma,2014,3.37
+137,Global MISM,Postgraduate,Computer Science,30/05/1992,Male,China,Thailand,Russia,GRE,Full-time,External,China,Quechua,2006,320,,Diploma,2012,3.33
+138,Global MISM,Postgraduate,Public Administration,8/10/1995,Female,Norway,Thailand,Nicaragua,GRE,Part-time,Internal,Norway,Zulu,2009,311,Women in non-traditional areas,Diploma,2011,3.55
+139,Global MISM,Postgraduate,IT,10/9/1988,Male,Poland,Madagascar,Czech Republic,GRE,Part-time,Multi-modal,Poland,Dhivehi,2007,302,,Baccalaureate,2013,3.78
+140,Global MISM,Undergraduate,Computer Science,25/12/1983,Male,Indonesia,China,Nigeria,GRE,Part-time,Multi-modal,Indonesia,Dhivehi,2011,305,,Diploma,2011,3.69
+141,PPM,Postgraduate,Public Administration,13/11/1980,Male,Russia,Chile,Indonesia,GRE,Part-time,Internal,Russia,Yiddish,2011,327,,Professional Certification,2013,3.29
+142,Global MISM,Undergraduate,IT,22/05/1989,Male,Brazil,China,Philippines,GRE,Full-time,Internal,Brazil,Sotho,2009,309,,Professional Certification,2011,3.55
+143,PPM,Undergraduate,Psychology,29/12/1990,Male,China,Indonesia,Thailand,GRE,Full-time,Internal,China,Sotho,2010,312,,Baccalaureate,2010,3.81
+144,Global MISM,Postgraduate,Medicine,25/10/1997,Female,Brazil,United States,South Africa,GRE,Part-time,Multi-modal,Brazil,Irish Gaelic,2010,338,,Professional Certification,2010,3.83
+145,Global MISM,Undergraduate,Medicine,24/12/1991,Male,Brazil,Belarus,Indonesia,GRE,Part-time,External,Brazil,M??ori,2005,315,,Baccalaureate,2012,3.56
+146,PPM,Postgraduate,IT,4/2/1988,Female,China,Oman,China,GRE,Full-time,External,China,Italian,2006,331,Disability,Professional Certification,2011,3.23
+147,MSIT,Undergraduate,Public Administration,28/11/1988,Male,Indonesia,China,Mongolia,GRE,Part-time,Multi-modal,Indonesia,Estonian,2008,339,,Diploma,2010,3.81
+148,MSIT,Postgraduate,Mathematics,4/8/1986,Male,Czech Republic,Russia,France,GRE,Part-time,Internal,Czech Republic,Lithuanian,2006,319,Disability,Post-graduate,2014,3.93
+149,MISM,Undergraduate,Computer Science,9/3/1997,Male,Indonesia,Democratic Republic of the Congo,Ivory Coast,GRE,Part-time,Multi-modal,Indonesia,Khmer,2009,327,,Professional Certification,2014,3.63
+150,Global MISM,Undergraduate,Computer Science,16/11/1980,Male,Brazil,China,Peru,GRE,Part-time,External,Brazil,Indonesian,2006,305,,Professional Certification,2012,3.77
+151,Global MISM,Postgraduate,Mathematics,4/7/1991,Male,Brazil,Indonesia,Philippines,GRE,Part-time,Internal,Brazil,Papiamento,2006,339,,Diploma,2014,3.49
+152,PPM,Undergraduate,Computer Science,6/10/1982,Female,China,Montenegro,Mexico,GRE,Part-time,Internal,China,Lao,2010,312,Disability,Baccalaureate,2012,3.46
+153,Global MISM,Undergraduate,IT,27/07/1989,Male,China,Indonesia,Aland Islands,GRE,Full-time,Multi-modal,China,Oriya,2006,338,,Post-graduate,2013,3.29
+154,MISM,Postgraduate,Public Administration,2/12/1995,Female,Portugal,Indonesia,China,GRE,Full-time,Internal,Portugal,Azeri,2011,314,Women in non-traditional areas,Post-graduate,2011,3.36
+155,Global MISM,Undergraduate,IT,27/12/1997,Female,Bulgaria,Namibia,China,GRE,Full-time,Multi-modal,Bulgaria,Romanian,2009,300,Women in non-traditional areas,Post-graduate,2012,3.77
+156,Global MISM,Postgraduate,Psychology,28/04/1990,Male,Indonesia,Ghana,Iran,GRE,Part-time,Multi-modal,Indonesia,Croatian,2006,326,,Post-graduate,2014,3.31
+157,Global PPM,Undergraduate,Medicine,20/05/1990,Female,Libya,France,Russia,GRE,Part-time,External,Libya,Dari,2007,314,,Post-graduate,2010,3.87
+158,MSIT,Postgraduate,Public Administration,4/12/1989,Female,Vietnam,Greece,Portugal,GRE,Full-time,External,Vietnam,Dhivehi,2010,325,,Professional Certification,2012,3.41
+159,Global MISM,Undergraduate,Psychology,28/05/1984,Female,Brazil,Brazil,Kazakhstan,GRE,Part-time,External,Brazil,Papiamento,2005,326,,Post-graduate,2011,4
+160,MSIT,Undergraduate,Computer Science,16/03/1996,Male,China,Pakistan,Guatemala,GRE,Full-time,Multi-modal,China,Assamese,2006,333,Women in non-traditional areas,Professional Certification,2014,3.64
+161,PPM,Undergraduate,Computer Science,1/8/1980,Female,China,Pakistan,France,GRE,Part-time,External,China,Kannada,2011,313,,Baccalaureate,2014,3.32
+162,MISM,Postgraduate,Public Administration,6/3/1986,Male,China,Indonesia,Ukraine,GRE,Full-time,External,China,Aymara,2006,330,,Baccalaureate,2013,3.6
+163,Global PPM,Postgraduate,Public Administration,17/05/1991,Female,Ecuador,Cameroon,Brazil,GRE,Part-time,External,Ecuador,Hebrew,2010,313,,Post-graduate,2010,3.61
+164,MISM,Undergraduate,Medicine,27/03/1987,Male,Costa Rica,Thailand,Portugal,GRE,Part-time,External,Costa Rica,Northern Sotho,2007,337,low-income,Diploma,2014,3.38
+165,MSIT,Undergraduate,Mathematics,9/6/1987,Male,Russia,Finland,Russia,GRE,Full-time,Multi-modal,Russia,Burmese,2006,313,,Diploma,2011,3.34
+166,Global MISM,Postgraduate,Medicine,16/12/1993,Male,Israel,China,China,GRE,Part-time,Internal,Israel,Latvian,2008,309,Disability,Diploma,2010,3.67
+167,MSIT,Undergraduate,IT,10/9/1985,Male,Ukraine,Indonesia,China,GRE,Part-time,Multi-modal,Ukraine,Portuguese,2012,340,Disability,Diploma,2010,3.91
+168,Global MISM,Postgraduate,Psychology,28/07/1985,Male,China,Brazil,Czech Republic,GRE,Full-time,Internal,China,Northern Sotho,2008,306,Disability,Post-graduate,2011,3.78
+169,Global PPM,Undergraduate,Mathematics,17/02/1995,Female,Philippines,Poland,Japan,GRE,Full-time,External,Philippines,Nepali,2011,339,,Professional Certification,2010,3.36
+170,Global MISM,Undergraduate,Psychology,28/08/1983,Male,Cuba,Haiti,Spain,GRE,Full-time,External,Cuba,M??ori,2004,300,,Professional Certification,2011,3.65
+171,PPM,Undergraduate,IT,20/03/1989,Female,Canada,Denmark,Greece,GRE,Part-time,External,Canada,Quechua,2007,307,Disability,Diploma,2010,3.46
+172,MISM,Postgraduate,Computer Science,4/7/1993,Female,China,Tanzania,France,GRE,Part-time,Multi-modal,China,Fijian,2008,309,Women in non-traditional areas,Diploma,2010,3.78
+173,PPM,Postgraduate,Psychology,1/3/1994,Female,Indonesia,China,Russia,GRE,Part-time,Multi-modal,Indonesia,Georgian,2004,312,,Professional Certification,2014,3.78
+174,Global PPM,Postgraduate,Computer Science,6/4/1992,Male,Russia,Peru,Lebanon,GRE,Full-time,External,Russia,Romanian,2011,302,,Diploma,2011,3.93
+175,MSIT,Undergraduate,Medicine,27/08/1982,Male,Cuba,Czech Republic,Uzbekistan,GRE,Full-time,Multi-modal,Cuba,Latvian,2005,335,Women in non-traditional areas,Baccalaureate,2012,3.48
+176,Global PPM,Postgraduate,Computer Science,6/5/1989,Female,Netherlands,China,China,GRE,Full-time,Internal,Netherlands,Marathi,2005,310,low-income,Post-graduate,2011,3.79
+177,MISM,Undergraduate,Mathematics,12/11/1997,Female,Portugal,France,Indonesia,GRE,Full-time,Internal,Portugal,Lithuanian,2012,320,,Professional Certification,2013,3.74
+178,PPM,Postgraduate,Computer Science,23/06/1982,Female,Sweden,Honduras,Mongolia,GRE,Full-time,Internal,Sweden,Guaran??,2006,300,,Professional Certification,2014,3.8
+179,MSIT,Undergraduate,Computer Science,1/3/1982,Female,Poland,Libya,Papua New Guinea,GRE,Part-time,External,Poland,Nepali,2012,316,Disability,Baccalaureate,2012,3.42
+180,MISM,Undergraduate,Computer Science,29/09/1997,Male,United States,Albania,Czech Republic,GRE,Part-time,Multi-modal,United States,Danish,2011,332,,Post-graduate,2012,3.77
+181,PPM,Postgraduate,Medicine,22/01/1995,Female,Kazakhstan,Portugal,Russia,GRE,Part-time,Internal,Kazakhstan,Aymara,2009,336,,Professional Certification,2011,3.62
+182,Global MISM,Undergraduate,IT,20/03/1981,Female,Zimbabwe,France,Russia,GRE,Full-time,External,Zimbabwe,Norwegian,2004,302,Regional/ Remote,Baccalaureate,2010,3.86
+183,MSIT,Postgraduate,IT,2/6/1993,Male,Russia,Poland,Sierra Leone,GRE,Part-time,Multi-modal,Russia,Tok Pisin,2010,314,,Baccalaureate,2012,3.81
+184,PPM,Undergraduate,IT,4/6/1982,Male,Indonesia,Canada,Azerbaijan,GRE,Full-time,Multi-modal,Indonesia,Dhivehi,2009,330,Women in non-traditional areas,Baccalaureate,2011,3.22
+185,PPM,Postgraduate,Mathematics,14/04/1982,Female,China,Bangladesh,United States,GRE,Full-time,Multi-modal,China,Icelandic,2012,320,,Post-graduate,2014,3.25
+186,MISM,Postgraduate,Psychology,23/04/1996,Female,Czech Republic,Slovenia,Brazil,GRE,Full-time,Internal,Czech Republic,Kurdish,2006,329,,Diploma,2013,3.64
+187,MSIT,Undergraduate,Psychology,17/09/1994,Female,Indonesia,Uzbekistan,Portugal,GRE,Full-time,External,Indonesia,Georgian,2010,300,,Diploma,2014,3.81
+188,MISM,Postgraduate,IT,1/3/1981,Female,Russia,Russia,Portugal,GRE,Full-time,External,Russia,Kannada,2008,337,,Post-graduate,2014,3.42
+189,MISM,Postgraduate,Computer Science,27/09/1991,Female,Lithuania,Tanzania,Mexico,GRE,Part-time,Multi-modal,Lithuania,Tamil,2009,315,Regional/ Remote,Post-graduate,2014,3.57
+190,MISM,Undergraduate,Mathematics,22/08/1984,Male,Indonesia,Indonesia,Philippines,GRE,Part-time,Internal,Indonesia,Northern Sotho,2004,319,,Professional Certification,2010,3.39
+191,Global PPM,Undergraduate,Psychology,20/04/1983,Female,Poland,Serbia,Honduras,GRE,Part-time,Internal,Poland,Dhivehi,2011,304,,Post-graduate,2012,3.82
+192,Global MISM,Postgraduate,Psychology,1/3/1988,Male,Greece,China,Ukraine,GRE,Full-time,External,Greece,Swati,2009,322,,Baccalaureate,2014,3.88
+193,MISM,Postgraduate,Psychology,18/10/1996,Male,Tanzania,United States,Philippines,GRE,Part-time,Multi-modal,Tanzania,Afrikaans,2004,329,,Post-graduate,2013,3.6
+194,Global PPM,Undergraduate,Computer Science,20/11/1987,Male,Sweden,Thailand,Indonesia,GRE,Part-time,Internal,Sweden,French,2007,326,,Professional Certification,2012,3.55
+195,PPM,Undergraduate,IT,5/5/1983,Female,China,Japan,Croatia,GRE,Part-time,Internal,China,Korean,2004,333,Regional/ Remote,Baccalaureate,2012,3.89
+196,MSIT,Postgraduate,Mathematics,6/5/1989,Female,China,Indonesia,United States,GRE,Full-time,Multi-modal,China,Gujarati,2006,312,,Post-graduate,2013,3.31
+197,PPM,Undergraduate,IT,2/2/1992,Male,Honduras,Portugal,North Korea,GRE,Full-time,External,Honduras,Armenian,2005,310,,Professional Certification,2010,3.63
+198,MSIT,Undergraduate,Psychology,29/10/1993,Male,Kyrgyzstan,Brazil,Gambia,GRE,Full-time,Internal,Kyrgyzstan,Albanian,2006,320,Regional/ Remote,Professional Certification,2014,3.32
+199,PPM,Undergraduate,Mathematics,2/1/1991,Male,Uruguay,China,France,GRE,Part-time,Internal,Uruguay,Estonian,2009,302,,Professional Certification,2013,4
+200,PPM,Postgraduate,Computer Science,8/6/1983,Male,Mexico,Brazil,Sweden,GRE,Part-time,Multi-modal,Mexico,Mongolian,2006,340,,Baccalaureate,2013,3.47
+201,Global PPM,Undergraduate,Medicine,25/05/1981,Male,Philippines,Ireland,Russia,GRE,Full-time,Internal,Philippines,Haitian Creole,2007,333,,Post-graduate,2014,3.85
+202,Global MISM,Undergraduate,Mathematics,9/1/1991,Female,Sweden,Philippines,Portugal,GRE,Full-time,Internal,Sweden,English,2004,336,,Post-graduate,2014,3.5
+203,Global MISM,Undergraduate,Medicine,14/07/1986,Female,China,Uruguay,Malaysia,GRE,Part-time,Multi-modal,China,Kyrgyz,2010,338,,Post-graduate,2013,3.93
+204,Global MISM,Undergraduate,Medicine,28/09/1981,Female,Russia,Indonesia,Mexico,GRE,Full-time,External,Russia,Northern Sotho,2011,334,Disability,Diploma,2012,3.55
+205,MSIT,Postgraduate,Computer Science,1/11/1997,Male,Sweden,China,Canada,GRE,Full-time,Multi-modal,Sweden,Thai,2012,314,,Baccalaureate,2012,3.55
+206,PPM,Undergraduate,Mathematics,2/9/1991,Female,Vietnam,China,Madagascar,GRE,Full-time,Internal,Vietnam,Italian,2006,325,Regional/ Remote,Professional Certification,2012,3.91
+207,MISM,Undergraduate,Psychology,5/1/1988,Male,Guatemala,Philippines,Japan,GRE,Full-time,Internal,Guatemala,Tetum,2009,338,,Diploma,2013,3.61
+208,MSIT,Postgraduate,Public Administration,31/12/1985,Female,Japan,China,China,GRE,Part-time,External,Japan,Mongolian,2012,310,,Post-graduate,2011,3.71
+209,Global MISM,Postgraduate,Medicine,27/11/1994,Female,Philippines,China,China,GRE,Full-time,Internal,Philippines,Hebrew,2010,312,low-income,Baccalaureate,2010,3.66
+210,MISM,Postgraduate,Psychology,11/10/1992,Female,China,Philippines,United States,GRE,Part-time,Multi-modal,China,Zulu,2005,306,,Post-graduate,2012,3.46
+211,PPM,Postgraduate,Computer Science,28/10/1980,Male,France,Czech Republic,Russia,GRE,Full-time,Internal,France,Luxembourgish,2007,323,,Professional Certification,2013,3.77
+212,Global MISM,Undergraduate,IT,24/07/1985,Male,Poland,Peru,Czech Republic,GRE,Full-time,Internal,Poland,Georgian,2004,300,,Baccalaureate,2011,3.9
+213,MSIT,Undergraduate,Computer Science,24/05/1989,Male,Colombia,Indonesia,France,GRE,Part-time,Internal,Colombia,Belarusian,2008,325,Women in non-traditional areas,Post-graduate,2013,3.21
+214,PPM,Undergraduate,IT,3/12/1997,Female,Russia,China,Cambodia,GRE,Part-time,Multi-modal,Russia,Arabic,2009,327,low-income,Post-graduate,2012,3.32
+215,Global PPM,Undergraduate,IT,25/06/1984,Male,China,Kazakhstan,Luxembourg,GRE,Part-time,Multi-modal,China,Malayalam,2010,307,,Diploma,2010,3.43
+216,MISM,Postgraduate,Mathematics,20/06/1990,Male,Russia,China,Nigeria,GRE,Full-time,Multi-modal,Russia,West Frisian,2004,306,Women in non-traditional areas,Post-graduate,2010,3.91
+217,Global PPM,Postgraduate,IT,22/10/1991,Male,Brazil,Brazil,Iraq,GRE,Full-time,Internal,Brazil,Northern Sotho,2012,306,,Baccalaureate,2011,3.86
+218,PPM,Undergraduate,Psychology,7/1/1997,Female,China,Iraq,Central African Republic,GRE,Part-time,Internal,China,Gagauz,2007,319,,Professional Certification,2011,3.42
+219,MSIT,Undergraduate,Computer Science,25/10/1997,Female,Syria,Bulgaria,China,GRE,Part-time,Internal,Syria,Malayalam,2011,321,,Professional Certification,2011,3.7
+220,MISM,Postgraduate,Computer Science,26/09/1982,Male,Portugal,Indonesia,Russia,GRE,Part-time,External,Portugal,Indonesian,2006,315,,Professional Certification,2011,3.38
+221,MISM,Postgraduate,Computer Science,4/2/1991,Male,Philippines,Honduras,Poland,GRE,Part-time,Internal,Philippines,Croatian,2005,319,Disability,Baccalaureate,2010,3.48
+222,MISM,Postgraduate,Psychology,14/09/1992,Female,China,Mexico,Slovenia,GRE,Full-time,Multi-modal,China,Belarusian,2004,316,,Professional Certification,2011,3.45
+223,MISM,Undergraduate,Public Administration,28/04/1990,Female,Morocco,Guatemala,Netherlands,GRE,Part-time,External,Morocco,Tamil,2006,310,Disability,Post-graduate,2014,3.76
+224,PPM,Postgraduate,Public Administration,6/9/1986,Male,Japan,Syria,Canada,GRE,Full-time,Internal,Japan,Indonesian,2007,312,Disability,Baccalaureate,2012,3.3
+225,Global MISM,Postgraduate,Psychology,12/4/1986,Male,Democratic Republic of the Congo,China,China,GRE,Part-time,External,Democratic Republic of the Congo,Luxembourgish,2010,328,,Diploma,2012,3.62
+226,MSIT,Postgraduate,Medicine,24/07/1988,Male,Peru,China,Croatia,GRE,Full-time,Internal,Peru,Somali,2011,318,Women in non-traditional areas,Diploma,2011,3.61
+227,MISM,Postgraduate,Medicine,20/11/1997,Male,China,Uzbekistan,Brazil,GRE,Full-time,External,China,Aymara,2004,310,,Professional Certification,2013,3.86
+228,MISM,Postgraduate,Computer Science,14/09/1986,Female,Lesotho,Indonesia,China,GRE,Part-time,External,Lesotho,Gujarati,2004,331,Disability,Baccalaureate,2014,3.62
+229,PPM,Postgraduate,IT,13/08/1992,Male,Czech Republic,Poland,Sweden,GRE,Full-time,Internal,Czech Republic,Kyrgyz,2012,338,,Baccalaureate,2011,3.36
+230,Global PPM,Postgraduate,Medicine,12/6/1996,Male,Russia,China,Colombia,GRE,Part-time,Internal,Russia,Croatian,2006,320,,Baccalaureate,2010,3.63
+231,Global PPM,Undergraduate,Psychology,28/06/1980,Male,Brazil,Japan,Ireland,GRE,Part-time,Internal,Brazil,Irish Gaelic,2007,304,low-income,Professional Certification,2013,3.61
+232,Global MISM,Postgraduate,Medicine,29/07/1981,Female,Russia,Mexico,China,GRE,Full-time,Internal,Russia,French,2012,334,,Diploma,2013,3.62
+233,Global PPM,Postgraduate,Computer Science,26/12/1984,Female,Vietnam,China,Norfolk Island,GRE,Part-time,Multi-modal,Vietnam,Gagauz,2009,306,,Professional Certification,2010,3.89
+234,MSIT,Postgraduate,Medicine,3/12/1980,Female,Azerbaijan,Afghanistan,Sweden,GRE,Full-time,External,Azerbaijan,Korean,2009,334,,Professional Certification,2011,3.94
+235,Global PPM,Undergraduate,Medicine,16/03/1991,Male,China,Russia,Ethiopia,GRE,Part-time,External,China,Kyrgyz,2008,332,,Professional Certification,2014,3.54
+236,PPM,Postgraduate,Medicine,9/3/1988,Female,Serbia,Argentina,Indonesia,GRE,Full-time,External,Serbia,Fijian,2005,315,,Post-graduate,2012,3.66
+237,Global MISM,Undergraduate,Computer Science,11/3/1996,Female,Finland,China,Burundi,GRE,Full-time,Multi-modal,Finland,Hungarian,2007,333,Women in non-traditional areas,Baccalaureate,2010,3.31
+238,MSIT,Postgraduate,Medicine,22/09/1996,Male,Luxembourg,Canada,Russia,GRE,Full-time,Multi-modal,Luxembourg,German,2005,315,Women in non-traditional areas,Diploma,2013,3.35
+239,MSIT,Undergraduate,Medicine,12/1/1997,Male,Cameroon,Ukraine,Indonesia,GRE,Part-time,Multi-modal,Cameroon,Swahili,2007,305,,Post-graduate,2011,3.66
+240,MSIT,Postgraduate,Computer Science,14/08/1980,Female,Comoros,Indonesia,Albania,GRE,Part-time,Internal,Comoros,Croatian,2008,320,Disability,Diploma,2012,3.6
+241,MISM,Postgraduate,Psychology,5/11/1986,Female,Norway,Ireland,China,GRE,Full-time,Internal,Norway,Portuguese,2011,333,low-income,Baccalaureate,2014,3.55
+242,MSIT,Undergraduate,Medicine,4/2/1994,Female,China,Russia,Indonesia,GRE,Part-time,Internal,China,Bulgarian,2011,323,Women in non-traditional areas,Professional Certification,2014,3.45
+243,Global PPM,Postgraduate,IT,3/2/1987,Female,Philippines,Canada,Indonesia,GRE,Full-time,External,Philippines,Burmese,2004,305,Women in non-traditional areas,Baccalaureate,2011,3.28
+244,Global PPM,Postgraduate,Public Administration,11/10/1981,Male,Mexico,Philippines,Japan,GRE,Full-time,External,Mexico,Burmese,2009,338,,Baccalaureate,2012,3.94
+245,PPM,Postgraduate,Public Administration,14/01/1994,Female,Portugal,Brazil,Brazil,GRE,Part-time,Internal,Portugal,Spanish,2008,312,,Professional Certification,2012,3.22
+246,PPM,Postgraduate,Mathematics,24/10/1989,Female,Czech Republic,China,Philippines,GRE,Full-time,External,Czech Republic,Gagauz,2011,333,Disability,Diploma,2010,3.85
+247,MSIT,Postgraduate,Psychology,23/02/1986,Male,Russia,Greece,Ireland,GRE,Part-time,External,Russia,Tamil,2009,313,Disability,Post-graduate,2012,3.67
+248,PPM,Postgraduate,Public Administration,23/11/1983,Female,United States,China,Cuba,GRE,Full-time,Multi-modal,United States,Kannada,2012,304,,Professional Certification,2012,3.54
+249,Global PPM,Undergraduate,Computer Science,15/01/1994,Male,China,China,Brazil,GRE,Full-time,External,China,M??ori,2004,300,,Post-graduate,2012,4
+250,Global MISM,Postgraduate,Medicine,19/09/1996,Male,Syria,Canada,Philippines,GRE,Full-time,External,Syria,Norwegian,2004,323,,Professional Certification,2011,3.52
+251,PPM,Undergraduate,Medicine,5/2/1990,Male,Indonesia,Malaysia,Russia,GRE,Part-time,Multi-modal,Indonesia,Quechua,2005,307,,Diploma,2011,3.77
+252,MISM,Undergraduate,IT,24/05/1981,Female,Czech Republic,Indonesia,Indonesia,GRE,Part-time,Multi-modal,Czech Republic,French,2011,314,,Diploma,2013,3.99
+253,PPM,Undergraduate,Computer Science,23/01/1982,Female,Portugal,China,Sweden,GRE,Full-time,Internal,Portugal,Japanese,2011,313,,Diploma,2011,3.8
+254,PPM,Undergraduate,Computer Science,10/1/1994,Male,Ivory Coast,Russia,Poland,GRE,Part-time,Internal,Ivory Coast,Armenian,2008,324,,Baccalaureate,2012,3.26
+255,Global PPM,Undergraduate,Computer Science,16/12/1982,Female,Afghanistan,Colombia,Argentina,GRE,Part-time,External,Afghanistan,Korean,2006,301,,Diploma,2013,3.55
+256,Global PPM,Postgraduate,Mathematics,19/01/1982,Male,China,Philippines,France,GRE,Full-time,Internal,China,Papiamento,2004,327,,Diploma,2010,3.37
+257,MSIT,Undergraduate,Psychology,24/03/1991,Male,Russia,Russia,Thailand,GRE,Part-time,External,Russia,Spanish,2004,331,,Post-graduate,2013,3.82
+258,MSIT,Undergraduate,Public Administration,10/4/1989,Male,Portugal,Brazil,Sweden,GRE,Part-time,Internal,Portugal,English,2008,324,,Diploma,2010,3.58
+259,PPM,Undergraduate,Computer Science,22/04/1992,Female,Syria,China,Iran,GRE,Part-time,Internal,Syria,Punjabi,2009,323,,Professional Certification,2011,3.96
+260,Global MISM,Postgraduate,Computer Science,14/12/1992,Male,Bulgaria,Indonesia,China,GRE,Part-time,Multi-modal,Bulgaria,Tamil,2005,309,low-income,Baccalaureate,2011,3.7
+261,Global PPM,Undergraduate,IT,3/5/1993,Female,Canada,Bosnia and Herzegovina,Sweden,GRE,Full-time,Internal,Canada,Tsonga,2011,315,,Diploma,2010,3.47
+262,MSIT,Undergraduate,Computer Science,24/06/1989,Male,Colombia,Portugal,China,GRE,Part-time,Internal,Colombia,Macedonian,2007,302,,Professional Certification,2012,3.86
+263,Global MISM,Postgraduate,Computer Science,14/05/1980,Female,Philippines,Bulgaria,China,GRE,Part-time,Multi-modal,Philippines,Tswana,2005,336,,Baccalaureate,2014,3.43
+264,Global MISM,Postgraduate,IT,26/08/1995,Female,Portugal,Argentina,Indonesia,GRE,Part-time,External,Portugal,M??ori,2008,313,,Professional Certification,2011,3.98
+265,MSIT,Postgraduate,Psychology,17/11/1991,Male,United States,Philippines,Croatia,GRE,Full-time,Multi-modal,United States,Northern Sotho,2004,319,,Diploma,2012,3.39
+266,MISM,Undergraduate,Medicine,8/3/1985,Female,China,China,China,GRE,Full-time,External,China,Azeri,2007,323,,Diploma,2010,3.99
+267,Global PPM,Postgraduate,Mathematics,24/12/1987,Female,China,Poland,Argentina,GRE,Part-time,External,China,Dutch,2004,310,low-income,Diploma,2011,3.9
+268,Global MISM,Undergraduate,Public Administration,26/04/1990,Female,Iran,Brazil,Ukraine,GRE,Part-time,Internal,Iran,Hungarian,2012,312,,Baccalaureate,2014,3.31
+269,Global MISM,Undergraduate,Psychology,13/02/1984,Female,Pakistan,Dominican Republic,Russia,GRE,Part-time,External,Pakistan,German,2012,306,Women in non-traditional areas,Post-graduate,2010,3.81
+270,Global MISM,Undergraduate,Psychology,17/08/1991,Male,Poland,Brazil,Portugal,GRE,Full-time,Multi-modal,Poland,Swati,2008,315,,Professional Certification,2010,3.95
+271,MISM,Undergraduate,Psychology,15/12/1982,Female,Sri Lanka,Indonesia,Argentina,GRE,Part-time,Multi-modal,Sri Lanka,Thai,2004,336,,Diploma,2014,3.33
+272,PPM,Undergraduate,Medicine,9/12/1988,Male,Uzbekistan,Sweden,Pakistan,GRE,Part-time,Internal,Uzbekistan,Maltese,2006,319,,Diploma,2011,3.85
+273,PPM,Postgraduate,Psychology,4/11/1985,Male,Czech Republic,Indonesia,Thailand,GRE,Part-time,Multi-modal,Czech Republic,Japanese,2005,302,,Baccalaureate,2010,3.71
+274,Global PPM,Postgraduate,IT,19/02/1997,Male,Indonesia,Philippines,Colombia,GRE,Part-time,Internal,Indonesia,Persian,2010,314,,Baccalaureate,2012,3.46
+275,MISM,Undergraduate,Medicine,21/12/1985,Female,China,Ukraine,China,GRE,Full-time,Internal,China,Ndebele,2005,334,low-income,Post-graduate,2011,3.96
+276,Global MISM,Postgraduate,Mathematics,2/8/1991,Male,Belarus,China,Argentina,GRE,Full-time,Multi-modal,Belarus,Romanian,2004,303,,Baccalaureate,2010,3.3
+277,MSIT,Undergraduate,Psychology,7/2/1985,Female,Greece,Chile,Indonesia,GRE,Full-time,External,Greece,Hebrew,2012,309,Disability,Professional Certification,2012,3.63
+278,Global MISM,Undergraduate,Mathematics,21/01/1987,Male,Poland,Ecuador,Estonia,GRE,Full-time,Multi-modal,Poland,Quechua,2009,328,low-income,Baccalaureate,2014,3.22
+279,Global PPM,Undergraduate,Mathematics,20/01/1980,Female,Ukraine,Indonesia,Pakistan,GRE,Part-time,External,Ukraine,Georgian,2007,302,,Diploma,2013,3.3
+280,MSIT,Undergraduate,Public Administration,15/12/1981,Male,China,Poland,China,GRE,Full-time,External,China,Dzongkha,2008,325,,Diploma,2014,3.22
+281,MSIT,Postgraduate,Psychology,22/04/1980,Male,South Africa,Russia,France,GRE,Full-time,External,South Africa,Maltese,2010,332,Women in non-traditional areas,Professional Certification,2011,3.41
+282,Global PPM,Undergraduate,Medicine,10/6/1988,Female,Spain,Poland,Greece,GRE,Part-time,Internal,Spain,Guaran??,2012,332,,Baccalaureate,2014,3.99
+283,MISM,Postgraduate,Public Administration,28/07/1995,Female,Namibia,France,Poland,GRE,Full-time,Internal,Namibia,Gagauz,2010,313,,Diploma,2010,3.61
+284,PPM,Undergraduate,Psychology,21/07/1996,Male,Indonesia,France,Japan,GRE,Part-time,Multi-modal,Indonesia,Nepali,2012,310,,Post-graduate,2010,3.6
+285,Global PPM,Postgraduate,IT,10/3/1982,Female,Indonesia,China,China,GRE,Full-time,Internal,Indonesia,Hebrew,2006,316,,Diploma,2012,3.63
+286,MSIT,Undergraduate,Psychology,17/01/1990,Female,Ireland,France,Indonesia,GRE,Part-time,External,Ireland,Aymara,2005,328,,Professional Certification,2012,3.77
+287,PPM,Undergraduate,Medicine,2/3/1992,Female,Russia,China,Russia,GRE,Full-time,Internal,Russia,Korean,2011,331,,Post-graduate,2014,3.8
+288,Global PPM,Postgraduate,Psychology,21/11/1987,Female,Thailand,Ukraine,Czech Republic,GRE,Part-time,Multi-modal,Thailand,Azeri,2009,300,,Professional Certification,2010,3.6
+289,Global PPM,Postgraduate,Mathematics,6/6/1997,Female,Ukraine,Brazil,China,GRE,Part-time,Multi-modal,Ukraine,Malagasy,2004,330,,Post-graduate,2014,3.8
+290,MISM,Postgraduate,Mathematics,16/01/1983,Male,Mongolia,Philippines,Thailand,GRE,Part-time,External,Mongolia,Bulgarian,2011,319,,Professional Certification,2010,3.68
+291,PPM,Postgraduate,Public Administration,26/01/1989,Male,Russia,Japan,Sweden,GRE,Part-time,Multi-modal,Russia,Kashmiri,2004,326,,Baccalaureate,2012,3.81
+292,MISM,Undergraduate,Psychology,26/08/1985,Male,Japan,Indonesia,Philippines,GRE,Full-time,External,Japan,Dzongkha,2012,335,Regional/ Remote,Baccalaureate,2014,3.54
+293,MISM,Postgraduate,Psychology,23/12/1991,Male,Iran,China,China,GRE,Part-time,External,Iran,Oriya,2005,331,,Professional Certification,2012,3.44
+294,Global MISM,Undergraduate,Medicine,30/05/1980,Female,Thailand,China,Czech Republic,GRE,Full-time,External,Thailand,Ndebele,2009,314,,Post-graduate,2014,3.37
+295,Global PPM,Postgraduate,Public Administration,11/5/1991,Female,China,Ukraine,Guatemala,GRE,Part-time,Internal,China,Yiddish,2008,335,,Post-graduate,2013,3.27
+296,PPM,Postgraduate,Psychology,17/01/1997,Female,Mongolia,France,Mexico,GRE,Part-time,Internal,Mongolia,Japanese,2007,330,,Professional Certification,2013,3.89
+297,Global MISM,Undergraduate,Public Administration,9/6/1983,Male,Honduras,China,Greece,GRE,Part-time,External,Honduras,Fijian,2005,314,,Post-graduate,2011,3.63
+298,Global MISM,Undergraduate,Medicine,16/07/1997,Male,Haiti,Indonesia,United States,GRE,Part-time,Internal,Haiti,Malayalam,2009,327,,Diploma,2014,3.84
+299,MISM,Undergraduate,Mathematics,16/04/1988,Female,Argentina,China,Philippines,GRE,Part-time,External,Argentina,Kannada,2012,306,,Post-graduate,2012,3.46
+300,MSIT,Undergraduate,IT,27/10/1994,Male,China,Vietnam,Indonesia,GRE,Part-time,Internal,China,Dhivehi,2004,323,,Baccalaureate,2014,3.34
+301,Global MISM,Undergraduate,Mathematics,6/9/1993,Female,Bahamas,Argentina,Mexico,GRE,Part-time,External,Bahamas,Kannada,2007,309,Women in non-traditional areas,Professional Certification,2010,3.97
+302,Global MISM,Undergraduate,Computer Science,14/01/1994,Female,China,Philippines,Argentina,GRE,Full-time,External,China,Mongolian,2008,313,low-income,Professional Certification,2012,3.48
+303,PPM,Undergraduate,Mathematics,3/1/1985,Male,Peru,Russia,Philippines,GRE,Part-time,Internal,Peru,Afrikaans,2006,337,,Diploma,2010,3.58
+304,MISM,Postgraduate,Psychology,7/3/1981,Male,Slovenia,New Zealand,Armenia,GRE,Full-time,External,Slovenia,Finnish,2007,333,,Professional Certification,2012,3.87
+305,PPM,Undergraduate,Psychology,8/5/1993,Male,Brazil,France,Indonesia,GRE,Part-time,External,Brazil,Oriya,2009,306,,Professional Certification,2010,3.48
+306,Global MISM,Postgraduate,IT,8/1/1981,Female,China,China,South Africa,GRE,Part-time,Internal,China,Malay,2008,308,,Diploma,2013,3.81
+307,PPM,Undergraduate,Computer Science,29/08/1996,Male,Russia,Peru,Indonesia,GRE,Full-time,External,Russia,Spanish,2010,314,,Baccalaureate,2012,3.24
+308,MSIT,Postgraduate,Medicine,13/02/1982,Male,North Korea,Ukraine,China,GRE,Part-time,Multi-modal,North Korea,Fijian,2009,331,,Professional Certification,2012,3.72
+309,Global MISM,Undergraduate,Public Administration,31/07/1995,Female,Thailand,Poland,Ukraine,GRE,Part-time,External,Thailand,Guaran??,2010,338,,Baccalaureate,2010,3.43
+310,Global PPM,Postgraduate,Medicine,2/10/1986,Male,Brazil,Thailand,France,GRE,Full-time,Multi-modal,Brazil,Somali,2008,307,,Diploma,2010,3.55
+311,Global PPM,Postgraduate,Public Administration,30/07/1990,Male,China,Sweden,Gambia,GRE,Part-time,Multi-modal,China,Latvian,2004,323,,Baccalaureate,2011,3.58
+312,Global MISM,Postgraduate,IT,13/08/1991,Male,Afghanistan,Mexico,Brazil,GRE,Part-time,Internal,Afghanistan,Kashmiri,2007,310,,Post-graduate,2014,3.95
+313,PPM,Undergraduate,Public Administration,15/12/1997,Female,Puerto Rico,China,Barbados,GRE,Full-time,Internal,Puerto Rico,Bulgarian,2010,336,,Diploma,2013,3.6
+314,PPM,Postgraduate,Medicine,19/10/1980,Male,China,Philippines,Indonesia,GRE,Full-time,Multi-modal,China,Maltese,2012,310,Women in non-traditional areas,Diploma,2011,3.96
+315,PPM,Postgraduate,Public Administration,26/02/1987,Female,Sweden,Vietnam,Peru,GRE,Part-time,Internal,Sweden,Tsonga,2009,316,,Baccalaureate,2010,3.61
+316,Global MISM,Undergraduate,Medicine,4/3/1985,Female,Argentina,Nigeria,South Korea,GRE,Full-time,Internal,Argentina,Lithuanian,2012,339,Disability,Diploma,2010,3.53
+317,Global MISM,Postgraduate,Mathematics,11/6/1983,Male,China,Indonesia,Indonesia,GRE,Part-time,Internal,China,Hungarian,2011,327,,Professional Certification,2010,3.87
+318,MISM,Undergraduate,Mathematics,12/4/1996,Female,Portugal,Russia,Burkina Faso,GRE,Part-time,Internal,Portugal,Hindi,2004,320,,Professional Certification,2014,3.34
+319,PPM,Postgraduate,Mathematics,8/11/1986,Male,China,Brazil,United States,GRE,Part-time,Multi-modal,China,Croatian,2004,309,,Baccalaureate,2011,3.62
+320,Global PPM,Undergraduate,Computer Science,9/3/1982,Male,France,China,Czech Republic,GRE,Full-time,External,France,M??ori,2009,335,,Baccalaureate,2010,3.82
+321,PPM,Undergraduate,Psychology,14/04/1989,Male,Macedonia,Philippines,Indonesia,GRE,Part-time,Internal,Macedonia,Croatian,2010,300,Regional/ Remote,Post-graduate,2011,3.95
+322,Global MISM,Undergraduate,Public Administration,22/12/1991,Female,Germany,France,Israel,GRE,Part-time,Internal,Germany,Afrikaans,2012,332,Regional/ Remote,Professional Certification,2013,3.76
+323,Global PPM,Undergraduate,Computer Science,16/06/1992,Female,Japan,Russia,Portugal,GRE,Part-time,External,Japan,Azeri,2009,323,,Baccalaureate,2014,3.23
+324,MSIT,Undergraduate,Medicine,4/8/1991,Male,Thailand,Russia,Indonesia,GRE,Part-time,External,Thailand,Gujarati,2004,315,,Post-graduate,2012,3.85
+325,PPM,Undergraduate,Mathematics,9/4/1987,Male,Japan,Greece,China,GRE,Full-time,Internal,Japan,Filipino,2010,325,,Professional Certification,2014,3.35
+326,MISM,Postgraduate,Psychology,2/3/1982,Male,France,Lesotho,China,GRE,Part-time,External,France,Dari,2006,333,,Baccalaureate,2011,3.93
+327,MSIT,Undergraduate,Mathematics,19/12/1991,Male,Indonesia,Bulgaria,Nigeria,GRE,Full-time,Internal,Indonesia,Hindi,2007,339,Disability,Diploma,2012,3.93
+328,MISM,Undergraduate,Psychology,11/9/1990,Female,Bulgaria,Colombia,Guatemala,GRE,Part-time,Multi-modal,Bulgaria,Swedish,2010,339,,Diploma,2012,3.67
+329,Global PPM,Postgraduate,Psychology,20/12/1982,Male,Malaysia,Serbia,Sweden,GRE,Part-time,Internal,Malaysia,Greek,2008,311,,Post-graduate,2010,3.47
+330,MSIT,Postgraduate,Public Administration,18/03/1988,Female,Indonesia,Philippines,Portugal,GRE,Part-time,External,Indonesia,Montenegrin,2007,309,,Post-graduate,2012,3.49
+331,PPM,Undergraduate,Public Administration,15/10/1993,Female,China,Angola,Bosnia and Herzegovina,GRE,Part-time,Multi-modal,China,Afrikaans,2005,316,,Professional Certification,2013,3.45
+332,PPM,Postgraduate,Public Administration,14/08/1984,Female,Guatemala,China,Kazakhstan,GRE,Full-time,Multi-modal,Guatemala,Norwegian,2012,310,,Baccalaureate,2011,3.97
+333,MSIT,Postgraduate,Medicine,12/10/1984,Female,Sweden,Colombia,Jordan,GRE,Part-time,Internal,Sweden,Kurdish,2012,316,,Diploma,2014,3.67
+334,PPM,Undergraduate,Mathematics,4/10/1986,Female,Peru,Philippines,France,GRE,Full-time,Internal,Peru,Tetum,2009,332,,Diploma,2013,3.36
+335,Global MISM,Undergraduate,Medicine,17/04/1993,Male,Lithuania,China,Tunisia,GRE,Full-time,External,Lithuania,Yiddish,2004,311,low-income,Post-graduate,2011,3.82
+336,MISM,Undergraduate,Mathematics,7/6/1987,Male,Kenya,Russia,Czech Republic,GRE,Part-time,External,Kenya,Afrikaans,2006,334,,Post-graduate,2014,3.94
+337,MISM,Postgraduate,Medicine,1/4/1996,Male,France,United States,Ivory Coast,GRE,Full-time,Internal,France,Khmer,2011,304,,Post-graduate,2014,3.77
+338,Global MISM,Postgraduate,Public Administration,11/3/1994,Male,China,Thailand,United States,GRE,Full-time,External,China,Northern Sotho,2007,306,Disability,Professional Certification,2011,3.38
+339,Global MISM,Postgraduate,Medicine,14/09/1995,Female,Poland,United States,China,GRE,Full-time,Internal,Poland,Khmer,2007,338,,Diploma,2014,3.47
+340,PPM,Undergraduate,Psychology,9/3/1987,Female,Argentina,Honduras,China,GRE,Full-time,Multi-modal,Argentina,Guaran??,2010,325,,Diploma,2011,3.54
+341,MSIT,Undergraduate,IT,10/10/1997,Female,Armenia,Poland,Brazil,GRE,Full-time,Internal,Armenia,Bengali,2007,314,,Professional Certification,2014,3.53
+342,MSIT,Postgraduate,Psychology,14/06/1985,Female,Philippines,Russia,Nicaragua,GRE,Part-time,Internal,Philippines,Macedonian,2012,317,,Post-graduate,2011,3.98
+343,MISM,Postgraduate,Medicine,18/11/1997,Female,Tunisia,South Korea,China,GRE,Part-time,Multi-modal,Tunisia,Sotho,2006,327,,Professional Certification,2013,3.6
+344,MISM,Undergraduate,Psychology,21/03/1993,Female,Macedonia,Bahrain,China,GRE,Full-time,Multi-modal,Macedonia,Lithuanian,2011,319,,Post-graduate,2012,3.5
+345,Global PPM,Undergraduate,Public Administration,22/01/1982,Female,Estonia,Nigeria,Portugal,GRE,Full-time,Internal,Estonia,Malay,2008,320,,Professional Certification,2011,3.59
+346,MISM,Postgraduate,Mathematics,2/3/1980,Male,Indonesia,Iran,China,GRE,Part-time,External,Indonesia,German,2006,315,,Professional Certification,2010,3.81
+347,MSIT,Postgraduate,Mathematics,2/1/1985,Male,Dominican Republic,Burundi,Macedonia,GRE,Full-time,Internal,Dominican Republic,Zulu,2007,329,low-income,Diploma,2011,3.32
+348,Global PPM,Undergraduate,IT,25/05/1992,Female,Indonesia,South Africa,Russia,GRE,Part-time,External,Indonesia,Lao,2005,326,,Diploma,2010,3.71
+349,Global PPM,Undergraduate,Public Administration,11/1/1983,Female,Palestinian Territory,China,Venezuela,GRE,Full-time,External,Palestinian Territory,Polish,2005,331,,Diploma,2011,3.87
+350,PPM,Undergraduate,Medicine,21/02/1996,Male,Comoros,Ireland,China,GRE,Full-time,Multi-modal,Comoros,New Zealand Sign Language,2008,329,,Post-graduate,2014,3.86
+351,Global PPM,Undergraduate,Medicine,26/03/1989,Male,Pakistan,Russia,Portugal,GRE,Full-time,Internal,Pakistan,Catalan,2011,316,,Baccalaureate,2011,3.6
+352,Global MISM,Undergraduate,Mathematics,10/2/1989,Female,Brazil,Tanzania,Thailand,GRE,Part-time,External,Brazil,Tok Pisin,2004,339,,Diploma,2012,3.57
+353,Global MISM,Undergraduate,Medicine,17/11/1990,Male,Gabon,China,China,GRE,Part-time,Internal,Gabon,Assamese,2004,334,,Baccalaureate,2012,3.99
+354,Global MISM,Undergraduate,IT,30/11/1989,Male,Canada,China,China,GRE,Part-time,Internal,Canada,Catalan,2009,325,Regional/ Remote,Baccalaureate,2012,3.5
+355,PPM,Undergraduate,Public Administration,7/7/1994,Female,China,China,Russia,GRE,Part-time,Internal,China,Malay,2007,312,low-income,Post-graduate,2014,3.74
+356,PPM,Postgraduate,Public Administration,10/9/1980,Female,Portugal,Mexico,Netherlands,GRE,Full-time,Multi-modal,Portugal,Korean,2012,315,Regional/ Remote,Professional Certification,2011,3.62
+357,Global PPM,Postgraduate,Computer Science,18/06/1987,Male,China,China,Thailand,GRE,Full-time,External,China,Tsonga,2011,301,,Baccalaureate,2012,3.96
+358,Global MISM,Postgraduate,Psychology,1/10/1981,Male,Canada,China,Russia,GRE,Part-time,Internal,Canada,Croatian,2012,300,,Professional Certification,2010,3.29
+359,Global PPM,Undergraduate,Computer Science,18/09/1990,Female,Mexico,China,United States,GRE,Full-time,External,Mexico,Persian,2011,311,,Professional Certification,2013,3.25
+360,Global MISM,Postgraduate,Psychology,13/09/1996,Male,Cameroon,Finland,Albania,GRE,Part-time,External,Cameroon,Telugu,2009,330,,Diploma,2011,3.83
+361,Global PPM,Undergraduate,Psychology,26/10/1984,Male,China,Indonesia,China,GRE,Part-time,Multi-modal,China,Guaran??,2006,331,,Professional Certification,2010,3.34
+362,MISM,Postgraduate,Medicine,7/5/1982,Male,China,Portugal,Mongolia,GRE,Full-time,Internal,China,German,2010,327,Women in non-traditional areas,Professional Certification,2013,3.43
+363,MISM,Undergraduate,IT,24/03/1992,Male,Palestinian Territory,Philippines,Czech Republic,GRE,Full-time,External,Palestinian Territory,Kannada,2007,339,,Diploma,2011,3.61
+364,MSIT,Undergraduate,Public Administration,26/12/1992,Female,Russia,Nigeria,Tanzania,GRE,Full-time,External,Russia,English,2006,301,,Diploma,2011,3.78
+365,MSIT,Undergraduate,IT,5/4/1992,Male,Gambia,Czech Republic,Zimbabwe,GRE,Part-time,Internal,Gambia,Finnish,2011,320,,Baccalaureate,2010,3.58
+366,Global PPM,Undergraduate,Computer Science,11/2/1994,Female,Poland,Indonesia,China,GRE,Full-time,External,Poland,Dutch,2010,328,,Baccalaureate,2012,3.98
+367,MSIT,Postgraduate,Public Administration,22/02/1997,Male,China,Poland,China,GRE,Full-time,Internal,China,Yiddish,2005,314,low-income,Baccalaureate,2014,3.66
+368,Global MISM,Postgraduate,Psychology,14/08/1989,Female,Ukraine,Indonesia,China,GRE,Full-time,Internal,Ukraine,Catalan,2011,331,,Diploma,2014,3.32
+369,MISM,Undergraduate,Computer Science,30/04/1980,Female,China,China,Serbia,GRE,Part-time,Multi-modal,China,Dutch,2009,300,,Diploma,2011,3.55
+370,Global MISM,Undergraduate,Computer Science,20/07/1985,Male,Ukraine,United States,Mexico,GRE,Full-time,Internal,Ukraine,West Frisian,2006,313,Women in non-traditional areas,Diploma,2010,3.92
+371,PPM,Undergraduate,Mathematics,2/9/1984,Female,Russia,Senegal,Ukraine,GRE,Part-time,Internal,Russia,Thai,2006,305,,Professional Certification,2012,3.67
+372,Global MISM,Undergraduate,Medicine,27/07/1980,Female,Brazil,Canada,Pakistan,GRE,Full-time,Internal,Brazil,Armenian,2011,303,,Professional Certification,2012,3.34
+373,Global MISM,Undergraduate,Psychology,24/03/1992,Male,Portugal,Gabon,China,GRE,Part-time,Multi-modal,Portugal,Japanese,2007,302,,Baccalaureate,2014,3.72
+374,Global PPM,Postgraduate,Mathematics,25/10/1981,Female,Bolivia,China,Nigeria,GRE,Full-time,External,Bolivia,Burmese,2011,338,Regional/ Remote,Diploma,2012,3.85
+375,PPM,Postgraduate,Psychology,15/05/1980,Male,China,Brazil,China,GRE,Full-time,Multi-modal,China,Persian,2004,323,Women in non-traditional areas,Post-graduate,2011,3.57
+376,MISM,Undergraduate,Psychology,23/01/1988,Female,China,Paraguay,China,GRE,Full-time,External,China,Quechua,2012,328,Regional/ Remote,Post-graduate,2010,3.98
+377,PPM,Postgraduate,IT,27/04/1990,Male,Togo,China,France,GRE,Full-time,External,Togo,Telugu,2004,336,,Professional Certification,2011,3.83
+378,MSIT,Undergraduate,Public Administration,9/9/1997,Female,Sweden,Hungary,China,GRE,Full-time,Internal,Sweden,Belarusian,2007,335,,Post-graduate,2013,3.78
+379,PPM,Undergraduate,Computer Science,26/11/1990,Female,United Kingdom,Russia,Brazil,GRE,Part-time,External,United Kingdom,Indonesian,2010,313,,Baccalaureate,2013,3.27
+380,Global MISM,Postgraduate,IT,17/02/1996,Female,China,Russia,Indonesia,GRE,Full-time,Multi-modal,China,Czech,2011,312,,Professional Certification,2013,3.31
+381,Global MISM,Undergraduate,Medicine,29/09/1989,Female,Indonesia,Peru,Russia,GRE,Part-time,External,Indonesia,Indonesian,2006,311,,Professional Certification,2012,3.68
+382,Global PPM,Undergraduate,Computer Science,13/10/1995,Female,Brazil,Spain,China,GRE,Part-time,External,Brazil,Tamil,2005,311,,Post-graduate,2014,3.99
+383,PPM,Postgraduate,IT,9/1/1994,Male,Czech Republic,China,China,GRE,Full-time,External,Czech Republic,Polish,2010,305,,Diploma,2014,3.98
+384,MISM,Undergraduate,Medicine,1/9/1989,Male,China,Indonesia,Indonesia,GRE,Full-time,Internal,China,Tok Pisin,2010,323,,Diploma,2014,3.88
+385,MISM,Postgraduate,IT,11/12/1989,Female,Finland,China,Russia,GRE,Full-time,Multi-modal,Finland,Persian,2004,315,,Diploma,2012,3.31
+386,PPM,Postgraduate,Medicine,15/10/1984,Female,Senegal,Uzbekistan,Brazil,GRE,Full-time,Internal,Senegal,Burmese,2010,324,,Baccalaureate,2013,3.87
+387,MISM,Undergraduate,Psychology,11/2/1986,Male,Denmark,Brazil,Russia,GRE,Part-time,Multi-modal,Denmark,Gagauz,2007,300,,Post-graduate,2014,3.4
+388,PPM,Postgraduate,Public Administration,17/09/1992,Female,France,China,South Africa,GRE,Full-time,Multi-modal,France,Dhivehi,2008,309,Regional/ Remote,Diploma,2013,3.2
+389,Global MISM,Undergraduate,Computer Science,24/07/1995,Female,Slovenia,Russia,China,GRE,Part-time,External,Slovenia,Georgian,2012,324,low-income,Professional Certification,2010,3.67
+390,MSIT,Postgraduate,Medicine,25/07/1989,Female,China,China,Brazil,GRE,Full-time,External,China,Catalan,2011,323,low-income,Baccalaureate,2010,3.32
+391,MISM,Postgraduate,Medicine,25/06/1993,Female,Peru,Ivory Coast,Japan,GRE,Part-time,External,Peru,Northern Sotho,2010,315,,Diploma,2013,3.39
+392,Global PPM,Postgraduate,Computer Science,12/3/1995,Female,Laos,Colombia,China,GRE,Part-time,Multi-modal,Laos,Danish,2008,322,Regional/ Remote,Professional Certification,2012,3.63
+393,PPM,Postgraduate,Medicine,19/03/1991,Female,Czech Republic,Portugal,China,GRE,Full-time,Multi-modal,Czech Republic,Ndebele,2006,315,Women in non-traditional areas,Baccalaureate,2011,3.29
+394,Global PPM,Undergraduate,Medicine,30/10/1990,Female,Canada,Thailand,Czech Republic,GRE,Part-time,Internal,Canada,Latvian,2010,319,,Post-graduate,2013,3.99
+395,Global PPM,Postgraduate,IT,27/02/1980,Female,Philippines,China,Portugal,GRE,Full-time,External,Philippines,Thai,2006,310,,Diploma,2010,3.96
+396,MSIT,Postgraduate,Mathematics,25/05/1985,Male,Japan,Russia,China,GRE,Part-time,External,Japan,Spanish,2004,323,Regional/ Remote,Diploma,2014,3.91
+397,MISM,Postgraduate,Mathematics,28/11/1984,Female,Morocco,China,Russia,GRE,Part-time,External,Morocco,Indonesian,2005,310,Regional/ Remote,Diploma,2014,3.96
+398,MSIT,Undergraduate,IT,2/8/1996,Male,France,Indonesia,China,GRE,Full-time,Multi-modal,France,Bislama,2004,307,,Professional Certification,2011,3.91
+399,Global PPM,Postgraduate,Medicine,23/07/1981,Female,Costa Rica,Portugal,Maldives,GRE,Part-time,External,Costa Rica,Tajik,2006,320,,Baccalaureate,2012,3.6
+400,Global MISM,Undergraduate,Medicine,25/11/1989,Male,Armenia,China,Indonesia,GRE,Full-time,External,Armenia,Portuguese,2007,330,,Professional Certification,2012,3.61
+401,MISM,Undergraduate,Mathematics,15/12/1996,Male,China,Russia,Philippines,GRE,Part-time,External,China,Gujarati,2006,339,,Professional Certification,2013,3.72
+402,Global MISM,Postgraduate,IT,18/02/1989,Male,Indonesia,China,China,GRE,Part-time,Internal,Indonesia,Aymara,2010,313,,Professional Certification,2012,3.88
+403,MISM,Undergraduate,Psychology,6/8/1985,Male,Bosnia and Herzegovina,Philippines,Poland,GRE,Part-time,Multi-modal,Bosnia and Herzegovina,Burmese,2005,336,,Diploma,2014,3.55
+404,Global PPM,Undergraduate,Medicine,20/07/1997,Female,Brazil,Indonesia,Indonesia,GRE,Part-time,Internal,Brazil,Japanese,2007,313,,Post-graduate,2014,3.77
+405,Global MISM,Undergraduate,Mathematics,23/03/1989,Male,Kazakhstan,Israel,Guatemala,GRE,Full-time,Multi-modal,Kazakhstan,Punjabi,2006,305,Women in non-traditional areas,Post-graduate,2011,3.58
+406,MISM,Postgraduate,Mathematics,28/09/1993,Male,Poland,Thailand,Russia,GRE,Full-time,External,Poland,M??ori,2011,315,,Baccalaureate,2010,3.82
+407,Global MISM,Postgraduate,Psychology,19/03/1988,Female,China,Canada,Indonesia,GRE,Part-time,Multi-modal,China,Afrikaans,2004,303,,Diploma,2013,3.84
+408,MSIT,Postgraduate,IT,3/9/1982,Female,Saudi Arabia,Indonesia,Moldova,GRE,Full-time,Internal,Saudi Arabia,Telugu,2011,331,,Baccalaureate,2010,3.42
+409,PPM,Postgraduate,Medicine,9/8/1988,Female,China,China,Poland,GRE,Part-time,External,China,Icelandic,2010,300,low-income,Post-graduate,2013,3.66
+410,Global MISM,Postgraduate,IT,27/06/1993,Male,China,Russia,Russia,GRE,Full-time,Internal,China,Amharic,2007,308,Women in non-traditional areas,Baccalaureate,2013,3.77
+411,PPM,Undergraduate,Computer Science,30/05/1986,Female,Dominican Republic,Philippines,China,GRE,Full-time,External,Dominican Republic,Romanian,2009,323,Disability,Professional Certification,2012,3.87
+412,Global PPM,Postgraduate,Computer Science,15/08/1987,Male,Poland,Portugal,Argentina,GRE,Full-time,Multi-modal,Poland,Swedish,2008,328,Disability,Diploma,2012,3.56
+413,MISM,Undergraduate,Psychology,12/12/1981,Male,Ukraine,Indonesia,Russia,GRE,Part-time,Multi-modal,Ukraine,Korean,2011,339,,Diploma,2014,3.82
+414,MISM,Postgraduate,Public Administration,23/10/1989,Female,Brazil,Portugal,Czech Republic,GRE,Full-time,External,Brazil,Thai,2011,309,Women in non-traditional areas,Post-graduate,2013,3.48
+415,Global MISM,Postgraduate,IT,25/01/1985,Male,Chile,Palestinian Territory,Belarus,GRE,Full-time,Multi-modal,Chile,Belarusian,2009,307,,Post-graduate,2014,3.71
+416,PPM,Undergraduate,Public Administration,21/04/1985,Female,Poland,Venezuela,United States,GRE,Part-time,External,Poland,Indonesian,2004,307,Regional/ Remote,Diploma,2014,3.94
+417,Global PPM,Undergraduate,IT,10/8/1987,Female,Sweden,Slovenia,China,GRE,Part-time,External,Sweden,Pashto,2010,308,,Professional Certification,2012,3.56
+418,Global PPM,Undergraduate,IT,4/9/1987,Male,Poland,Philippines,China,GRE,Full-time,External,Poland,Finnish,2005,306,,Professional Certification,2012,3.4
+419,Global MISM,Postgraduate,Computer Science,17/05/1988,Female,Indonesia,China,China,GRE,Full-time,Multi-modal,Indonesia,Korean,2004,333,Women in non-traditional areas,Diploma,2011,3.23
+420,Global PPM,Undergraduate,Psychology,21/09/1994,Female,China,China,China,GRE,Full-time,Internal,China,Finnish,2011,317,low-income,Diploma,2010,3.37
+421,MSIT,Undergraduate,IT,31/08/1995,Female,Poland,China,China,GRE,Part-time,Internal,Poland,Arabic,2008,316,,Post-graduate,2012,3.64
+422,MSIT,Postgraduate,Medicine,17/02/1994,Male,Ecuador,Cuba,Indonesia,GRE,Full-time,External,Ecuador,Swahili,2010,315,,Baccalaureate,2010,3.44
+423,PPM,Undergraduate,IT,31/05/1992,Male,China,Poland,China,GRE,Full-time,Multi-modal,China,Amharic,2007,340,,Post-graduate,2013,3.83
+424,PPM,Undergraduate,Psychology,9/8/1995,Female,Brazil,Mexico,Indonesia,GRE,Part-time,External,Brazil,Catalan,2010,312,low-income,Baccalaureate,2012,3.57
+425,MISM,Undergraduate,IT,1/1/1992,Male,Indonesia,Canada,Azerbaijan,GRE,Full-time,Multi-modal,Indonesia,Danish,2012,300,low-income,Baccalaureate,2012,3.54
+426,PPM,Postgraduate,Public Administration,19/02/1990,Female,Morocco,Sweden,Sweden,GRE,Part-time,Multi-modal,Morocco,Haitian Creole,2009,331,Regional/ Remote,Diploma,2012,3.65
+427,MISM,Postgraduate,Public Administration,21/11/1990,Male,China,Japan,Iraq,GRE,Part-time,Internal,China,Indonesian,2007,321,Women in non-traditional areas,Baccalaureate,2010,3.32
+428,PPM,Postgraduate,Computer Science,15/07/1997,Male,Indonesia,Poland,Syria,GRE,Part-time,External,Indonesia,Romanian,2012,328,,Baccalaureate,2012,3.7
+429,Global MISM,Postgraduate,Public Administration,7/6/1994,Male,Russia,China,Poland,GRE,Part-time,Internal,Russia,Haitian Creole,2009,338,Regional/ Remote,Professional Certification,2011,3.41
+430,MISM,Postgraduate,Computer Science,23/09/1992,Male,Brazil,Philippines,China,GRE,Full-time,Internal,Brazil,Korean,2005,325,,Diploma,2011,3.99
+431,Global MISM,Undergraduate,Psychology,25/05/1990,Female,Uzbekistan,France,Russia,GRE,Part-time,Multi-modal,Uzbekistan,Lithuanian,2010,320,,Post-graduate,2013,3.51
+432,MSIT,Undergraduate,Psychology,6/5/1993,Male,Tunisia,Macedonia,China,GRE,Part-time,Multi-modal,Tunisia,Thai,2008,324,,Professional Certification,2012,3.85
+433,MISM,Postgraduate,Computer Science,8/5/1983,Male,Ukraine,Indonesia,Afghanistan,GRE,Full-time,External,Ukraine,French,2012,310,low-income,Post-graduate,2012,3.95
+434,PPM,Undergraduate,Computer Science,18/06/1991,Female,United States,Japan,China,GRE,Full-time,Internal,United States,Moldovan,2005,301,Disability,Post-graduate,2014,3.61
+435,Global MISM,Postgraduate,Medicine,20/12/1992,Male,Indonesia,Philippines,Russia,GRE,Full-time,Internal,Indonesia,Amharic,2005,312,,Baccalaureate,2014,3.52
+436,Global PPM,Postgraduate,IT,16/06/1997,Male,Equatorial Guinea,Laos,Russia,GRE,Full-time,Multi-modal,Equatorial Guinea,Bulgarian,2004,314,,Baccalaureate,2011,3.22
+437,MISM,Undergraduate,Public Administration,16/02/1986,Female,Czech Republic,China,Nigeria,GRE,Full-time,Multi-modal,Czech Republic,Zulu,2006,332,,Baccalaureate,2010,3.56
+438,MSIT,Postgraduate,Public Administration,31/07/1990,Female,Sweden,Portugal,Indonesia,GRE,Part-time,Internal,Sweden,Thai,2011,339,,Professional Certification,2014,3.21
+439,MSIT,Undergraduate,Medicine,24/01/1982,Male,France,Brazil,France,GRE,Part-time,Multi-modal,France,Punjabi,2004,312,,Diploma,2011,3.43
+440,Global MISM,Postgraduate,Computer Science,10/2/1997,Male,Honduras,Oman,China,GRE,Part-time,Multi-modal,Honduras,Punjabi,2006,329,,Baccalaureate,2013,3.84
+441,PPM,Undergraduate,IT,27/05/1991,Female,Poland,Philippines,Venezuela,GRE,Full-time,Multi-modal,Poland,Assamese,2011,310,,Baccalaureate,2014,3.63
+442,MISM,Postgraduate,IT,31/10/1985,Male,Yemen,Indonesia,Russia,GRE,Part-time,Multi-modal,Yemen,Estonian,2011,330,,Diploma,2014,3.4
+443,MISM,Postgraduate,IT,11/11/1982,Female,Philippines,Iraq,China,GRE,Full-time,External,Philippines,Tok Pisin,2010,310,,Professional Certification,2011,3.89
+444,Global PPM,Postgraduate,IT,11/7/1981,Male,Tajikistan,Japan,China,GRE,Full-time,External,Tajikistan,Belarusian,2012,333,Women in non-traditional areas,Professional Certification,2013,3.82
+445,MISM,Postgraduate,Mathematics,8/6/1983,Female,Mongolia,Germany,Russia,GRE,Part-time,Multi-modal,Mongolia,Tswana,2009,329,low-income,Post-graduate,2014,3.54
+446,Global PPM,Undergraduate,Medicine,24/01/1993,Female,China,Norway,Malawi,GRE,Part-time,Multi-modal,China,Sotho,2009,338,,Professional Certification,2011,3.61
+447,MISM,Undergraduate,Computer Science,22/08/1996,Male,Ukraine,Philippines,Ukraine,GRE,Part-time,Internal,Ukraine,Italian,2009,311,,Diploma,2013,3.21
+448,MSIT,Undergraduate,Medicine,16/08/1984,Male,Vietnam,France,China,GRE,Full-time,External,Vietnam,Tajik,2008,310,,Baccalaureate,2011,3.7
+449,PPM,Postgraduate,Medicine,24/04/1980,Female,Iceland,Portugal,Poland,GRE,Part-time,Internal,Iceland,Somali,2004,304,Regional/ Remote,Post-graduate,2011,3.95
+450,Global MISM,Postgraduate,Psychology,24/09/1997,Male,Canada,Poland,Philippines,GRE,Part-time,Internal,Canada,Papiamento,2008,303,,Diploma,2011,3.67
+451,Global PPM,Undergraduate,Psychology,8/6/1987,Male,Burkina Faso,Poland,Greece,GRE,Part-time,Multi-modal,Burkina Faso,Hindi,2008,324,Disability,Baccalaureate,2011,3.56
+452,MSIT,Undergraduate,Medicine,10/5/1980,Male,Democratic Republic of the Congo,Portugal,Mexico,GRE,Full-time,Multi-modal,Democratic Republic of the Congo,Assamese,2008,316,,Diploma,2014,3.39
+453,MSIT,Postgraduate,IT,19/01/1997,Female,Indonesia,Japan,Austria,GRE,Part-time,External,Indonesia,M??ori,2010,303,,Baccalaureate,2010,3.96
+454,PPM,Postgraduate,Public Administration,13/04/1996,Female,United States,Indonesia,Indonesia,GRE,Part-time,Multi-modal,United States,Icelandic,2005,326,,Diploma,2010,3.97
+455,Global MISM,Undergraduate,Mathematics,10/4/1980,Female,Russia,Ukraine,Portugal,GRE,Full-time,Internal,Russia,Fijian,2005,320,,Baccalaureate,2014,3.36
+456,PPM,Undergraduate,Computer Science,21/11/1992,Male,Greece,Indonesia,Peru,GRE,Part-time,Multi-modal,Greece,Telugu,2007,317,Women in non-traditional areas,Baccalaureate,2012,3.73
+457,MISM,Undergraduate,Public Administration,28/12/1984,Female,Indonesia,Poland,Greece,GRE,Part-time,Internal,Indonesia,Armenian,2004,320,Disability,Diploma,2010,3.41
+458,Global MISM,Postgraduate,Medicine,18/04/1986,Male,Mexico,Ireland,Philippines,GRE,Full-time,Multi-modal,Mexico,Tok Pisin,2006,312,,Professional Certification,2014,3.32
+459,Global PPM,Undergraduate,IT,18/05/1996,Female,China,China,Peru,GRE,Full-time,Internal,China,Moldovan,2012,313,,Post-graduate,2012,3.46
+460,Global MISM,Postgraduate,Medicine,15/02/1997,Female,China,Nigeria,Russia,GRE,Full-time,Multi-modal,China,Malayalam,2004,309,,Baccalaureate,2010,3.42
+461,MISM,Undergraduate,Computer Science,30/06/1992,Male,Reunion,China,Poland,GRE,Full-time,Internal,Reunion,Amharic,2006,316,,Diploma,2010,3.34
+462,MSIT,Undergraduate,Public Administration,21/01/1996,Male,South Africa,Indonesia,Greece,GRE,Part-time,Multi-modal,South Africa,Georgian,2005,325,,Baccalaureate,2014,3.51
+463,MSIT,Undergraduate,Medicine,31/01/1986,Male,Mongolia,Colombia,Czech Republic,GRE,Part-time,External,Mongolia,Polish,2006,313,Regional/ Remote,Baccalaureate,2013,3.52
+464,MSIT,Postgraduate,Public Administration,21/01/1994,Male,Philippines,United States,Tanzania,GRE,Part-time,Multi-modal,Philippines,Haitian Creole,2010,331,low-income,Diploma,2010,3.9
+465,Global MISM,Postgraduate,Mathematics,5/12/1986,Female,United States,Morocco,Thailand,GRE,Part-time,Multi-modal,United States,New Zealand Sign Language,2012,310,,Diploma,2012,3.28
+466,MSIT,Postgraduate,IT,20/10/1984,Female,France,New Zealand,Russia,GRE,Part-time,Internal,France,Moldovan,2011,301,,Professional Certification,2014,3.72
+467,MISM,Undergraduate,Computer Science,1/4/1993,Male,China,Canada,China,GRE,Part-time,Internal,China,Mongolian,2009,328,Regional/ Remote,Post-graduate,2011,3.76
+468,MISM,Postgraduate,Computer Science,19/02/1993,Male,Argentina,Poland,Mexico,GRE,Full-time,External,Argentina,Somali,2005,307,Women in non-traditional areas,Diploma,2013,3.76
+469,Global MISM,Undergraduate,Psychology,20/01/1981,Female,Sweden,China,Philippines,GRE,Part-time,Internal,Sweden,Italian,2008,308,,Baccalaureate,2010,3.8
+470,MISM,Postgraduate,Mathematics,10/2/1996,Male,Cuba,Indonesia,Indonesia,GRE,Part-time,External,Cuba,Icelandic,2012,336,,Diploma,2012,3.53
+471,MISM,Postgraduate,Psychology,22/06/1989,Male,Russia,Iran,Philippines,GRE,Full-time,Multi-modal,Russia,Persian,2010,324,Regional/ Remote,Post-graduate,2010,3.24
+472,MISM,Undergraduate,Public Administration,12/3/1991,Female,Indonesia,Indonesia,China,GRE,Full-time,Multi-modal,Indonesia,Hungarian,2010,304,Regional/ Remote,Professional Certification,2012,3.6
+473,Global PPM,Undergraduate,Public Administration,3/7/1997,Female,China,Mexico,Russia,GRE,Part-time,External,China,Papiamento,2011,331,Regional/ Remote,Diploma,2014,3.52
+474,PPM,Postgraduate,IT,4/7/1983,Female,China,Poland,Namibia,GRE,Full-time,Multi-modal,China,Haitian Creole,2007,328,Disability,Baccalaureate,2010,3.77
+475,MSIT,Postgraduate,Medicine,27/09/1982,Female,Russia,Indonesia,Togo,GRE,Part-time,Multi-modal,Russia,Punjabi,2008,311,,Diploma,2014,3.33
+476,PPM,Undergraduate,Mathematics,29/04/1985,Male,Canada,Philippines,Philippines,GRE,Part-time,Multi-modal,Canada,Quechua,2010,303,,Baccalaureate,2014,3.63
+477,MSIT,Postgraduate,Mathematics,5/7/1992,Female,Gabon,Canada,Yemen,GRE,Full-time,External,Gabon,Mongolian,2012,326,Disability,Diploma,2013,3.27
+478,MSIT,Undergraduate,Mathematics,18/09/1982,Male,China,Russia,Nigeria,GRE,Full-time,Multi-modal,China,Finnish,2009,318,low-income,Baccalaureate,2010,3.23
+479,PPM,Postgraduate,Public Administration,16/02/1988,Female,Indonesia,Russia,China,GRE,Part-time,Internal,Indonesia,Swati,2012,314,,Baccalaureate,2011,3.31
+480,MSIT,Undergraduate,Mathematics,20/07/1995,Male,Syria,China,France,GRE,Part-time,Multi-modal,Syria,Kyrgyz,2009,334,,Baccalaureate,2010,3.34
+481,Global MISM,Postgraduate,Computer Science,17/11/1983,Male,Indonesia,New Caledonia,China,GRE,Part-time,Internal,Indonesia,Lao,2004,301,Women in non-traditional areas,Baccalaureate,2012,3.84
+482,MSIT,Postgraduate,Medicine,25/09/1991,Female,Brazil,Bosnia and Herzegovina,Indonesia,GRE,Full-time,Internal,Brazil,Filipino,2006,329,,Professional Certification,2014,3.53
+483,Global PPM,Postgraduate,Psychology,6/7/1982,Male,Russia,Switzerland,Sweden,GRE,Part-time,Multi-modal,Russia,Burmese,2008,327,,Diploma,2011,3.87
+484,MISM,Postgraduate,Mathematics,21/02/1994,Female,Indonesia,Indonesia,China,GRE,Part-time,External,Indonesia,Bulgarian,2006,327,,Diploma,2012,3.38
+485,MISM,Undergraduate,Computer Science,3/1/1990,Female,France,Philippines,Greece,GRE,Full-time,Multi-modal,France,Assamese,2011,307,low-income,Baccalaureate,2014,3.6
+486,Global MISM,Undergraduate,Mathematics,9/1/1994,Male,China,Indonesia,Mongolia,GRE,Full-time,External,China,Albanian,2004,317,,Post-graduate,2011,3.55
+487,PPM,Postgraduate,IT,25/02/1997,Male,Indonesia,Poland,Sri Lanka,GRE,Part-time,External,Indonesia,Tajik,2006,323,,Post-graduate,2013,3.62
+488,PPM,Undergraduate,Computer Science,10/10/1984,Male,Poland,Serbia,Sweden,GRE,Part-time,Multi-modal,Poland,Arabic,2010,331,,Diploma,2011,3.85
+489,MISM,Postgraduate,Mathematics,5/4/1983,Male,Portugal,Sweden,Brazil,GRE,Full-time,Internal,Portugal,West Frisian,2008,334,Women in non-traditional areas,Professional Certification,2014,3.49
+490,MISM,Postgraduate,Computer Science,29/06/1989,Male,Japan,Brazil,Ukraine,GRE,Full-time,Internal,Japan,Khmer,2004,320,,Baccalaureate,2012,3.82
+491,PPM,Undergraduate,Computer Science,13/08/1993,Male,Indonesia,Canada,China,GRE,Full-time,Multi-modal,Indonesia,Spanish,2009,311,,Baccalaureate,2012,3.35
+492,Global MISM,Postgraduate,Computer Science,17/05/1995,Female,Czech Republic,Costa Rica,France,GRE,Full-time,External,Czech Republic,Yiddish,2008,304,low-income,Diploma,2013,3.89
+493,MISM,Undergraduate,Mathematics,22/10/1980,Female,France,Colombia,China,GRE,Full-time,External,France,Catalan,2010,306,,Post-graduate,2011,3.82
+494,Global MISM,Postgraduate,Mathematics,17/08/1985,Female,China,Philippines,Azerbaijan,GRE,Part-time,Internal,China,New Zealand Sign Language,2009,307,,Diploma,2010,3.85
+495,Global PPM,Undergraduate,Psychology,16/10/1997,Female,Albania,Indonesia,China,GRE,Part-time,External,Albania,Indonesian,2006,322,,Diploma,2013,3.54
+496,PPM,Undergraduate,IT,1/6/1995,Female,Philippines,Sweden,Madagascar,GRE,Full-time,Multi-modal,Philippines,Montenegrin,2010,311,,Diploma,2011,3.42
+497,MISM,Undergraduate,Mathematics,17/09/1992,Male,Philippines,Philippines,China,GRE,Part-time,Multi-modal,Philippines,Tajik,2011,328,,Baccalaureate,2010,3.21
+498,Global MISM,Postgraduate,Medicine,13/09/1984,Female,Ukraine,Portugal,Kazakhstan,GRE,Part-time,External,Ukraine,Haitian Creole,2010,327,,Diploma,2011,3.33
+499,Global MISM,Undergraduate,Psychology,6/12/1984,Male,Armenia,Ukraine,Poland,GRE,Full-time,Multi-modal,Armenia,Indonesian,2010,301,low-income,Diploma,2012,3.47
+500,MISM,Undergraduate,Psychology,13/10/1995,Male,Germany,Ukraine,Belgium,GRE,Part-time,Internal,Germany,Malay,2005,337,,Diploma,2013,3.64
+501,Global PPM,Undergraduate,Public Administration,27/01/1994,Female,Philippines,France,Finland,GRE,Full-time,External,Philippines,Kyrgyz,2010,300,,Baccalaureate,2012,3.36
+502,PPM,Undergraduate,Medicine,14/08/1986,Female,Reunion,China,Switzerland,GRE,Part-time,Internal,Reunion,Armenian,2009,330,,Baccalaureate,2012,3.93
+503,Global MISM,Undergraduate,Computer Science,12/6/1995,Male,Mongolia,United Kingdom,Indonesia,GRE,Part-time,Internal,Mongolia,Northern Sotho,2005,315,,Professional Certification,2013,3.55
+504,MISM,Undergraduate,Psychology,27/09/1982,Male,Honduras,China,Russia,GRE,Part-time,External,Honduras,Kyrgyz,2006,306,Women in non-traditional areas,Post-graduate,2013,3.84
+505,MISM,Undergraduate,Mathematics,24/01/1980,Male,Russia,China,Greece,GRE,Full-time,Multi-modal,Russia,Tswana,2005,317,Disability,Professional Certification,2014,3.71
+506,PPM,Postgraduate,Medicine,13/08/1984,Female,Chile,Zimbabwe,Belarus,GRE,Full-time,Multi-modal,Chile,Assamese,2004,303,,Baccalaureate,2014,3.96
+507,PPM,Postgraduate,Public Administration,10/10/1997,Female,Portugal,United States,Palestinian Territory,GRE,Part-time,External,Portugal,Somali,2004,339,,Baccalaureate,2014,3.31
+508,MSIT,Postgraduate,Computer Science,9/9/1995,Male,China,China,Indonesia,GRE,Full-time,External,China,Gujarati,2007,330,,Baccalaureate,2012,3.45
+509,Global MISM,Postgraduate,Computer Science,13/05/1996,Female,Czech Republic,Nigeria,Norway,GRE,Part-time,Multi-modal,Czech Republic,Norwegian,2011,302,,Post-graduate,2010,3.54
+510,PPM,Postgraduate,IT,18/07/1996,Female,China,Ivory Coast,Guyana,GRE,Part-time,Internal,China,Filipino,2007,309,Women in non-traditional areas,Professional Certification,2013,3.64
+511,Global MISM,Undergraduate,Public Administration,8/8/1980,Female,Brazil,Indonesia,Czech Republic,GRE,Full-time,Internal,Brazil,Dutch,2011,340,,Professional Certification,2014,3.74
+512,MISM,Undergraduate,Public Administration,18/12/1983,Female,China,Canada,Czech Republic,GRE,Part-time,Multi-modal,China,English,2008,325,Regional/ Remote,Professional Certification,2014,3.62
+513,PPM,Undergraduate,Public Administration,16/11/1987,Male,Indonesia,Indonesia,Philippines,GRE,Part-time,Multi-modal,Indonesia,Malayalam,2006,317,,Professional Certification,2011,3.44
+514,PPM,Postgraduate,Public Administration,13/12/1981,Male,Peru,Argentina,Japan,GRE,Part-time,External,Peru,Japanese,2011,314,,Baccalaureate,2013,3.78
+515,MSIT,Postgraduate,Psychology,13/04/1986,Female,Argentina,Poland,Spain,GRE,Full-time,External,Argentina,Malay,2005,336,,Diploma,2012,3.84
+516,PPM,Postgraduate,Public Administration,27/08/1981,Male,Indonesia,Ukraine,China,GRE,Part-time,Internal,Indonesia,Korean,2008,300,,Baccalaureate,2014,3.22
+517,Global MISM,Undergraduate,Medicine,29/01/1994,Female,Sweden,China,Peru,GRE,Full-time,External,Sweden,Tamil,2012,331,Regional/ Remote,Post-graduate,2012,3.7
+518,MSIT,Postgraduate,Psychology,17/01/1990,Female,China,Brazil,Thailand,GRE,Part-time,Multi-modal,China,Bislama,2007,333,,Baccalaureate,2014,3.98
+519,PPM,Undergraduate,Computer Science,6/8/1996,Female,France,Peru,China,GRE,Full-time,Multi-modal,France,Filipino,2007,325,Disability,Baccalaureate,2013,3.3
+520,MISM,Postgraduate,Psychology,29/05/1988,Female,Sweden,Brazil,Honduras,GRE,Full-time,External,Sweden,Aymara,2009,309,,Professional Certification,2012,3.33
+521,Global PPM,Postgraduate,Mathematics,24/02/1985,Male,China,Sweden,Palestinian Territory,GRE,Part-time,External,China,Portuguese,2011,305,,Post-graduate,2013,3.65
+522,Global PPM,Undergraduate,Computer Science,26/08/1995,Female,China,Philippines,Poland,GRE,Full-time,Multi-modal,China,Macedonian,2004,322,low-income,Baccalaureate,2012,3.6
+523,MISM,Undergraduate,Public Administration,23/06/1997,Female,China,Norway,Thailand,GRE,Full-time,External,China,Polish,2005,322,Regional/ Remote,Post-graduate,2011,3.35
+524,Global PPM,Postgraduate,Medicine,27/11/1988,Male,United States,China,Indonesia,GRE,Part-time,Multi-modal,United States,Kannada,2006,335,,Post-graduate,2012,3.75
+525,PPM,Undergraduate,Psychology,5/11/1986,Male,Philippines,China,Indonesia,GRE,Full-time,External,Philippines,Thai,2012,308,,Post-graduate,2014,3.43
+526,Global PPM,Postgraduate,Computer Science,15/09/1986,Male,Dominican Republic,China,Thailand,GRE,Part-time,Multi-modal,Dominican Republic,Tetum,2008,314,Regional/ Remote,Diploma,2010,3.82
+527,MSIT,Postgraduate,Psychology,4/6/1992,Female,Russia,Portugal,China,GRE,Part-time,Internal,Russia,Romanian,2012,325,,Diploma,2013,3.76
+528,MISM,Postgraduate,Psychology,9/11/1994,Female,China,Belarus,Brazil,GRE,Part-time,Multi-modal,China,Mongolian,2011,307,,Professional Certification,2012,3.23
+529,PPM,Undergraduate,IT,21/07/1984,Female,Yemen,Philippines,Sweden,GRE,Full-time,External,Yemen,Italian,2007,312,low-income,Professional Certification,2010,3.44
+530,Global MISM,Undergraduate,Psychology,28/10/1984,Female,Kazakhstan,Belarus,Philippines,GRE,Full-time,External,Kazakhstan,Fijian,2006,319,,Baccalaureate,2012,3.63
+531,PPM,Undergraduate,Computer Science,16/07/1982,Female,Burkina Faso,Thailand,Indonesia,GRE,Full-time,Internal,Burkina Faso,Bosnian,2007,315,,Professional Certification,2011,3.64
+532,Global MISM,Undergraduate,Psychology,12/4/1994,Male,Czech Republic,China,Guatemala,GRE,Full-time,Internal,Czech Republic,Icelandic,2005,302,,Baccalaureate,2011,3.79
+533,Global MISM,Postgraduate,Computer Science,20/08/1988,Male,Russia,Ireland,Portugal,GRE,Part-time,External,Russia,Italian,2005,313,,Diploma,2011,3.8
+534,MISM,Postgraduate,Mathematics,13/10/1986,Female,Trinidad and Tobago,Albania,Peru,GRE,Part-time,Internal,Trinidad and Tobago,Greek,2008,323,Regional/ Remote,Baccalaureate,2012,3.81
+535,MSIT,Undergraduate,Medicine,1/4/1981,Female,China,Poland,Russia,GRE,Full-time,Multi-modal,China,Catalan,2012,339,,Post-graduate,2014,3.24
+536,Global PPM,Postgraduate,Public Administration,6/7/1993,Male,Japan,China,Russia,GRE,Part-time,External,Japan,Nepali,2007,317,,Professional Certification,2010,3.98
+537,MSIT,Postgraduate,Psychology,30/03/1984,Female,Portugal,China,Turkmenistan,GRE,Full-time,Multi-modal,Portugal,West Frisian,2012,329,,Baccalaureate,2011,3.26
+538,MISM,Postgraduate,Computer Science,6/10/1997,Male,Cambodia,China,Zambia,GRE,Part-time,Multi-modal,Cambodia,Yiddish,2008,327,Women in non-traditional areas,Professional Certification,2013,3.5
+539,Global PPM,Undergraduate,Mathematics,31/12/1988,Female,China,Mexico,Philippines,GRE,Full-time,Internal,China,French,2010,332,,Professional Certification,2010,3.93
+540,PPM,Postgraduate,Medicine,15/10/1984,Female,Paraguay,Philippines,Luxembourg,GRE,Part-time,Multi-modal,Paraguay,Haitian Creole,2006,328,,Professional Certification,2010,3.98
+541,Global MISM,Postgraduate,IT,4/9/1984,Female,China,Botswana,China,GRE,Part-time,Internal,China,Lao,2004,310,,Professional Certification,2013,3.98
+542,MISM,Undergraduate,Psychology,3/2/1990,Female,Poland,Portugal,Philippines,GRE,Part-time,Internal,Poland,Marathi,2009,300,,Diploma,2014,3.8
+543,Global PPM,Undergraduate,IT,9/4/1995,Male,Portugal,China,Brazil,GRE,Part-time,Internal,Portugal,German,2010,318,,Diploma,2014,3.49
+544,MISM,Postgraduate,Medicine,23/06/1983,Male,Philippines,Nigeria,China,GRE,Full-time,External,Philippines,Dzongkha,2004,327,,Diploma,2011,3.69
+545,PPM,Postgraduate,Psychology,8/8/1993,Male,Portugal,Slovenia,China,GRE,Full-time,Internal,Portugal,Nepali,2012,307,,Professional Certification,2013,3.36
+546,MISM,Undergraduate,IT,29/08/1995,Male,France,Mexico,China,GRE,Part-time,Internal,France,Pashto,2008,323,low-income,Baccalaureate,2012,3.21
+547,MSIT,Postgraduate,Public Administration,30/10/1983,Male,Argentina,Indonesia,Mongolia,GRE,Part-time,Internal,Argentina,Quechua,2007,305,,Diploma,2011,3.95
+548,Global MISM,Postgraduate,Medicine,18/09/1984,Male,Poland,Ethiopia,Colombia,GRE,Part-time,Multi-modal,Poland,Kannada,2009,306,Disability,Professional Certification,2013,3.81
+549,MISM,Undergraduate,Psychology,16/01/1980,Male,Germany,Indonesia,Colombia,GRE,Full-time,Internal,Germany,Bengali,2007,304,,Professional Certification,2010,3.34
+550,PPM,Undergraduate,Computer Science,9/3/1991,Female,Indonesia,Uganda,Thailand,GRE,Full-time,Multi-modal,Indonesia,Afrikaans,2006,327,,Baccalaureate,2011,3.24
+551,Global MISM,Postgraduate,Public Administration,31/03/1995,Male,Angola,China,Chile,GRE,Full-time,External,Angola,Bengali,2005,304,,Professional Certification,2012,3.29
+552,PPM,Postgraduate,Public Administration,31/08/1991,Female,Indonesia,Indonesia,Russia,GRE,Part-time,Internal,Indonesia,Malayalam,2005,314,,Baccalaureate,2010,3.71
+553,MSIT,Postgraduate,Medicine,9/11/1989,Male,Ethiopia,Indonesia,China,GRE,Full-time,Internal,Ethiopia,Hiri Motu,2008,308,,Professional Certification,2010,3.35
+554,MSIT,Undergraduate,IT,17/12/1988,Male,Indonesia,Albania,Pakistan,GRE,Full-time,Multi-modal,Indonesia,Indonesian,2008,326,,Post-graduate,2012,3.31
+555,Global PPM,Postgraduate,IT,23/04/1995,Female,China,Belarus,Iceland,GRE,Part-time,Multi-modal,China,Tetum,2007,316,Regional/ Remote,Baccalaureate,2013,3.4
+556,MSIT,Undergraduate,IT,13/01/1994,Female,Russia,Brazil,Ecuador,GRE,Full-time,External,Russia,Zulu,2006,331,,Diploma,2011,3.71
+557,MSIT,Undergraduate,Computer Science,21/06/1991,Female,Colombia,Indonesia,China,GRE,Part-time,Multi-modal,Colombia,New Zealand Sign Language,2005,333,,Professional Certification,2010,3.28
+558,Global MISM,Undergraduate,Mathematics,3/10/1996,Female,Bolivia,Pakistan,Dominican Republic,GRE,Full-time,External,Bolivia,Marathi,2007,317,,Diploma,2013,3.72
+559,PPM,Undergraduate,Computer Science,20/01/1992,Male,Albania,China,United States,GRE,Full-time,Multi-modal,Albania,Macedonian,2011,307,,Baccalaureate,2010,3.67
+560,Global PPM,Undergraduate,Mathematics,12/12/1982,Female,Poland,Philippines,Kenya,GRE,Part-time,Internal,Poland,Albanian,2010,330,,Professional Certification,2011,3.4
+561,Global MISM,Postgraduate,Mathematics,18/06/1992,Male,Brazil,Indonesia,China,GRE,Part-time,Internal,Brazil,Assamese,2009,323,,Professional Certification,2010,3.73
+562,PPM,Undergraduate,Public Administration,29/12/1991,Female,China,Russia,Peru,GRE,Full-time,Internal,China,Dutch,2012,302,Women in non-traditional areas,Professional Certification,2014,3.23
+563,MISM,Postgraduate,Mathematics,3/11/1980,Male,China,Mongolia,China,GRE,Part-time,External,China,Ndebele,2012,327,,Post-graduate,2014,3.87
+564,Global MISM,Undergraduate,Medicine,26/03/1992,Male,Cuba,China,Poland,GRE,Part-time,External,Cuba,Kyrgyz,2004,318,,Baccalaureate,2010,3.8
+565,Global PPM,Undergraduate,IT,31/03/1980,Male,Indonesia,Netherlands,Portugal,GRE,Full-time,External,Indonesia,Hiri Motu,2008,325,,Baccalaureate,2014,3.99
+566,MISM,Undergraduate,Mathematics,18/03/1991,Female,Pakistan,Brazil,China,GRE,Full-time,Internal,Pakistan,German,2007,304,,Baccalaureate,2012,3.42
+567,MISM,Postgraduate,IT,7/8/1995,Female,China,China,China,GRE,Part-time,Internal,China,Kazakh,2007,339,,Baccalaureate,2014,3.72
+568,MISM,Undergraduate,Medicine,30/11/1996,Female,Cameroon,Vietnam,China,GRE,Part-time,Internal,Cameroon,Yiddish,2005,320,,Professional Certification,2010,3.33
+569,Global PPM,Postgraduate,Psychology,10/8/1991,Male,Russia,Portugal,Philippines,GRE,Full-time,Multi-modal,Russia,Mongolian,2012,303,Regional/ Remote,Post-graduate,2014,3.43
+570,MSIT,Undergraduate,Medicine,22/05/1989,Male,United States,China,France,GRE,Part-time,Internal,United States,Burmese,2005,312,,Post-graduate,2010,3.81
+571,MSIT,Undergraduate,Medicine,21/06/1996,Female,China,China,Spain,GRE,Part-time,Internal,China,Macedonian,2012,312,,Post-graduate,2010,3.31
+572,Global MISM,Postgraduate,Medicine,13/06/1997,Male,Argentina,France,China,GRE,Full-time,Multi-modal,Argentina,Bosnian,2009,337,,Post-graduate,2010,3.34
+573,MSIT,Postgraduate,IT,22/04/1988,Female,China,Egypt,China,GRE,Part-time,Multi-modal,China,Arabic,2009,327,,Baccalaureate,2011,3.22
+574,MSIT,Postgraduate,Medicine,17/12/1980,Female,Palestinian Territory,France,Indonesia,GRE,Full-time,External,Palestinian Territory,Swedish,2008,337,Disability,Diploma,2014,3.52
+575,Global MISM,Postgraduate,Medicine,8/9/1986,Female,Indonesia,Indonesia,Indonesia,GRE,Full-time,Internal,Indonesia,Norwegian,2012,315,,Post-graduate,2010,3.76
+576,Global MISM,Postgraduate,Medicine,11/11/1995,Female,Japan,China,Russia,GRE,Full-time,Multi-modal,Japan,Fijian,2007,320,,Professional Certification,2014,3.69
+577,PPM,Postgraduate,Medicine,5/6/1984,Female,Indonesia,Taiwan,France,GRE,Full-time,External,Indonesia,Maltese,2009,332,Regional/ Remote,Diploma,2014,3.66
+578,PPM,Postgraduate,Computer Science,14/04/1995,Female,Philippines,France,China,GRE,Part-time,Internal,Philippines,Croatian,2005,332,Regional/ Remote,Post-graduate,2011,3.39
+579,Global MISM,Postgraduate,Psychology,24/10/1990,Male,China,Ukraine,China,GRE,Part-time,External,China,New Zealand Sign Language,2009,314,Disability,Baccalaureate,2011,3.44
+580,MSIT,Postgraduate,Public Administration,29/08/1996,Female,Montenegro,Belarus,Philippines,GRE,Part-time,Multi-modal,Montenegro,Kazakh,2008,301,,Professional Certification,2014,3.21
+581,MSIT,Undergraduate,IT,27/11/1992,Female,China,Greece,China,GRE,Part-time,Internal,China,Mongolian,2010,312,,Baccalaureate,2011,3.89
+582,MISM,Undergraduate,Medicine,19/12/1996,Male,Russia,China,Vietnam,GRE,Full-time,Multi-modal,Russia,Zulu,2005,336,,Post-graduate,2012,3.59
+583,Global MISM,Postgraduate,IT,6/7/1995,Female,China,Indonesia,China,GRE,Part-time,External,China,Bislama,2005,323,,Diploma,2013,3.44
+584,PPM,Postgraduate,Computer Science,26/12/1983,Female,Venezuela,Syria,Chile,GRE,Part-time,External,Venezuela,Kurdish,2007,329,,Professional Certification,2011,3.57
+585,Global MISM,Postgraduate,IT,5/7/1985,Female,Laos,Sweden,Japan,GRE,Part-time,Internal,Laos,Haitian Creole,2011,302,Disability,Diploma,2010,3.63
+586,MISM,Postgraduate,Psychology,26/11/1996,Male,China,China,China,GRE,Part-time,Multi-modal,China,M??ori,2006,308,,Baccalaureate,2014,3.89
+587,Global PPM,Postgraduate,Computer Science,26/10/1992,Female,Philippines,Vietnam,New Zealand,GRE,Full-time,External,Philippines,Polish,2005,321,Disability,Baccalaureate,2012,3.62
+588,PPM,Undergraduate,Medicine,1/9/1985,Male,Kyrgyzstan,Bulgaria,Bolivia,GRE,Part-time,Internal,Kyrgyzstan,Lithuanian,2009,327,,Diploma,2010,3.65
+589,MISM,Postgraduate,Medicine,31/08/1982,Female,China,Morocco,Indonesia,GRE,Part-time,Multi-modal,China,Ndebele,2004,334,Disability,Diploma,2013,3.87
+590,Global PPM,Postgraduate,Computer Science,8/5/1990,Male,South Africa,China,Sweden,GRE,Full-time,External,South Africa,Persian,2009,303,,Baccalaureate,2011,3.22
+591,MISM,Postgraduate,Mathematics,25/11/1989,Male,Sweden,Indonesia,Indonesia,GRE,Part-time,Multi-modal,Sweden,Polish,2004,307,,Post-graduate,2013,3.69
+592,Global MISM,Undergraduate,Medicine,6/5/1983,Female,Philippines,Indonesia,Antigua and Barbuda,GRE,Part-time,Multi-modal,Philippines,Malagasy,2011,321,,Post-graduate,2013,3.72
+593,Global PPM,Postgraduate,IT,14/05/1997,Male,Indonesia,Ukraine,Mexico,GRE,Part-time,External,Indonesia,Tajik,2010,327,,Post-graduate,2010,3.3
+594,Global MISM,Postgraduate,Mathematics,16/06/1994,Male,Poland,China,China,GRE,Part-time,Multi-modal,Poland,West Frisian,2012,312,,Baccalaureate,2010,3.72
+595,Global MISM,Undergraduate,IT,12/7/1995,Male,Indonesia,Indonesia,Mongolia,GRE,Part-time,Multi-modal,Indonesia,Catalan,2007,332,Disability,Diploma,2010,3.53
+596,PPM,Postgraduate,Public Administration,22/07/1996,Male,Colombia,China,Gambia,GRE,Part-time,External,Colombia,Chinese,2008,337,,Professional Certification,2012,3.38
+597,Global MISM,Undergraduate,Psychology,1/9/1992,Female,Thailand,Canada,Sweden,GRE,Full-time,Internal,Thailand,Swahili,2008,323,Women in non-traditional areas,Diploma,2013,3.65
+598,MISM,Postgraduate,IT,8/2/1996,Male,Bolivia,Indonesia,Vietnam,GRE,Part-time,Multi-modal,Bolivia,Latvian,2011,310,Women in non-traditional areas,Diploma,2014,3.41
+599,MISM,Postgraduate,Mathematics,26/07/1981,Female,Poland,Albania,Indonesia,GRE,Full-time,External,Poland,Czech,2005,306,,Diploma,2013,3.94
+600,MSIT,Postgraduate,Medicine,29/04/1987,Male,Palestinian Territory,Poland,France,GRE,Full-time,Internal,Palestinian Territory,Malay,2007,325,,Post-graduate,2011,3.3
+601,MISM,Postgraduate,Computer Science,23/01/1984,Female,Indonesia,China,Ireland,GRE,Part-time,Multi-modal,Indonesia,Zulu,2009,300,,Professional Certification,2012,3.38
+602,Global MISM,Undergraduate,Mathematics,30/01/1994,Female,Russia,Morocco,China,GRE,Full-time,Multi-modal,Russia,Luxembourgish,2010,304,,Professional Certification,2011,3.59
+603,Global PPM,Undergraduate,Mathematics,3/4/1997,Male,Indonesia,Montenegro,Norway,GRE,Part-time,Internal,Indonesia,Montenegrin,2007,305,,Baccalaureate,2014,3.41
+604,PPM,Postgraduate,Medicine,15/12/1997,Female,Canada,China,China,GRE,Full-time,External,Canada,Tetum,2012,336,low-income,Baccalaureate,2012,3.26
+605,Global MISM,Postgraduate,Public Administration,12/9/1992,Female,China,Cuba,Nepal,GRE,Full-time,Internal,China,Bislama,2011,301,,Professional Certification,2010,3.65
+606,Global PPM,Postgraduate,Public Administration,1/8/1982,Male,Brazil,Poland,China,GRE,Full-time,Internal,Brazil,Tok Pisin,2009,332,low-income,Post-graduate,2010,3.95
+607,MISM,Postgraduate,Psychology,9/11/1990,Female,Philippines,Portugal,France,GRE,Full-time,Internal,Philippines,Bengali,2010,328,Regional/ Remote,Post-graduate,2010,3.39
+608,MSIT,Postgraduate,Medicine,19/09/1995,Male,Vietnam,France,Russia,GRE,Part-time,External,Vietnam,Swahili,2006,318,,Professional Certification,2010,3.32
+609,MISM,Undergraduate,Computer Science,6/5/1984,Male,Namibia,China,China,GRE,Part-time,Internal,Namibia,Persian,2007,338,,Diploma,2014,3.79
+610,PPM,Undergraduate,Psychology,23/06/1987,Male,Nigeria,Indonesia,Poland,GRE,Part-time,Multi-modal,Nigeria,Fijian,2012,309,,Professional Certification,2010,3.61
+611,Global PPM,Postgraduate,Public Administration,31/03/1993,Male,Micronesia,China,Liechtenstein,GRE,Full-time,Multi-modal,Micronesia,Swedish,2007,317,,Diploma,2014,3.8
+612,Global PPM,Undergraduate,Psychology,28/02/1987,Male,Bulgaria,Spain,Greece,GRE,Part-time,Internal,Bulgaria,Haitian Creole,2006,317,,Post-graduate,2011,3.92
+613,PPM,Undergraduate,Computer Science,2/10/1991,Female,Philippines,Greece,Philippines,GRE,Full-time,Multi-modal,Philippines,Marathi,2005,330,,Diploma,2012,3.86
+614,MSIT,Postgraduate,Mathematics,20/02/1988,Male,Indonesia,Marshall Islands,Ecuador,GRE,Part-time,Multi-modal,Indonesia,Greek,2006,327,,Post-graduate,2011,3.6
+615,Global PPM,Undergraduate,Public Administration,16/03/1984,Female,Poland,Indonesia,Comoros,GRE,Full-time,Multi-modal,Poland,Dhivehi,2007,317,low-income,Post-graduate,2011,3.55
+616,PPM,Postgraduate,Mathematics,16/10/1995,Male,China,Philippines,Iran,GRE,Part-time,Multi-modal,China,English,2006,313,,Post-graduate,2012,3.98
+617,MISM,Undergraduate,Medicine,27/05/1992,Female,Russia,Russia,Portugal,GRE,Full-time,Multi-modal,Russia,Swahili,2009,328,,Professional Certification,2011,3.4
+618,PPM,Postgraduate,Computer Science,20/11/1991,Female,South Africa,China,Indonesia,GRE,Full-time,Multi-modal,South Africa,Dhivehi,2007,307,Disability,Baccalaureate,2014,3.45
+619,Global PPM,Postgraduate,Mathematics,7/9/1997,Female,Egypt,Sweden,Italy,GRE,Part-time,Multi-modal,Egypt,Greek,2008,300,Disability,Baccalaureate,2011,3.34
+620,PPM,Undergraduate,Medicine,18/02/1984,Female,Indonesia,Russia,China,GRE,Part-time,Internal,Indonesia,Guaran??,2007,332,,Post-graduate,2012,3.9
+621,Global PPM,Undergraduate,Mathematics,28/03/1989,Female,Indonesia,Zambia,Syria,GRE,Part-time,Multi-modal,Indonesia,Dzongkha,2006,311,,Professional Certification,2010,3.5
+622,Global PPM,Undergraduate,Mathematics,2/8/1983,Male,China,Portugal,China,GRE,Part-time,External,China,Haitian Creole,2009,339,,Diploma,2010,3.78
+623,PPM,Postgraduate,Psychology,3/12/1996,Female,Greece,Poland,Poland,GRE,Part-time,External,Greece,Moldovan,2007,300,,Diploma,2010,3.58
+624,PPM,Postgraduate,Medicine,27/05/1981,Female,Bolivia,Ireland,Sweden,GRE,Part-time,Internal,Bolivia,Oriya,2011,317,Women in non-traditional areas,Post-graduate,2013,3.34
+625,PPM,Postgraduate,Computer Science,4/6/1983,Female,Japan,China,Indonesia,GRE,Part-time,External,Japan,Montenegrin,2008,324,,Baccalaureate,2011,3.75
+626,PPM,Postgraduate,Computer Science,27/09/1982,Male,Portugal,Libya,Peru,GRE,Full-time,Internal,Portugal,Kazakh,2006,328,,Diploma,2012,3.59
+627,MISM,Undergraduate,IT,17/02/1985,Male,Portugal,Kazakhstan,Colombia,GRE,Part-time,Internal,Portugal,Kannada,2007,314,,Baccalaureate,2013,4
+628,Global MISM,Postgraduate,Medicine,22/12/1994,Female,Thailand,Poland,China,GRE,Part-time,Internal,Thailand,Catalan,2006,339,Disability,Professional Certification,2013,3.39
+629,PPM,Postgraduate,Computer Science,29/10/1995,Female,Philippines,Nicaragua,Peru,GRE,Full-time,Internal,Philippines,Gagauz,2008,319,low-income,Professional Certification,2011,3.72
+630,Global PPM,Postgraduate,Public Administration,17/01/1986,Male,Indonesia,China,Peru,GRE,Part-time,External,Indonesia,Tswana,2010,301,,Baccalaureate,2014,3.53
+631,PPM,Undergraduate,Mathematics,9/1/1980,Female,Brazil,North Korea,Brazil,GRE,Full-time,Multi-modal,Brazil,Dhivehi,2007,315,Regional/ Remote,Baccalaureate,2013,3.45
+632,Global PPM,Undergraduate,IT,2/12/1986,Male,Brazil,Canada,Indonesia,GRE,Part-time,Internal,Brazil,Bengali,2011,309,Regional/ Remote,Baccalaureate,2010,3.54
+633,MSIT,Undergraduate,Mathematics,6/3/1985,Female,Colombia,Portugal,Cameroon,GRE,Part-time,Internal,Colombia,Mongolian,2009,338,,Post-graduate,2013,3.99
+634,Global MISM,Postgraduate,Computer Science,7/12/1991,Male,Russia,China,Russia,GRE,Part-time,External,Russia,Khmer,2006,309,Regional/ Remote,Diploma,2013,3.36
+635,MISM,Postgraduate,Mathematics,9/10/1991,Female,Philippines,Albania,Slovenia,GRE,Full-time,Multi-modal,Philippines,Belarusian,2011,333,,Professional Certification,2014,3.96
+636,Global MISM,Undergraduate,Public Administration,30/05/1984,Female,Brazil,Bulgaria,China,GRE,Part-time,Internal,Brazil,Estonian,2012,305,,Post-graduate,2013,3.55
+637,PPM,Undergraduate,Mathematics,21/04/1986,Female,Greece,Poland,Vietnam,GRE,Part-time,Multi-modal,Greece,Danish,2012,306,low-income,Post-graduate,2013,3.69
+638,MSIT,Postgraduate,IT,1/10/1983,Female,China,Peru,United States,GRE,Part-time,Multi-modal,China,Dhivehi,2008,337,Women in non-traditional areas,Baccalaureate,2012,3.59
+639,Global PPM,Undergraduate,Public Administration,25/10/1985,Female,Democratic Republic of the Congo,Ireland,China,GRE,Part-time,Internal,Democratic Republic of the Congo,Polish,2009,335,,Post-graduate,2013,3.2
+640,PPM,Undergraduate,IT,7/2/1996,Male,Morocco,Brazil,Botswana,GRE,Full-time,Internal,Morocco,Malagasy,2006,315,Disability,Baccalaureate,2014,3.3
+641,Global PPM,Undergraduate,IT,10/10/1991,Male,China,Finland,Nigeria,GRE,Part-time,Multi-modal,China,Oriya,2010,321,,Diploma,2012,3.65
+642,Global PPM,Postgraduate,Computer Science,5/2/1991,Female,Nigeria,Kyrgyzstan,Indonesia,GRE,Full-time,Internal,Nigeria,Haitian Creole,2006,338,Disability,Diploma,2012,3.5
+643,Global PPM,Undergraduate,Computer Science,14/04/1992,Male,China,Philippines,Indonesia,GRE,Part-time,External,China,Haitian Creole,2009,306,low-income,Baccalaureate,2011,3.83
+644,MISM,Undergraduate,Public Administration,7/5/1996,Male,Canada,Serbia,Albania,GRE,Part-time,Internal,Canada,Guaran??,2011,304,low-income,Diploma,2013,3.32
+645,Global PPM,Undergraduate,Medicine,11/4/1995,Male,Poland,Russia,China,GRE,Full-time,Multi-modal,Poland,Ndebele,2005,326,Disability,Baccalaureate,2013,3.36
+646,Global PPM,Postgraduate,Public Administration,29/07/1992,Female,Central African Republic,Burkina Faso,South Korea,GRE,Part-time,Multi-modal,Central African Republic,Tajik,2008,328,,Post-graduate,2013,3.88
+647,PPM,Postgraduate,Computer Science,25/09/1995,Male,Lithuania,China,New Zealand,GRE,Part-time,External,Lithuania,German,2006,315,,Diploma,2010,3.84
+648,MSIT,Postgraduate,Medicine,26/02/1987,Female,Russia,France,Poland,GRE,Part-time,Internal,Russia,Aymara,2004,303,,Professional Certification,2011,3.71
+649,Global MISM,Undergraduate,Public Administration,18/07/1994,Female,Argentina,Philippines,Finland,GRE,Part-time,Internal,Argentina,Gagauz,2004,321,Disability,Baccalaureate,2013,3.78
+650,MISM,Postgraduate,Mathematics,27/02/1983,Male,Philippines,Finland,Russia,GRE,Full-time,Multi-modal,Philippines,Kannada,2006,313,Women in non-traditional areas,Diploma,2013,3.58
+651,Global PPM,Undergraduate,IT,22/05/1985,Male,Ukraine,Belarus,Yemen,GRE,Part-time,Multi-modal,Ukraine,Luxembourgish,2006,321,,Post-graduate,2013,3.85
+652,MSIT,Undergraduate,Mathematics,11/2/1984,Male,China,Greece,China,GRE,Full-time,Multi-modal,China,Malay,2005,313,Regional/ Remote,Diploma,2013,3.72
+653,Global PPM,Postgraduate,Medicine,19/01/1985,Female,China,Iran,China,GRE,Full-time,Multi-modal,China,Luxembourgish,2012,331,,Baccalaureate,2011,3.69
+654,MISM,Undergraduate,Public Administration,8/4/1987,Female,United States,Sweden,Micronesia,GRE,Full-time,Multi-modal,United States,Tswana,2011,317,,Post-graduate,2013,3.98
+655,Global MISM,Postgraduate,Psychology,26/09/1995,Female,Saint Kitts and Nevis,China,Argentina,GRE,Part-time,Multi-modal,Saint Kitts and Nevis,Estonian,2005,333,,Baccalaureate,2012,3.6
+656,Global MISM,Undergraduate,IT,26/04/1989,Male,Poland,Nigeria,Indonesia,GRE,Part-time,Multi-modal,Poland,Aymara,2005,302,,Diploma,2014,3.74
+657,Global PPM,Postgraduate,Medicine,19/06/1986,Male,Indonesia,Ireland,Mexico,GRE,Part-time,Internal,Indonesia,Dhivehi,2012,334,,Professional Certification,2011,3.64
+658,MISM,Undergraduate,Mathematics,1/12/1992,Male,United Kingdom,Netherlands,Philippines,GRE,Part-time,External,United Kingdom,Moldovan,2004,340,Women in non-traditional areas,Baccalaureate,2010,3.78
+659,Global MISM,Postgraduate,Psychology,8/3/1996,Female,Philippines,Cuba,Israel,GRE,Part-time,External,Philippines,Tok Pisin,2004,324,Regional/ Remote,Post-graduate,2011,3.65
+660,Global PPM,Postgraduate,Psychology,29/08/1985,Female,Indonesia,China,Iran,GRE,Full-time,Internal,Indonesia,Punjabi,2005,308,,Professional Certification,2014,3.48
+661,PPM,Undergraduate,Mathematics,3/3/1984,Male,China,Thailand,Panama,GRE,Full-time,Internal,China,Estonian,2006,334,,Professional Certification,2010,3.85
+662,PPM,Undergraduate,Public Administration,4/11/1989,Male,Indonesia,China,Greece,GRE,Part-time,External,Indonesia,Moldovan,2009,323,,Diploma,2011,3.59
+663,Global MISM,Undergraduate,Psychology,16/07/1995,Female,Russia,China,Vietnam,GRE,Part-time,Internal,Russia,Georgian,2008,302,,Professional Certification,2012,3.93
+664,MISM,Undergraduate,Mathematics,4/2/1997,Male,Argentina,Czech Republic,Poland,GRE,Part-time,Internal,Argentina,Kurdish,2008,316,Disability,Professional Certification,2011,3.84
+665,PPM,Undergraduate,Public Administration,7/12/1985,Female,Mexico,Philippines,China,GRE,Part-time,Internal,Mexico,M??ori,2007,335,,Diploma,2014,3.65
+666,Global PPM,Postgraduate,Mathematics,2/8/1981,Male,Sudan,Madagascar,Nicaragua,GRE,Full-time,External,Sudan,Malagasy,2005,315,,Post-graduate,2013,3.36
+667,MSIT,Postgraduate,IT,11/6/1986,Male,Indonesia,China,Finland,GRE,Part-time,External,Indonesia,Khmer,2007,305,,Baccalaureate,2011,3.56
+668,PPM,Postgraduate,IT,24/10/1994,Male,Sweden,Russia,Brazil,GRE,Part-time,Internal,Sweden,Persian,2006,328,,Professional Certification,2014,3.87
+669,PPM,Undergraduate,Computer Science,2/4/1989,Female,South Korea,Philippines,Thailand,GRE,Full-time,Internal,South Korea,Ndebele,2009,309,low-income,Professional Certification,2012,3.25
+670,MISM,Undergraduate,Medicine,3/9/1980,Male,Cape Verde,Russia,China,GRE,Full-time,Multi-modal,Cape Verde,Greek,2009,316,Disability,Baccalaureate,2014,3.66
+671,Global PPM,Postgraduate,Psychology,22/12/1989,Female,Russia,China,Syria,GRE,Part-time,Multi-modal,Russia,West Frisian,2007,310,,Diploma,2011,3.93
+672,Global MISM,Undergraduate,Mathematics,1/8/1986,Female,China,Palestinian Territory,Indonesia,GRE,Full-time,External,China,Zulu,2009,323,,Baccalaureate,2014,3.57
+673,PPM,Postgraduate,Public Administration,27/09/1996,Male,Cuba,Jamaica,Portugal,GRE,Full-time,Internal,Cuba,Fijian,2010,309,Regional/ Remote,Professional Certification,2012,3.76
+674,Global PPM,Undergraduate,Mathematics,12/2/1993,Female,Nigeria,France,China,GRE,Full-time,External,Nigeria,Bosnian,2004,310,,Post-graduate,2010,3.66
+675,Global MISM,Undergraduate,Public Administration,16/11/1988,Male,Finland,China,China,GRE,Part-time,Internal,Finland,Papiamento,2008,325,,Post-graduate,2011,3.99
+676,Global PPM,Undergraduate,IT,31/08/1985,Male,Mauritius,Philippines,Malta,GRE,Part-time,External,Mauritius,Bislama,2007,314,,Diploma,2012,3.7
+677,MISM,Postgraduate,Mathematics,14/05/1982,Male,Morocco,Indonesia,China,GRE,Part-time,Internal,Morocco,Lao,2007,340,Women in non-traditional areas,Diploma,2012,3.43
+678,Global PPM,Postgraduate,Public Administration,7/10/1991,Male,Indonesia,Argentina,Philippines,GRE,Part-time,Internal,Indonesia,Quechua,2012,329,,Post-graduate,2013,3.67
+679,Global MISM,Postgraduate,Medicine,23/06/1988,Female,Canada,Russia,Philippines,GRE,Full-time,External,Canada,Macedonian,2012,319,,Professional Certification,2014,3.65
+680,Global PPM,Undergraduate,Psychology,29/10/1996,Male,Czech Republic,Luxembourg,Ukraine,GRE,Part-time,External,Czech Republic,Marathi,2007,315,,Post-graduate,2014,3.82
+681,Global MISM,Postgraduate,IT,19/05/1988,Female,Sweden,Netherlands,Philippines,GRE,Full-time,Internal,Sweden,West Frisian,2011,332,,Professional Certification,2014,3.9
+682,Global PPM,Undergraduate,Mathematics,24/09/1993,Male,China,Kazakhstan,United States,GRE,Part-time,Multi-modal,China,Yiddish,2009,333,Women in non-traditional areas,Baccalaureate,2013,3.44
+683,MSIT,Undergraduate,Computer Science,19/01/1981,Male,Norway,China,China,GRE,Part-time,Internal,Norway,Hindi,2011,334,,Baccalaureate,2011,3.42
+684,MSIT,Postgraduate,Mathematics,7/8/1992,Male,Egypt,China,China,GRE,Full-time,Internal,Egypt,Kashmiri,2012,335,,Professional Certification,2012,3.51
+685,Global PPM,Undergraduate,Psychology,8/1/1990,Male,United States,Mexico,Portugal,GRE,Part-time,Multi-modal,United States,German,2012,305,,Post-graduate,2010,3.85
+686,PPM,Undergraduate,Computer Science,19/12/1994,Male,Macedonia,Russia,China,GRE,Part-time,External,Macedonia,Swahili,2010,305,,Baccalaureate,2014,3.88
+687,PPM,Undergraduate,Mathematics,2/3/1992,Female,Indonesia,Jamaica,Sudan,GRE,Full-time,External,Indonesia,Somali,2012,336,,Diploma,2012,3.4
+688,Global MISM,Postgraduate,IT,9/5/1991,Male,China,Armenia,Poland,GRE,Full-time,Internal,China,Maltese,2010,329,,Post-graduate,2011,3.77
+689,Global MISM,Postgraduate,Mathematics,17/10/1992,Female,Indonesia,Brazil,Croatia,GRE,Part-time,Multi-modal,Indonesia,Kannada,2012,324,,Baccalaureate,2013,3.59
+690,PPM,Undergraduate,Mathematics,8/12/1994,Male,Czech Republic,Serbia,Denmark,GRE,Full-time,Internal,Czech Republic,Sotho,2006,326,,Diploma,2013,3.45
+691,MSIT,Postgraduate,IT,25/09/1994,Male,Argentina,Tanzania,Netherlands,GRE,Part-time,External,Argentina,Icelandic,2012,335,,Baccalaureate,2011,3.45
+692,MSIT,Postgraduate,Public Administration,8/10/1988,Female,China,Japan,Syria,GRE,Part-time,Multi-modal,China,Kannada,2008,307,,Baccalaureate,2011,3.56
+693,MISM,Undergraduate,Medicine,23/09/1982,Male,Brazil,Sweden,Liechtenstein,GRE,Part-time,Multi-modal,Brazil,Japanese,2008,314,Disability,Professional Certification,2012,3.46
+694,MSIT,Postgraduate,Computer Science,12/10/1988,Male,Philippines,China,Poland,GRE,Part-time,Internal,Philippines,Bengali,2006,323,,Baccalaureate,2010,3.6
+695,PPM,Postgraduate,IT,28/04/1989,Female,Indonesia,Japan,Greece,GRE,Full-time,Multi-modal,Indonesia,Maltese,2011,325,Women in non-traditional areas,Baccalaureate,2011,3.46
+696,PPM,Postgraduate,Public Administration,10/5/1983,Male,Brazil,Tunisia,China,GRE,Part-time,Multi-modal,Brazil,Somali,2007,302,Regional/ Remote,Baccalaureate,2011,3.38
+697,MSIT,Undergraduate,Public Administration,8/12/1990,Male,Portugal,Poland,Ireland,GRE,Full-time,Multi-modal,Portugal,Kyrgyz,2006,324,low-income,Post-graduate,2010,3.81
+698,Global PPM,Postgraduate,Computer Science,24/12/1991,Female,China,South Korea,Colombia,GRE,Full-time,Internal,China,Oriya,2012,336,,Professional Certification,2013,3.93
+699,Global PPM,Postgraduate,Psychology,10/5/1982,Male,Chile,Cuba,Greece,GRE,Full-time,Multi-modal,Chile,Bengali,2012,326,Disability,Diploma,2014,3.22
+700,Global PPM,Undergraduate,Computer Science,5/1/1984,Female,Azerbaijan,Peru,Thailand,GRE,Part-time,Multi-modal,Azerbaijan,Hungarian,2009,303,,Professional Certification,2011,3.42
+701,MSIT,Postgraduate,IT,1/4/1994,Male,China,Indonesia,Russia,GRE,Full-time,Internal,China,Azeri,2005,306,Disability,Post-graduate,2012,3.59
+702,PPM,Postgraduate,Public Administration,28/10/1993,Female,Ukraine,Poland,China,GRE,Part-time,Internal,Ukraine,Somali,2007,319,Women in non-traditional areas,Diploma,2013,3.59
+703,MSIT,Undergraduate,Computer Science,20/03/1993,Male,Kenya,Greece,China,GRE,Part-time,External,Kenya,Pashto,2007,314,Women in non-traditional areas,Post-graduate,2010,3.61
+704,MISM,Postgraduate,Psychology,18/05/1990,Female,Ethiopia,Philippines,Philippines,GRE,Part-time,Multi-modal,Ethiopia,Mongolian,2006,301,low-income,Diploma,2012,3.83
+705,MSIT,Postgraduate,Mathematics,7/3/1995,Male,Yemen,Philippines,Philippines,GRE,Full-time,Multi-modal,Yemen,Haitian Creole,2011,335,,Diploma,2010,3.47
+706,MSIT,Postgraduate,Public Administration,22/08/1993,Male,Colombia,Indonesia,China,GRE,Full-time,Internal,Colombia,Fijian,2007,313,,Baccalaureate,2012,3.79
+707,MISM,Undergraduate,IT,20/06/1997,Female,Philippines,Czech Republic,Argentina,GRE,Part-time,Multi-modal,Philippines,Japanese,2009,340,,Professional Certification,2014,3.83
+708,Global PPM,Undergraduate,Medicine,25/04/1982,Male,Portugal,Sweden,Estonia,GRE,Full-time,Multi-modal,Portugal,Montenegrin,2006,330,,Professional Certification,2014,3.79
+709,MSIT,Undergraduate,Psychology,24/07/1988,Female,China,Indonesia,Japan,GRE,Part-time,Multi-modal,China,Korean,2005,338,,Baccalaureate,2010,3.52
+710,MSIT,Postgraduate,Mathematics,24/06/1982,Female,Russia,Portugal,China,GRE,Part-time,Internal,Russia,Hiri Motu,2011,308,,Professional Certification,2011,3.97
+711,Global MISM,Postgraduate,Medicine,2/8/1994,Male,Philippines,China,Russia,GRE,Full-time,Internal,Philippines,Luxembourgish,2010,308,,Baccalaureate,2013,3.78
+712,MISM,Postgraduate,Computer Science,15/04/1990,Female,Poland,Ecuador,Portugal,GRE,Part-time,Multi-modal,Poland,Amharic,2005,305,Disability,Professional Certification,2012,3.88
+713,MSIT,Undergraduate,IT,3/2/1981,Male,Uruguay,Indonesia,Syria,GRE,Full-time,Internal,Uruguay,Tamil,2006,337,Women in non-traditional areas,Post-graduate,2010,3.58
+714,MISM,Postgraduate,Psychology,23/12/1992,Male,Mongolia,China,Ukraine,GRE,Part-time,Multi-modal,Mongolia,Spanish,2011,322,,Baccalaureate,2014,3.21
+715,Global MISM,Postgraduate,Medicine,22/07/1995,Male,Djibouti,Portugal,China,GRE,Full-time,External,Djibouti,Latvian,2007,326,,Post-graduate,2014,3.99
+716,MISM,Postgraduate,IT,8/10/1987,Male,Indonesia,Indonesia,Iran,GRE,Full-time,Multi-modal,Indonesia,Gujarati,2009,326,,Diploma,2014,3.79
+717,PPM,Undergraduate,Mathematics,28/09/1983,Male,Philippines,France,Poland,GRE,Full-time,External,Philippines,Gagauz,2007,302,,Post-graduate,2011,3.45
+718,PPM,Undergraduate,Psychology,16/11/1992,Female,China,Nicaragua,Indonesia,GRE,Full-time,External,China,Latvian,2006,329,Women in non-traditional areas,Professional Certification,2014,3.29
+719,MISM,Undergraduate,Public Administration,18/08/1981,Female,Portugal,China,China,GRE,Part-time,Internal,Portugal,New Zealand Sign Language,2004,314,,Baccalaureate,2014,3.67
+720,Global PPM,Postgraduate,Medicine,29/12/1981,Female,China,Indonesia,Brazil,GRE,Full-time,Multi-modal,China,Assamese,2006,316,,Baccalaureate,2011,3.34
+721,PPM,Postgraduate,IT,29/07/1997,Female,United States,China,Colombia,GRE,Part-time,Multi-modal,United States,Thai,2007,307,,Baccalaureate,2012,3.39
+722,PPM,Undergraduate,IT,24/07/1991,Female,Slovenia,Japan,Bosnia and Herzegovina,GRE,Part-time,External,Slovenia,M??ori,2010,313,,Diploma,2013,3.98
+723,MSIT,Postgraduate,Computer Science,12/4/1993,Female,China,Sweden,United Kingdom,GRE,Full-time,Internal,China,Maltese,2010,300,Disability,Post-graduate,2011,3.64
+724,MISM,Postgraduate,Public Administration,1/8/1985,Female,Italy,Portugal,Paraguay,GRE,Full-time,Multi-modal,Italy,Montenegrin,2005,315,,Diploma,2013,3.27
+725,MSIT,Undergraduate,Computer Science,19/11/1989,Male,China,Mexico,United States,GRE,Part-time,Multi-modal,China,Gujarati,2008,336,Women in non-traditional areas,Professional Certification,2012,3.47
+726,Global MISM,Undergraduate,Public Administration,11/1/1981,Male,South Africa,Indonesia,Brazil,GRE,Full-time,External,South Africa,Irish Gaelic,2006,308,,Professional Certification,2012,4
+727,Global MISM,Undergraduate,Public Administration,27/11/1988,Female,Vietnam,Venezuela,China,GRE,Full-time,Internal,Vietnam,Bengali,2011,339,,Professional Certification,2010,3.4
+728,MISM,Postgraduate,Psychology,24/08/1993,Male,Jamaica,Laos,China,GRE,Part-time,Multi-modal,Jamaica,Oriya,2006,325,,Diploma,2014,3.31
+729,MSIT,Undergraduate,Computer Science,2/1/1993,Male,China,Philippines,Iran,GRE,Full-time,External,China,Ndebele,2009,327,,Baccalaureate,2013,3.37
+730,MISM,Postgraduate,Medicine,28/11/1990,Female,Burkina Faso,Ethiopia,Mauritius,GRE,Part-time,Internal,Burkina Faso,Burmese,2010,339,Disability,Professional Certification,2010,3.38
+731,PPM,Postgraduate,Computer Science,25/12/1983,Male,China,Canada,Egypt,GRE,Part-time,Multi-modal,China,Tamil,2010,326,,Professional Certification,2014,3.32
+732,Global MISM,Undergraduate,Medicine,5/4/1995,Female,China,Iran,Indonesia,GRE,Full-time,External,China,Norwegian,2007,301,Women in non-traditional areas,Post-graduate,2012,3.42
+733,PPM,Undergraduate,Mathematics,11/4/1986,Male,Mauritius,Indonesia,Indonesia,GRE,Part-time,Multi-modal,Mauritius,Italian,2012,330,,Diploma,2011,3.89
+734,MISM,Postgraduate,Medicine,14/12/1995,Male,Burkina Faso,Portugal,Indonesia,GRE,Part-time,Multi-modal,Burkina Faso,Sotho,2005,325,low-income,Diploma,2013,3.36
+735,Global MISM,Postgraduate,Medicine,24/09/1992,Male,Myanmar,Indonesia,China,GRE,Part-time,Internal,Myanmar,Hiri Motu,2008,318,,Professional Certification,2013,3.97
+736,PPM,Postgraduate,Psychology,22/05/1994,Female,China,Brazil,Kenya,GRE,Full-time,Multi-modal,China,Haitian Creole,2006,318,Regional/ Remote,Post-graduate,2013,3.99
+737,MSIT,Undergraduate,Medicine,20/08/1988,Male,China,Serbia,China,GRE,Full-time,External,China,Gujarati,2008,301,,Diploma,2011,3.78
+738,Global PPM,Undergraduate,Mathematics,30/10/1997,Male,Georgia,Ethiopia,Poland,GRE,Part-time,Multi-modal,Georgia,Tetum,2010,338,,Post-graduate,2011,3.86
+739,MISM,Postgraduate,IT,1/12/1994,Female,Indonesia,Russia,Mexico,GRE,Full-time,Internal,Indonesia,Lithuanian,2007,325,,Diploma,2011,3.9
+740,MISM,Undergraduate,Medicine,22/07/1986,Male,Philippines,Poland,Indonesia,GRE,Full-time,External,Philippines,Dutch,2010,302,,Baccalaureate,2014,3.27
+741,MSIT,Undergraduate,Mathematics,11/2/1988,Male,Poland,Greece,United Kingdom,GRE,Part-time,External,Poland,Kazakh,2004,304,Women in non-traditional areas,Post-graduate,2011,3.54
+742,Global PPM,Undergraduate,Public Administration,25/01/1983,Female,Portugal,Sweden,Mexico,GRE,Part-time,Multi-modal,Portugal,Quechua,2004,306,,Diploma,2012,3.46
+743,Global MISM,Undergraduate,Computer Science,7/5/1992,Male,Serbia,Kiribati,China,GRE,Full-time,Multi-modal,Serbia,Fijian,2012,324,,Post-graduate,2013,3.83
+744,MISM,Postgraduate,IT,6/4/1980,Male,Philippines,Finland,Indonesia,GRE,Full-time,Internal,Philippines,Swati,2004,309,,Professional Certification,2014,3.91
+745,PPM,Postgraduate,Public Administration,30/09/1982,Male,China,Madagascar,Qatar,GRE,Part-time,Multi-modal,China,Tok Pisin,2009,339,,Post-graduate,2013,3.72
+746,MISM,Postgraduate,Public Administration,25/01/1985,Male,China,China,China,GRE,Full-time,External,China,Papiamento,2007,318,,Baccalaureate,2010,3.39
+747,PPM,Undergraduate,Medicine,30/08/1994,Female,China,Ukraine,Central African Republic,GRE,Part-time,Internal,China,Greek,2012,339,,Diploma,2012,3.87
+748,Global PPM,Undergraduate,Computer Science,23/11/1990,Male,Guam,Greece,Indonesia,GRE,Part-time,Multi-modal,Guam,Georgian,2004,340,,Diploma,2010,3.75
+749,Global PPM,Postgraduate,Medicine,3/10/1983,Female,Bulgaria,Brazil,China,GRE,Full-time,Internal,Bulgaria,Kazakh,2011,326,Disability,Diploma,2010,3.9
+750,Global MISM,Postgraduate,Public Administration,21/03/1992,Female,Peru,Egypt,Bulgaria,GRE,Full-time,Multi-modal,Peru,Tsonga,2009,323,Disability,Baccalaureate,2014,3.43
+751,MSIT,Postgraduate,Computer Science,21/08/1995,Female,Indonesia,China,Montenegro,GRE,Full-time,Internal,Indonesia,Persian,2007,333,,Post-graduate,2010,3.68
+752,MSIT,Undergraduate,Public Administration,4/12/1984,Female,China,France,China,GRE,Full-time,External,China,Montenegrin,2007,333,,Baccalaureate,2010,3.5
+753,PPM,Postgraduate,Medicine,20/09/1991,Male,Brazil,Ecuador,France,GRE,Part-time,Multi-modal,Brazil,Filipino,2005,327,Women in non-traditional areas,Baccalaureate,2014,3.21
+754,Global MISM,Postgraduate,Mathematics,30/06/1992,Female,Finland,Argentina,Serbia,GRE,Full-time,Internal,Finland,Gagauz,2012,300,Women in non-traditional areas,Post-graduate,2012,3.58
+755,Global MISM,Undergraduate,Psychology,18/10/1994,Male,Indonesia,Indonesia,Philippines,GRE,Part-time,Multi-modal,Indonesia,Malagasy,2005,323,,Diploma,2014,3.82
+756,PPM,Postgraduate,IT,6/1/1994,Male,China,Russia,United States,GRE,Part-time,Multi-modal,China,Ndebele,2004,321,,Post-graduate,2011,3.29
+757,PPM,Undergraduate,Medicine,17/02/1993,Female,China,China,Russia,GRE,Full-time,External,China,Lao,2005,300,Women in non-traditional areas,Professional Certification,2010,3.86
+758,PPM,Undergraduate,Computer Science,15/08/1989,Female,New Zealand,Uruguay,China,GRE,Full-time,Multi-modal,New Zealand,Fijian,2011,305,,Post-graduate,2011,3.87
+759,MSIT,Undergraduate,Mathematics,12/12/1982,Female,Greece,Vietnam,Russia,GRE,Part-time,External,Greece,Azeri,2008,340,,Professional Certification,2012,3.21
+760,Global PPM,Undergraduate,Medicine,23/07/1981,Male,Indonesia,China,Czech Republic,GRE,Part-time,External,Indonesia,M??ori,2011,305,,Baccalaureate,2012,3.91
+761,MSIT,Postgraduate,Public Administration,23/01/1989,Female,Croatia,Portugal,United States,GRE,Full-time,Multi-modal,Croatia,M??ori,2007,322,Women in non-traditional areas,Professional Certification,2013,3.21
+762,Global MISM,Undergraduate,Medicine,28/10/1987,Female,Brazil,China,China,GRE,Part-time,Multi-modal,Brazil,Czech,2006,314,Disability,Post-graduate,2011,3.21
+763,Global MISM,Postgraduate,IT,26/12/1995,Male,China,China,Croatia,GRE,Part-time,Internal,China,Bislama,2005,330,,Post-graduate,2012,3.92
+764,Global MISM,Postgraduate,Medicine,18/11/1987,Female,Poland,Russia,Greece,GRE,Full-time,External,Poland,Nepali,2011,315,Regional/ Remote,Diploma,2014,3.4
+765,MSIT,Undergraduate,Computer Science,10/5/1990,Male,China,China,China,GRE,Part-time,Multi-modal,China,Oriya,2010,330,,Diploma,2010,3.99
+766,MISM,Postgraduate,Mathematics,28/01/1990,Female,Sweden,Honduras,Armenia,GRE,Full-time,Internal,Sweden,Lao,2010,316,Regional/ Remote,Professional Certification,2013,3.21
+767,PPM,Postgraduate,IT,7/5/1992,Male,Sweden,France,Brazil,GRE,Full-time,Multi-modal,Sweden,Georgian,2011,319,Regional/ Remote,Diploma,2012,3.62
+768,PPM,Postgraduate,Public Administration,29/10/1981,Male,Czech Republic,Indonesia,China,GRE,Part-time,External,Czech Republic,Armenian,2010,306,,Baccalaureate,2011,3.33
+769,MISM,Postgraduate,Mathematics,8/9/1989,Male,China,Portugal,Vietnam,GRE,Full-time,External,China,Filipino,2009,321,Regional/ Remote,Post-graduate,2010,3.94
+770,Global MISM,Postgraduate,Mathematics,29/06/1992,Female,Portugal,Canada,Indonesia,GRE,Full-time,External,Portugal,Tamil,2008,331,,Diploma,2012,3.64
+771,MISM,Undergraduate,Mathematics,29/07/1987,Male,Argentina,Philippines,Ukraine,GRE,Full-time,Internal,Argentina,Croatian,2005,327,,Diploma,2014,3.81
+772,MSIT,Undergraduate,Medicine,26/08/1988,Female,Brazil,China,Italy,GRE,Part-time,Internal,Brazil,Moldovan,2004,324,,Professional Certification,2011,3.51
+773,MISM,Postgraduate,Psychology,27/08/1996,Female,Philippines,Poland,Czech Republic,GRE,Part-time,Multi-modal,Philippines,Estonian,2006,310,,Baccalaureate,2011,3.96
+774,Global MISM,Undergraduate,Medicine,27/01/1980,Female,France,China,China,GRE,Full-time,External,France,Croatian,2011,338,Women in non-traditional areas,Post-graduate,2011,3.65
+775,Global MISM,Undergraduate,IT,16/12/1996,Male,Indonesia,Georgia,Brazil,GRE,Part-time,Multi-modal,Indonesia,Italian,2006,327,Regional/ Remote,Baccalaureate,2013,3.47
+776,Global PPM,Undergraduate,Psychology,31/12/1983,Male,Indonesia,Philippines,Russia,GRE,Full-time,Multi-modal,Indonesia,Maltese,2007,318,,Diploma,2011,3.9
+777,Global PPM,Postgraduate,Psychology,27/11/1986,Female,Indonesia,Canada,Syria,GRE,Full-time,External,Indonesia,Tamil,2011,313,Disability,Professional Certification,2011,3.31
+778,Global MISM,Undergraduate,Medicine,19/04/1982,Male,Dominican Republic,Tunisia,Poland,GRE,Full-time,Multi-modal,Dominican Republic,Dzongkha,2008,314,,Post-graduate,2012,3.96
+779,Global MISM,Undergraduate,Psychology,10/1/1981,Female,Sweden,Russia,Nigeria,GRE,Full-time,Internal,Sweden,Kazakh,2009,329,,Baccalaureate,2014,3.98
+780,Global PPM,Undergraduate,Computer Science,11/5/1995,Male,Russia,Bhutan,Portugal,GRE,Part-time,Internal,Russia,Pashto,2011,305,low-income,Diploma,2012,3.38
+781,MISM,Postgraduate,Psychology,9/3/1994,Male,Sweden,Brazil,Mexico,GRE,Full-time,External,Sweden,Romanian,2009,340,,Baccalaureate,2014,3.7
+782,MSIT,Postgraduate,Public Administration,10/1/1982,Male,Estonia,Brazil,Belarus,GRE,Full-time,Multi-modal,Estonia,Indonesian,2012,337,,Professional Certification,2014,3.85
+783,MSIT,Undergraduate,Computer Science,13/07/1987,Female,Poland,Indonesia,Indonesia,GRE,Full-time,Internal,Poland,Swati,2004,329,,Diploma,2012,3.87
+784,Global MISM,Postgraduate,Public Administration,6/12/1982,Male,Belarus,United States,Brazil,GRE,Full-time,Multi-modal,Belarus,Sotho,2010,326,,Post-graduate,2013,3.4
+785,Global MISM,Undergraduate,Computer Science,25/07/1988,Male,Indonesia,China,Russia,GRE,Full-time,Internal,Indonesia,Tok Pisin,2012,340,,Post-graduate,2014,3.36
+786,Global PPM,Postgraduate,IT,20/09/1992,Female,China,Portugal,Greece,GRE,Part-time,Internal,China,Thai,2010,338,Regional/ Remote,Professional Certification,2011,3.65
+787,PPM,Undergraduate,IT,18/10/1997,Male,Australia,Brazil,Poland,GRE,Full-time,Internal,Australia,Telugu,2005,333,,Diploma,2011,3.41
+788,MSIT,Postgraduate,Medicine,16/09/1985,Female,China,China,China,GRE,Part-time,External,China,Burmese,2012,311,,Professional Certification,2012,3.76
+789,MSIT,Postgraduate,Public Administration,9/7/1992,Female,China,Sri Lanka,France,GRE,Full-time,External,China,Dari,2012,316,,Professional Certification,2013,3.75
+790,MISM,Undergraduate,Psychology,27/08/1989,Female,China,Philippines,Philippines,GRE,Full-time,Multi-modal,China,Kazakh,2004,318,,Post-graduate,2014,3.35
+791,Global MISM,Postgraduate,IT,5/1/1995,Male,Poland,China,Russia,GRE,Part-time,Internal,Poland,Indonesian,2006,303,Regional/ Remote,Professional Certification,2013,3.28
+792,MSIT,Postgraduate,IT,29/05/1996,Male,Argentina,Japan,Philippines,GRE,Part-time,Multi-modal,Argentina,Khmer,2010,329,,Post-graduate,2012,3.28
+793,Global PPM,Postgraduate,Medicine,19/12/1988,Female,Poland,Sweden,Philippines,GRE,Full-time,Internal,Poland,Luxembourgish,2008,316,,Diploma,2011,3.43
+794,Global PPM,Undergraduate,Computer Science,31/12/1990,Male,Peru,Ukraine,Ukraine,GRE,Part-time,Multi-modal,Peru,Tetum,2012,340,,Diploma,2014,3.97
+795,Global MISM,Undergraduate,Psychology,9/4/1989,Male,Colombia,Poland,China,GRE,Full-time,Multi-modal,Colombia,Dutch,2005,333,,Diploma,2012,3.5
+796,Global PPM,Postgraduate,Computer Science,18/03/1983,Female,China,China,Nigeria,GRE,Part-time,Internal,China,Norwegian,2006,304,,Professional Certification,2012,3.96
+797,Global PPM,Undergraduate,Medicine,31/08/1981,Female,Tunisia,Greece,Peru,GRE,Full-time,External,Tunisia,Japanese,2007,331,,Baccalaureate,2010,3.41
+798,Global MISM,Undergraduate,IT,6/9/1996,Male,Malaysia,Portugal,Greece,GRE,Full-time,Internal,Malaysia,Gujarati,2006,335,,Diploma,2012,3.53
+799,Global PPM,Postgraduate,Computer Science,16/11/1983,Female,China,France,Democratic Republic of the Congo,GRE,Full-time,External,China,Amharic,2008,303,,Baccalaureate,2012,3.47
+800,Global PPM,Undergraduate,Public Administration,11/6/1992,Female,China,Indonesia,Russia,GRE,Full-time,Multi-modal,China,Armenian,2011,318,,Professional Certification,2010,3.45
+801,MISM,Postgraduate,Medicine,1/7/1993,Female,Guatemala,Ireland,France,GRE,Full-time,Multi-modal,Guatemala,Finnish,2004,312,,Professional Certification,2013,3.67
+802,Global MISM,Undergraduate,Computer Science,7/7/1995,Male,Slovenia,China,China,GRE,Full-time,External,Slovenia,Marathi,2007,303,,Professional Certification,2014,3.94
+803,Global MISM,Undergraduate,Medicine,8/12/1989,Male,Japan,Brazil,Malaysia,GRE,Part-time,External,Japan,Estonian,2010,323,,Post-graduate,2013,3.38
+804,Global MISM,Undergraduate,Computer Science,11/6/1993,Female,United States,France,Indonesia,GRE,Full-time,Internal,United States,Luxembourgish,2012,321,,Baccalaureate,2010,3.21
+805,Global PPM,Undergraduate,Psychology,14/10/1989,Female,Indonesia,Japan,Greece,GRE,Part-time,Multi-modal,Indonesia,Finnish,2004,302,Disability,Diploma,2013,3.82
+806,PPM,Undergraduate,Psychology,3/2/1989,Female,Russia,Philippines,Indonesia,GRE,Part-time,External,Russia,Dari,2010,308,,Diploma,2010,3.31
+807,MSIT,Undergraduate,Computer Science,6/9/1987,Female,Netherlands,Mexico,Brazil,GRE,Part-time,Internal,Netherlands,Afrikaans,2006,317,,Diploma,2010,3.35
+808,Global MISM,Postgraduate,IT,29/12/1990,Female,Guatemala,Peru,Greece,GRE,Full-time,Multi-modal,Guatemala,Afrikaans,2008,302,Women in non-traditional areas,Post-graduate,2014,3.66
+809,Global PPM,Postgraduate,IT,5/6/1994,Male,Mexico,United States,China,GRE,Part-time,Internal,Mexico,Afrikaans,2007,319,Regional/ Remote,Diploma,2014,3.47
+810,MISM,Undergraduate,Public Administration,25/10/1991,Male,France,Norway,Peru,GRE,Full-time,Internal,France,Zulu,2005,301,,Diploma,2014,3.69
+811,MSIT,Postgraduate,Mathematics,31/07/1993,Male,Indonesia,Colombia,Kuwait,GRE,Part-time,Multi-modal,Indonesia,Danish,2010,309,,Post-graduate,2011,3.72
+812,Global MISM,Undergraduate,Public Administration,31/03/1995,Female,France,Argentina,Mauritius,GRE,Full-time,Multi-modal,France,Estonian,2010,303,,Baccalaureate,2011,3.56
+813,MISM,Undergraduate,IT,12/2/1980,Male,China,Portugal,Sweden,GRE,Part-time,External,China,Telugu,2006,338,,Baccalaureate,2011,3.63
+814,MSIT,Postgraduate,IT,22/04/1985,Female,Indonesia,Pakistan,Poland,GRE,Full-time,Multi-modal,Indonesia,Korean,2005,301,Women in non-traditional areas,Post-graduate,2014,3.44
+815,Global PPM,Undergraduate,Mathematics,1/10/1988,Female,Bolivia,Portugal,Azerbaijan,GRE,Part-time,Internal,Bolivia,Marathi,2005,340,,Baccalaureate,2012,3.39
+816,Global PPM,Postgraduate,Psychology,1/9/1990,Male,Japan,Ecuador,Colombia,GRE,Full-time,Internal,Japan,Danish,2004,306,,Baccalaureate,2012,3.57
+817,MSIT,Postgraduate,IT,30/12/1980,Female,Philippines,Indonesia,Poland,GRE,Full-time,Multi-modal,Philippines,Armenian,2008,306,,Baccalaureate,2010,3.36
+818,Global MISM,Postgraduate,Medicine,23/10/1980,Male,Brazil,Armenia,Philippines,GRE,Full-time,Multi-modal,Brazil,Swahili,2004,305,,Baccalaureate,2012,3.83
+819,Global PPM,Postgraduate,Public Administration,15/03/1987,Female,Malaysia,Poland,Palestinian Territory,GRE,Full-time,Internal,Malaysia,Bosnian,2006,327,,Professional Certification,2010,3.95
+820,MSIT,Undergraduate,Computer Science,16/08/1991,Male,China,Indonesia,Indonesia,GRE,Full-time,Multi-modal,China,Azeri,2010,321,,Diploma,2011,3.78
+821,Global MISM,Undergraduate,Mathematics,5/11/1987,Male,Indonesia,Sweden,Poland,GRE,Part-time,Multi-modal,Indonesia,Dzongkha,2009,305,,Diploma,2011,3.84
+822,Global MISM,Undergraduate,Mathematics,30/10/1997,Male,Colombia,Uganda,China,GRE,Part-time,Internal,Colombia,Croatian,2007,305,Disability,Professional Certification,2010,3.94
+823,MISM,Undergraduate,Public Administration,10/9/1985,Male,Tanzania,Colombia,Nigeria,GRE,Full-time,External,Tanzania,Greek,2008,332,,Baccalaureate,2014,3.41
+824,MSIT,Undergraduate,IT,31/05/1987,Male,Indonesia,Namibia,Bangladesh,GRE,Full-time,External,Indonesia,Dari,2004,325,,Baccalaureate,2010,3.83
+825,MISM,Undergraduate,Public Administration,6/6/1994,Female,Indonesia,Sierra Leone,Kenya,GRE,Part-time,Internal,Indonesia,Dhivehi,2006,319,,Professional Certification,2010,3.32
+826,PPM,Undergraduate,Mathematics,10/3/1981,Male,China,Cuba,South Korea,GRE,Part-time,Internal,China,Kazakh,2008,300,Disability,Professional Certification,2010,3.33
+827,PPM,Undergraduate,Computer Science,31/03/1990,Female,Japan,El Salvador,Japan,GRE,Full-time,Internal,Japan,Dari,2008,327,,Post-graduate,2014,3.52
+828,MISM,Postgraduate,Public Administration,15/08/1987,Female,Indonesia,Argentina,China,GRE,Full-time,Internal,Indonesia,Somali,2012,318,Regional/ Remote,Post-graduate,2010,3.9
+829,MSIT,Undergraduate,Computer Science,27/10/1991,Male,Djibouti,Indonesia,Malaysia,GRE,Full-time,Internal,Djibouti,Romanian,2005,335,,Post-graduate,2012,3.31
+830,Global MISM,Undergraduate,Computer Science,13/02/1997,Female,Kyrgyzstan,Malaysia,Portugal,GRE,Full-time,Internal,Kyrgyzstan,Tetum,2010,325,Regional/ Remote,Baccalaureate,2012,3.44
+831,PPM,Undergraduate,Computer Science,16/03/1982,Male,China,Peru,Portugal,GRE,Full-time,Multi-modal,China,Khmer,2007,338,,Baccalaureate,2012,3.51
+832,MSIT,Undergraduate,IT,1/3/1983,Male,Guinea-Bissau,Morocco,China,GRE,Full-time,External,Guinea-Bissau,Chinese,2007,316,,Post-graduate,2013,4
+833,MSIT,Undergraduate,Computer Science,1/1/1989,Male,China,China,China,GRE,Part-time,External,China,Tok Pisin,2006,317,,Professional Certification,2010,3.48
+834,Global MISM,Undergraduate,Computer Science,24/10/1981,Female,Mexico,Sweden,Russia,GRE,Part-time,External,Mexico,Assamese,2006,300,,Professional Certification,2011,3.75
+835,Global MISM,Postgraduate,Mathematics,8/10/1994,Female,Portugal,Finland,Italy,GRE,Full-time,Internal,Portugal,Japanese,2004,334,,Post-graduate,2014,3.78
+836,Global PPM,Undergraduate,IT,8/11/1987,Male,China,Venezuela,Georgia,GRE,Full-time,Internal,China,M??ori,2007,317,,Baccalaureate,2010,3.41
+837,MSIT,Postgraduate,Mathematics,13/08/1986,Male,Sweden,Malta,Slovenia,GRE,Full-time,Internal,Sweden,Moldovan,2008,306,,Professional Certification,2011,3.75
+838,Global PPM,Undergraduate,Psychology,19/01/1996,Male,Latvia,Ukraine,Brazil,GRE,Full-time,Internal,Latvia,Montenegrin,2011,313,,Professional Certification,2010,3.2
+839,PPM,Undergraduate,IT,12/5/1981,Female,China,China,Thailand,GRE,Part-time,External,China,Arabic,2004,304,,Professional Certification,2012,3.52
+840,MISM,Undergraduate,Medicine,17/01/1995,Male,Ukraine,China,Hungary,GRE,Full-time,Multi-modal,Ukraine,Somali,2009,319,,Diploma,2010,3.86
+841,PPM,Postgraduate,Psychology,23/10/1989,Male,Mexico,Indonesia,Brazil,GRE,Full-time,External,Mexico,Albanian,2010,309,,Post-graduate,2011,3.75
+842,MISM,Postgraduate,Medicine,23/02/1985,Male,Poland,Japan,Czech Republic,GRE,Part-time,Multi-modal,Poland,Khmer,2009,339,,Professional Certification,2011,3.74
+843,MSIT,Undergraduate,Computer Science,24/08/1996,Male,Mongolia,Russia,United Kingdom,GRE,Full-time,Multi-modal,Mongolia,Tok Pisin,2006,337,low-income,Post-graduate,2010,3.43
+844,MSIT,Postgraduate,Public Administration,6/1/1985,Male,Thailand,Latvia,China,GRE,Part-time,Internal,Thailand,Tamil,2010,303,,Diploma,2011,3.7
+845,MSIT,Postgraduate,Medicine,31/08/1994,Female,Russia,Thailand,China,GRE,Part-time,Multi-modal,Russia,Mongolian,2011,338,,Diploma,2013,3.8
+846,PPM,Undergraduate,Mathematics,27/06/1984,Female,Indonesia,China,Bulgaria,GRE,Full-time,Internal,Indonesia,Albanian,2005,322,,Professional Certification,2014,3.82
+847,Global MISM,Postgraduate,Medicine,5/2/1987,Male,Jordan,Thailand,Sweden,GRE,Part-time,Multi-modal,Jordan,Finnish,2006,317,,Baccalaureate,2013,3.24
+848,Global PPM,Postgraduate,Psychology,10/3/1989,Female,Austria,Norway,Indonesia,GRE,Full-time,Internal,Austria,Azeri,2011,331,Disability,Post-graduate,2011,3.71
+849,MISM,Postgraduate,Computer Science,23/01/1983,Female,Indonesia,Netherlands,Haiti,GRE,Part-time,Internal,Indonesia,Bulgarian,2005,318,,Post-graduate,2010,3.88
+850,MISM,Undergraduate,Medicine,10/11/1992,Male,Philippines,Portugal,Cyprus,GRE,Part-time,External,Philippines,Malagasy,2011,338,,Diploma,2012,3.7
+851,MSIT,Postgraduate,Medicine,20/09/1984,Male,Sweden,Poland,Indonesia,GRE,Part-time,Internal,Sweden,Afrikaans,2007,324,,Professional Certification,2012,3.94
+852,Global MISM,Undergraduate,IT,30/05/1992,Male,Russia,Canada,Portugal,GRE,Full-time,Internal,Russia,Dzongkha,2010,305,,Professional Certification,2014,3.44
+853,MISM,Postgraduate,Computer Science,1/12/1995,Male,Sweden,Finland,Mongolia,GRE,Part-time,Internal,Sweden,Moldovan,2011,316,low-income,Diploma,2013,3.31
+854,MSIT,Undergraduate,Computer Science,14/11/1994,Female,China,Latvia,China,GRE,Part-time,External,China,Gagauz,2008,308,low-income,Professional Certification,2011,3.82
+855,MSIT,Undergraduate,IT,28/05/1997,Female,China,South Africa,South Africa,GRE,Part-time,Multi-modal,China,Kannada,2007,315,Regional/ Remote,Post-graduate,2012,3.23
+856,Global PPM,Postgraduate,Public Administration,4/3/1983,Female,China,Thailand,Thailand,GRE,Part-time,External,China,Lithuanian,2007,323,Disability,Professional Certification,2014,3.69
+857,Global PPM,Undergraduate,IT,30/06/1982,Female,United States,Kosovo,China,GRE,Full-time,Multi-modal,United States,Hiri Motu,2005,320,Disability,Professional Certification,2013,3.48
+858,PPM,Undergraduate,Public Administration,1/7/1982,Female,Portugal,China,Philippines,GRE,Part-time,Multi-modal,Portugal,Kazakh,2004,321,,Post-graduate,2014,3.5
+859,MSIT,Postgraduate,IT,7/1/1988,Male,Serbia,Ireland,Russia,GRE,Full-time,Multi-modal,Serbia,Azeri,2009,334,,Baccalaureate,2011,3.94
+860,Global PPM,Postgraduate,IT,5/6/1992,Male,Russia,Poland,Indonesia,GRE,Full-time,Internal,Russia,Arabic,2010,305,,Post-graduate,2010,3.49
+861,MSIT,Undergraduate,IT,26/08/1984,Female,Peru,China,China,GRE,Part-time,Internal,Peru,Georgian,2012,312,,Professional Certification,2013,3.47
+862,Global PPM,Undergraduate,Medicine,11/1/1991,Female,United States,Mozambique,Indonesia,GRE,Part-time,Multi-modal,United States,Albanian,2004,328,,Professional Certification,2014,3.3
+863,PPM,Undergraduate,Public Administration,21/08/1981,Male,China,Portugal,China,GRE,Part-time,Multi-modal,China,German,2012,307,,Diploma,2014,3.35
+864,Global PPM,Postgraduate,Public Administration,31/07/1982,Male,Japan,Philippines,Brazil,GRE,Part-time,Internal,Japan,Lithuanian,2010,327,,Diploma,2011,3.6
+865,Global MISM,Postgraduate,Medicine,28/04/1991,Female,Czech Republic,Russia,Iran,GRE,Part-time,Internal,Czech Republic,Hindi,2006,324,Women in non-traditional areas,Baccalaureate,2014,3.6
+866,Global PPM,Postgraduate,Mathematics,14/11/1984,Male,Mexico,France,Argentina,GRE,Part-time,External,Mexico,Mongolian,2005,339,,Post-graduate,2011,3.54
+867,MSIT,Undergraduate,Medicine,6/4/1992,Female,Brazil,Indonesia,Indonesia,GRE,Full-time,Internal,Brazil,Tamil,2011,333,,Diploma,2013,3.7
+868,PPM,Undergraduate,Mathematics,12/6/1989,Female,Haiti,China,Indonesia,GRE,Part-time,External,Haiti,Malagasy,2009,334,,Baccalaureate,2012,3.76
+869,Global PPM,Undergraduate,IT,13/06/1988,Female,Greece,Canada,Japan,GRE,Part-time,Multi-modal,Greece,Bulgarian,2011,303,,Professional Certification,2010,3.91
+870,Global PPM,Postgraduate,Psychology,12/10/1987,Female,Philippines,Sweden,Philippines,GRE,Full-time,Multi-modal,Philippines,Mongolian,2007,314,,Baccalaureate,2012,3.64
+871,MSIT,Undergraduate,Mathematics,30/10/1984,Female,Philippines,Philippines,Greece,GRE,Part-time,External,Philippines,Mongolian,2008,322,,Diploma,2010,3.22
+872,PPM,Postgraduate,Mathematics,3/12/1984,Female,Albania,China,Indonesia,GRE,Full-time,External,Albania,Kurdish,2005,333,,Baccalaureate,2012,3.69
+873,MSIT,Postgraduate,Public Administration,20/01/1985,Male,United States,Morocco,Vanuatu,GRE,Full-time,Multi-modal,United States,Aymara,2004,300,,Professional Certification,2010,3.36
+874,MSIT,Postgraduate,Medicine,31/03/1995,Male,Equatorial Guinea,Indonesia,China,GRE,Part-time,Internal,Equatorial Guinea,Northern Sotho,2004,307,low-income,Professional Certification,2012,3.31
+875,MSIT,Postgraduate,Mathematics,3/8/1994,Male,Philippines,United States,United States,GRE,Part-time,External,Philippines,Korean,2007,315,,Post-graduate,2010,3.46
+876,Global MISM,Postgraduate,Computer Science,30/03/1993,Male,Russia,Serbia,Haiti,GRE,Full-time,Internal,Russia,Marathi,2005,302,Women in non-traditional areas,Professional Certification,2013,3.64
+877,Global MISM,Undergraduate,IT,17/02/1990,Male,Indonesia,Czech Republic,China,GRE,Part-time,Multi-modal,Indonesia,Belarusian,2010,323,,Baccalaureate,2012,3.45
+878,MSIT,Postgraduate,Psychology,26/03/1985,Female,Venezuela,Czech Republic,Portugal,GRE,Part-time,External,Venezuela,Tok Pisin,2005,329,,Diploma,2011,3.98
+879,MSIT,Postgraduate,IT,2/3/1991,Male,Philippines,Ukraine,Iran,GRE,Full-time,Internal,Philippines,Quechua,2004,321,low-income,Diploma,2012,3.6
+880,MSIT,Postgraduate,IT,29/05/1993,Male,Ireland,Mongolia,Colombia,GRE,Full-time,External,Ireland,Hebrew,2009,326,,Baccalaureate,2013,3.96
+881,Global MISM,Undergraduate,Computer Science,2/6/1987,Male,Belarus,Swaziland,Philippines,GRE,Full-time,External,Belarus,Guaran??,2011,321,,Professional Certification,2010,3.68
+882,MISM,Undergraduate,Mathematics,5/5/1983,Male,Russia,France,Croatia,GRE,Full-time,External,Russia,Pashto,2004,325,,Baccalaureate,2010,3.84
+883,PPM,Undergraduate,Public Administration,25/03/1981,Male,Philippines,Serbia,Iran,GRE,Part-time,Internal,Philippines,Romanian,2009,338,Women in non-traditional areas,Diploma,2013,3.27
+884,PPM,Undergraduate,Medicine,8/9/1986,Male,Philippines,Thailand,Panama,GRE,Full-time,External,Philippines,M??ori,2006,340,Disability,Diploma,2014,3.28
+885,Global MISM,Postgraduate,Public Administration,2/9/1995,Female,Armenia,Ukraine,Czech Republic,GRE,Part-time,Internal,Armenia,Marathi,2009,305,Regional/ Remote,Diploma,2010,3.59
+886,MSIT,Undergraduate,Medicine,27/02/1981,Male,Pakistan,Philippines,Russia,GRE,Full-time,Multi-modal,Pakistan,Hindi,2012,333,low-income,Professional Certification,2011,3.63
+887,Global PPM,Undergraduate,Mathematics,1/7/1987,Female,Panama,Croatia,Kiribati,GRE,Full-time,Internal,Panama,Irish Gaelic,2008,313,,Professional Certification,2012,3.99
+888,PPM,Undergraduate,Psychology,31/05/1983,Male,Indonesia,Philippines,China,GRE,Part-time,Internal,Indonesia,Dhivehi,2009,340,,Post-graduate,2010,3.86
+889,MSIT,Undergraduate,Public Administration,11/6/1994,Male,Sweden,China,China,GRE,Part-time,Internal,Sweden,Tamil,2010,332,,Professional Certification,2013,3.74
+890,MSIT,Postgraduate,Computer Science,30/05/1996,Female,China,China,Brazil,GRE,Full-time,External,China,Azeri,2010,311,low-income,Baccalaureate,2014,3.53
+891,MISM,Postgraduate,Public Administration,6/3/1990,Male,Indonesia,Morocco,Brazil,GRE,Full-time,External,Indonesia,M??ori,2008,321,,Baccalaureate,2012,3.94
+892,Global MISM,Postgraduate,Medicine,22/12/1989,Male,Russia,China,Yemen,GRE,Part-time,External,Russia,Swahili,2005,311,Women in non-traditional areas,Diploma,2012,3.61
+893,MSIT,Postgraduate,Public Administration,2/2/1981,Male,Colombia,Serbia,China,GRE,Full-time,Multi-modal,Colombia,Tetum,2008,308,,Post-graduate,2011,3.24
+894,Global MISM,Postgraduate,Mathematics,5/11/1982,Male,China,Latvia,Iraq,GRE,Full-time,External,China,Catalan,2007,335,,Post-graduate,2012,3.41
+895,PPM,Undergraduate,Public Administration,3/6/1989,Male,Afghanistan,Indonesia,Mexico,GRE,Part-time,Multi-modal,Afghanistan,Telugu,2010,303,low-income,Diploma,2012,3.78
+896,Global MISM,Undergraduate,Mathematics,24/08/1986,Male,Japan,Ukraine,Portugal,GRE,Part-time,Internal,Japan,Khmer,2006,335,Women in non-traditional areas,Post-graduate,2012,3.34
+897,Global PPM,Undergraduate,Mathematics,24/12/1988,Male,Burkina Faso,Philippines,Peru,GRE,Full-time,Multi-modal,Burkina Faso,Afrikaans,2009,339,,Professional Certification,2010,3.88
+898,MISM,Postgraduate,Mathematics,7/2/1983,Female,Philippines,Ukraine,Egypt,GRE,Part-time,Multi-modal,Philippines,Kyrgyz,2007,304,low-income,Baccalaureate,2013,3.49
+899,MISM,Undergraduate,Psychology,21/11/1986,Female,Indonesia,Kazakhstan,Israel,GRE,Part-time,Multi-modal,Indonesia,Gagauz,2006,326,Disability,Post-graduate,2012,3.47
+900,MISM,Postgraduate,IT,7/6/1987,Female,Indonesia,Indonesia,Belarus,GRE,Part-time,Internal,Indonesia,M??ori,2006,339,Regional/ Remote,Baccalaureate,2013,3.61
+901,MSIT,Postgraduate,Mathematics,11/4/1997,Female,Syria,China,Thailand,GRE,Part-time,Internal,Syria,Hiri Motu,2004,311,Regional/ Remote,Baccalaureate,2012,3.49
+902,PPM,Undergraduate,Computer Science,24/10/1985,Female,Wallis and Futuna,Tunisia,China,GRE,Part-time,External,Wallis and Futuna,Northern Sotho,2009,338,Regional/ Remote,Professional Certification,2013,3.59
+903,MISM,Postgraduate,Public Administration,3/12/1992,Male,Indonesia,China,Poland,GRE,Part-time,External,Indonesia,Bulgarian,2008,306,,Post-graduate,2012,3.34
+904,Global MISM,Postgraduate,Mathematics,27/10/1989,Female,Portugal,Brazil,Sweden,GRE,Full-time,Multi-modal,Portugal,Tetum,2005,300,,Post-graduate,2011,3.8
+905,MSIT,Undergraduate,Public Administration,25/06/1992,Male,Afghanistan,Brazil,China,GRE,Full-time,Internal,Afghanistan,Oriya,2005,307,,Professional Certification,2013,3.31
+906,Global PPM,Undergraduate,Psychology,23/02/1990,Male,Poland,China,Cuba,GRE,Part-time,External,Poland,Bulgarian,2006,336,Women in non-traditional areas,Post-graduate,2014,3.96
+907,Global PPM,Undergraduate,Computer Science,3/7/1991,Female,Japan,Indonesia,Poland,GRE,Part-time,Multi-modal,Japan,Irish Gaelic,2006,315,,Professional Certification,2014,3.62
+908,PPM,Undergraduate,Public Administration,26/12/1997,Male,France,Brazil,France,GRE,Part-time,External,France,Maltese,2009,302,,Baccalaureate,2011,3.61
+909,Global MISM,Undergraduate,Computer Science,25/01/1982,Male,Bosnia and Herzegovina,Indonesia,Poland,GRE,Full-time,External,Bosnia and Herzegovina,Telugu,2010,308,Women in non-traditional areas,Baccalaureate,2011,3.22
+910,Global PPM,Postgraduate,Public Administration,22/05/1990,Female,China,Benin,China,GRE,Full-time,Multi-modal,China,Montenegrin,2008,333,,Professional Certification,2010,3.99
+911,MISM,Undergraduate,Psychology,9/9/1992,Male,Uzbekistan,China,Dominican Republic,GRE,Part-time,Internal,Uzbekistan,Kannada,2007,305,,Baccalaureate,2014,3.92
+912,MISM,Undergraduate,Psychology,2/2/1982,Male,Russia,Bulgaria,Philippines,GRE,Part-time,External,Russia,Lao,2010,311,,Baccalaureate,2011,3.23
+913,MSIT,Postgraduate,Mathematics,30/09/1990,Female,Cuba,China,Sri Lanka,GRE,Full-time,External,Cuba,Kurdish,2010,306,Women in non-traditional areas,Post-graduate,2011,3.5
+914,MISM,Postgraduate,Public Administration,2/11/1990,Female,Liechtenstein,China,China,GRE,Full-time,Multi-modal,Liechtenstein,Lao,2009,305,,Diploma,2010,3.48
+915,MISM,Undergraduate,IT,19/03/1994,Male,Finland,Mali,Hungary,GRE,Full-time,External,Finland,Norwegian,2005,335,,Baccalaureate,2011,3.97
+916,Global MISM,Postgraduate,Computer Science,3/6/1983,Female,Philippines,Bangladesh,Western Sahara,GRE,Part-time,Multi-modal,Philippines,Georgian,2009,301,,Post-graduate,2012,3.33
+917,MSIT,Undergraduate,Public Administration,27/04/1993,Female,China,France,Peru,GRE,Full-time,Multi-modal,China,Dhivehi,2009,306,,Post-graduate,2011,3.83
+918,MSIT,Postgraduate,IT,22/10/1988,Male,China,China,Indonesia,GRE,Full-time,Internal,China,Khmer,2005,335,,Professional Certification,2011,3.77
+919,Global PPM,Undergraduate,Public Administration,3/7/1984,Male,Mauritius,France,Indonesia,GRE,Part-time,External,Mauritius,Latvian,2012,300,,Diploma,2013,3.86
+920,PPM,Undergraduate,IT,3/8/1980,Male,Czech Republic,Russia,Colombia,GRE,Part-time,Multi-modal,Czech Republic,Kannada,2008,333,Regional/ Remote,Professional Certification,2013,3.99
+921,MISM,Postgraduate,IT,23/11/1984,Male,Angola,Colombia,Poland,GRE,Part-time,External,Angola,Zulu,2010,328,low-income,Baccalaureate,2014,3.55
+922,MSIT,Postgraduate,Computer Science,31/10/1988,Male,Iran,China,Brazil,GRE,Full-time,Internal,Iran,Afrikaans,2004,304,,Diploma,2010,3.64
+923,PPM,Undergraduate,Computer Science,5/3/1996,Male,China,China,Brazil,GRE,Part-time,External,China,Tetum,2004,335,,Baccalaureate,2010,4
+924,MSIT,Postgraduate,Public Administration,5/3/1993,Male,Poland,Poland,Afghanistan,GRE,Full-time,Internal,Poland,Nepali,2007,310,Regional/ Remote,Professional Certification,2011,3.91
+925,MSIT,Undergraduate,Medicine,31/12/1994,Female,China,China,Indonesia,GRE,Part-time,Multi-modal,China,Yiddish,2005,324,,Baccalaureate,2010,3.8
+926,MSIT,Postgraduate,Mathematics,29/04/1986,Female,Thailand,Russia,Indonesia,GRE,Part-time,External,Thailand,Kannada,2007,327,,Diploma,2014,3.21
+927,MISM,Undergraduate,IT,21/03/1991,Male,Ireland,Brazil,China,GRE,Full-time,External,Ireland,Montenegrin,2009,315,low-income,Post-graduate,2010,3.88
+928,PPM,Undergraduate,IT,18/03/1992,Male,Thailand,Japan,Yemen,GRE,Full-time,External,Thailand,Bislama,2011,310,,Diploma,2010,3.8
+929,MSIT,Undergraduate,IT,14/09/1992,Male,Japan,China,Netherlands,GRE,Full-time,External,Japan,Ndebele,2007,309,,Baccalaureate,2010,3.69
+930,MISM,Undergraduate,Mathematics,11/2/1991,Female,China,Finland,Bolivia,GRE,Part-time,Multi-modal,China,Tswana,2005,329,,Post-graduate,2014,3.8
+931,MSIT,Undergraduate,Psychology,19/11/1996,Male,Ghana,China,Thailand,GRE,Full-time,Internal,Ghana,Romanian,2006,307,,Professional Certification,2010,3.72
+932,Global PPM,Postgraduate,Computer Science,8/11/1995,Female,Thailand,China,China,GRE,Part-time,Internal,Thailand,Latvian,2004,310,Regional/ Remote,Post-graduate,2011,3.31
+933,PPM,Undergraduate,Computer Science,26/12/1994,Female,Nigeria,Ukraine,China,GRE,Full-time,Internal,Nigeria,Greek,2007,335,Women in non-traditional areas,Diploma,2010,3.62
+934,Global MISM,Undergraduate,Public Administration,19/11/1991,Female,Indonesia,Azerbaijan,Poland,GRE,Part-time,Multi-modal,Indonesia,Greek,2011,314,Regional/ Remote,Post-graduate,2011,3.29
+935,MSIT,Postgraduate,Medicine,7/6/1991,Female,Russia,Libya,Colombia,GRE,Part-time,External,Russia,Japanese,2010,326,,Diploma,2013,3.25
+936,Global PPM,Postgraduate,Medicine,15/03/1984,Male,China,France,North Korea,GRE,Full-time,Multi-modal,China,French,2012,333,Disability,Professional Certification,2014,3.85
+937,MSIT,Postgraduate,Mathematics,6/1/1982,Male,Portugal,Poland,China,GRE,Part-time,External,Portugal,Aymara,2009,340,,Diploma,2012,3.99
+938,PPM,Postgraduate,Computer Science,11/9/1991,Female,Nigeria,Russia,Mexico,GRE,Full-time,Internal,Nigeria,Guaran??,2008,326,Regional/ Remote,Diploma,2012,3.39
+939,PPM,Postgraduate,Public Administration,30/08/1982,Male,Indonesia,Indonesia,Madagascar,GRE,Part-time,Multi-modal,Indonesia,Finnish,2012,313,,Professional Certification,2010,3.86
+940,MISM,Postgraduate,Mathematics,28/10/1995,Female,Indonesia,China,China,GRE,Full-time,Multi-modal,Indonesia,West Frisian,2009,319,Regional/ Remote,Professional Certification,2014,3.53
+941,Global MISM,Postgraduate,Mathematics,24/02/1996,Male,China,China,Portugal,GRE,Part-time,Multi-modal,China,Assamese,2005,340,Disability,Diploma,2014,3.46
+942,MSIT,Undergraduate,Computer Science,11/3/1989,Female,Iran,Ukraine,Canada,GRE,Full-time,Internal,Iran,Moldovan,2007,302,Regional/ Remote,Baccalaureate,2011,3.76
+943,Global MISM,Undergraduate,Public Administration,17/11/1983,Male,Indonesia,Nigeria,Ireland,GRE,Part-time,External,Indonesia,Marathi,2008,314,Women in non-traditional areas,Post-graduate,2014,3.47
+944,MISM,Postgraduate,Public Administration,14/02/1983,Male,Poland,Indonesia,Guadeloupe,GRE,Part-time,External,Poland,Hebrew,2011,327,,Post-graduate,2012,3.77
+945,Global PPM,Undergraduate,Psychology,31/01/1989,Female,Democratic Republic of the Congo,Germany,Greece,GRE,Full-time,Multi-modal,Democratic Republic of the Congo,Portuguese,2005,303,,Post-graduate,2014,3.93
+946,Global PPM,Undergraduate,Computer Science,23/09/1994,Female,Russia,Latvia,Switzerland,GRE,Full-time,External,Russia,Kashmiri,2010,338,Women in non-traditional areas,Professional Certification,2012,3.36
+947,MISM,Undergraduate,Psychology,18/08/1982,Male,Indonesia,Cyprus,China,GRE,Full-time,External,Indonesia,Dari,2009,333,,Baccalaureate,2011,3.32
+948,Global MISM,Undergraduate,Medicine,10/12/1997,Male,Russia,China,Indonesia,GRE,Full-time,Multi-modal,Russia,Albanian,2005,300,Women in non-traditional areas,Diploma,2013,3.71
+949,MISM,Undergraduate,Public Administration,3/12/1984,Male,Argentina,Serbia,United States,GRE,Full-time,Internal,Argentina,New Zealand Sign Language,2006,321,,Baccalaureate,2012,3.31
+950,MISM,Postgraduate,Psychology,11/1/1984,Male,Thailand,Switzerland,Sweden,GRE,Part-time,Multi-modal,Thailand,Khmer,2007,308,,Post-graduate,2014,3.65
+951,Global PPM,Postgraduate,Medicine,3/1/1992,Female,Indonesia,France,Afghanistan,GRE,Part-time,External,Indonesia,Tok Pisin,2011,310,,Professional Certification,2013,3.41
+952,Global MISM,Postgraduate,Computer Science,28/09/1989,Female,Czech Republic,China,China,GRE,Full-time,External,Czech Republic,Khmer,2012,307,,Post-graduate,2013,3.24
+953,MISM,Undergraduate,Psychology,2/11/1990,Female,Portugal,China,United States,GRE,Part-time,Internal,Portugal,Guaran??,2007,306,,Baccalaureate,2010,3.61
+954,MSIT,Postgraduate,Mathematics,9/7/1993,Female,China,Peru,China,GRE,Part-time,External,China,Hindi,2009,327,Regional/ Remote,Diploma,2011,3.67
+955,MISM,Postgraduate,Mathematics,7/12/1991,Male,Portugal,South Korea,Brazil,GRE,Full-time,External,Portugal,Haitian Creole,2007,310,,Baccalaureate,2010,3.67
+956,MISM,Undergraduate,Medicine,29/03/1990,Female,Argentina,France,China,GRE,Full-time,External,Argentina,Tswana,2008,335,,Post-graduate,2014,3.49
+957,Global PPM,Postgraduate,IT,27/12/1996,Female,China,Syria,Peru,GRE,Part-time,External,China,Dzongkha,2005,322,,Baccalaureate,2012,3.65
+958,MISM,Undergraduate,Mathematics,24/01/1981,Male,Brazil,Greece,China,GRE,Part-time,External,Brazil,Tswana,2012,335,Women in non-traditional areas,Diploma,2012,3.3
+959,MSIT,Undergraduate,Mathematics,3/9/1996,Female,China,Netherlands,Indonesia,GRE,Full-time,External,China,Greek,2004,315,,Baccalaureate,2010,3.77
+960,MSIT,Undergraduate,Mathematics,8/10/1989,Male,Portugal,Belarus,Bulgaria,GRE,Full-time,Multi-modal,Portugal,Filipino,2012,335,,Diploma,2013,3.84
+961,Global PPM,Postgraduate,Psychology,22/11/1991,Female,United Kingdom,Russia,Russia,GRE,Full-time,External,United Kingdom,Dhivehi,2007,304,,Baccalaureate,2010,3.86
+962,Global PPM,Postgraduate,Computer Science,19/11/1991,Male,Mauritania,Kenya,China,GRE,Full-time,Multi-modal,Mauritania,Tswana,2012,330,low-income,Diploma,2010,3.84
+963,MSIT,Undergraduate,Medicine,1/10/1985,Female,Slovenia,Philippines,Serbia,GRE,Full-time,Internal,Slovenia,Tok Pisin,2011,335,Women in non-traditional areas,Professional Certification,2011,3.96
+964,Global PPM,Postgraduate,IT,14/01/1988,Female,Portugal,China,China,GRE,Part-time,External,Portugal,Thai,2008,311,,Baccalaureate,2010,3.83
+965,Global MISM,Undergraduate,IT,7/3/1993,Male,Mexico,Estonia,Pakistan,GRE,Part-time,External,Mexico,Czech,2012,305,low-income,Baccalaureate,2014,3.48
+966,PPM,Undergraduate,Public Administration,9/11/1991,Male,Czech Republic,Japan,Guyana,GRE,Part-time,Internal,Czech Republic,Tsonga,2004,323,,Post-graduate,2011,3.88
+967,PPM,Undergraduate,Computer Science,3/10/1988,Female,United States,China,South Africa,GRE,Full-time,Multi-modal,United States,Mongolian,2012,324,,Baccalaureate,2014,3.61
+968,Global PPM,Undergraduate,IT,9/12/1997,Female,Ivory Coast,Canada,Serbia,GRE,Full-time,External,Ivory Coast,Luxembourgish,2008,327,Regional/ Remote,Professional Certification,2011,3.52
+969,Global MISM,Postgraduate,Mathematics,12/5/1990,Male,Sweden,Brazil,China,GRE,Part-time,Internal,Sweden,Lao,2008,339,,Professional Certification,2012,3.59
+970,Global PPM,Undergraduate,Psychology,29/06/1996,Male,China,Belarus,Indonesia,GRE,Part-time,Internal,China,Korean,2007,315,,Post-graduate,2013,3.93
+971,Global MISM,Undergraduate,Computer Science,3/4/1995,Male,Cuba,Indonesia,Indonesia,GRE,Full-time,Internal,Cuba,Italian,2008,336,,Professional Certification,2012,3.8
+972,Global PPM,Undergraduate,Medicine,14/04/1993,Female,Canada,Guatemala,Slovenia,GRE,Part-time,Multi-modal,Canada,Oriya,2008,306,Women in non-traditional areas,Post-graduate,2010,3.34
+973,Global PPM,Postgraduate,Psychology,21/05/1984,Female,China,China,Philippines,GRE,Full-time,Multi-modal,China,Japanese,2004,322,Women in non-traditional areas,Professional Certification,2013,3.37
+974,PPM,Undergraduate,IT,18/06/1982,Male,Dominican Republic,Iraq,Canada,GRE,Full-time,External,Dominican Republic,Kannada,2007,317,,Diploma,2013,3.82
+975,Global PPM,Postgraduate,Medicine,10/6/1990,Female,Nigeria,Peru,Poland,GRE,Part-time,External,Nigeria,Telugu,2008,301,,Post-graduate,2013,3.35
+976,MISM,Postgraduate,IT,16/07/1996,Female,Brazil,Azerbaijan,Brazil,GRE,Full-time,Internal,Brazil,Zulu,2007,334,Women in non-traditional areas,Post-graduate,2013,3.83
+977,Global MISM,Undergraduate,Computer Science,12/7/1981,Male,Mexico,Brazil,France,GRE,Full-time,Internal,Mexico,Papiamento,2011,335,,Professional Certification,2011,3.33
+978,Global MISM,Undergraduate,Medicine,13/12/1988,Female,Croatia,Russia,Brazil,GRE,Full-time,Internal,Croatia,Dari,2008,321,,Baccalaureate,2013,3.49
+979,MSIT,Postgraduate,Medicine,24/02/1982,Male,China,Colombia,China,GRE,Part-time,Multi-modal,China,Dari,2005,313,,Diploma,2013,3.35
+980,MSIT,Undergraduate,Mathematics,8/12/1986,Male,China,China,China,GRE,Full-time,External,China,Croatian,2012,324,,Post-graduate,2014,3.31
+981,PPM,Postgraduate,Computer Science,16/08/1984,Male,Haiti,France,Philippines,GRE,Part-time,Multi-modal,Haiti,Afrikaans,2008,304,Women in non-traditional areas,Post-graduate,2014,3.81
+982,MSIT,Undergraduate,Computer Science,2/5/1991,Female,Norway,Portugal,China,GRE,Part-time,Multi-modal,Norway,Bulgarian,2004,312,,Baccalaureate,2012,3.21
+983,MSIT,Undergraduate,Mathematics,10/1/1992,Female,Brazil,Russia,France,GRE,Part-time,External,Brazil,Guaran??,2007,319,,Professional Certification,2014,3.21
+984,Global MISM,Postgraduate,Public Administration,15/12/1996,Male,Brazil,New Zealand,China,GRE,Full-time,External,Brazil,Assamese,2011,324,,Baccalaureate,2014,3.68
+985,MISM,Postgraduate,Public Administration,19/12/1985,Female,United Kingdom,Philippines,Ukraine,GRE,Full-time,Internal,United Kingdom,New Zealand Sign Language,2006,318,,Post-graduate,2012,3.42
+986,PPM,Undergraduate,Computer Science,25/09/1982,Female,China,China,Nicaragua,GRE,Part-time,Internal,China,Bosnian,2012,337,,Baccalaureate,2010,3.87
+987,Global PPM,Postgraduate,Medicine,7/1/1987,Female,Indonesia,China,Czech Republic,GRE,Part-time,Internal,Indonesia,Polish,2007,338,,Professional Certification,2011,3.7
+988,Global MISM,Postgraduate,Public Administration,27/09/1983,Male,Sweden,Poland,Sweden,GRE,Part-time,External,Sweden,Punjabi,2009,332,,Post-graduate,2011,3.98
+989,Global MISM,Undergraduate,Mathematics,3/1/1985,Male,North Korea,China,China,GRE,Part-time,External,North Korea,Macedonian,2010,335,Women in non-traditional areas,Professional Certification,2014,3.5
+990,Global PPM,Undergraduate,Computer Science,18/06/1985,Male,Poland,Russia,Sweden,GRE,Full-time,Internal,Poland,Lao,2007,324,,Professional Certification,2011,3.6
+991,PPM,Postgraduate,Psychology,27/01/1983,Male,Czech Republic,Russia,China,GRE,Part-time,Multi-modal,Czech Republic,Bislama,2010,314,,Diploma,2010,3.55
+992,MSIT,Postgraduate,Medicine,4/6/1996,Male,Japan,Czech Republic,Poland,GRE,Full-time,Internal,Japan,Georgian,2004,303,low-income,Post-graduate,2012,3.99
+993,Global PPM,Postgraduate,IT,16/07/1993,Female,Brazil,Greece,Lebanon,GRE,Part-time,Internal,Brazil,Italian,2012,312,,Professional Certification,2014,3.82
+994,MISM,Undergraduate,IT,4/10/1992,Female,France,China,Indonesia,GRE,Full-time,Internal,France,Arabic,2010,306,,Baccalaureate,2014,3.79
+995,Global MISM,Undergraduate,Computer Science,15/03/1992,Female,Cameroon,Greece,Indonesia,GRE,Part-time,External,Cameroon,Chinese,2012,324,,Professional Certification,2013,3.23
+996,MISM,Postgraduate,IT,23/03/1997,Female,Venezuela,Russia,Portugal,GRE,Full-time,Multi-modal,Venezuela,Polish,2011,340,,Diploma,2011,3.57
+997,MSIT,Undergraduate,Medicine,15/09/1997,Female,Indonesia,Poland,Morocco,GRE,Full-time,Multi-modal,Indonesia,Bengali,2011,302,,Post-graduate,2011,3.38
+999,MISM,Postgraduate,Computer Science,24/05/1989,Female,Serbia,Czech Republic,Indonesia,GRE,Full-time,Multi-modal,Serbia,Portuguese,2011,333,Disability,Baccalaureate,2012,3.89
+1000,Global PPM,Postgraduate,Public Administration,10/3/1981,Male,Philippines,Chile,Ukraine,GRE,Full-time,Internal,Philippines,Hiri Motu,2005,314,Women in non-traditional areas,Baccalaureate,2012,3.51
