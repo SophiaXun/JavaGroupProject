@@ -13,13 +13,9 @@ public class Peer {
         "type_of_attendance", "mode_of_attendance", "country_of_birth", "language_spoken_at_home",
         "year_of_arrival_in_usa", "entrance_score", "equity_data", "highest_level_of_education_prior_to_commencement",
         "course_completion_year", "course_gpa_earned"};
-    private String[] lineXTitle = {"course_information", "postgraduate_or_undergraduate",
-        "field_of_education", "age", "gender", "citizenship", "term_residence", "permanent_residence",
-        "type_of_attendance", "mode_of_attendance", "country_of_birth", "language_spoken_at_home",
-        "year_of_arrival_in_usa", "entrance_score", "equity_data", "highest_level_of_education_prior_to_commencement",
-        "course_completion_year", "course_gpa_earned"};
+   
     private String[] lineYTitle = {"age", "entrance_score", "course_gpa_earned"};
-    private String[] lineZTitle = {"year_of_arrival_in_usa", "course_completion_year"};
+    private String[] lineXTitle = {"year_of_arrival_in_usa", "course_completion_year"};
     private String[] scatterXTitle = {"postgraduate_or_undergraduate", "field_of_education", "citizenship", "permanent_residence", "type_of_attendance", "country_of_birth"};
     private String[] scatterYTitle = {"age", "entrance_score", "course_gpa_earned"};
 
@@ -96,16 +92,7 @@ public class Peer {
     /**
      * @return the lineZTitle
      */
-    public String[] getLineZTitle() {
-        return lineZTitle;
-    }
-
-    /**
-     * @param lineZTitle the lineZTitle to set
-     */
-    public void setLineZTitle(String[] lineZTitle) {
-        this.lineZTitle = lineZTitle;
-    }
+    
 
     /**
      * @return the scatterXTitle
