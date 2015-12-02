@@ -1,0 +1,25 @@
+@relation tempInstance
+
+@attribute id numeric
+@attribute course_information numeric
+@attribute postgraduate_or_undergraduate numeric
+@attribute field_of_education numeric
+@attribute age numeric
+@attribute gender {Male}
+@attribute citizenship {China}
+@attribute term_residence numeric
+@attribute permanent_residence numeric
+@attribute basis_for_admission numeric
+@attribute type_of_attendance numeric
+@attribute mode_of_attendance numeric
+@attribute country_of_birth numeric
+@attribute language_spoken_at_home numeric
+@attribute year_of_arrival_in_usa numeric
+@attribute entrance_score numeric
+@attribute equity_data numeric
+@attribute highest_level_of_education_prior_to_commencement numeric
+@attribute course_completion_year numeric
+@attribute course_gpa_earned numeric
+
+@data
+0,?,?,?,?,Male,China,?,?,?,?,?,?,?,2010,?,?,?,?,?

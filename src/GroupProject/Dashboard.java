@@ -20,6 +20,7 @@ public class Dashboard extends javax.swing.JFrame {
      */
     public Dashboard() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -131,7 +132,7 @@ public class Dashboard extends javax.swing.JFrame {
      * @throws java.lang.IllegalAccessException
      */
     public static void main(String args[]) throws ClassNotFoundException, InstantiationException, UnsupportedLookAndFeelException, IllegalAccessException {
-         UIManager.setLookAndFeel("com.jtattoo.plaf.acryl.AcrylLookAndFeel"); 
+         UIManager.setLookAndFeel("com.jtattoo.plaf.noire.NoireLookAndFeel"); 
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.

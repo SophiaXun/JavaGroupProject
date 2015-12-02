@@ -17,7 +17,8 @@ public class JavaFinalProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Dashboard db = new Dashboard();
+        db.setVisible(true);
     }
     
 }
