@@ -2,7 +2,9 @@ package GroupProject;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.RenderingHints;
+import java.awt.Toolkit;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -55,6 +57,10 @@ public class OriginalChartUI extends javax.swing.JFrame {
     public OriginalChartUI() {
         initComponents();
         this.setLocationRelativeTo(null);
+        Toolkit tk=Toolkit.getDefaultToolkit();
+        int width=(int) tk.getScreenSize().getWidth();
+        int height=(int)tk.getScreenSize().getHeight();
+        this.setSize(width, height);
     }
     File file = null;
 
@@ -579,7 +585,7 @@ public class OriginalChartUI extends javax.swing.JFrame {
                     .addComponent(dataResourcePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(chartTypePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addComponent(chartDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 758, Short.MAX_VALUE)
+                .addComponent(chartDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 716, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -603,38 +609,33 @@ public class OriginalChartUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
      
+    ArrayList<Student> student=new ArrayList<>();
     private void generateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generateButtonActionPerformed
         // TODO add your handling code here:
         String XTitle = (String) XItem.getSelectedItem();
         String YTitle = (String) YItem.getSelectedItem();
         File file = new File("studentTemp.csv");
-        
         Operation operations = new Operation();
-        
-//        loadTable(pieChartData);
-
         switch (chartType) {
             case "BarChart":
                 Map<String,Float> barChartData=new HashMap<>();
-                barChartData=operations.barChart(XTitle, YTitle, FileDownload.student);
+                for(Student s:student){
+                    System.out.println(s);
+                }
+                barChartData=operations.barChart(XTitle, YTitle, student);
                 draw3DBarChart(barChartData,XTitle,YTitle);
                 break;
             case "LineChart":
                 Map<String,Float> lineChartData=new HashMap<>();
-                lineChartData=operations.barChart(XTitle, YTitle, FileDownload.student);
+                lineChartData=operations.barChart(XTitle, YTitle, student);
                 drawLineChart(lineChartData,XTitle,YTitle);
                 break;
             case "PieChart":
                 Map< String, Long> pieChartData = new HashMap<>();
-                pieChartData = operations.pieChart(XTitle, FileDownload.student);
+                pieChartData = operations.pieChart(XTitle, student);
                 drawPieChart(pieChartData, XTitle);
                 break;
-            
         }
-
-        
-
-        
     }//GEN-LAST:event_generateButtonActionPerformed
 
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
@@ -679,6 +680,11 @@ public class OriginalChartUI extends javax.swing.JFrame {
         String selectedFile = (String) AWSDataSource.getSelectedItem();
         try {
             FileDownload.DownloadFile(selectedFile);
+            
+            student=FileDownload.student;
+            for(Student s:student){
+                System.out.println(s);
+            }
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -766,6 +772,9 @@ public class OriginalChartUI extends javax.swing.JFrame {
             //LocalDataLoad.loadLocalData(file);
             //InputStream input = new FileInputStream(file); 
             FileLoad.readLocalFile(file);
+            
+            student=FileLoad.student;
+            
           
         } catch (FileNotFoundException ex) {
             Logger.getLogger(OriginalChartUI.class.getName()).log(Level.SEVERE, null, ex);
@@ -861,7 +870,6 @@ public class OriginalChartUI extends javax.swing.JFrame {
         XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();
         renderer.setSeriesPaint(0, Color.BLUE);
         
-//        renderer.setSeriesPaint(1, Color.BLUE);
         renderer.setSeriesLinesVisible(1, false);
         renderer.setSeriesShapesVisible(1, false);
         plot.setRenderer(renderer);
