@@ -30,16 +30,25 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.UUID;
 
+/**
+ * This class is for loading the data from AWS service. 
+ * @author Nan Xia
+ */
 public class FileDownload {
     /**
      * This parameter stores all the students in a temp csv file. 
      */
     public static ArrayList<Student> student = new ArrayList<Student>();
+    /**
+     * This method gets the student arraylist.
+     * @return 
+     */
      public ArrayList<Student> getStudent() {
         return student;
     }
 
     /**
+     * This method sets the student arraylist. 
      * @param student the student to set
      */
     public void setStudent(ArrayList<Student> student) {
@@ -47,11 +56,9 @@ public class FileDownload {
     }
 
     /**
-     * This method lists the file in the Amazon s3 for user to choose.
-     *
-     * @param s3
-     * @param bucketName
-     * @return the student
+     * This method lists the file in the Amazon s3 for user to choose.The code references the S3Sample of AWS eclipse Tools. 
+
+     * @return an arraylist of all the student
      */
    
     public static ArrayList<String> FileList() {
@@ -60,17 +67,12 @@ public class FileDownload {
         try {
             credentials = new ProfileCredentialsProvider("default").getCredentials();
         } catch (Exception e) {
-            throw new AmazonClientException(
-                    "Cannot load the credentials from the credential profiles file. "
-                    + "Please make sure that your credentials file is at the correct "
-                    + "location (C:\\Users\\Asus\\.aws\\credentials), and is in valid format.",
-                    e);
+            throw new AmazonClientException( "Cannot load the credentials", e);
         }
-        AmazonS3 s3 = new AmazonS3Client(credentials);
+        AmazonS3 s3Client = new AmazonS3Client(credentials);
         Region usWest2 = Region.getRegion(Regions.US_WEST_2);
-        s3.setRegion(usWest2);
-        //System.out.println("Listing Files");
-        ObjectListing objectListing = s3.listObjects(new ListObjectsRequest()
+        s3Client.setRegion(usWest2);
+        ObjectListing objectListing = s3Client.listObjects(new ListObjectsRequest()
                 .withBucketName(bucketName)
                 .withPrefix("student"));
         ArrayList<String> fileList = new ArrayList<String>();
@@ -81,7 +83,7 @@ public class FileDownload {
         return fileList;
     }
 /**
- * This method downloads the file content.
+ * This method downloads the file content.The code references the S3Sample of AWS eclipse Tools. 
  * @param fileKey
  * @throws IOException 
  */
@@ -92,10 +94,7 @@ public class FileDownload {
             credentials = new ProfileCredentialsProvider("default").getCredentials();
         } catch (Exception e) {
             throw new AmazonClientException(
-                    "Cannot load the credentials from the credential profiles file. "
-                    + "Please make sure that your credentials file is at the correct "
-                    + "location (C:\\Users\\Asus\\.aws\\credentials), and is in valid format.",
-                    e);
+                    "can not load credentials", e);
         }
         AmazonS3 s3 = new AmazonS3Client(credentials);
         Region usWest2 = Region.getRegion(Regions.US_WEST_2);
@@ -104,8 +103,7 @@ public class FileDownload {
 
             S3Object object = s3.getObject(new GetObjectRequest("fightforjava1", fileKey));
             
-            
-            displayTextInputStream(object.getObjectContent());
+            importInputStream(object.getObjectContent());
 
         } catch (AmazonServiceException ase) {
             JOptionPane.showMessageDialog(null, "The request to AWS was reject!!", "Alert", JOptionPane.ERROR_MESSAGE);
@@ -114,6 +112,11 @@ public class FileDownload {
         }
 
     }
+    /**
+     * The method converts the string to a string array. 
+     * @param str
+     * @return a new string array.
+     */
 
     public static String[] strToArray(String str) {
         String[] array = null;
@@ -121,6 +124,11 @@ public class FileDownload {
         return array;
     }
 
+    /**
+     * The method converts the string line to a Student object
+     * @param  line a line from file. 
+     * @return a student object.
+     */
     public static Student convertStrToStudent(String[] line) {
         Student student = new Student();
         student.setiD(line[0]);
@@ -145,11 +153,15 @@ public class FileDownload {
         student.setCourseGpaEarned(line[19]);
         return student;
     }
-    
-    private static void displayTextInputStream(InputStream input) throws IOException {
+    /**
+     * The method import the datastream from the aws. The code references the S3Sample of AWS eclipse Tools. 
+     * @param input
+     * @throws IOException 
+     */
+    private static void importInputStream(InputStream input) throws IOException {
+        
         BufferedReader reader = new BufferedReader(new InputStreamReader(input));
         FileDownload filedownload = new FileDownload();
-        //String fileName = "student" +  UUID.randomUUID();
         File file = new File("studentTemp.csv");
         Writer writer = new OutputStreamWriter(new FileOutputStream(file));
         while (true) {
@@ -161,14 +173,10 @@ public class FileDownload {
             Student newStudent = FileDownload.convertStrToStudent(attributeArray);
             filedownload.getStudent().add(newStudent);
         }
-        //filedownload.print();
+  
         writer.close();
     }
 
-    /*public void print() {
-        for (int i = 0; i < student.size(); i++) {
-            System.out.println(student.get(i));
-        }
-    }*/
+ 
 
 }

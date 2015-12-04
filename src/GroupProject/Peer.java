@@ -1,7 +1,7 @@
 package GroupProject;
 
 /**
- *
+ *This class stores match attributes for the charts.
  * @author Nan Xia
  */
 public class Peer {
@@ -20,6 +20,7 @@ public class Peer {
     private String[] scatterYTitle = {"age", "entrance_score", "course_gpa_earned"};
 
     /**
+     * This method gets the avaliable XTitle of bar. 
      * @return the barXTitle
      */
     public String[] getBarXTitle() {
@@ -34,6 +35,7 @@ public class Peer {
     }
 
     /**
+     * This method gets the avaliable YTitle of bar.
      * @return the barYTitle
      */
     public String[] getBarYTitle() {
@@ -48,6 +50,7 @@ public class Peer {
     }
 
     /**
+     * This method gets the avaliable XTitle of pie.
      * @return the pieXTitle
      */
     public String[] getPieXTitle() {
@@ -55,6 +58,7 @@ public class Peer {
     }
 
     /**
+     * This method sets the avaliable XTitle of pie.
      * @param pieXTitle the pieXTitle to set
      */
     public void setPieXTitle(String[] pieXTitle) {
@@ -62,6 +66,7 @@ public class Peer {
     }
 
     /**
+     * This method gets the avaliable XTitle of line.
      * @return the lineXTitle
      */
     public String[] getLineXTitle() {
@@ -69,6 +74,7 @@ public class Peer {
     }
 
     /**
+     * This method sets the avaliable XTitle of line.
      * @param lineXTitle the lineXTitle to set
      */
     public void setLineXTitle(String[] lineXTitle) {
@@ -76,6 +82,7 @@ public class Peer {
     }
 
     /**
+     * This method gets the avaliable YTitle of line.
      * @return the lineYTitle
      */
     public String[] getLineYTitle() {
@@ -83,43 +90,13 @@ public class Peer {
     }
 
     /**
+     * This method gets the avaliable YTitle of line.
      * @param lineYTitle the lineYTitle to set
      */
     public void setLineYTitle(String[] lineYTitle) {
         this.lineYTitle = lineYTitle;
     }
 
-    /**
-     * @return the lineZTitle
-     */
-    
 
-    /**
-     * @return the scatterXTitle
-     */
-    public String[] getScatterXTitle() {
-        return scatterXTitle;
-    }
-
-    /**
-     * @param scatterXTitle the scatterXTitle to set
-     */
-    public void setScatterXTitle(String[] scatterXTitle) {
-        this.scatterXTitle = scatterXTitle;
-    }
-
-    /**
-     * @return the scatterYTitle
-     */
-    public String[] getScatterYTitle() {
-        return scatterYTitle;
-    }
-
-    /**
-     * @param scatterYTitle the scatterYTitle to set
-     */
-    public void setScatterYTitle(String[] scatterYTitle) {
-        this.scatterYTitle = scatterYTitle;
-    }
 
 }

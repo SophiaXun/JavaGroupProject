@@ -1,11 +1,6 @@
 package GroupProject;
 
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -33,16 +28,19 @@ import javax.swing.JOptionPane;
 public class FileUpload {
     //our default bucket to store this information. Try in others' computer. 
     String bucketName = "fightforjava1";
+    
+    /**
+     * The method realize the upload a file from local in the aws.The code references the S3Sample of AWS eclipse Tools. 
+     * @param file
+     * @throws IOException 
+     */
     public  static void Upload(File file) throws IOException {
         AWSCredentials credentials = null;
         try {
             credentials = new ProfileCredentialsProvider("default").getCredentials();
         } catch (Exception e) {
             throw new AmazonClientException(
-                    "Cannot load the credentials from the credential profiles file. "
-                    + "Please make sure that your credentials file is at the correct "
-                    + "location (C:\\Users\\Asus\\.aws\\credentials), and is in valid format.",
-                    e);
+                    "Cannot load the credentials",e);
             
         }
         AmazonS3 s3 = new AmazonS3Client(credentials);
@@ -57,7 +55,7 @@ public class FileUpload {
             JOptionPane.showMessageDialog(null, "Success!", "Message", JOptionPane.INFORMATION_MESSAGE);
 
         } catch (AmazonServiceException ase) {
-            JOptionPane.showMessageDialog(null, "The request to AWS was reject!!", "Alert", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "The request was reject!!", "Alert", JOptionPane.ERROR_MESSAGE);
         } catch (AmazonClientException ace) {
             JOptionPane.showMessageDialog(null, "The client encounered a serious internal problem while trying to communicate with AWS S3", "Alert", JOptionPane.ERROR_MESSAGE);
         }
