@@ -13,7 +13,7 @@ public class FileTypeFilter extends javax.swing.filechooser.FileFilter {
      * The method constricts the file type as csv.
      *
      * @param file
-     * @return
+     * @return whether the file is accepted or not
      */
     public boolean accept(File file) {
         if (file.isDirectory()) {
@@ -26,7 +26,7 @@ public class FileTypeFilter extends javax.swing.filechooser.FileFilter {
     /**
      * The method overrides the getDescription methods.
      *
-     * @return
+     * @return the new name of file
      */
     public String getDescription() {
         return ".csv";

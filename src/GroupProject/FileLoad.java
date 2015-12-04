@@ -50,9 +50,7 @@ public class FileLoad {
             attributeArray = FileDownload.strToArray(line);
             Student newStudent = FileDownload.convertStrToStudent(attributeArray);
             FileLoad.student.add(newStudent);
-
         }
-
         writer.close();
     }
 

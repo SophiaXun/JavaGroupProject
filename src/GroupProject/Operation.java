@@ -5,10 +5,6 @@
  */
 package GroupProject;
 
-/**
- *
- * @author Jai
- */
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,8 +13,21 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import org.joda.time.*;
 import org.joda.time.format.DateTimeFormat;
-
+/**
+ * Performs different manipulations on the student object array. This data is further used in graphs, charts and tables.
+ *
+ * @author Jai Girdhar
+ * @version 1.0
+ * @since 4/12/2015
+ */
 public class Operation {
+    
+    /**
+     * Calculates age according to the date of birth supplied as a parameter.
+     *
+     * @param age Date of Birth
+     * @return age in years.
+     */
 
     public int calculateAge(String age) {
 
@@ -29,10 +38,17 @@ public class Operation {
         int ageInYears = period.getYears();
         return ageInYears;
     }
+    
+    /**
+     * Calculates age according to the date of birth supplied as a parameter.
+     *
+     * @param check String to be compared against the column name in the CSV file.
+     * @param student Currently loaded student object
+     * @return Column number of the column to be checked in the CSV file.
+     */
 
     private int whichColumn(String check, Student student) {
         int index = 0;
-
         if (student.getCourseInformation().equals(check)) {
             index = 1;
         } else if (student.getPostgraduateOrUnderGraduate().equals(check)) {
@@ -72,10 +88,17 @@ public class Operation {
         } else if (student.getCourseGpaEarned().equals(check)) {
             index = 19;
         }
-
         return index;
     }
 
+    /**
+     * Returns column information according to column and row number entered.
+     *
+     * @param index Row number of the required field from the CSV File.
+     * @param iteration Position of the student object to be accessed information from in the student array.
+     * @param vector All the student rows stored in the student object array.
+     * @return column information according to row and column.
+     */
     public String nextKeyword(int index, int iteration, ArrayList<Student> vector) {
         String keyword = "";
         int i = iteration;
@@ -122,6 +145,13 @@ public class Operation {
         return keyword;
     }
 
+    /**
+     * Calculates total frequency of different categories of the column provided. 
+     *
+     * @param checkThis Column name
+     * @param vector student object array
+     * @return HashMap containing category as keys and values as frequency of that category in the student object array
+     */
     public Map<String, Long> pieChart(String checkThis, ArrayList<Student> vector) {
         String keyword = "";
         ArrayList listKeyword = new ArrayList();
@@ -138,6 +168,14 @@ public class Operation {
         return stringMap;
     }
 
+    /**
+     * Calculates average of Y value according to each category in X
+     *
+     * @param checkThisX X co-ordinate for the chart - Always of categorical in nature. For example, Gender (M,F)
+     * @param checkThisY Y co-ordinate for the chart - Always of numeric type or of date type in nature.
+     * @param vector student object array
+     * @return HashMap containing key as category and average as value
+     */
     public Map<String, Float> barChart(String checkThisX, String checkThisY, ArrayList<Student> vector) {
         String keywordX = "";
         String keywordY;
@@ -183,7 +221,14 @@ public class Operation {
         
         return average;
     }
-    
+    /**
+     * Calculates average of Y value according to each category in X
+     *
+     * @param checkThisX X co-ordinate for the chart - Always of categorical in nature. For example, Gender (M,F)
+     * @param checkThisY Y co-ordinate for the chart - Always of numeric type or of date type in nature.
+     * @param vector student object array
+     * @return HashMap containing key as category and average as value
+     */
     public Map<String, String> scatterPlot(String checkThisX, String checkThisY, ArrayList<Student> vector) {
         String keywordX = "";
         String keywordY;

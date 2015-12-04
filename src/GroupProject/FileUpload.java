@@ -31,7 +31,7 @@ public class FileUpload {
     
     /**
      * The method realize the upload a file from local in the aws.The code references the S3Sample of AWS eclipse Tools. 
-     * @param file
+     * @param file the file need to be uploaded
      * @throws IOException 
      */
     public  static void Upload(File file) throws IOException {

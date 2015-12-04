@@ -1,26 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Javier
- */
-
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Javier
- */
-
 package GroupProject;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
@@ -28,12 +5,23 @@ import weka.core.converters.CSVLoader;
  
 import java.io.File;
 import java.io.IOException;
- 
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * This class is to transfer the csv file to arff file
+ * @author Javier
+ */
+
 public class CSVtoArff {
   /**
-   * takes 2 arguments:
-   * - CSV input file
-   * - ARFF output file
+   * This method transfer csv file to arff file
+     * @param inputcsv CSV input file
+     * @param outputarff ARFF output file
+     * @throws java.io.IOException
    */
   public static void convert( String inputcsv, String outputarff) throws IOException {
    

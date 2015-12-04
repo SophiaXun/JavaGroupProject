@@ -8,12 +8,13 @@ package GroupProject;
 
 
 /**
- *
+ *  This method is to display the dashboard
  * @author Yazhou
  */
 public class JavaFinalProject {
 
     /**
+     * The main entrance of the program
      * @param args the command line arguments
      */
     public static void main(String[] args) {

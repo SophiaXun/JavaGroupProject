@@ -43,6 +43,7 @@ public class Peer {
     }
 
     /**
+     * This method is to set bar Y title
      * @param barYTitle the barYTitle to set
      */
     public void setBarYTitle(String[] barYTitle) {

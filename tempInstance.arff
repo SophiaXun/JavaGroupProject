@@ -5,8 +5,8 @@
 @attribute postgraduate_or_undergraduate numeric
 @attribute field_of_education numeric
 @attribute age numeric
-@attribute gender {Male}
-@attribute citizenship {China}
+@attribute gender numeric
+@attribute citizenship numeric
 @attribute term_residence numeric
 @attribute permanent_residence numeric
 @attribute basis_for_admission numeric
@@ -22,4 +22,4 @@
 @attribute course_gpa_earned numeric
 
 @data
-0,?,?,?,?,Male,China,?,?,?,?,?,?,?,2010,?,?,?,?,?
+0,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?

@@ -113,12 +113,14 @@ public class Dashboard extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //The action after user choose original chart button
     private void btnGenerateChartsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGenerateChartsActionPerformed
         OriginalChartUI charts = new OriginalChartUI();
         this.setVisible(false);
         charts.setVisible(true);
+        
     }//GEN-LAST:event_btnGenerateChartsActionPerformed
-
+    //The action after user choose data mining button
     private void btnDataMiningActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDataMiningActionPerformed
         DMChartUI dm = new DMChartUI();
         this.setVisible(false);

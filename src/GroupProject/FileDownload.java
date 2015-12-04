@@ -173,7 +173,6 @@ public class FileDownload {
             Student newStudent = FileDownload.convertStrToStudent(attributeArray);
             filedownload.getStudent().add(newStudent);
         }
-  
         writer.close();
     }
 

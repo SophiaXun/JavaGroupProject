@@ -1,14 +1,10 @@
-//package Group;
 package GroupProject;
-
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
-
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -35,7 +31,6 @@ import weka.classifiers.trees.J48;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
-
 import weka.core.Instances;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Remove;
@@ -47,7 +42,7 @@ import weka.filters.unsupervised.attribute.Remove;
  * and open the template in the editor.
  */
 /**
- *
+ * This class is to draw the data mining page
  * @author Yazhou
  */
 public class DMChartUI extends javax.swing.JFrame {
@@ -600,19 +595,26 @@ public class DMChartUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+
     private void localDataResourceAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localDataResourceAddrActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_localDataResourceAddrActionPerformed
-
+    
+    // upload the locally chosen data file 
     private void localUploadButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localUploadButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_localUploadButtonActionPerformed
 
+    // cancels loading the locally chosen data file 
     private void localCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localCancelButtonActionPerformed
         // TODO add your handling code here:
         localDataResourceAddr.setText("");
     }//GEN-LAST:event_localCancelButtonActionPerformed
     File file = null;
+
+    /**
+    * button action which prompts the user to select a file for the data 
+    */
     private void localBrowseButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localBrowseButtonActionPerformed
         // TODO add your handling code here:
         JFileChooser fileChooser = new JFileChooser();
@@ -628,6 +630,11 @@ public class DMChartUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_localBrowseButtonActionPerformed
 
+    /**
+    * button action which gets the selected filed stored in AWS
+    * stores the file in studentTemp.csv 
+    *
+    */
     private void AWSOkButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSOkButtonActionPerformed
         // TODO add your handling code here:
         
@@ -668,12 +675,19 @@ public class DMChartUI extends javax.swing.JFrame {
 
     }//GEN-LAST:event_AWSOkButtonActionPerformed
 
+    /**
+    * cancel aws file selection 
+    */
     private void AWSCancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSCancelButtonActionPerformed
         // TODO add your handling code here:
         AWSDataSource.removeAllItems();
 
     }//GEN-LAST:event_AWSCancelButtonActionPerformed
 
+
+    /**
+    * prompts the user to select a file from AWS 
+    */
     private void AWSBrowseButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AWSBrowseButtonActionPerformed
         // TODO add your handling code here:
         ArrayList<String> fileList = FileDownload.FileList();
@@ -684,11 +698,12 @@ public class DMChartUI extends javax.swing.JFrame {
     }//GEN-LAST:event_AWSBrowseButtonActionPerformed
 
     
-    
-    
-    
-    
-    
+
+    /**
+    * checks if an input string is a number 
+     * @param str
+     * @return whether it is a numeric measurement
+    */
      public static boolean isNumeric(String str)  
     {  
         try  {  
@@ -701,9 +716,9 @@ public class DMChartUI extends javax.swing.JFrame {
         return true;  
     }
     /**
-     * this function will read in values from the table or 
-     * whatever we decide to use
-     * @return 
+     * this function will read in values from the table and create an instance 
+     * for weka to use 
+     * @return a string array containing the user input
      */
     private String[] getUserInput(){
         System.out.println("im getting the user's input ");
@@ -751,7 +766,7 @@ public class DMChartUI extends javax.swing.JFrame {
 
 
 
-    //this needs to be fixed somehow !!!!
+    //gets the length of a java.util.enumeration 
     private ArrayList<String> enumLength(java.util.Enumeration e){
         int count= 0;    
         ArrayList<String>res = new ArrayList();
@@ -770,25 +785,36 @@ public class DMChartUI extends javax.swing.JFrame {
         return res;       
     }
     
+    /*
+    * the default values for the classifier to use 
+    */
     private String[] Default={"0", "Undergraduate","IT","27/01/1990","Female","China",	
                         "Argentina", "China","GRE","Part-time",	
                         "Internal","Panama","English","2005","305","","Professional Certification","2010","3.94"};
     
 
+    /**
+    * String that contains the column names for teh csv file
+    *
+    */
     private static final String header = "id,course_information,postgraduate_or_undergraduate,field_of_education,"+
                                     "age,gender,citizenship,term_residence,permanent_residence,basis_for_admission,"+
                                     "type_of_attendance,mode_of_attendance,country_of_birth,language_spoken_at_home,"+
                                     "year_of_arrival_in_usa,entrance_score,equity_data,"+
                                     "highest_level_of_education_prior_to_commencement,course_completion_year,course_gpa_earned\n";
     
+    /*
+    * the header split by comma
+    */
     private static final String[] headerA= header.split(",");
     
 
+    /**
+    * gets the user input from the string and turns it into a weka instance
+    * the instance is then returned to be classified
+    *
+    */
     private Instance getInstance(boolean rem){
-        
-        //TODO: 
-        //option 2 get instance from csv file that is converted into arff 
-        
         String fileName = "tempInstance.csv";
 
         FileWriter fileWriter = null;
@@ -863,11 +889,6 @@ public class DMChartUI extends javax.swing.JFrame {
             Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        //System.out.println(instNew);
-        
-            
-            
-        
         
         Instance result ;
         if(rem){
@@ -882,14 +903,35 @@ public class DMChartUI extends javax.swing.JFrame {
     }
 
         
-    public LinearRegression Lmodel= null;
+    //will hold the linear regression model
+
+    /**
+     *
+     */
+        public LinearRegression Lmodel= null;
     
-    public Classifier NBmodel = null;
+    //will hold the naive bayes classifier model
+
+    /**
+     *
+     */
+        public Classifier NBmodel = null;
     
-    public Classifier Jmodel = null;
+    //will hold the J48 tree classifier model 
+
+    /**
+     *
+     */
+        public Classifier Jmodel = null;
     
     
-     
+    /**
+    * Action for the generate button
+    * It reads the user input from the table and the selected options and performs
+    * a classifiecation of the user input
+    * the user can choose linear regression, naive bayes classifier, or j48 trees to classify 
+    *
+    */
     private void generateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generateButtonActionPerformed
         // TODO add your handling code here:                                              
         // TODO add your handling code here:
@@ -909,8 +951,6 @@ public class DMChartUI extends javax.swing.JFrame {
         } catch (IOException ex) {
             Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        
         
         
         //get column to predict values for 
@@ -935,16 +975,6 @@ public class DMChartUI extends javax.swing.JFrame {
             }
             
             System.out.println("im doing linear regression");
-            //LinearRegression model = new LinearRegression();
-            /*
-            try {
-                System.out.println("im building the model");
-                model.buildClassifier(students);
-                System.out.println("I finished building the model");
-            } catch (Exception ex) {
-                Logger.getLogger(DMChartUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            */
             
             equationDisplayArea.setText(model.toString());
 
@@ -1156,21 +1186,26 @@ public class DMChartUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_AWSDataSourceActionPerformed
 
+    //button action to build linear regression model based on user selected column
     private void LBButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LBButtonActionPerformed
         // TODO add your handling code here:
         buildLinearModel();    
     }//GEN-LAST:event_LBButtonActionPerformed
 
+    //button action to build j48 tree model based on user selected column
     private void J48ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_J48ButtonActionPerformed
         // TODO add your handling code here:
         buildJClassifier();
     }//GEN-LAST:event_J48ButtonActionPerformed
 
+    //button action to build naive bayes model based on user selected column
     private void NBButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NBButtonActionPerformed
         // TODO add your handling code here:
         buildNBClassifier();
     }//GEN-LAST:event_NBButtonActionPerformed
 
+    //loads a local user chosen file into studentTemp.csv and fills the table
+    //in the GUI with the data 
     private void localLoadButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_localLoadButtonActionPerformed
 
         try {
@@ -1212,11 +1247,14 @@ public class DMChartUI extends javax.swing.JFrame {
         dataTable.setModel(datamodel);
     }//GEN-LAST:event_localLoadButtonActionPerformed
 
+    // takes the user back to the main GUI
     private void BackButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BackButtonMouseClicked
         Dashboard db = new Dashboard();
         this.setVisible(false);
         db.setVisible(true);
     }//GEN-LAST:event_BackButtonMouseClicked
+
+    // builds the linear regression model based on the user selected column
     private void buildLinearModel(){
         CSVtoArff converter = new CSVtoArff();
         Instances students = null;
@@ -1277,6 +1315,7 @@ public class DMChartUI extends javax.swing.JFrame {
             
     }
     
+    //builds a naive bayes classifier bsed on the user selected column 
     private void buildNBClassifier(){
         CSVtoArff converter = new CSVtoArff();
         Instances students = null;
@@ -1317,6 +1356,7 @@ public class DMChartUI extends javax.swing.JFrame {
             }           
     }
     
+    //builds  a j48 tree model based on the user selected column 
     private void buildJClassifier(){
         CSVtoArff converter = new CSVtoArff();
         Instances students = null;
@@ -1357,6 +1397,7 @@ public class DMChartUI extends javax.swing.JFrame {
     }
     
     /**
+     * the class for the data mining gui  
      * @param args the command line arguments
      */
     public static void main(String args[]) {
